@@ -14,11 +14,12 @@ class Client {
       _config.token,
       GatewayIntents.allUnprivileged,
       options: ClientOptions(
-          // initialPresence: PresenceBuilder.of(
-          //   activity: ActivityType.game,
-          //   status: UserStatus.online,
-          // ),
-          ),
+        // initialPresence: PresenceBuilder.of(
+        //   activity: ActivityType.game,
+        //   status: UserStatus.online,
+        // ),
+        dispatchRawShardEvent: true,
+      ),
       useDefaultLogger: false,
     )
       ..registerPlugin(Logging())
