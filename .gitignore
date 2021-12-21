@@ -1,0 +1,10 @@
+# Files and directories created by pub.
+.dart_tool/
+.packages
+
+# Conventional directory for build output.
+build/
+
+# Private Data (keys , tokens)
+bin/private.dart
+private.dart
