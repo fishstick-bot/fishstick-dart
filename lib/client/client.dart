@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 import 'package:nyxx/nyxx.dart';
 import '../config.dart';
 
