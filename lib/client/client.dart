@@ -1,6 +1,6 @@
-import 'dart:async';
-import 'package:nyxx/nyxx.dart';
-import '../config.dart';
+import "dart:async";
+import "package:nyxx/nyxx.dart";
+import "../config.dart";
 
 class Client {
   /// Configuration for the client
@@ -14,19 +14,19 @@ class Client {
       _config.token,
       GatewayIntents.allUnprivileged,
       options: ClientOptions(
-        // initialPresence: PresenceBuilder.of(
-        //   activity: ActivityType.game,
-        //   status: UserStatus.online,
-        // ),
+        initialPresence: PresenceBuilder.of(
+          activity: ActivityBuilder.game("/help"),
+          status: UserStatus.online,
+        ),
         dispatchRawShardEvent: true,
       ),
       useDefaultLogger: false,
     )
       ..registerPlugin(Logging())
-      // ..registerPlugin(CliIntegration())
+      ..registerPlugin(CliIntegration())
       ..registerPlugin(IgnoreExceptions());
 
-    _bot.eventsWs.onReady.listen((event) {
+    _bot.onReady.listen((_) {
       Timer.periodic(Duration(seconds: 5), (timer) {
         print("${_bot.guilds.length} Guilds");
       });

@@ -1,4 +1,4 @@
-import 'private.dart';
+import "private.dart";
 
 class Config {
   static final bool _developmentMode = true;
