@@ -22,6 +22,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
+  crypto:
+    dependency: transitive
+    description:
+      name: crypto
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
+  dio:
+    dependency: transitive
+    description:
+      name: dio
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.4"
+  fortnite:
+    dependency: "direct main"
+    description:
+      name: fortnite
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.2"
   http:
     dependency: transitive
     description:
@@ -57,13 +78,48 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
+  numeral:
+    dependency: transitive
+    description:
+      name: numeral
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.2.5"
   nyxx:
     dependency: "direct main"
     description:
       name: nyxx
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.1"
+    version: "3.2.1"
+  nyxx_commands:
+    dependency: "direct main"
+    description:
+      name: nyxx_commands
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
+  nyxx_extensions:
+    dependency: "direct main"
+    description:
+      name: nyxx_extensions
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
+  nyxx_interactions:
+    dependency: "direct main"
+    description:
+      name: nyxx_interactions
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
+  nyxx_pagination:
+    dependency: "direct main"
+    description:
+      name: nyxx_pagination
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   path:
     dependency: transitive
     description:
@@ -71,6 +127,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.1"
+  random_string:
+    dependency: transitive
+    description:
+      name: random_string
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.3.1"
   source_span:
     dependency: transitive
     description:
@@ -100,4 +163,4 @@ packages:
     source: hosted
     version: "1.3.0"
 sdks:
-  dart: ">=2.15.0 <3.0.0"
+  dart: ">=2.15.1 <3.0.0"

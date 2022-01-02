@@ -7,5 +7,6 @@ class Config {
   bool get developmentMode => _developmentMode;
 
   /// the bot's token
-  String get token => _developmentMode ? discordDevToken : discordProdToken;
+  String get token =>
+      _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;
 }
