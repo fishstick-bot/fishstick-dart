@@ -9,4 +9,7 @@ class Config {
   /// the bot's token
   String get token =>
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;
+
+  /// mongo db uri
+  String get mongoUri => Privates.mongoDbUri;
 }

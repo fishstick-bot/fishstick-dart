@@ -4,14 +4,14 @@ import "../config.dart";
 
 class Client {
   /// Configuration for the client
-  late final Config _config = Config();
+  late final Config config = Config();
 
   /// The nyxx client
   late INyxxWebsocket _bot;
 
   Client() {
     _bot = NyxxFactory.createNyxxWebsocket(
-      _config.token,
+      config.token,
       GatewayIntents.allUnprivileged,
       options: ClientOptions(
         initialPresence: PresenceBuilder.of(
