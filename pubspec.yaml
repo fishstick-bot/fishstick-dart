@@ -6,6 +6,8 @@ environment:
     sdk: ">=2.15.0 <3.0.0"
 
 dependencies:
+    # logging
+    logging: ^1.0.2
     # libraries for database
     mongo_dart: ^0.7.4
     # libraries for discord api
