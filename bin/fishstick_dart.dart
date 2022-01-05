@@ -1,6 +1,5 @@
 import "package:fishstick_dart/fishstick_dart.dart";
 
-final Client client = Client();
 void main() async {
   await client.start();
   // var u = await client.database.getUser("727224012912197652");

@@ -1,1 +1,3 @@
-export "client/client.dart";
+import "client/client.dart";
+
+final Client client = Client();
