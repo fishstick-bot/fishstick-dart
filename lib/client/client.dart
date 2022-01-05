@@ -34,7 +34,7 @@ class Client {
     /// setup commands
     commands = CommandsPlugin(
       prefix: (_) => ".",
-      guild: config.developmentMode ? null : Snowflake(config.developmentGuild),
+      guild: config.developmentMode ? Snowflake(config.developmentGuild) : null,
       options: CommandsOptions(
         logErrors: true,
         acceptBotCommands: false,
