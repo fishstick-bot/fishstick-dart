@@ -6,9 +6,9 @@ A multipurpose fortnite bot coded in dart.
 
 ## Steps to Run
 
-1.  Make a file: `lib/private.dart`.
+-   Make a file: `lib/private.dart`.
 
-2.  Copy content of `lib/private.example.dart` to `lib/private.dart`.
+-   Copy content of `lib/private.example.dart` to `lib/private.dart`.
 
 -   Edit the fields `discordDevToken`, `discordProdToken`, `mongoDbUri` to your actual tokens, urls.
 
