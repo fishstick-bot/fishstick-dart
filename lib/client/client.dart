@@ -1,4 +1,5 @@
 import "dart:async";
+import "package:numeral/numeral.dart";
 import "package:logging/logging.dart";
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
@@ -127,9 +128,15 @@ class Client {
       ..registerPlugin(commands);
 
     bot.onReady.listen((_) {
-      // Timer.periodic(Duration(seconds: 10), (timer) {
-      print("${bot.guilds.length} Guilds");
-      // });
+      Timer.periodic(Duration(minutes: 1), (timer) {
+        bot.setPresence(
+          PresenceBuilder.of(
+            activity: ActivityBuilder.game(
+                "/help | ${Numeral(bot.guilds.length).value()} Guilds"),
+            status: UserStatus.online,
+          ),
+        );
+      });
     });
 
     /// setup database
