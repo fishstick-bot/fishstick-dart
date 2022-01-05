@@ -1,28 +1,20 @@
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
+import "../../extensions/context_extensions.dart";
+import "../../fishstick_dart.dart";
 
 final Command pingCommand = Command(
   "ping",
   "Check bot's connection to discord.",
   (Context ctx) async {
-    EmbedBuilder embed = EmbedBuilder()
-      ..description = "🏓Pong!"
-      ..timestamp = DateTime.now();
-
-    int start = DateTime.now().millisecondsSinceEpoch;
-
-    IMessage msg = await ctx.respond(
+    await ctx.respond(
       MessageBuilder.embed(
-        embed..build(),
-      ),
-    );
-
-    await msg.edit(
-      MessageBuilder.embed(
-        embed
+        EmbedBuilder()
           ..description =
-              "🏓Pong! `${DateTime.now().millisecondsSinceEpoch - start}ms`"
-          ..build(),
+              "🏓Pong! `${client.bot.shardManager.gatewayLatency.inMilliseconds}ms`"
+          ..color = DiscordColor.fromHexString((await ctx.dbUser).color)
+          ..footer = (EmbedFooterBuilder()..text = client.footerText)
+          ..timestamp = DateTime.now(),
       ),
     );
   },

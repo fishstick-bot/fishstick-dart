@@ -15,13 +15,16 @@ class Client {
   final Logger logger = Logger("BOT");
 
   /// The nyxx client
-  late INyxxWebsocket _bot;
+  late INyxxWebsocket bot;
 
   /// The database for the bot
   late Database database;
 
   /// Commands for the client
   late CommandsPlugin commands;
+
+  // Footer text
+  String footerText = "discord.gg/fishstick";
 
   Client() {
     /// setup logger
@@ -40,13 +43,17 @@ class Client {
     );
 
     commands.onPostCall.listen((ctx) {
-      ctx.disposeDbUser();
+      ctx.disposeCache();
     });
 
     /// listen for commands error and handle them
     commands.onCommandError.listen((exception) async {
       if (exception is CommandNotFoundException) {
         return;
+      }
+
+      if (exception is CommandInvocationException) {
+        exception.context.disposeCache();
       }
 
       if (exception is CheckFailedException) {
@@ -102,7 +109,7 @@ class Client {
     //     )]);
 
     /// setup discord client
-    _bot = NyxxFactory.createNyxxWebsocket(
+    bot = NyxxFactory.createNyxxWebsocket(
       config.token,
       GatewayIntents.allUnprivileged,
       options: ClientOptions(
@@ -119,9 +126,9 @@ class Client {
       ..registerPlugin(IgnoreExceptions())
       ..registerPlugin(commands);
 
-    _bot.onReady.listen((_) {
+    bot.onReady.listen((_) {
       // Timer.periodic(Duration(seconds: 10), (timer) {
-      print("${_bot.guilds.length} Guilds");
+      print("${bot.guilds.length} Guilds");
       // });
     });
 
@@ -135,7 +142,7 @@ class Client {
     int start;
 
     start = DateTime.now().millisecondsSinceEpoch;
-    await _bot.connect();
+    await bot.connect();
     logger.info(
         "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - start).toStringAsFixed(2)}ms]");
 
