@@ -72,9 +72,7 @@ class DatabaseUser {
     Database db,
     Map<String, dynamic> json,
   ) {
-    if (json["linkedAccounts"] == null) {
-      json["linkedAccounts"] = [];
-    }
+    json["linkedAccounts"] ??= [];
 
     return DatabaseUser(
       db,
