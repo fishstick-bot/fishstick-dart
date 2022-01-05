@@ -1,6 +1,7 @@
 import "database.dart";
 import "../structures/epic_account.dart";
 import "../structures/premium.dart";
+import "../structures/premium_tier.dart";
 import "../structures/auto_subscriptions.dart";
 import "../structures/privacy.dart";
 import "../structures/user_blacklist.dart";
@@ -98,4 +99,9 @@ class DatabaseUser {
 
   /// is the user blacklisted?
   bool get isBanned => blacklisted.value;
+
+  /// is the user premium
+  bool get isPremium =>
+      premium.tierEnum == PremiumTier.premium ||
+      premium.tierEnum == PremiumTier.partner;
 }

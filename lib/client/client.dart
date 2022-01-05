@@ -65,15 +65,43 @@ class Client {
       ),
     );
 
+    /// listen for commands error and handle them
+    commands.onCommandError.listen((exception) {
+      if (exception is CheckFailedException) {
+        switch (exception.failed.name) {
+          case "blacklist-check":
+            break;
+
+          case "premium-check":
+            break;
+
+          case "cooldown-check":
+            break;
+
+          default:
+            break;
+        }
+      } else {}
+    });
+
     /// user blacklist check for commands
     commands.check(
       Check((ctx) async => !(await ctx.dbUser).isBanned, "blacklist-check"),
     );
 
     /// cooldown check for commands
-    commands.check(
-      CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
-    );
+    // commands.check(Check.any([
+    //     Check.all([
+    //         Check(
+    //             (ctx) async => !(await ctx.dbUser).isPremium, "premium-check"),
+    //         CooldownCheck(CooldownType.user, Duration(seconds: 5),
+    //             4)]), // Premium cooldown
+    //     Check.all([
+    //         Check.deny(Check(
+    //             (ctx) async => !(await ctx.dbUser).isPremium, "premium-check")),
+    //         CooldownCheck(CooldownType.user, Duration(seconds: 5),
+    //             2)]) // Non-premium cooldown
+    //     )]);
   }
 
   /// Start the client.
