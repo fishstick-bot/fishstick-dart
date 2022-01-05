@@ -92,21 +92,21 @@ class Client {
     );
 
     /// cooldown check for commands
-    commands.check(
-      CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
-    ); // temporary cooldown system
-    // commands.check(Check.any([
-    //     Check.all([
-    //         Check(
-    //             (ctx) async => !(await ctx.dbUser).isPremium, "premium-check"),
-    //         CooldownCheck(CooldownType.user, Duration(seconds: 5),
-    //             4)]), // Premium cooldown
-    //     Check.all([
-    //         Check.deny(Check(
-    //             (ctx) async => !(await ctx.dbUser).isPremium, "premium-check")),
-    //         CooldownCheck(CooldownType.user, Duration(seconds: 5),
-    //             2)]) // Non-premium cooldown
-    //     )]);
+    // commands.check(
+    //   CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
+    // ); // temporary cooldown system
+    commands.check(Check.any([
+      Check.all([
+        Check((ctx) async => !(await ctx.dbUser).isPremium, "premium-check"),
+        CooldownCheck(CooldownType.user, Duration(seconds: 5), 4)
+      ]), // Premium cooldown
+      Check.all([
+        Check.deny(
+          Check((ctx) async => !(await ctx.dbUser).isPremium, "premium-check"),
+        ),
+        CooldownCheck(CooldownType.user, Duration(seconds: 5), 2)
+      ]) // Non-premium cooldown
+    ]));
 
     /// setup discord client
     bot = NyxxFactory.createNyxxWebsocket(

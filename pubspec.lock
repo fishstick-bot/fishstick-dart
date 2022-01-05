@@ -161,7 +161,7 @@ packages:
       name: nyxx_commands
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.0"
+    version: "3.1.1"
   nyxx_extensions:
     dependency: "direct main"
     description:
