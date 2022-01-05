@@ -1,6 +1,7 @@
 import "package:mongo_dart/mongo_dart.dart";
 import "../client/client.dart";
 import "database_user.dart";
+import "database_guild.dart";
 
 class Database {
   /// The main bot client.
@@ -32,6 +33,7 @@ class Database {
     leaderboards = db.collection("leaderboards");
   }
 
+  /// find or create a user
   Future<DatabaseUser> getUser(String id) async {
     var user = await users.findOne(where.eq("id", id));
     if (user == null) {
@@ -66,5 +68,28 @@ class Database {
     }
 
     return DatabaseUser.fromJson(this, user ?? {});
+  }
+
+  /// find or create a guild
+  Future<DatabaseGuild> getGuild(String id) async {
+    var guild = await guilds.findOne(where.eq("id", id));
+    if (guild == null) {
+      await guilds.insert({
+        "id": id,
+        "itemShopChannelID": "",
+        "itemShopRoleID": "",
+        "freeLlamasAlertChannelID": "",
+        "freeLlamasAlertRoleID": "",
+        "vbucksAlertChannelID": "",
+        "vbucksAlertRoleID": "",
+        "legendarySurvivorChannelID": "",
+        "legendarySurvivorRoleID": "",
+        "pl160alertsChannelID": "",
+        "pl160alertsRoleID": "",
+      });
+      guild ??= await guilds.findOne(where.eq("id", id));
+    }
+
+    return DatabaseGuild.fromJson(this, guild ?? {});
   }
 }
