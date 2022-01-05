@@ -56,7 +56,7 @@ class EpicAccount {
       lastFreeLlamasClaim:
           json["lastFreeLlamasClaim"] is int ? json["lastFreeLlamasClaim"] : 0,
       powerLevel: json["powerLevel"] is num ? json["powerLevel"] : 0,
-      savedHeroLoadouts: [],
+      savedHeroLoadouts: [], // not used for now
       savedSurvivorSquads: json["savedSurvivorSquads"] is List<dynamic>
           ? List<STWSurvivorSquadPreset>.from(json["savedSurvivorSquads"]
               .map((x) => STWSurvivorSquadPreset.fromJson(x)))
