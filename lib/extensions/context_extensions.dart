@@ -15,6 +15,8 @@ extension DBUser on Context {
 
   /// dispose the cached db user
   void disposeDbUser() {
-    cachedDbUsers.remove(user.id.toString());
+    if (cachedDbUsers.containsKey(user.id.toString())) {
+      cachedDbUsers.remove(user.id.toString());
+    }
   }
 }

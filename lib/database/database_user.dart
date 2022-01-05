@@ -101,7 +101,15 @@ class DatabaseUser {
   bool get isBanned => blacklisted.value;
 
   /// is the user premium
-  bool get isPremium =>
-      premium.tierEnum == PremiumTier.premium ||
-      premium.tierEnum == PremiumTier.partner;
+  bool get isPremium {
+    if (premium.tierEnum == PremiumTier.premium ||
+        premium.tierEnum == PremiumTier.partner) {
+      if (premium.until.millisecondsSinceEpoch >
+          DateTime.now().millisecondsSinceEpoch) {
+        return true;
+      }
+    }
+
+    return false;
+  }
 }

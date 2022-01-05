@@ -27,32 +27,6 @@ class Client {
     /// setup logger
     Logger.root.level = Level.INFO;
 
-    /// setup discord client
-    _bot = NyxxFactory.createNyxxWebsocket(
-      config.token,
-      GatewayIntents.allUnprivileged,
-      options: ClientOptions(
-        initialPresence: PresenceBuilder.of(
-          activity: ActivityBuilder.game("/help"),
-          status: UserStatus.online,
-        ),
-        dispatchRawShardEvent: true,
-      ),
-      useDefaultLogger: false,
-    )
-      ..registerPlugin(Logging())
-      ..registerPlugin(CliIntegration())
-      ..registerPlugin(IgnoreExceptions());
-
-    _bot.onReady.listen((_) {
-      Timer.periodic(Duration(seconds: 10), (timer) {
-        print("${_bot.guilds.length} Guilds");
-      });
-    });
-
-    /// setup database
-    database = Database(this);
-
     /// setup commands
     commands = CommandsPlugin(
       prefix: (_) => ".",
@@ -65,11 +39,28 @@ class Client {
       ),
     );
 
+    commands.onPostCall.listen((ctx) {
+      ctx.disposeDbUser();
+    });
+
     /// listen for commands error and handle them
-    commands.onCommandError.listen((exception) {
+    commands.onCommandError.listen((exception) async {
+      // exception.context.disposeDbUser();
       if (exception is CheckFailedException) {
         switch (exception.failed.name) {
           case "blacklist-check":
+            if (exception.context is InteractionContext) {
+              await (exception.context as InteractionContext).respond(
+                MessageBuilder.content(
+                    "You are blacklisted from using the bot!"),
+                hidden: true,
+              );
+            } else {
+              await exception.context.respond(
+                MessageBuilder.content(
+                    "You are blacklisted from using the bot!"),
+              );
+            }
             break;
 
           case "premium-check":
@@ -79,6 +70,7 @@ class Client {
             break;
 
           default:
+            logger.shout("Unhandled check exception: ${exception.failed.name}");
             break;
         }
       } else {}
@@ -102,6 +94,33 @@ class Client {
     //         CooldownCheck(CooldownType.user, Duration(seconds: 5),
     //             2)]) // Non-premium cooldown
     //     )]);
+
+    /// setup discord client
+    _bot = NyxxFactory.createNyxxWebsocket(
+      config.token,
+      GatewayIntents.allUnprivileged,
+      options: ClientOptions(
+        initialPresence: PresenceBuilder.of(
+          activity: ActivityBuilder.game("/help"),
+          status: UserStatus.online,
+        ),
+        dispatchRawShardEvent: true,
+      ),
+      useDefaultLogger: false,
+    )
+      ..registerPlugin(Logging())
+      ..registerPlugin(CliIntegration())
+      ..registerPlugin(IgnoreExceptions())
+      ..registerPlugin(commands);
+
+    _bot.onReady.listen((_) {
+      // Timer.periodic(Duration(seconds: 10), (timer) {
+      print("${_bot.guilds.length} Guilds");
+      // });
+    });
+
+    /// setup database
+    database = Database(this);
   }
 
   /// Start the client.
