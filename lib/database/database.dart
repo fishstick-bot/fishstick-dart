@@ -34,34 +34,37 @@ class Database {
 
   Future<DatabaseUser> getUser(String id) async {
     var user = await users.findOne(where.eq("id", id));
-    user ??= await users.insert({
-      "id": id,
-      "name": "",
-      "selectedAccount": "",
-      "linkedAccounts": [],
-      "premium": {
-        "until": DateTime.now(),
-        "tier": 0,
-        "grantedBy": "",
-      },
-      "bonusAccLimit": 0,
-      "autoSubscriptions": {
-        "dailyRewards": false,
-        "freeLlamas": false,
-        "collectResearchPoints": false,
-        "research": "none",
-      },
-      "dmNotifications": false,
-      "color": "#09b7d6",
-      "privacy": 0,
-      "blacklisted": {
-        "on": DateTime.now(),
-        "value": false,
-        "reason": "",
-      },
-      "sessions": {},
-    });
+    if (user == null) {
+      await users.insert({
+        "id": id,
+        "name": "",
+        "selectedAccount": "",
+        "linkedAccounts": [],
+        "premium": {
+          "until": DateTime.now(),
+          "tier": 0,
+          "grantedBy": "",
+        },
+        "bonusAccLimit": 0,
+        "autoSubscriptions": {
+          "dailyRewards": false,
+          "freeLlamas": false,
+          "collectResearchPoints": false,
+          "research": "none",
+        },
+        "dmNotifications": false,
+        "color": "#09b7d6",
+        "privacy": 0,
+        "blacklisted": {
+          "on": DateTime.now(),
+          "value": false,
+          "reason": "",
+        },
+        "sessions": {},
+      });
+      user ??= await users.findOne(where.eq("id", id));
+    }
 
-    return DatabaseUser.fromJson(this, user);
+    return DatabaseUser.fromJson(this, user ?? {});
   }
 }
