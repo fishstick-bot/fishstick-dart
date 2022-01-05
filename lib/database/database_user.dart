@@ -95,4 +95,7 @@ class DatabaseUser {
           json["sessions"] is Map<String, dynamic> ? json["sessions"] : {},
     );
   }
+
+  /// is the user blacklisted?
+  bool get isBanned => blacklisted.value;
 }

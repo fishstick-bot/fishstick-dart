@@ -1,6 +1,9 @@
 import "dart:async";
 import "package:logging/logging.dart";
 import "package:nyxx/nyxx.dart";
+import "package:nyxx_commands/nyxx_commands.dart";
+
+import "../extensions/context_extensions.dart";
 import "../database/database.dart";
 import "../config.dart";
 
@@ -16,6 +19,9 @@ class Client {
 
   /// The database for the bot
   late Database database;
+
+  /// Commands for the client
+  late CommandsPlugin commands;
 
   Client() {
     /// setup logger
@@ -46,6 +52,28 @@ class Client {
 
     /// setup database
     database = Database(this);
+
+    /// setup commands
+    commands = CommandsPlugin(
+      prefix: (_) => ".",
+      guild: config.developmentMode ? null : Snowflake(config.developmentGuild),
+      options: CommandsOptions(
+        logErrors: true,
+        acceptBotCommands: false,
+        acceptSelfCommands: false,
+        autoAcknowledgeInteractions: true,
+      ),
+    );
+
+    /// user blacklist check for commands
+    commands.check(
+      Check((ctx) async => !(await ctx.dbUser).isBanned, "blacklist-check"),
+    );
+
+    /// cooldown check for commands
+    commands.check(
+      CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
+    );
   }
 
   /// Start the client.
