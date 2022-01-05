@@ -96,17 +96,18 @@ class Client {
     // commands.check(
     //   CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
     // ); // temporary cooldown system
+    Check premiumCheck =
+        Check((ctx) async => (await ctx.dbUser).isPremium, "premium-check");
+
     commands.check(Check.any([
       Check.all([
-        Check((ctx) async => !(await ctx.dbUser).isPremium, "premium-check"),
-        CooldownCheck(CooldownType.user, Duration(seconds: 5), 4)
-      ]), // Premium cooldown
+        premiumCheck,
+        CooldownCheck(CooldownType.user, Duration(seconds: 5), 4),
+      ]),
       Check.all([
-        Check.deny(
-          Check((ctx) async => !(await ctx.dbUser).isPremium, "premium-check"),
-        ),
-        CooldownCheck(CooldownType.user, Duration(seconds: 5), 2)
-      ]) // Non-premium cooldown
+        Check.deny(premiumCheck),
+        CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
+      ]),
     ]));
 
     /// setup discord client
