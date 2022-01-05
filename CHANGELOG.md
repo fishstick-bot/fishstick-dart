@@ -9,3 +9,4 @@
 ## 0.2.0
 
 -   Added commands manager.
+-   Added basic commands.

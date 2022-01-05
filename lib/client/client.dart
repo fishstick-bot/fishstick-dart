@@ -45,7 +45,10 @@ class Client {
 
     /// listen for commands error and handle them
     commands.onCommandError.listen((exception) async {
-      // exception.context.disposeDbUser();
+      if (exception is CommandNotFoundException) {
+        return;
+      }
+
       if (exception is CheckFailedException) {
         switch (exception.failed.name) {
           case "blacklist-check":
@@ -82,6 +85,9 @@ class Client {
     );
 
     /// cooldown check for commands
+    commands.check(
+      CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
+    ); // temporary cooldown system
     // commands.check(Check.any([
     //     Check.all([
     //         Check(
