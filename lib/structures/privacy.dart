@@ -1,0 +1,4 @@
+enum Privacy {
+  public,
+  private,
+}

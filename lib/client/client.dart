@@ -39,7 +39,7 @@ class Client {
       ..registerPlugin(IgnoreExceptions());
 
     _bot.onReady.listen((_) {
-      Timer.periodic(Duration(seconds: 5), (timer) {
+      Timer.periodic(Duration(seconds: 10), (timer) {
         print("${_bot.guilds.length} Guilds");
       });
     });
