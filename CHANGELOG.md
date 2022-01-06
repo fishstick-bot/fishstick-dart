@@ -10,3 +10,7 @@
 
 -   Added commands manager.
 -   Added basic commands.
+
+## 0.3.0
+
+-   Administrator events.
