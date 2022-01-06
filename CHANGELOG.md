@@ -14,3 +14,4 @@
 ## 0.3.0
 
 -   Administrator events.
+-   Premium command.

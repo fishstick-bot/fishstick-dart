@@ -70,15 +70,20 @@ Check premiumCheck =
 Check partnerCheck =
     Check((ctx) async => (await ctx.dbUser).isPartner, "partner-check");
 
+/// check if user is owner of bot
+Check ownerCheck = Check(
+    (ctx) async => ctx.user.id.toString() == client.config.ownerId,
+    "owner-check");
+
 /// override respond function
-Future<void> respond(
+Future<IMessage> respond(
   Context ctx,
   MessageBuilder builder, {
   bool hidden = false,
 }) async {
   if (ctx is InteractionContext) {
-    ctx.respond(builder, hidden: hidden);
+    return await ctx.respond(builder, hidden: hidden);
   } else {
-    await ctx.respond(builder);
+    return await ctx.respond(builder);
   }
 }

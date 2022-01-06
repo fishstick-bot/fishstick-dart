@@ -66,39 +66,45 @@ class Client {
       if (exception is CheckFailedException) {
         switch (exception.failed.name) {
           case "blacklist-check":
-            if (exception.context is InteractionContext) {
-              await (exception.context as InteractionContext).respond(
-                MessageBuilder.content(
-                    "You are blacklisted from using the bot!"),
-                hidden: true,
-              );
-            } else {
-              await exception.context.respond(
-                MessageBuilder.content(
-                    "You are blacklisted from using the bot!"),
-              );
-            }
+            await respond(
+              exception.context,
+              MessageBuilder.content("You are blacklisted from using the bot!"),
+              hidden: true,
+            );
             break;
 
           case "premium-check":
             break;
 
           case "partner-check":
-            if (exception.context is InteractionContext) {
-              await (exception.context as InteractionContext).respond(
-                MessageBuilder.content(
-                    "You need Fishstick partner to use this command.\nDM Vanxh#6969 for more info."),
-                hidden: true,
-              );
-            } else {
-              await exception.context.respond(
-                MessageBuilder.content(
-                    "You need Fishstick partner to use this command.\nDM Vanxh#6969 for more info."),
-              );
-            }
+            await respond(
+              exception.context,
+              MessageBuilder.content(
+                  "You need Fishstick partner to use this command.\nDM Vanxh#6969 for more info."),
+              hidden: true,
+            );
+            break;
+
+          case "owner-check":
+            await respond(
+              exception.context,
+              MessageBuilder.content(
+                  "You need to be the owner of the bot to use this command."),
+              hidden: true,
+            );
             break;
 
           case "cooldown-check":
+            var m = await respond(
+              exception.context,
+              MessageBuilder.content(
+                  "You are on cooldown for this command. Please try again in a while."),
+              hidden: true,
+            );
+            await Future.delayed(
+              Duration(seconds: 2),
+              () async => await m.delete(),
+            );
             break;
 
           default:
@@ -112,29 +118,24 @@ class Client {
           "⚠️ There was an error!",
         ];
         if (exception is CommandInvocationException) {
-          final EmbedBuilder errorEmbed = EmbedBuilder()
-            ..title = errorTitles[Random().nextInt(errorTitles.length)]
-            ..color = DiscordColor.red
-            ..timestamp = DateTime.now()
-            ..footer =
-                (EmbedFooterBuilder()..text = exception.runtimeType.toString())
-            ..description =
-                "An error has occurred!\nYou can join our [support server](${config.supportServer}) to report the bug if you feel its a bug."
-            ..addField(
-              name: "Error",
-              content: exception.message,
-            );
-
-          if (exception.context is InteractionContext) {
-            await (exception.context as InteractionContext).respond(
-              MessageBuilder.embed(errorEmbed),
-              hidden: true,
-            );
-          } else {
-            await exception.context.respond(
-              MessageBuilder.embed(errorEmbed),
-            );
-          }
+          await respond(
+            exception.context,
+            MessageBuilder.embed(
+              EmbedBuilder()
+                ..title = errorTitles[Random().nextInt(errorTitles.length)]
+                ..color = DiscordColor.red
+                ..timestamp = DateTime.now()
+                ..footer = (EmbedFooterBuilder()
+                  ..text = exception.runtimeType.toString())
+                ..description =
+                    "An error has occurred!\nYou can join our [support server](${config.supportServer}) to report the bug if you feel its a bug."
+                ..addField(
+                  name: "Error",
+                  content: exception.message,
+                ),
+            ),
+            hidden: true,
+          );
         } else {
           logger.shout("Unhandled exception type: ${exception.runtimeType}");
         }
