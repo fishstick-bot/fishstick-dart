@@ -21,6 +21,7 @@ dependencies:
     # utils
     numeral: ^1.2.5
     time_ago_provider: ^4.1.2
+    encrypt: ^5.0.1
 
 dev_dependencies:
     lints: ^1.0.0

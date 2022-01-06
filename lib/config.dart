@@ -15,6 +15,9 @@ class Config {
   /// support server invite
   String get supportServer => "https://discord.gg/fishstick";
 
+  /// encryption key
+  String get encryptionKey => Privates.encryptionKey;
+
   /// the bot's token
   String get token =>
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;

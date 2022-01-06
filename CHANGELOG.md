@@ -19,3 +19,4 @@
 -   Partner command.
 -   Invite command.
 -   Info command.
+-   Encryption system.

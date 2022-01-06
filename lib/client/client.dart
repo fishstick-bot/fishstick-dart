@@ -212,4 +212,10 @@ class Client {
     logger.info(
         "Connected to database [${(DateTime.now().millisecondsSinceEpoch - start).toStringAsFixed(2)}ms]");
   }
+
+  /// encrypt a string
+  String encryptString(String text) => encrypt(text);
+
+  /// decrypt a string
+  String decryptString(String text) => decrypt(text);
 }

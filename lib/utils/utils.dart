@@ -1,4 +1,5 @@
 import "dart:io" show Platform, ProcessInfo;
+import "package:encrypt/encrypt.dart";
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 import "../extensions/context_extensions.dart";
@@ -89,13 +90,26 @@ Future<IMessage> respond(
   }
 }
 
+/// get dart version
 String get dartVersion {
   final platformVersion = Platform.version;
   return platformVersion.split("(").first;
 }
 
+/// get memory usage
 String getMemoryUsageString() {
   final current = (ProcessInfo.currentRss / 1024 / 1024).toStringAsFixed(2);
   final rss = (ProcessInfo.maxRss / 1024 / 1024).toStringAsFixed(2);
   return "$current/${rss}MB";
 }
+
+/// encrypt a string
+String encrypt(String text) =>
+    Encrypter(Salsa20(Key.fromUtf8(client.config.encryptionKey)))
+        .encrypt(text, iv: IV.fromLength(8))
+        .base64;
+
+/// decrypt a string
+String decrypt(String text) =>
+    Encrypter(Salsa20(Key.fromUtf8(client.config.encryptionKey)))
+        .decrypt64(text, iv: IV.fromLength(8));
