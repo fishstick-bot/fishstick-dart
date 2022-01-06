@@ -18,3 +18,4 @@
 -   Better error handling.
 -   Partner command.
 -   Invite command.
+-   Info command.

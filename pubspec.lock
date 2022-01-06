@@ -267,6 +267,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.0"
+  time_ago_provider:
+    dependency: "direct main"
+    description:
+      name: time_ago_provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.1.2"
   typed_data:
     dependency: transitive
     description:

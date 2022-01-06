@@ -1,3 +1,4 @@
+import "dart:io" show Platform, ProcessInfo;
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 import "../extensions/context_extensions.dart";
@@ -86,4 +87,15 @@ Future<IMessage> respond(
   } else {
     return await ctx.respond(builder);
   }
+}
+
+String get dartVersion {
+  final platformVersion = Platform.version;
+  return platformVersion.split("(").first;
+}
+
+String getMemoryUsageString() {
+  final current = (ProcessInfo.currentRss / 1024 / 1024).toStringAsFixed(2);
+  final rss = (ProcessInfo.maxRss / 1024 / 1024).toStringAsFixed(2);
+  return "$current/${rss}MB";
 }
