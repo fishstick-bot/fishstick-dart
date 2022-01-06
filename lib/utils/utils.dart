@@ -4,15 +4,19 @@ import "../fishstick_dart.dart";
 RegExp numberFormatRegex = RegExp(r"(?<=\d)(?=(\d{3})+(?!\d))");
 
 /// notify bot owner
-Future<void> notifyAdministrator(String message) async {
+Future<void> notifyAdministrator(
+  String message, {
+  String? title,
+  DiscordColor? color,
+}) async {
   try {
     IUser owner = await client.bot.fetchUser(Snowflake(client.config.ownerId));
 
     await owner.sendMessage(
       MessageBuilder.embed(
         EmbedBuilder()
-          ..title = "Fishstick Event"
-          ..color = DiscordColor.blue
+          ..title = title ?? "Fishstick Event"
+          ..color = color ?? DiscordColor.blue
           ..timestamp = DateTime.now()
           ..footer = (EmbedFooterBuilder()
             ..text = client.footerText
@@ -43,4 +47,16 @@ Future<void> notifyRevokePremiumEvent({
 }) async {
   return await notifyAdministrator(
       "Partner ${partner.tag} has revoked ${user.tag} premium status.\n```\nPartner ID: ${partner.id}\nUser ID: ${user.id}\nOperation: Revoke Premium Subscription.\n```");
+}
+
+/// notify error event
+Future<void> notifyErrorEvent({
+  required String source,
+  required String error,
+}) async {
+  return await notifyAdministrator(
+    "```\nSource: $source\nError: $error\n```",
+    title: "An error occurred!",
+    color: DiscordColor.red,
+  );
 }
