@@ -119,6 +119,12 @@ class Client {
             logger.shout("Unhandled check exception: ${exception.failed.name}");
             break;
         }
+      } else if (exception is BadInputException) {
+        await respond(
+          exception.context,
+          MessageBuilder.content("An invalid argument was provided."),
+          hidden: true,
+        );
       } else {
         List<String> errorTitles = [
           "💥 Uh oh! That was unexpected!",

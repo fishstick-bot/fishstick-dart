@@ -7,6 +7,7 @@ void main() async {
   client.commands.registerChild(infoCommand);
 
   client.commands.registerChild(autopostCommand);
+  client.commands.registerChild(colorCommand);
 
   client.commands.registerChild(premiumCommand);
 

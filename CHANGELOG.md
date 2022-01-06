@@ -23,3 +23,5 @@
 -   STW missions auto post commands.
 
 ## 0.4.0
+
+-   Color command.

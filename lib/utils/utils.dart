@@ -6,6 +6,7 @@ import "../extensions/context_extensions.dart";
 import "../fishstick_dart.dart";
 
 RegExp numberFormatRegex = RegExp(r"(?<=\d)(?=(\d{3})+(?!\d))");
+RegExp hexColorRegex = RegExp(r"^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$");
 
 /// notify bot owner
 Future<void> notifyAdministrator(

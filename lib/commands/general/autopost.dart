@@ -12,12 +12,12 @@ final Group autopostCommand = Group(
     Command(
       "vbucks-alerts",
       "Configure settings for auto post vbucks alerts.",
-      (Context ctx, IChannel channel, [IRole? role]) async {
+      (
+        Context ctx,
+        @Description("The channel to post in.") ITextGuildChannel channel, [
+        @Description("The role to mention with the post.") IRole? role,
+      ]) async {
         DatabaseGuild? guild = await ctx.dbGuild;
-
-        if (channel is! ITextGuildChannel) {
-          throw Exception("Channel must be a text channel.");
-        }
 
         await client.database.updateGuild(guild?.id ?? "", {
           "vbucksAlertChannelID": channel.id.toString(),
@@ -32,6 +32,8 @@ final Group autopostCommand = Group(
               ..description =
                   "V-Bucks alerts will be posted in ${channel.mention}${role != null ? " (<@&${role.id}>)" : ""} daily at 0:00 UTC."
               ..color = DiscordColor.fromHexString((await ctx.dbUser).color)
+              ..footer =
+                  (EmbedFooterBuilder()..text = "Guild ${guild?.id ?? ""}")
               ..timestamp = DateTime.now(),
           ),
         );
@@ -40,12 +42,12 @@ final Group autopostCommand = Group(
     Command(
       "legendary-survivor-alerts",
       "Configure settings for auto post legendary survivor alerts.",
-      (Context ctx, IChannel channel, [IRole? role]) async {
+      (
+        Context ctx,
+        @Description("The channel to post in.") ITextGuildChannel channel, [
+        @Description("The role to mention with the post.") IRole? role,
+      ]) async {
         DatabaseGuild? guild = await ctx.dbGuild;
-
-        if (channel is! ITextGuildChannel) {
-          throw Exception("Channel must be a text channel.");
-        }
 
         await client.database.updateGuild(guild?.id ?? "", {
           "legendarySurvivorChannelID": channel.toString(),
@@ -60,6 +62,8 @@ final Group autopostCommand = Group(
               ..description =
                   "Legendary survivor alerts will be posted in ${channel.mention}${role != null ? " (<@&${role.id}>)" : ""} daily at 0:00 UTC."
               ..color = DiscordColor.fromHexString((await ctx.dbUser).color)
+              ..footer =
+                  (EmbedFooterBuilder()..text = "Guild ${guild?.id ?? ""}")
               ..timestamp = DateTime.now(),
           ),
         );
