@@ -4,6 +4,7 @@ void main() async {
   /// register the commands
   client.commands.registerChild(pingCommand);
   client.commands.registerChild(premiumCommand);
+  client.commands.registerChild(partnerCommand);
 
   /// start the client
   await client.start();

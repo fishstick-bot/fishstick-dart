@@ -15,3 +15,5 @@
 
 -   Administrator events.
 -   Premium command.
+-   Better error handling.
+-   Partner command.

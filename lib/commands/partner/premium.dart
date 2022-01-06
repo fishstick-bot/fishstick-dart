@@ -45,7 +45,7 @@ final Group premiumCommand = Group(
         return await respond(
           ctx,
           MessageBuilder.content(
-              "You have exteneded ${user.mention}'s premium subscription for $days day(s).\nNow ${user.mention} have premium till ${targetUser.premium.until.toUtc().toString().split(" ")[0]}"),
+              "You have extended ${user.mention}'s premium subscription for $days day(s).\nNow ${user.mention} have premium till ${targetUser.premium.until.toUtc().toString().split(" ")[0]}"),
         );
       },
       checks: [
@@ -93,6 +93,42 @@ final Group premiumCommand = Group(
       checks: [
         partnerCheck,
       ],
+    ),
+    Command(
+      "check",
+      "Check a user's premium subscription.",
+      (
+        Context ctx,
+        @Description("The user you want to check premium subscription of.")
+            IUser user,
+      ) async {
+        // DatabaseUser dbUser = await ctx.dbUser;
+        DatabaseUser targetUser =
+            await client.database.getUser(user.id.toString());
+
+        if (targetUser.isPartner) {
+          return await respond(
+            ctx,
+            MessageBuilder.content("This user is a partner."),
+            hidden: true,
+          );
+        }
+
+        if (!targetUser.isPremium) {
+          return await respond(
+            ctx,
+            MessageBuilder.content(
+                "This user dont have an active premium subscription."),
+            hidden: true,
+          );
+        }
+
+        return await respond(
+          ctx,
+          MessageBuilder.content(
+              "${user.mention}'s premium subscription is valid till: ${targetUser.premium.until.toUtc().toString().split(" ")[0]}"),
+        );
+      },
     ),
   ],
 );

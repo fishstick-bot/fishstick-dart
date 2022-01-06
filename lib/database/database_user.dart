@@ -136,6 +136,7 @@ class DatabaseUser {
     );
   }
 
+  /// grant premium to user.
   Future<void> grantPremium(
       IUser responsiblePartner, IUser targetUser, Duration duration) async {
     if (premium.until.millisecondsSinceEpoch <
@@ -160,5 +161,20 @@ class DatabaseUser {
       partner: responsiblePartner,
       duration: duration,
     );
+  }
+
+  /// revoke partner of user.
+  Future<void> updatePartnerStatus(
+      IUser responsibleAdmin, IUser targetUser, bool grant) async {
+    premium = Premium(
+      grantedBy: responsibleAdmin.id.toString(),
+      tier: grant ? 2 : 0,
+      tierEnum: grant ? PremiumTier.partner : PremiumTier.regular,
+      until: grant ? DateTime.utc(1900, 1, 1) : DateTime.utc(3000, 1, 1),
+    );
+
+    return _database.updateUser(id, {
+      "premium": premium.toJson(),
+    });
   }
 }
