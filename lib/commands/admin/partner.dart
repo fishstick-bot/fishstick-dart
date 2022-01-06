@@ -36,9 +36,7 @@ final Group partnerCommand = Group(
               "You have granted ${user.mention}'s partner tier."),
         );
       },
-      checks: [
-        ownerCheck,
-      ],
+      checks: [ownerCheck],
     ),
     Command(
       "revoke",
@@ -68,9 +66,7 @@ final Group partnerCommand = Group(
               "You have revoked ${user.mention}'s partner tier."),
         );
       },
-      checks: [
-        ownerCheck,
-      ],
+      checks: [ownerCheck],
     ),
   ],
 );

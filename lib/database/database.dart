@@ -99,4 +99,11 @@ class Database {
 
     return DatabaseGuild.fromJson(this, guild ?? {});
   }
+
+  /// update the guild
+  Future<void> updateGuild(String id, Map<String, dynamic> update) async {
+    for (var key in update.keys) {
+      await guilds.updateOne(where.eq("id", id), modify.set(key, update[key]));
+    }
+  }
 }

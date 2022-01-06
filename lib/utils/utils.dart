@@ -77,6 +77,9 @@ Check ownerCheck = Check(
     (ctx) async => ctx.user.id.toString() == client.config.ownerId,
     "owner-check");
 
+/// check if command is done in guild
+Check guildCheck = Check((ctx) async => ctx.guild != null, "guild-check");
+
 /// override respond function
 Future<IMessage> respond(
   Context ctx,

@@ -94,6 +94,14 @@ class Client {
             );
             break;
 
+          case "guild-check":
+            await respond(
+              exception.context,
+              MessageBuilder.content("This command can not be done on DMs."),
+              hidden: true,
+            );
+            break;
+
           case "cooldown-check":
             var m = await respond(
               exception.context,
@@ -152,16 +160,18 @@ class Client {
     //   CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
     // ); // temporary cooldown system
 
-    commands.check(Check.any([
-      Check.all([
-        premiumCheck,
-        CooldownCheck(CooldownType.user, Duration(seconds: 5), 4),
+    commands.check(
+      Check.any([
+        Check.all([
+          premiumCheck,
+          CooldownCheck(CooldownType.user, Duration(seconds: 5), 4),
+        ]),
+        Check.all([
+          Check.deny(premiumCheck),
+          CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
+        ]),
       ]),
-      Check.all([
-        Check.deny(premiumCheck),
-        CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
-      ]),
-    ]));
+    );
 
     /// setup discord client
     bot = NyxxFactory.createNyxxWebsocket(
