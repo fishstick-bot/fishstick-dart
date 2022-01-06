@@ -31,7 +31,7 @@ final Group premiumCommand = Group(
           );
         }
 
-        if (days > 365 || days < 7) {
+        if (days > 3650 || days < 7) {
           return await respond(
             ctx,
             MessageBuilder.content(
