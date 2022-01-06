@@ -17,3 +17,4 @@
 -   Premium command.
 -   Better error handling.
 -   Partner command.
+-   Invite command.

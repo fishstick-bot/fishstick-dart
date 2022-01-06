@@ -131,4 +131,5 @@ final Group premiumCommand = Group(
       },
     ),
   ],
+  aliases: ["vip"],
 );
