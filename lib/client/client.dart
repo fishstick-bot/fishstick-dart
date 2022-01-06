@@ -1,4 +1,5 @@
 import "dart:async";
+import "dart:math";
 import "package:numeral/numeral.dart";
 import "package:logging/logging.dart";
 import "package:nyxx/nyxx.dart";
@@ -6,7 +7,10 @@ import "package:nyxx_commands/nyxx_commands.dart";
 
 import "../extensions/context_extensions.dart";
 import "../database/database.dart";
+// import "../database/database_user.dart";
+// import "../database/database_guild.dart";
 import "../config.dart";
+import "../utils/utils.dart";
 
 class Client {
   /// Configuration for the client
@@ -40,9 +44,11 @@ class Client {
         acceptBotCommands: false,
         acceptSelfCommands: false,
         autoAcknowledgeInteractions: true,
+        hideOriginalResponse: false,
       ),
     );
 
+    /// dispose command cache
     commands.onPostCall.listen((ctx) {
       ctx.disposeCache();
     });
@@ -77,6 +83,21 @@ class Client {
           case "premium-check":
             break;
 
+          case "partner-check":
+            if (exception.context is InteractionContext) {
+              await (exception.context as InteractionContext).respond(
+                MessageBuilder.content(
+                    "You need Fishstick partner to use this command.\nDM Vanxh#6969 for more info."),
+                hidden: true,
+              );
+            } else {
+              await exception.context.respond(
+                MessageBuilder.content(
+                    "You need Fishstick partner to use this command.\nDM Vanxh#6969 for more info."),
+              );
+            }
+            break;
+
           case "cooldown-check":
             break;
 
@@ -84,7 +105,40 @@ class Client {
             logger.shout("Unhandled check exception: ${exception.failed.name}");
             break;
         }
-      } else {}
+      } else {
+        List<String> errorTitles = [
+          "💥 Uh oh! That was unexpected!",
+          "⚠️ Not the LLAMA you're looking for!",
+          "⚠️ There was an error!",
+        ];
+        if (exception is CommandInvocationException) {
+          final EmbedBuilder errorEmbed = EmbedBuilder()
+            ..title = errorTitles[Random().nextInt(errorTitles.length)]
+            ..color = DiscordColor.red
+            ..timestamp = DateTime.now()
+            ..footer =
+                (EmbedFooterBuilder()..text = exception.runtimeType.toString())
+            ..description =
+                "An error has occurred!\nYou can join our [support server](${config.supportServer}) to report the bug if you feel its a bug."
+            ..addField(
+              name: "Error",
+              content: exception.message,
+            );
+
+          if (exception.context is InteractionContext) {
+            await (exception.context as InteractionContext).respond(
+              MessageBuilder.embed(errorEmbed),
+              hidden: true,
+            );
+          } else {
+            await exception.context.respond(
+              MessageBuilder.embed(errorEmbed),
+            );
+          }
+        } else {
+          logger.shout("Unhandled exception type: ${exception.runtimeType}");
+        }
+      }
     });
 
     /// user blacklist check for commands
@@ -96,8 +150,6 @@ class Client {
     // commands.check(
     //   CooldownCheck(CooldownType.user, Duration(seconds: 5), 2),
     // ); // temporary cooldown system
-    Check premiumCheck =
-        Check((ctx) async => (await ctx.dbUser).isPremium, "premium-check");
 
     commands.check(Check.any([
       Check.all([

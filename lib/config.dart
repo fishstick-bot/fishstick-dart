@@ -12,6 +12,9 @@ class Config {
   /// the bot's owner id
   String get ownerId => "727224012912197652";
 
+  /// support server invite
+  String get supportServer => "https://discord.gg/fishstick";
+
   /// the bot's token
   String get token =>
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;

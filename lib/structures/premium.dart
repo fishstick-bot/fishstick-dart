@@ -21,4 +21,12 @@ class Premium {
         tier: json["tier"] is int ? json["tier"] : 0,
         grantedBy: json["granted_by"] is String ? json["granted_by"] : "",
       );
+
+  Map<String, dynamic> toJson() {
+    return {
+      "until": until,
+      "tier": tier,
+      "granted_by": grantedBy,
+    };
+  }
 }

@@ -1,3 +1,4 @@
+import "package:nyxx/nyxx.dart" hide PremiumTier;
 import "database.dart";
 import "../structures/epic_account.dart";
 import "../structures/premium.dart";
@@ -5,10 +6,10 @@ import "../structures/premium_tier.dart";
 import "../structures/auto_subscriptions.dart";
 import "../structures/privacy.dart";
 import "../structures/user_blacklist.dart";
+import "../utils/utils.dart";
 
 class DatabaseUser {
   /// Main database.
-  // ignore: unused_field
   late final Database _database;
 
   /// Discord ID of the user.
@@ -52,7 +53,7 @@ class DatabaseUser {
 
   /// [DatabaseUser] constructor.
   DatabaseUser(
-    _database, {
+    this._database, {
     required this.id,
     required this.name,
     required this.selectedAccount,
@@ -111,5 +112,53 @@ class DatabaseUser {
     }
 
     return false;
+  }
+
+  /// is the user partner
+  bool get isPartner => premium.tierEnum == PremiumTier.partner;
+
+  /// revoke premium of user.
+  Future<void> revokePremium(IUser responsiblePartner, IUser targetUser) async {
+    premium = Premium(
+      tierEnum: PremiumTier.regular,
+      until: DateTime.utc(1900, 1, 1),
+      tier: 0,
+      grantedBy: responsiblePartner.id.toString(),
+    );
+
+    await _database.updateUser(id, {
+      "premium": premium.toJson(),
+    });
+
+    return await notifyRevokePremiumEvent(
+      user: targetUser,
+      partner: responsiblePartner,
+    );
+  }
+
+  Future<void> grantPremium(
+      IUser responsiblePartner, IUser targetUser, Duration duration) async {
+    if (premium.until.millisecondsSinceEpoch <
+        DateTime.now().millisecondsSinceEpoch) {
+      premium.until = DateTime.now();
+    }
+
+    premium = Premium(
+      tierEnum: PremiumTier.premium,
+      until: DateTime.fromMillisecondsSinceEpoch(
+          premium.until.millisecondsSinceEpoch + duration.inMilliseconds),
+      tier: 1,
+      grantedBy: responsiblePartner.id.toString(),
+    );
+
+    await _database.updateUser(id, {
+      "premium": premium.toJson(),
+    });
+
+    return await notifyGrantPremiumEvent(
+      user: targetUser,
+      partner: responsiblePartner,
+      duration: duration,
+    );
   }
 }

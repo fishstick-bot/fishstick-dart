@@ -70,6 +70,13 @@ class Database {
     return DatabaseUser.fromJson(this, user ?? {});
   }
 
+  /// update the user
+  Future<void> updateUser(String id, Map<String, dynamic> update) async {
+    for (var key in update.keys) {
+      await users.updateOne(where.eq("id", id), modify.set(key, update[key]));
+    }
+  }
+
   /// find or create a guild
   Future<DatabaseGuild> getGuild(String id) async {
     var guild = await guilds.findOne(where.eq("id", id));

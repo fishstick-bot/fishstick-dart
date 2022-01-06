@@ -13,6 +13,6 @@ class Blacklist {
         blacklistedOn:
             json["on"] is DateTime ? json["on"] : DateTime.utc(1900, 1, 1),
         value: json["value"] is bool ? json["value"] : false,
-        reason: json["reason"],
+        reason: json["reason"] is String ? json["reason"] : "",
       );
 }

@@ -1,4 +1,6 @@
 import "package:nyxx/nyxx.dart";
+import "package:nyxx_commands/nyxx_commands.dart";
+import "../extensions/context_extensions.dart";
 import "../fishstick_dart.dart";
 
 RegExp numberFormatRegex = RegExp(r"(?<=\d)(?=(\d{3})+(?!\d))");
@@ -43,7 +45,6 @@ Future<void> notifyGrantPremiumEvent({
 Future<void> notifyRevokePremiumEvent({
   required IUser user,
   required IUser partner,
-  required Duration duration,
 }) async {
   return await notifyAdministrator(
       "Partner ${partner.tag} has revoked ${user.tag} premium status.\n```\nPartner ID: ${partner.id}\nUser ID: ${user.id}\nOperation: Revoke Premium Subscription.\n```");
@@ -59,4 +60,25 @@ Future<void> notifyErrorEvent({
     title: "An error occurred!",
     color: DiscordColor.red,
   );
+}
+
+/// check if user is premium
+Check premiumCheck =
+    Check((ctx) async => (await ctx.dbUser).isPremium, "premium-check");
+
+/// check if user is partner
+Check partnerCheck =
+    Check((ctx) async => (await ctx.dbUser).isPartner, "partner-check");
+
+/// override respond function
+Future<void> respond(
+  Context ctx,
+  MessageBuilder builder, {
+  bool hidden = false,
+}) async {
+  if (ctx is InteractionContext) {
+    ctx.respond(builder, hidden: hidden);
+  } else {
+    await ctx.respond(builder);
+  }
 }
