@@ -1,5 +1,4 @@
 import "package:nyxx/nyxx.dart";
-import "package:nyxx_interactions/nyxx_interactions.dart";
 import "package:nyxx_pagination/nyxx_pagination.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 import "../../extensions/context_extensions.dart";
@@ -55,7 +54,11 @@ final Command helpCommand = Command(
       pages.add(page);
     }
 
-    await respond(ctx, ComponentMessageBuilder()..embeds = pages);
+    await respond(
+      ctx,
+      EmbedComponentPagination(ctx.commands.interactions, pages)
+          .initMessageBuilder(),
+    );
   },
   aliases: ["h"],
 );
