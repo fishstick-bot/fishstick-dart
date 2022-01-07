@@ -203,4 +203,16 @@ class DatabaseUser {
       "blacklisted": blacklisted.toJson(),
     });
   }
+
+  // enable mentions privacy
+  void enableMentionsPrivacy() {
+    privacyEnum = Privacy.values[1];
+    privacy = 1;
+  }
+
+  // disable mentions privacy
+  void disableMentionsPrivacy() {
+    privacyEnum = Privacy.values[0];
+    privacy = 0;
+  }
 }

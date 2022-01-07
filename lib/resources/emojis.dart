@@ -2,11 +2,16 @@
 
 // ignore_for_file: non_constant_identifier_names
 
+import "package:nyxx/nyxx.dart";
+
 class Emoji {
   String name;
   String emoji;
 
   Emoji(this.name, this.emoji);
+
+  IBaseGuildEmoji toEmoji() => IBaseGuildEmoji.fromId(
+      emoji.split(":").last.replaceAll(">", "").toSnowflake());
 }
 
 Emoji heroxp = Emoji("AccountResource:heroxp", "<:heroxp:849067890824708096>");

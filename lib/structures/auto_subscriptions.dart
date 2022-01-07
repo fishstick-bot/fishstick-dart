@@ -23,4 +23,11 @@ class AutoSubscriptions {
             : false,
         research: json["research"] is String ? json["research"] : "none",
       );
+
+  Map<String, dynamic> toJson() => {
+        "dailyRewards": dailyRewards,
+        "freeLlamas": freeLlamas,
+        "collectResearchPoints": collectResearchPoints,
+        "research": research,
+      };
 }
