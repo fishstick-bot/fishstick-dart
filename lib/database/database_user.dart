@@ -74,16 +74,16 @@ class DatabaseUser {
     Database db,
     Map<String, dynamic> json,
   ) {
-    json["linkedAccounts"] ??= [];
+    json["linkedEpicAccounts"] ??= [];
 
     return DatabaseUser(
       db,
       id: json["id"],
       name: json["name"] ?? "",
       selectedAccount: json["selectedAccount"] ?? "",
-      linkedAccounts: json["linkedAccounts"] is List<dynamic>
+      linkedAccounts: json["linkedEpicAccounts"] is List<dynamic>
           ? List<EpicAccount>.from(
-              json["linkedAccounts"].map((x) => EpicAccount.fromJson(x)))
+              json["linkedEpicAccounts"].map((x) => EpicAccount.fromJson(x)))
           : [],
       premium: Premium.fromJson(json["premium"]),
       bonusAccLimit: json["bonusAccLimit"] is int ? json["bonusAccLimit"] : 0,
