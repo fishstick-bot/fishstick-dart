@@ -24,11 +24,8 @@ final Command helpCommand = Command(
               ? perPageCommands + i
               : client.commands.walkCommands().length;
 
-      List<Command> commandsOnPage = client.commands
-          .walkCommands()
-          .toList()
-          .sublist(i, pageCommandsSize)
-          .toList();
+      List<Command> commandsOnPage =
+          client.commands.walkCommands().toList().sublist(i, pageCommandsSize);
 
       EmbedBuilder page = EmbedBuilder()
         ..author = (EmbedAuthorBuilder()
