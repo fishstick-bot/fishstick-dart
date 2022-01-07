@@ -25,3 +25,4 @@
 ## 0.4.0
 
 -   Color command.
+-   Refactor command handlers.

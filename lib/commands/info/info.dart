@@ -1,7 +1,9 @@
+import "dart:io";
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_interactions/nyxx_interactions.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 import "package:time_ago_provider/time_ago_provider.dart" show formatFull;
+import "package:pubspec_yaml/pubspec_yaml.dart";
 import "../../extensions/context_extensions.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
@@ -10,6 +12,8 @@ final Command infoCommand = Command(
   "info",
   "Get basic bot info.",
   (Context ctx) async {
+    final pubspecYaml = File("pubspec.yaml").readAsStringSync().toPubspecYaml();
+
     await ctx.respond(
       ComponentMessageBuilder()
         ..addEmbed((embed) async {
@@ -20,7 +24,8 @@ final Command infoCommand = Command(
               ..name = client.bot.self.tag
               ..iconUrl = client.bot.self.avatarURL(format: "png"))
             ..footer = (EmbedFooterBuilder()
-              ..text = "Fishstick dart 0.3.0 | Dart SDK $dartVersion")
+              ..text =
+                  "Fishstick dart ${pubspecYaml.version.toString().split("(")[1].replaceAll(")", "")} | Dart SDK $dartVersion")
             ..timestamp = DateTime.now()
             ..addField(
               name: "Cached guilds",
