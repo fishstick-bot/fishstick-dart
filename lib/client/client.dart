@@ -45,13 +45,13 @@ class Client {
     );
 
     /// handle commands error
-    handleCommandsError();
+    handleCommandsError(this);
 
     /// handle commands check
-    handleCommandsCheckHandler();
+    handleCommandsCheckHandler(this);
 
     /// handle commands post call
-    handleCommandsPostCall();
+    handleCommandsPostCall(this);
 
     /// setup discord client
     bot = NyxxFactory.createNyxxWebsocket(

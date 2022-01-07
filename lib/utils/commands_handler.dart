@@ -1,19 +1,19 @@
 import "dart:math";
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
-import "../fishstick_dart.dart";
+import "../client/client.dart";
 import "../extensions/context_extensions.dart";
 import "utils.dart";
 
 /// commands post call handler
-void handleCommandsPostCall() {
+void handleCommandsPostCall(Client client) {
   client.commands.onPostCall.listen((ctx) {
     ctx.disposeCache();
   });
 }
 
 /// commands error handler
-void handleCommandsError() {
+void handleCommandsError(Client client) {
   /// listen for commands error and handle them
   client.commands.onCommandError.listen((exception) async {
     if (exception is CommandNotFoundException) {
@@ -121,7 +121,7 @@ void handleCommandsError() {
 }
 
 /// handle commands check
-void handleCommandsCheckHandler() {
+void handleCommandsCheckHandler(Client client) {
   /// user blacklist check for commands
   client.commands.check(
     Check((ctx) async => !(await ctx.dbUser).isBanned, "blacklist-check"),
