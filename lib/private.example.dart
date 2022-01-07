@@ -6,5 +6,6 @@ class Privates {
   static final String mongoDbUri =
       "mongodb://<username>:<password>@<ip>:<port>/<database-name>?authSource=admin&directConnection=true";
 
-  static final String encryptionKey = "add 32 digit encryption key here";
+  static final String encryptionKey =
+      "add a random generated 32 digit encryption key here";
 }

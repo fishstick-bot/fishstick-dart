@@ -27,13 +27,19 @@ class Client {
   // Footer text
   String footerText = "discord.gg/fishstick";
 
+  /// prefix for commands
+  String prefix = ".";
+
+  /// global commands cooldown
+  int commandsCooldown = 4;
+
   Client() {
     /// setup logger
     Logger.root.level = Level.INFO;
 
     /// setup commands
     commands = CommandsPlugin(
-      prefix: (_) => ".",
+      prefix: (_) => prefix,
       guild: config.developmentMode ? Snowflake(config.developmentGuild) : null,
       options: CommandsOptions(
         logErrors: true,

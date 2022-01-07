@@ -5,6 +5,7 @@ void main() async {
   client.commands.registerChild(pingCommand);
   client.commands.registerChild(inviteCommand);
   client.commands.registerChild(infoCommand);
+  client.commands.registerChild(helpCommand);
   client.commands.registerChild(autopostCommand);
   client.commands.registerChild(colorCommand);
   client.commands.registerChild(premiumCommand);
