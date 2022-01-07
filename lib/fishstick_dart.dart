@@ -9,6 +9,6 @@ export "commands/general/color.dart";
 
 export "commands/premium/premium.dart";
 
-export "commands/admin/partner/partner.dart";
+export "commands/partner/partner.dart";
 
 final Client client = Client();

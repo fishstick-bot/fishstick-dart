@@ -1,8 +1,8 @@
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
-import "../../../database/database_user.dart";
-import "../../../fishstick_dart.dart";
-import "../../../utils/utils.dart";
+import "../../database/database_user.dart";
+import "../../fishstick_dart.dart";
+import "../../utils/utils.dart";
 
 final Command grantPartnerCommand = Command(
   "grant",
