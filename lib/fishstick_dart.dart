@@ -7,7 +7,7 @@ export "commands/info/info.dart";
 export "commands/general/autopost/autopost.dart";
 export "commands/general/color.dart";
 
-export "commands/partner/premium.dart";
+export "commands/premium/premium.dart";
 
 export "commands/admin/partner/partner.dart";
 
