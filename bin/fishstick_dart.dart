@@ -5,13 +5,11 @@ void main() async {
   client.commands.registerChild(pingCommand);
   client.commands.registerChild(inviteCommand);
   client.commands.registerChild(infoCommand);
-
   client.commands.registerChild(autopostCommand);
   client.commands.registerChild(colorCommand);
-
   client.commands.registerChild(premiumCommand);
-
   client.commands.registerChild(partnerCommand);
+  client.commands.registerChild(blacklistCommand);
 
   /// start the client
   await client.start();

@@ -177,4 +177,30 @@ class DatabaseUser {
       "premium": premium.toJson(),
     });
   }
+
+  /// blacklist a user
+  Future<void> blacklist(String reason) async {
+    blacklisted = Blacklist(
+      value: true,
+      blacklistedOn: DateTime.now(),
+      reason: reason,
+    );
+
+    return await _database.updateUser(id, {
+      "blacklisted": blacklisted.toJson(),
+    });
+  }
+
+  /// unblacklist a user
+  Future<void> unblacklist() async {
+    blacklisted = Blacklist(
+      value: false,
+      blacklistedOn: DateTime.now(),
+      reason: "",
+    );
+
+    return await _database.updateUser(id, {
+      "blacklisted": blacklisted.toJson(),
+    });
+  }
 }

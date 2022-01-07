@@ -15,4 +15,10 @@ class Blacklist {
         value: json["value"] is bool ? json["value"] : false,
         reason: json["reason"] is String ? json["reason"] : "",
       );
+
+  Map<String, dynamic> toJson() => {
+        "on": blacklistedOn,
+        "value": value,
+        "reason": reason,
+      };
 }

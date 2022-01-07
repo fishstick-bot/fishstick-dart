@@ -26,3 +26,5 @@
 
 -   Color command.
 -   Refactor command handlers.
+-   Refactor commands.
+-   Add toJson method to some structures.
