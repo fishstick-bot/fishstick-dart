@@ -28,3 +28,4 @@
 -   Refactor command handlers.
 -   Refactor commands.
 -   Add toJson method to some structures.
+-   Custom emojis list.

@@ -8,3 +8,6 @@ build/
 # Private Data (keys , tokens)
 bin/private.dart
 private.dart
+
+# Dart generator
+gdart.dart
