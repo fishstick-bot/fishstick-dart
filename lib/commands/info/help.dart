@@ -4,6 +4,7 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "../../extensions/context_extensions.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
+import "../../resources/emojis.dart";
 
 final Command helpCommand = Command(
   "help",
@@ -36,15 +37,19 @@ final Command helpCommand = Command(
         ..color = DiscordColor.fromHexString(user.color)
         ..timestamp = DateTime.now()
         ..description =
-            "Showing ${i + 1} - $pageCommandsSize of ${client.commands.walkCommands().length} commands.\n• Cooldown: ${client.commandsCooldown}s/command (50% less for premium users)."
+            "Showing ${i + 1} - $pageCommandsSize of ${client.commands.walkCommands().length} commands.\n\n• ⏱️ - ${client.commandsCooldown}s/command (50% less for premium users).\n• 🔒 - Owner only.\n• ${tick.emoji} - Fishstick partners only.\n• ${star.emoji} - Premium user only."
         ..footer = (EmbedFooterBuilder()
           ..text =
               "Page ${i ~/ perPageCommands + 1} of ${(client.commands.walkCommands().length / perPageCommands).ceil()}")
         ..title = "Fishstick Bot Help";
 
       for (var command in commandsOnPage) {
+        Iterable<String> checks =
+            command.checks.map((c) => c.name.split("-")[0]);
+
         page.addField(
-          name: command.fullName,
+          name:
+              "${command.fullName}${checks.contains("owner") ? " 🔒" : ""}${checks.contains("partner") ? " ${tick.emoji}" : ""}${checks.contains("premium") ? " ${star.emoji}" : ""}",
           content:
               "${command.description}${(isSlash || command.aliases.isEmpty) ? "" : "\n• **Aliases:** ${command.aliases.join(", ")}"}",
           inline: true,
