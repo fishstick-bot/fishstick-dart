@@ -14,12 +14,14 @@ final Command infoCommand = Command(
   (Context ctx) async {
     final pubspecYaml = File("pubspec.yaml").readAsStringSync().toPubspecYaml();
 
+    var user = await ctx.dbUser;
+
     await ctx.respond(
       ComponentMessageBuilder()
-        ..addEmbed((embed) async {
+        ..addEmbed((embed) {
           embed
             ..title = "Fishstick Bot Information"
-            ..color = DiscordColor.fromHexString((await ctx.dbUser).color)
+            ..color = DiscordColor.fromHexString(user.color)
             ..author = (EmbedAuthorBuilder()
               ..name = client.bot.self.tag
               ..iconUrl = client.bot.self.avatarURL(format: "png"))
