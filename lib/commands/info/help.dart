@@ -34,7 +34,7 @@ final Command helpCommand = Command(
         ..color = DiscordColor.fromHexString(user.color)
         ..timestamp = DateTime.now()
         ..description =
-            "Showing ${i + 1} - $pageCommandsSize of ${client.commands.walkCommands().length} commands.\n\n• ⏱️ - ${client.commandsCooldown}s/command (50% less for premium users).\n• 🔒 - Owner only.\n• ${tick.emoji} - Fishstick partners only.\n• ${star.emoji} - Premium user only."
+            "Showing ${i + 1} - $pageCommandsSize of ${client.commands.walkCommands().length} commands.\n\n• ⏱️ - ${client.commandsCooldown}s/command (50% less for premium users).\n• 🔒 - Owner only.\n• ${tick.emoji} - Fishstick partners only.\n• ${star.emoji} - Premium users only."
         ..footer = (EmbedFooterBuilder()
           ..text =
               "Page ${i ~/ perPageCommands + 1} of ${(client.commands.walkCommands().length / perPageCommands).ceil()}")
