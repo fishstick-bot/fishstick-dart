@@ -25,4 +25,11 @@ class STWSurvivorSquadPreset {
             .map((e) => e is int ? e : int.tryParse(e) ?? 0)
             .toList(),
       );
+
+  Map<String, dynamic> toJson() => {
+        "name": name,
+        "characterIds": characterIds,
+        "squadIds": squadIds,
+        "slotIndices": slotIndices,
+      };
 }

@@ -1,1 +1,3 @@
-class STWHeroLoadoutPreset {}
+class STWHeroLoadoutPreset {
+  Map<String, dynamic> toJson() => {};
+}

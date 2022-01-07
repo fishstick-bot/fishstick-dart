@@ -30,4 +30,13 @@ class STWResearch {
           : 0,
     );
   }
+
+  Map<String, int> toJson() {
+    return {
+      "fortitude": fortitude,
+      "resistance": resistance,
+      "offense": offense,
+      "tech": tech,
+    };
+  }
 }

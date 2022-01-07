@@ -63,4 +63,22 @@ class EpicAccount {
           : [],
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      "accountId": accountId,
+      "deviceId": deviceId,
+      "secret": secret,
+      "displayName": displayName,
+      "avatar": avatar,
+      "cachedResearchValues": cachedResearchValues.toJson(),
+      "dailiesLastRefresh": dailiesLastRefresh,
+      "lastDailyRewardClaim": lastDailyRewardClaim,
+      "lastFreeLlamasClaim": lastFreeLlamasClaim,
+      "powerLevel": powerLevel,
+      "savedHeroLoadouts": savedHeroLoadouts.map((e) => e.toJson()).toList(),
+      "savedSurvivorSquads":
+          savedSurvivorSquads.map((e) => e.toJson()).toList(),
+    };
+  }
 }
