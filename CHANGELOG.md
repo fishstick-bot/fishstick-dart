@@ -30,3 +30,7 @@
 -   Add toJson method to some structures.
 -   Custom emojis list.
 -   User settings command.
+-   Device auth getter to epic account.
+-   Channels fetch getter to database guild object.
+
+## 0.5.0
