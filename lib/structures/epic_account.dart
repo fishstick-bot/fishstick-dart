@@ -1,3 +1,4 @@
+import "package:fortnite/fortnite.dart" show DeviceAuth;
 import "stw_research.dart";
 import "stw_hero_loadout_preset.dart";
 import "stw_survivor_squad_preset.dart";
@@ -81,4 +82,6 @@ class EpicAccount {
           savedSurvivorSquads.map((e) => e.toJson()).toList(),
     };
   }
+
+  DeviceAuth get deviceAuth => DeviceAuth.fromJson(toJson());
 }

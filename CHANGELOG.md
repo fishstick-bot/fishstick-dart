@@ -29,3 +29,4 @@
 -   Refactor commands.
 -   Add toJson method to some structures.
 -   Custom emojis list.
+-   User settings command.
