@@ -1,3 +1,5 @@
+import "package:nyxx/nyxx.dart";
+import "../fishstick_dart.dart";
 import "database.dart";
 
 class DatabaseGuild {
@@ -71,4 +73,15 @@ class DatabaseGuild {
         pl160alertsRoleID:
             json["160alertsRoleID"] is String ? json["160alertsRoleID"] : "",
       );
+
+  Future<IChannel> getItemShopChannel() async =>
+      await client.bot.fetchChannel(Snowflake(itemShopChannelID));
+  Future<IChannel> get vbucksAlertChannel async =>
+      await client.bot.fetchChannel(Snowflake(vbucksAlertChannelID));
+  Future<IChannel> get freeLlamasAlertChannel async =>
+      await client.bot.fetchChannel(Snowflake(freeLlamasAlertChannelID));
+  Future<IChannel> get legendarySurvivorChannel async =>
+      await client.bot.fetchChannel(Snowflake(legendarySurvivorChannelID));
+  Future<IChannel> get pl160alertsChannel async =>
+      await client.bot.fetchChannel(Snowflake(pl160alertsChannelID));
 }
