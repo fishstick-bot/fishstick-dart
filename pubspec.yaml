@@ -15,9 +15,9 @@ dependencies:
     nyxx_interactions: ^3.1.0
     nyxx_commands: ^3.1.1
     nyxx_extensions: ^3.0.0
-    nyxx_pagination: ^2.0.0
+    nyxx_pagination: ^2.1.0
     # libraries for fortnite
-    fortnite: ^1.1.2
+    fortnite: ^1.1.3
     # utils
     numeral: ^1.2.5
     time_ago_provider: ^4.1.2
@@ -25,6 +25,10 @@ dependencies:
     encrypt: ^5.0.1
     # get package info
     pubspec_yaml: ^3.1.0
+    # http server
+    shelf: ^1.2.0
+    shelf_router: ^1.1.2
+    shelf_letsencrypt: ^1.0.0
 
 dev_dependencies:
     lints: ^1.0.0

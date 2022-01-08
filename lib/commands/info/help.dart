@@ -58,8 +58,11 @@ final Command helpCommand = Command(
 
     await respond(
       ctx,
-      EmbedComponentPagination(ctx.commands.interactions, pages)
-          .initMessageBuilder(),
+      EmbedComponentPagination(
+        ctx.commands.interactions,
+        pages,
+        timeout: Duration(minutes: 3),
+      ).initMessageBuilder(),
     );
   },
   aliases: ["h"],
