@@ -11,5 +11,6 @@ export "commands/premium/premium.dart";
 export "commands/partner/partner.dart";
 export "commands/blacklist/blacklist.dart";
 export "commands/fortnite/account/login.dart";
+export "commands/fortnite/account/logout.dart";
 
 final Client client = Client();

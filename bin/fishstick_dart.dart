@@ -13,6 +13,7 @@ void main() async {
   client.commands.registerChild(partnerCommand);
   client.commands.registerChild(blacklistCommand);
   client.commands.registerChild(loginCommand);
+  client.commands.registerChild(logoutCommand);
 
   /// start the client
   await client.start();

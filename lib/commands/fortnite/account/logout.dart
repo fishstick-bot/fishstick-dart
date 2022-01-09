@@ -9,11 +9,15 @@ import "../../../extensions/context_extensions.dart";
 import "../../../utils/utils.dart";
 import "../../../fishstick_dart.dart";
 
-final Command loginCommand = Command(
+final Command logoutCommand = Command(
   "logout",
   "Logout of your saved epic accounts.",
   (Context ctx) async {
     final DatabaseUser user = await ctx.dbUser;
+
+    if (user.linkedAccounts.isEmpty) {
+      throw Exception("You don't have any linked epic accounts.");
+    }
 
     final String cancelButtonID = "${randomString(30)}-cancel";
     final String accountMenuID = "${randomString(30)}-accountmenu";
