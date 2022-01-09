@@ -39,7 +39,7 @@ class Client {
 
     /// setup commands
     commands = CommandsPlugin(
-      prefix: (_) => prefix,
+      prefix: dmOr((_) => "."),
       guild: config.developmentMode ? Snowflake(config.developmentGuild) : null,
       options: CommandsOptions(
         logErrors: true,
