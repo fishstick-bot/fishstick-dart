@@ -34,3 +34,7 @@
 -   Channels fetch getter to database guild object.
 
 ## 0.5.0
+
+-   Login command.
+-   Logout command.
+-   More methods to database user manager.

@@ -242,6 +242,16 @@ class DatabaseUser {
     });
   }
 
+  /// remove an account from user
+  Future<void> removeAccount(EpicAccount acc) async {
+    linkedAccounts =
+        linkedAccounts.where((a) => a.accountId != acc.accountId).toList();
+
+    await _database.updateUser(id, {
+      "linkedEpicAccounts": linkedAccounts.map((x) => x.toJson()).toList(),
+    });
+  }
+
   /// set active account
   Future<void> setActiveAccount(String accId) async {
     selectedAccount = accId;

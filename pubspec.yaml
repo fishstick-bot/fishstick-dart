@@ -1,6 +1,6 @@
 name: fishstick_dart
 description: A multipurpose fortnite bot coded in dart.
-version: 0.4.0
+version: 0.5.0
 
 environment:
     sdk: ">=2.15.0 <3.0.0"
@@ -29,7 +29,6 @@ dependencies:
     # http server
     shelf: ^1.2.0
     shelf_router: ^1.1.2
-    shelf_letsencrypt: ^1.0.0
 
 dev_dependencies:
     lints: ^1.0.0
