@@ -2,6 +2,7 @@ import "package:fortnite/fortnite.dart" show DeviceAuth;
 import "stw_research.dart";
 import "stw_hero_loadout_preset.dart";
 import "stw_survivor_squad_preset.dart";
+import "../fishstick_dart.dart";
 
 class EpicAccount {
   late String accountId;
@@ -65,11 +66,11 @@ class EpicAccount {
     );
   }
 
-  Map<String, dynamic> toJson() {
+  Map<String, dynamic> toJson({bool decrypted = false}) {
     return {
       "accountId": accountId,
-      "deviceId": deviceId,
-      "secret": secret,
+      "deviceId": decrypted ? client.decryptString(deviceId) : deviceId,
+      "secret": decrypted ? client.decryptString(secret) : secret,
       "displayName": displayName,
       "avatar": avatar,
       "cachedResearchValues": cachedResearchValues.toJson(),
@@ -83,5 +84,5 @@ class EpicAccount {
     };
   }
 
-  DeviceAuth get deviceAuth => DeviceAuth.fromJson(toJson());
+  DeviceAuth get deviceAuth => DeviceAuth.fromJson(toJson(decrypted: true));
 }

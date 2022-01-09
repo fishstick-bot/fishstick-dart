@@ -1,4 +1,5 @@
-import "package:nyxx/nyxx.dart" hide PremiumTier;
+import "package:nyxx/nyxx.dart" hide PremiumTier, ClientOptions;
+import "package:fortnite/fortnite.dart";
 import "database.dart";
 import "../structures/epic_account.dart";
 import "../structures/premium.dart";
@@ -50,6 +51,9 @@ class DatabaseUser {
 
   /// Sessions.
   late Map<String, dynamic> sessions;
+
+  /// fortnite client for the user.
+  late Client fnClient;
 
   /// [DatabaseUser] constructor.
   DatabaseUser(
@@ -116,6 +120,19 @@ class DatabaseUser {
 
   /// is the user partner
   bool get isPartner => premium.tierEnum == PremiumTier.partner;
+
+  /// get accounts limit
+  int get accountsLimit {
+    int limit = 3;
+
+    if (isPremium) {
+      limit = 15;
+    } else if (isPartner) {
+      limit = 25;
+    }
+
+    return limit;
+  }
 
   /// revoke premium of user.
   Future<void> revokePremium(IUser responsiblePartner, IUser targetUser) async {
@@ -214,5 +231,50 @@ class DatabaseUser {
   void disableMentionsPrivacy() {
     privacyEnum = Privacy.values[0];
     privacy = 0;
+  }
+
+  /// add an account to user
+  Future<void> addAccount(EpicAccount acc) async {
+    linkedAccounts.add(acc);
+
+    await _database.updateUser(id, {
+      "linkedEpicAccounts": linkedAccounts.map((x) => x.toJson()).toList(),
+    });
+  }
+
+  /// set active account
+  Future<void> setActiveAccount(String accId) async {
+    selectedAccount = accId;
+
+    await _database.updateUser(id, {
+      "selectedAccount": selectedAccount,
+    });
+  }
+
+  /// get user's active account
+  EpicAccount get activeAccount {
+    return linkedAccounts.firstWhere((x) => x.accountId == selectedAccount);
+  }
+
+  /// get the user's fortnite client.
+  Future<Client> fnClientSetup() async {
+    fnClient = Client(
+      options: ClientOptions(
+        deviceAuth: linkedAccounts
+            .firstWhere((a) => a.accountId == selectedAccount)
+            .deviceAuth,
+        logLevel: Level.INFO,
+      ),
+      overrideSession: sessions[selectedAccount] ?? "",
+    );
+
+    fnClient.onSessionUpdate.listen((Client update) async {
+      sessions[update.accountId] = update.session;
+      await _database.updateUser(id, {
+        "sessions": sessions,
+      });
+    });
+
+    return fnClient;
   }
 }

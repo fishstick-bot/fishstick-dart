@@ -144,8 +144,7 @@ final Command settingsCommand = Command(
             "autoSubscriptions": user.autoSubscriptions.toJson(),
           },
         );
-        await respond(
-          ctx,
+        await msg.edit(
           ComponentMessageBuilder()
             ..embeds = []
             ..componentRows = []
@@ -160,8 +159,7 @@ final Command settingsCommand = Command(
             "autoSubscriptions": user.autoSubscriptions.toJson(),
           },
         );
-        await respond(
-          ctx,
+        await msg.edit(
           ComponentMessageBuilder()
             ..embeds = []
             ..componentRows = []
@@ -177,8 +175,7 @@ final Command settingsCommand = Command(
             "autoSubscriptions": user.autoSubscriptions.toJson(),
           },
         );
-        await respond(
-          ctx,
+        await msg.edit(
           ComponentMessageBuilder()
             ..embeds = []
             ..componentRows = []
@@ -193,8 +190,7 @@ final Command settingsCommand = Command(
             "dmNotifications": user.dmNotifications,
           },
         );
-        await respond(
-          ctx,
+        await msg.edit(
           ComponentMessageBuilder()
             ..embeds = []
             ..componentRows = []
@@ -212,8 +208,7 @@ final Command settingsCommand = Command(
             "privacy": user.privacy,
           },
         );
-        await respond(
-          ctx,
+        await msg.edit(
           ComponentMessageBuilder()
             ..embeds = []
             ..componentRows = []
