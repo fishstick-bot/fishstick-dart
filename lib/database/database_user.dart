@@ -268,6 +268,10 @@ class DatabaseUser {
 
   /// get the user's fortnite client.
   Client fnClientSetup() {
+    if (linkedAccounts.isEmpty) {
+      return fnClient;
+    }
+
     fnClient = Client(
       options: ClientOptions(
         deviceAuth: linkedAccounts

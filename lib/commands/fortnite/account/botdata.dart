@@ -5,7 +5,6 @@ import "package:pdf/pdf.dart";
 import "package:pdf/widgets.dart" as pw;
 import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
-import "../../../utils/utils.dart";
 import "../../../fishstick_dart.dart";
 
 final Command botDataCommand = Command(
@@ -13,7 +12,6 @@ final Command botDataCommand = Command(
   "Sends your saved data in bot in a pdf file.",
   (Context ctx) async {
     DatabaseUser user = await ctx.dbUser;
-    user.fnClientSetup();
 
     final pdf = pw.Document(pageMode: PdfPageMode.outlines);
 
@@ -28,7 +26,7 @@ final Command botDataCommand = Command(
               children: [
                 pw.Center(
                   child: pw.Text(
-                    ctx.user.tag,
+                    ctx.user.tag.replaceAll(RegExp("[^A-Za-z0-9]"), ""),
                     style: pw.Theme.of(context).header0,
                   ),
                 ),
@@ -90,7 +88,9 @@ final Command botDataCommand = Command(
                   ["Epic Name", "Account ID", "Device ID", "Secret"],
                   ...user.linkedAccounts
                       .map((a) => [
-                            a.displayName,
+                            a.displayName
+                                .replaceAll(RegExp("[^A-Za-z0-9]"), ""),
+                            a.accountId,
                             a.accountId,
                             a.deviceAuth.deviceId,
                             a.deviceAuth.secret
@@ -116,14 +116,17 @@ final Command botDataCommand = Command(
                 children: [
                   pw.Center(
                     child: pw.Text(
-                      acc.displayName,
+                      acc.displayName.replaceAll(RegExp("[^A-Za-z0-9]"), ""),
                       style: pw.Theme.of(context).header0,
                     ),
                   ),
                   pw.SizedBox(height: 10),
                   pw.Table.fromTextArray(data: [
                     ["Key", "Value"],
-                    ["Display Name", acc.displayName],
+                    [
+                      "Display Name",
+                      acc.displayName.replaceAll(RegExp("[^A-Za-z0-9]"), "")
+                    ],
                     ["Account ID", acc.accountId],
                     ["Device ID", acc.deviceAuth.deviceId],
                     ["Secret", acc.deviceAuth.secret],
