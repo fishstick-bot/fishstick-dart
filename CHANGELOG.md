@@ -38,3 +38,6 @@
 -   Login command.
 -   Logout command.
 -   More methods to database user manager.
+-   Account command.
+-   Account token command.
+-   Account bot data pdf command.
