@@ -267,7 +267,7 @@ class DatabaseUser {
   }
 
   /// get the user's fortnite client.
-  Future<Client> fnClientSetup() async {
+  Client fnClientSetup() {
     fnClient = Client(
       options: ClientOptions(
         deviceAuth: linkedAccounts
