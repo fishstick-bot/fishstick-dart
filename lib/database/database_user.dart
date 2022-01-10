@@ -269,7 +269,8 @@ class DatabaseUser {
   /// get the user's fortnite client.
   Client fnClientSetup() {
     if (linkedAccounts.isEmpty) {
-      return fnClient;
+      throw Exception(
+          "You don't have any epic accounts linked to your account.");
     }
 
     fnClient = Client(
