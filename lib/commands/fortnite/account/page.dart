@@ -3,6 +3,7 @@ import "package:nyxx_interactions/nyxx_interactions.dart";
 // import "package:fortnite/fortnite.dart";
 import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
+import "../../../utils/utils.dart";
 
 final Command accountSettingsPageCommand = Command(
   "page",
@@ -28,5 +29,5 @@ final Command accountSettingsPageCommand = Command(
     );
   },
   hideOriginalResponse: true,
-  checks: [],
+  checks: [premiumCheck],
 );

@@ -2,6 +2,7 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "view.dart";
 import "first.dart";
 import "last.dart";
+import "../../../../utils/utils.dart";
 
 final Group realNameCommand = Group(
   "realname",
@@ -11,5 +12,5 @@ final Group realNameCommand = Group(
     realNameFirstCommand,
     realNameLastCommand,
   ],
-  checks: [],
+  checks: [premiumCheck],
 );

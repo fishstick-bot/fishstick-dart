@@ -1,10 +1,10 @@
 import "dart:convert";
-
 import "package:nyxx_commands/nyxx_commands.dart";
 import "package:nyxx_interactions/nyxx_interactions.dart";
 // import "package:fortnite/fortnite.dart";
 import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
+import "../../../utils/utils.dart";
 
 final Command accountReceiptsCommand = Command(
   "receipts",
@@ -28,5 +28,5 @@ final Command accountReceiptsCommand = Command(
     );
   },
   hideOriginalResponse: true,
-  checks: [],
+  checks: [premiumCheck],
 );
