@@ -46,3 +46,5 @@
 -   Account receipts command.
 -   Account real name view command.
 -   Account real name update commands.
+-   Access token delete command.
+-   Sessions kill all command.

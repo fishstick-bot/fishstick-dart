@@ -5,6 +5,7 @@ import "page.dart";
 import "botdata.dart";
 import "receipts.dart";
 import "realname/realname.dart";
+import "username/username.dart";
 
 final Group accountCommand = Group(
   "account",
@@ -16,6 +17,7 @@ final Group accountCommand = Group(
     botDataCommand,
     accountReceiptsCommand,
     realNameCommand,
+    usernameCommand,
   ],
   aliases: ["acc"],
   checks: [],
