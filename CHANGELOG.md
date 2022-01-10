@@ -44,3 +44,5 @@
 -   Account exchange code command.
 -   Account page command.
 -   Account receipts command.
+-   Account real name view command.
+-   Account real name update commands.

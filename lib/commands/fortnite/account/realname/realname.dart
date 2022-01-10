@@ -1,6 +1,7 @@
 import "package:nyxx_commands/nyxx_commands.dart";
 import "view.dart";
 import "first.dart";
+import "last.dart";
 
 final Group realNameCommand = Group(
   "realname",
@@ -8,6 +9,7 @@ final Group realNameCommand = Group(
   children: [
     realNameViewCommand,
     realNameFirstCommand,
+    realNameLastCommand,
   ],
   checks: [],
 );
