@@ -41,3 +41,4 @@
 -   Account command.
 -   Account token command.
 -   Account bot data pdf command.
+-   Account exchange code command.

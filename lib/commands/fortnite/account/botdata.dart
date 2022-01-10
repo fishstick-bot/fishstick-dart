@@ -13,7 +13,10 @@ final Command botDataCommand = Command(
   (Context ctx) async {
     DatabaseUser user = await ctx.dbUser;
 
-    final pdf = pw.Document(pageMode: PdfPageMode.outlines);
+    final pdf = pw.Document(
+      pageMode: PdfPageMode.outlines,
+      title: ctx.user.id.toString(),
+    );
 
     pdf.addPage(
       pw.Page(
