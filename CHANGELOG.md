@@ -48,3 +48,5 @@
 -   Account real name update commands.
 -   Access token delete command.
 -   Sessions kill all command.
+-   Username view/change commands.
+-   External view/unlink commands.

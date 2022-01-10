@@ -4,32 +4,38 @@ import "package:nyxx_interactions/nyxx_interactions.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../fishstick_dart.dart";
+import "../../../../resources/emojis.dart";
 
-final Command usernameChangeCommand = Command(
-  "change",
-  "Change your account username.",
+final Command externalUnlinkCommand = Command(
+  "unlink",
+  "Unlink an account external auth connection.",
   (
     Context ctx,
-    @Description("What would you like your new username as?") String update,
+    @Description("External auth platform that you want to unlink.")
+        String platform,
   ) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
 
-    final accountInfo = await user.fnClient.auth.getAccountInfo();
-
-    if (!accountInfo.canUpdateDisplayName) {
-      throw Exception("You cannot change your username right now.");
+    final externalAuths = await user.fnClient.auth.getExternalAuths();
+    if (externalAuths.isEmpty) {
+      throw Exception("You don't have any external auths.");
     }
 
     var confirmationMsg = await ctx.takeConfirmation(
-        "Are you sure you want to update your display name from **${accountInfo.displayName}** to **$update**.");
+        "Are you sure you want to unlink $platform from your external auths?");
     if (confirmationMsg == null) {
       return null;
     }
 
-    await user.fnClient.auth.updateAccountInfo({
-      "displayName": update,
-    });
+    await user.fnClient.auth.unlinkExternalAuth(platform: platform);
+
+    var externalAuthNames = {
+      "google": "Google",
+      "github": "GitHub",
+      "psn": "PlayStation Network",
+      "xbl": "Xbox Live",
+    };
 
     return await confirmationMsg.edit(
       ComponentMessageBuilder()
@@ -41,12 +47,11 @@ final Command usernameChangeCommand = Command(
             ..color = DiscordColor.fromHexString(user.color)
             ..footer = (EmbedFooterBuilder()..text = client.footerText)
             ..timestamp = DateTime.now()
-            ..title = "${user.activeAccount.displayName} | Username"
+            ..title = "${user.activeAccount.displayName} | External Auths"
             ..thumbnailUrl = user.activeAccount.avatar
             ..description =
-                "Successfully updated display name from **${accountInfo.displayName}** to **$update**.",
-        ]
-        ..componentRows = [],
+                "${tick.emoji} Successfully unlinked ${externalAuthNames[platform] ?? platform.toUpperCase()} from your account's external auths.",
+        ],
     );
   },
   hideOriginalResponse: true,
