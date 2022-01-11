@@ -50,3 +50,6 @@
 -   Sessions kill all command.
 -   Username view/change commands.
 -   External view/unlink commands.
+-   VBucks balance/purchase/platform commands.
+
+## 0.6.0
