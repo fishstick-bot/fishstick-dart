@@ -16,6 +16,7 @@ void main() async {
   client.commands.registerChild(logoutCommand);
   client.commands.registerChild(accountCommand);
   client.commands.registerChild(vbucksCommand);
+  client.commands.registerChild(affiliateCommand);
 
   /// start the client
   await client.start();
