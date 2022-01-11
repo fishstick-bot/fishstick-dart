@@ -82,7 +82,7 @@ abstract class AbstractUserSystemJob {
       await target.sendMessage(builder);
     } catch (e) {
       client.logger
-          .shout("[TASK:$name] Failed to send user log for ${user.id}: $e");
+          .shout("[TASK:$name:${user.id}] Failed to send user log: $e");
     }
   }
 }
