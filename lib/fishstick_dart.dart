@@ -15,5 +15,6 @@ export "commands/fortnite/account/logout.dart";
 export "commands/fortnite/account/account.dart";
 export "commands/fortnite/vbucks/vbucks.dart";
 export "commands/fortnite/sac/sac.dart";
+export "commands/fortnite/mfa/mfa.dart";
 
 final Client client = Client();

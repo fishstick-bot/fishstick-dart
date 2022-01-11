@@ -57,3 +57,4 @@
 -   Auto sign out on invalid credentials.
 -   Abstract system job manager.
 -   Affiliate command.
+-   Claim MFA command.
