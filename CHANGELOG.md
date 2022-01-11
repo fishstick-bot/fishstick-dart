@@ -55,3 +55,4 @@
 ## 0.6.0
 
 -   Auto sign out on invalid credentials.
+-   Abstract system job manager.
