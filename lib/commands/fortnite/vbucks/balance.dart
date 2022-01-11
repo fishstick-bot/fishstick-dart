@@ -14,6 +14,8 @@ final Command vbucksBalanceCommand = Command(
   (
     Context ctx, [
     @Description("User to get V-Bucks balance for") IUser? user,
+    @Description("Get breakdown of V-Bucks purchases.")
+        bool purchaseBreakdown = false,
   ]) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
@@ -45,6 +47,19 @@ final Command vbucksBalanceCommand = Command(
             "Total Purchased V-Bucks: ${Numeral(dbUser.fnClient.commonCore.totalVbucksPurchased).value()}");
 
     await ctx.respond(MessageBuilder.embed(vBucksEmbed));
+
+    if (purchaseBreakdown == true &&
+        dbUser.fnClient.commonCore.vbucksPurchased.keys.isNotEmpty) {
+      vBucksEmbed
+        ..title = "${dbUser.activeAccount.displayName}'s V-Bucks Purchases"
+        ..description = dbUser.fnClient.commonCore.vbucksPurchased.keys
+            .map((v) =>
+                "• **${dbUser.fnClient.commonCore.vbucksPurchased[v]}** x ${vbucks.emoji} ${Numeral(int.parse(v)).value()}")
+            .toList()
+            .join("\n");
+
+      await ctx.respond(MessageBuilder.embed(vBucksEmbed));
+    }
   },
   hideOriginalResponse: false,
   checks: [],
