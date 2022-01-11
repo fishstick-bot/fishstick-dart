@@ -53,3 +53,5 @@
 -   VBucks balance/purchase/platform commands.
 
 ## 0.6.0
+
+-   Auto sign out on invalid credentials.

@@ -290,6 +290,15 @@ class DatabaseUser {
       });
     });
 
+    fnClient.onInvalidAccount.listen((event) async {
+      linkedAccounts.removeWhere((a) => a.accountId == event.accountId);
+      await _database.updateUser(id, {
+        "linkedEpicAccounts": linkedAccounts.map((x) => x.toJson()).toList(),
+        "selectedAccount":
+            linkedAccounts.isEmpty ? "" : linkedAccounts.first.accountId,
+      });
+    });
+
     return fnClient;
   }
 }
