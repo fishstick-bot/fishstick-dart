@@ -58,3 +58,4 @@
 -   Abstract system job manager.
 -   Affiliate command.
 -   Claim MFA command.
+-   Launch command.

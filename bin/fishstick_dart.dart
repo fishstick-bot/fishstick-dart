@@ -15,6 +15,7 @@ void main() async {
   client.commands.registerChild(loginCommand);
   client.commands.registerChild(logoutCommand);
   client.commands.registerChild(accountCommand);
+  client.commands.registerChild(gameLaunchCommand);
   client.commands.registerChild(vbucksCommand);
   client.commands.registerChild(affiliateCommand);
   client.commands.registerChild(mfaCommand);
