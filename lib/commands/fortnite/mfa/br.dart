@@ -12,14 +12,12 @@ final Command mfaBRCommand = Command(
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
 
-    // TODO : check if already claimed (just uncomment below lines when added to fortnite-dart)
+    await dbUser.fnClient.athena.init();
 
-    // await dbUser.fnClient.athena.init();
-
-    //  if (dbUser.fnClient.athena.stats["mfa_reward_claimed"]) {
-    //   throw Exception(
-    //       "You already claimed your MFA reward for Battle Royale gamemode.");
-    // }
+    if (dbUser.fnClient.athena.stats["mfa_reward_claimed"]) {
+      throw Exception(
+          "You already claimed your MFA reward for Battle Royale gamemode.");
+    }
 
     var res = await dbUser.fnClient.send(
       method: "POST",
