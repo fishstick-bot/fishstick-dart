@@ -7,6 +7,7 @@ final Group overviewCommand = Group(
   "View your different game modes profile overview.",
   children: [
     overviewBRCommand,
+    overviewSTWCommand,
   ],
   aliases: ["ovw"],
   checks: [],

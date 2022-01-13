@@ -89,11 +89,8 @@ class DatabaseUser {
           : json["selectedAccount"] is String
               ? json["selectedAccount"] as String
               : "",
-      linkedAccounts: json["linkedEpicAccounts"] is List<Map<String, dynamic>>
-          ? List<EpicAccount>.from(
-              (json["linkedEpicAccounts"] as List<Map<String, dynamic>>)
-                  .map((x) => EpicAccount.fromJson(x)))
-          : [],
+      linkedAccounts: List<EpicAccount>.from((json["linkedEpicAccounts"])
+          .map((x) => EpicAccount.fromJson(x as Map<String, dynamic>))),
       premium: Premium.fromJson(json["premium"] as Map<String, dynamic>),
       bonusAccLimit:
           json["bonusAccLimit"] is int ? json["bonusAccLimit"] as int : 0,
