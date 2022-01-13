@@ -19,5 +19,6 @@ export "commands/fortnite/sac/sac.dart";
 export "commands/fortnite/mfa/mfa.dart";
 export "commands/fortnite/afk.dart";
 export "commands/fortnite/overview/overview.dart";
+export "commands/fortnite/resources.dart";
 
 final Client client = Client();

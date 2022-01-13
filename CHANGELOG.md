@@ -63,3 +63,4 @@
 -   AFK Creative XP command.
 -   Overview command.
 -   String linting rules (yet have to increase level of linting).
+-   STW resources command.
