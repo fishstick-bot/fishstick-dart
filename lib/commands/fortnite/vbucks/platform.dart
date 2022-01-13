@@ -39,6 +39,7 @@ final Command vbucksPlatformCommand = Command(
         ..iconUrl = ctx.user.avatarURL(format: "png"))
       ..color = DiscordColor.fromHexString(dbUser.color)
       ..title = "${dbUser.activeAccount.displayName}'s V-Bucks Platform"
+      ..thumbnailUrl = dbUser.activeAccount.avatar
       ..description =
           "${tick.emoji} Successfully updated your V-Bucks platform from **${dbUser.fnClient.commonCore.currentMtxPlatform}** to **$platform**."
       ..timestamp = DateTime.now()

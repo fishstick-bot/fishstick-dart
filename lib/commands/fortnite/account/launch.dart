@@ -8,9 +8,7 @@ final Command gameLaunchCommand = Command(
   "Creates launch arguments to launch your game on windows device.",
   (
     Context ctx, [
-    @Description("Path to Win64 directory (Default is - C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Binaries\\Win64).")
-        String
-            path =
+    @Description("Path to Win64 directory.") String path =
         "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Binaries\\Win64",
   ]) async {
     DatabaseUser user = await ctx.dbUser;

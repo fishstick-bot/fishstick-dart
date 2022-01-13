@@ -231,7 +231,7 @@ packages:
       name: nyxx_commands
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.2.0"
+    version: "3.3.0"
   nyxx_extensions:
     dependency: "direct main"
     description:
@@ -245,7 +245,7 @@ packages:
       name: nyxx_interactions
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.1"
+    version: "3.2.0"
   nyxx_pagination:
     dependency: "direct main"
     description:

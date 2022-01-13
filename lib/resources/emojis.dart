@@ -221,6 +221,10 @@ Emoji star = Emoji("star", "<:star:907276087174778900>");
 
 Emoji paidstar = Emoji("paidStar", "<:bp:914863340923260928>");
 
+Emoji filled = Emoji("filled", "<:green:838415186155143168>");
+
+Emoji empty = Emoji("empty", "<:clear:839622615664296026>");
+
 List<Emoji> emojis = [
   heroxp,
   reagent_alteration_upgrade_vr,

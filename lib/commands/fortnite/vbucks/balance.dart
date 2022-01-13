@@ -39,6 +39,7 @@ final Command vbucksBalanceCommand = Command(
         ..iconUrl = (user ?? ctx.user).avatarURL(format: "png"))
       ..color = DiscordColor.fromHexString(dbUser.color)
       ..title = "${dbUser.activeAccount.displayName}'s V-Bucks Balance"
+      ..thumbnailUrl = dbUser.activeAccount.avatar
       ..description =
           "Current V-Bucks Platform: **${dbUser.fnClient.commonCore.currentMtxPlatform}**\n\n**Overall - ${vbucks.emoji} ${Numeral(dbUser.fnClient.commonCore.totalVbucks).value()}**\n${dbUser.fnClient.commonCore.vbucksBreakdown.map((v) => "• **${Numeral(v.quantity).value()}** x ${v.platform} ${v.type}").toList().join("\n")}"
       ..timestamp = DateTime.now()

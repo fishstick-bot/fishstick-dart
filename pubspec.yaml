@@ -12,8 +12,8 @@ dependencies:
     mongo_dart: ^0.7.4
     # libraries for discord api
     nyxx: ^3.2.3
-    nyxx_interactions: ^3.1.1
-    nyxx_commands: ^3.2.0
+    nyxx_interactions: ^3.2.0
+    nyxx_commands: ^3.3.0
     nyxx_extensions: ^3.0.0
     nyxx_pagination: ^2.1.0
     # libraries for fortnite

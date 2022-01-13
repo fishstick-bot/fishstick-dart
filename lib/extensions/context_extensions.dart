@@ -5,7 +5,7 @@ import "package:random_string/random_string.dart";
 import "../fishstick_dart.dart";
 import "../database/database_user.dart";
 import "../database/database_guild.dart";
-import "../resources/emojis.dart";
+import "../resources/emojis.dart" show filled, empty, cross, tick;
 
 Map<String, DatabaseUser> cachedDbUsers = {};
 Map<String, DatabaseGuild> cachedDbGuilds = {};
@@ -103,5 +103,12 @@ extension Util on Context {
     await msg.delete();
 
     return null;
+  }
+
+  /// create a progress bar
+  String createProgressBar(double frac) {
+    num n = (frac * 10).round();
+    return "${filled.toEmoji()}" * n.toInt() +
+        "${empty.toEmoji()}" * (10 - n).toInt();
   }
 }

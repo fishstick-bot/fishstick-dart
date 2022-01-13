@@ -43,6 +43,7 @@ final Command mfaBRCommand = Command(
         ..iconUrl = ctx.user.avatarURL(format: "png"))
       ..color = DiscordColor.fromHexString(dbUser.color)
       ..title = "${dbUser.activeAccount.displayName}'s MFA Rewards"
+      ..thumbnailUrl = dbUser.activeAccount.avatar
       ..description =
           "Successfully claimed 2fa rewards for battle royale gamemode."
       ..timestamp = DateTime.now()

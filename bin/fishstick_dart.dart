@@ -2,23 +2,24 @@ import "package:fishstick_dart/fishstick_dart.dart";
 
 void main() async {
   /// register the commands
-  client.commands.registerChild(pingCommand);
-  client.commands.registerChild(inviteCommand);
-  client.commands.registerChild(infoCommand);
-  client.commands.registerChild(helpCommand);
-  client.commands.registerChild(autopostCommand);
-  client.commands.registerChild(colorCommand);
-  client.commands.registerChild(settingsCommand);
-  client.commands.registerChild(premiumCommand);
-  client.commands.registerChild(partnerCommand);
-  client.commands.registerChild(blacklistCommand);
-  client.commands.registerChild(loginCommand);
-  client.commands.registerChild(logoutCommand);
-  client.commands.registerChild(accountCommand);
-  client.commands.registerChild(gameLaunchCommand);
-  client.commands.registerChild(vbucksCommand);
-  client.commands.registerChild(affiliateCommand);
-  client.commands.registerChild(mfaCommand);
+  client.commands.addCommand(pingCommand);
+  client.commands.addCommand(inviteCommand);
+  client.commands.addCommand(infoCommand);
+  client.commands.addCommand(helpCommand);
+  client.commands.addCommand(autopostCommand);
+  client.commands.addCommand(colorCommand);
+  client.commands.addCommand(settingsCommand);
+  client.commands.addCommand(premiumCommand);
+  client.commands.addCommand(partnerCommand);
+  client.commands.addCommand(blacklistCommand);
+  client.commands.addCommand(loginCommand);
+  client.commands.addCommand(logoutCommand);
+  client.commands.addCommand(accountCommand);
+  client.commands.addCommand(gameLaunchCommand);
+  client.commands.addCommand(vbucksCommand);
+  client.commands.addCommand(affiliateCommand);
+  client.commands.addCommand(mfaCommand);
+  client.commands.addCommand(afkCommand);
 
   /// start the client
   await client.start();
