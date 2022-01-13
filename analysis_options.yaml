@@ -1,5 +1,44 @@
 include: package:lints/recommended.yaml
 
+analyzer:
+    exclude: [build/** , gdart.dart]
+    language:
+        strict-raw-types: true
+    # strong-mode: # in future enable both of strong lint modes
+        # implicit-casts: false
+        # implicit-dynamic: false
+
 linter:
-  rules:
-    - prefer_double_quotes
+    rules:
+        - prefer_double_quotes
+        - cancel_subscriptions
+        - close_sinks
+        - comment_references
+        - one_member_abstracts
+        - only_throw_errors
+        - package_api_docs
+        - prefer_final_in_for_each
+        - await_only_futures
+        - avoid_shadowing_type_parameters
+        - avoid_empty_else
+        - avoid_print
+        - avoid_returning_null_for_future
+        - avoid_type_to_string
+        - avoid_types_as_parameter_names
+        - control_flow_in_finally
+        - diagnostic_describe_all_properties
+        - empty_statements
+        - hash_and_equals
+        - invariant_booleans
+        - iterable_contains_unrelated_type
+        - list_remove_unrelated_type
+        - no_adjacent_strings_in_list
+        - no_duplicate_case_values
+        - prefer_void_to_null
+        - test_types_in_equals
+        - throw_in_finally
+        - unnecessary_statements
+        - unrelated_type_equality_checks
+        - unsafe_html
+        - use_key_in_widget_constructors
+        - valid_regexps

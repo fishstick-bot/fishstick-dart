@@ -82,23 +82,40 @@ class DatabaseUser {
 
     return DatabaseUser(
       db,
-      id: json["id"],
-      name: json["name"] ?? "",
-      selectedAccount: json["selectedAccount"] ?? "",
-      linkedAccounts: json["linkedEpicAccounts"] is List<dynamic>
+      id: json["id"] as String,
+      name: "",
+      selectedAccount: json["selectedAccount"] == null
+          ? ""
+          : json["selectedAccount"] is String
+              ? json["selectedAccount"] as String
+              : "",
+      linkedAccounts: json["linkedEpicAccounts"] is List<Map<String, dynamic>>
           ? List<EpicAccount>.from(
-              json["linkedEpicAccounts"].map((x) => EpicAccount.fromJson(x)))
+              (json["linkedEpicAccounts"] as List<Map<String, dynamic>>)
+                  .map((x) => EpicAccount.fromJson(x)))
           : [],
-      premium: Premium.fromJson(json["premium"]),
-      bonusAccLimit: json["bonusAccLimit"] is int ? json["bonusAccLimit"] : 0,
-      autoSubscriptions: AutoSubscriptions.fromJson(json["autoSubscriptions"]),
-      dmNotifications: json["dmNotifications"] ?? true,
-      color: json["color"] ?? "#09b7d6",
-      privacyEnum: Privacy.values[json["privacy"] is int ? json["privacy"] : 0],
-      privacy: json["privacy"] is int ? json["privacy"] : 0,
-      blacklisted: Blacklist.fromJson(json["blacklisted"]),
-      sessions:
-          json["sessions"] is Map<String, dynamic> ? json["sessions"] : {},
+      premium: Premium.fromJson(json["premium"] as Map<String, dynamic>),
+      bonusAccLimit:
+          json["bonusAccLimit"] is int ? json["bonusAccLimit"] as int : 0,
+      autoSubscriptions: AutoSubscriptions.fromJson(
+          json["autoSubscriptions"] as Map<String, dynamic>),
+      dmNotifications: json["dmNotifications"] == null
+          ? false
+          : json["dmNotifications"] as bool,
+      color: json["color"] == null
+          ? ""
+          : json["color"] is String
+              ? json["color"] as String
+              : "#34ebe5",
+      privacyEnum:
+          Privacy.values[json["privacy"] is int ? json["privacy"] as int : 0],
+      privacy: json["privacy"] is int ? json["privacy"] as int : 0,
+      blacklisted: json["blacklisted"] == null
+          ? Blacklist.fromJson({})
+          : Blacklist.fromJson(json["blacklisted"] as Map<String, dynamic>),
+      sessions: json["sessions"] is Map<String, dynamic>
+          ? json["sessions"] as Map<String, dynamic>
+          : {},
     );
   }
 
@@ -280,7 +297,11 @@ class DatabaseUser {
             .deviceAuth,
         logLevel: Level.INFO,
       ),
-      overrideSession: sessions[selectedAccount] ?? "",
+      overrideSession: sessions[selectedAccount] == null
+          ? ""
+          : sessions[selectedAccount] is String
+              ? sessions[selectedAccount] as String
+              : "",
     );
 
     fnClient.onSessionUpdate.listen((Client update) async {

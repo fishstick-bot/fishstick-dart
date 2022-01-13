@@ -30,7 +30,8 @@ Future<void> notifyAdministrator(
       ),
     );
   } catch (e) {
-    print("An exception occured while notifying bot owner: ${e.toString()}");
+    client.logger.shout(
+        "An exception occured while notifying bot owner: ${e.toString()}");
   }
 }
 

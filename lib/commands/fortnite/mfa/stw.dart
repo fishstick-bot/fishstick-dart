@@ -25,7 +25,7 @@ final Command mfaSTWCommand = Command(
       throw Exception("You don't have access to Save the World gamemode.");
     }
 
-    if (dbUser.fnClient.campaign.stats["mfa_reward_claimed"]) {
+    if (dbUser.fnClient.campaign.stats["mfa_reward_claimed"] == true) {
       throw Exception(
           "You already claimed your MFA reward for Save the World gamemode.");
     }

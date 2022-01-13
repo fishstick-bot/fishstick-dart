@@ -72,7 +72,7 @@ class Database {
 
   /// update the user
   Future<void> updateUser(String id, Map<String, dynamic> update) async {
-    for (var key in update.keys) {
+    for (final key in update.keys) {
       await users.updateOne(where.eq("id", id), modify.set(key, update[key]));
     }
   }
@@ -102,7 +102,7 @@ class Database {
 
   /// update the guild
   Future<void> updateGuild(String id, Map<String, dynamic> update) async {
-    for (var key in update.keys) {
+    for (final key in update.keys) {
       await guilds.updateOne(where.eq("id", id), modify.set(key, update[key]));
     }
   }

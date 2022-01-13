@@ -55,7 +55,7 @@ final Command vbucksBalanceCommand = Command(
         ..title = "${dbUser.activeAccount.displayName}'s V-Bucks Purchases"
         ..description = dbUser.fnClient.commonCore.vbucksPurchased.keys
             .map((v) =>
-                "• **${dbUser.fnClient.commonCore.vbucksPurchased[v]}** x ${vbucks.emoji} ${Numeral(int.parse(v)).value()}")
+                "• **${dbUser.fnClient.commonCore.vbucksPurchased[v]}** x ${vbucks.emoji} ${Numeral(int.parse(v as String)).value()}")
             .toList()
             .join("\n");
 

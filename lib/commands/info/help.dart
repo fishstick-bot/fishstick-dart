@@ -40,7 +40,7 @@ final Command helpCommand = Command(
               "Page ${i ~/ perPageCommands + 1} of ${(client.commands.walkCommands().length / perPageCommands).ceil()}")
         ..title = "Fishstick Bot Help";
 
-      for (var command in commandsOnPage) {
+      for (final command in commandsOnPage) {
         Iterable<String> checks =
             command.checks.map((c) => c.name.split("-")[0]);
 

@@ -45,33 +45,35 @@ class DatabaseGuild {
         db,
         id: json["id"] as String,
         itemShopChannelID: json["itemShopChannelID"] is String
-            ? json["itemShopChannelID"]
+            ? json["itemShopChannelID"] as String
             : "",
-        itemShopRoleID:
-            json["itemShopRoleID"] is String ? json["itemShopRoleID"] : "",
+        itemShopRoleID: json["itemShopRoleID"] is String
+            ? json["itemShopRoleID"] as String
+            : "",
         freeLlamasAlertChannelID: json["freeLlamasAlertChannelID"] is String
-            ? json["freeLlamasAlertChannelID"]
+            ? json["freeLlamasAlertChannelID"] as String
             : "",
         freeLlamasAlertRoleID: json["freeLlamasAlertRoleID"] is String
-            ? json["freeLlamasAlertRoleID"]
+            ? json["freeLlamasAlertRoleID"] as String
             : "",
         vbucksAlertChannelID: json["vbucksAlertChannelID"] is String
-            ? json["vbucksAlertChannelID"]
+            ? json["vbucksAlertChannelID"] as String
             : "",
         vbucksAlertRoleID: json["vbucksAlertRoleID"] is String
-            ? json["vbucksAlertRoleID"]
+            ? json["vbucksAlertRoleID"] as String
             : "",
         legendarySurvivorChannelID: json["legendarySurvivorChannelID"] is String
-            ? json["legendarySurvivorChannelID"]
+            ? json["legendarySurvivorChannelID"] as String
             : "",
         legendarySurvivorRoleID: json["legendarySurvivorRoleID"] is String
-            ? json["legendarySurvivorRoleID"]
+            ? json["legendarySurvivorRoleID"] as String
             : "",
         pl160alertsChannelID: json["160alertsChannelID"] is String
-            ? json["160alertsChannelID"]
+            ? json["160alertsChannelID"] as String
             : "",
-        pl160alertsRoleID:
-            json["160alertsRoleID"] is String ? json["160alertsRoleID"] : "",
+        pl160alertsRoleID: json["160alertsRoleID"] is String
+            ? json["160alertsRoleID"] as String
+            : "",
       );
 
   Future<IChannel> getItemShopChannel() async =>

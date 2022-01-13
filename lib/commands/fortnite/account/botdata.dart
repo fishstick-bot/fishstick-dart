@@ -107,7 +107,7 @@ final Command botDataCommand = Command(
           }),
     );
 
-    for (var acc in user.linkedAccounts) {
+    for (final acc in user.linkedAccounts) {
       pdf.addPage(
         pw.Page(
             pageFormat: PdfPageFormat.a4.copyWith(

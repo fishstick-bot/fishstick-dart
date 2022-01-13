@@ -14,7 +14,7 @@ final Command mfaBRCommand = Command(
 
     await dbUser.fnClient.athena.init();
 
-    if (dbUser.fnClient.athena.stats["mfa_reward_claimed"]) {
+    if (dbUser.fnClient.athena.stats["mfa_reward_claimed"] == true) {
       throw Exception(
           "You already claimed your MFA reward for Battle Royale gamemode.");
     }
