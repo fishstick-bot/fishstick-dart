@@ -12,11 +12,9 @@ final Command overviewBRCommand = Command(
   (Context ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
+    final athena = dbUser.fnClient.athena;
 
-    await Future.wait([
-      dbUser.fnClient.athena.init(),
-      dbUser.fnClient.athena.getGold(),
-    ]);
+    await Future.wait([athena.init(), athena.getGold()]);
 
     final EmbedBuilder embed = EmbedBuilder()
       ..author = (EmbedAuthorBuilder()
@@ -26,23 +24,23 @@ final Command overviewBRCommand = Command(
       ..title = "${dbUser.activeAccount.displayName} | Battle Royale Overview"
       ..thumbnailUrl = dbUser.activeAccount.avatar
       ..description =
-          "• Account level - **${dbUser.fnClient.athena.accountLevel.toString().toBold()}**"
-      ..timestamp = dbUser.fnClient.athena.lastMatch
+          "• Account level - **${athena.accountLevel.toString().toBold()}**"
+      ..timestamp = athena.lastMatch
       ..footer = (EmbedFooterBuilder()..text = "Last match end")
       ..addField(
-        name: "Season ${dbUser.fnClient.athena.seasonNumber} Info",
+        name: "Season ${athena.seasonNumber} Info",
         content:
-            "• ${dbUser.fnClient.athena.isVIP ? "Battle" : "Free"} pass level - ${dbUser.fnClient.athena.battlePassLevel.toString().toBold()}",
+            "• ${athena.isVIP ? "Battle" : "Free"} pass level - ${athena.battlePassLevel.toString().toBold()}",
       )
       ..addField(
         name: "Supercharged XP",
         content:
-            "• XP - **${dbUser.fnClient.athena.superchargedXP.toString().replaceAll(numberFormatRegex, ",")} / 162,000**\n• Multiplier - ${dbUser.fnClient.athena.superchargedXPMultiplier.toString().toBold()}\n• Exchange - ${dbUser.fnClient.athena.superchargedXPExchange.toString().toBold()}\n• Overflow - ${dbUser.fnClient.athena.overflowedSuperchargedXP.toString().replaceAll(numberFormatRegex, ",").toBold()}",
+            "• XP - **${athena.superchargedXP.toString().replaceAll(numberFormatRegex, ",")} / 162,000**\n• Multiplier - ${athena.superchargedXPMultiplier.toString().toBold()}\n• Exchange - ${athena.superchargedXPExchange.toString().toBold()}\n• Overflow - ${athena.overflowedSuperchargedXP.toString().replaceAll(numberFormatRegex, ",").toBold()}",
       )
       ..addField(
         name: "Seasonal Resources",
         content:
-            "• ${star.emoji} Battle Stars - **${dbUser.fnClient.athena.battlestars} (Total - ${dbUser.fnClient.athena.battlestarsSeasonTotal})**\n• ${bars.emoji} Gold - ${dbUser.fnClient.athena.gold.toString().replaceAll(numberFormatRegex, ",").toBold()}",
+            "• ${star.emoji} Battle Stars - **${athena.battlestars} (Total - ${athena.battlestarsSeasonTotal})**\n• ${bars.emoji} Gold - ${athena.gold.toString().replaceAll(numberFormatRegex, ",").toBold()}",
       );
 
     await ctx.respond(MessageBuilder.embed(embed));
