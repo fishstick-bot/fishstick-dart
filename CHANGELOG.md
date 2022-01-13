@@ -59,3 +59,6 @@
 -   Affiliate command.
 -   Claim MFA command.
 -   Launch command.
+-   Create progress bar extension to context.
+-   AFK Creative XP command.
+-   Overview command.

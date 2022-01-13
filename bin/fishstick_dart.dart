@@ -20,6 +20,7 @@ void main() async {
   client.commands.addCommand(affiliateCommand);
   client.commands.addCommand(mfaCommand);
   client.commands.addCommand(afkCommand);
+  client.commands.addCommand(overviewCommand);
 
   /// start the client
   await client.start();

@@ -5,7 +5,9 @@ import "stw.dart";
 final Group overviewCommand = Group(
   "overview",
   "View your different game modes profile overview.",
-  children: [],
+  children: [
+    overviewBRCommand,
+  ],
   aliases: ["ovw"],
   checks: [],
 );

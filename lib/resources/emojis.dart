@@ -225,6 +225,8 @@ Emoji filled = Emoji("filled", "<:green:838415186155143168>");
 
 Emoji empty = Emoji("empty", "<:clear:839622615664296026>");
 
+Emoji bars = Emoji("bars", "<:brgold:914852254023049236>");
+
 List<Emoji> emojis = [
   heroxp,
   reagent_alteration_upgrade_vr,
@@ -304,4 +306,7 @@ List<Emoji> emojis = [
   mythic,
   star,
   paidstar,
+  filled,
+  empty,
+  bars,
 ];
