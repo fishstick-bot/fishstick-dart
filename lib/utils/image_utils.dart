@@ -44,12 +44,29 @@ class ImageUtils {
       dstH: canvas.height,
     );
 
-    // List<int> rgba =
-    //     Colors.overlayColors[rarity] ?? Colors.overlayColors["common"]!;
-    // int color = getColor(rgba[0], rgba[1], rgba[2], 255);
+    List<int> rgba =
+        Colors.overlayColors[rarity] ?? Colors.overlayColors["common"]!;
 
-    cache[rarity] ??= await loadImage("assets/locker/$rarity.png");
-    drawImage(canvas, cache[rarity] ?? Image(0, 0));
+    fillShape(
+      canvas,
+      [
+        [0, y],
+        [x, y],
+        [x, (y * 0.9).toInt()],
+        [0, (y * 0.95).toInt()],
+      ],
+      getColor(rgba[0], rgba[1], rgba[2], (255 * 0.8).toInt()),
+    );
+    fillShape(
+      canvas,
+      [
+        [0, (y * 0.97).toInt()],
+        [x, (y * 0.93).toInt()],
+        [x, (y * 0.9).toInt()],
+        [0, (y * 0.95).toInt()],
+      ],
+      getColor(rgba[0], rgba[1], rgba[2], (255 * 0.9).toInt()),
+    );
 
     return removeAlphaChannel(canvas);
   }
