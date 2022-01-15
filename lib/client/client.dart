@@ -6,6 +6,7 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "../database/database.dart";
 import "../config.dart";
 import "../utils/utils.dart";
+import "../utils/image_utils.dart";
 import "../utils/commands_handler.dart";
 
 class Client {
@@ -23,6 +24,9 @@ class Client {
 
   /// Commands for the client
   late CommandsPlugin commands;
+
+  /// Image utils for the client
+  late ImageUtils imageUtils;
 
   // Footer text
   String footerText = "discord.gg/fishstick";
@@ -91,6 +95,9 @@ class Client {
 
     /// setup database
     database = Database(this);
+
+    /// setup image utils
+    imageUtils = ImageUtils();
   }
 
   /// Start the client.
