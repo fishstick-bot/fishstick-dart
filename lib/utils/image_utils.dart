@@ -47,7 +47,7 @@ class ImageUtils {
     cache[rarity] ??= await loadImage("assets/locker/$rarity.png");
     drawImage(canvas, cache[rarity] ?? Image(0, 0));
 
-    return canvas;
+    return removeAlphaChannel(canvas);
   }
 }
 
