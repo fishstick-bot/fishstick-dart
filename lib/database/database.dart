@@ -23,12 +23,11 @@ class Database {
   late DbCollection cosmetics;
 
   /// The database object
-  Database(this._client) {
-    db = Db(_client.config.mongoUri);
-  }
+  Database(this._client);
 
   /// connect to the database
   Future<void> connect() async {
+    db = await Db.create(_client.config.mongoUri);
     await db.open();
 
     users = db.collection("users");
