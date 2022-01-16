@@ -18,6 +18,7 @@ class ImageUtils {
   Future<Image> drawFortniteCosmetic({
     required String icon,
     required String rarity,
+    bool isExclusive = false,
   }) async {
     int x = 416;
     int y = 520;
@@ -31,8 +32,8 @@ class ImageUtils {
       y,
       x ~/ 2,
       y ~/ 2,
-      Colors.gradient1,
-      Colors.gradient2,
+      isExclusive ? getColor(208, 142, 39) : Colors.gradient1,
+      isExclusive ? getColor(252, 220, 84) : Colors.gradient2,
     );
 
     drawImage(
@@ -46,6 +47,9 @@ class ImageUtils {
 
     List<int> rgba =
         Colors.overlayColors[rarity] ?? Colors.overlayColors["common"]!;
+    if (isExclusive) {
+      rgba = rgba;
+    }
 
     fillShape(
       canvas,
