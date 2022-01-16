@@ -32,8 +32,8 @@ class ImageUtils {
       y,
       x ~/ 2,
       y ~/ 2,
-      isExclusive ? getColor(208, 142, 39) : Colors.gradient1,
-      isExclusive ? getColor(252, 220, 84) : Colors.gradient2,
+      isExclusive ? Colors.exclusive1 : Colors.gradient1,
+      isExclusive ? Colors.exclusive2 : Colors.gradient2,
     );
 
     drawImage(
@@ -86,6 +86,13 @@ class Colors {
   /// gradient color 2 background for fortnite card
   static int get gradient2 => getColor(14, 100, 194);
 
+  /// exclusive color 1 background for fortnite card
+  static int get exclusive1 => getColor(208, 142, 39);
+
+  /// exclusive color 2 background for fortnite card
+  static int get exclusive2 => getColor(252, 220, 84);
+
+  /// colors for fortnite rarities
   static Map<String, List<int>> get overlayColors => {
         "common": [96, 170, 58],
         "uncommon": [96, 170, 58],
