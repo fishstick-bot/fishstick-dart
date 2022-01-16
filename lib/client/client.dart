@@ -33,6 +33,9 @@ class Client {
   /// Image utils for the client
   late ImageUtils imageUtils;
 
+  /// Cached cosmetics for the client
+  List<Map<String, dynamic>> cachedCosmetics = [];
+
   /// update cosmetics cache system job
   late UpdateCosmeticsCacheSystemJob updateCosmeticsCacheSystemJob;
 
@@ -142,6 +145,7 @@ class Client {
 
   /// handle the system jobs
   void handleSystemJobs() {
+    updateCosmeticsCacheSystemJob.run();
     Timer.periodic(Duration(hours: 12), (timer) async {
       updateCosmeticsCacheSystemJob.run();
       premiumRoleSyncSystemJob.run();

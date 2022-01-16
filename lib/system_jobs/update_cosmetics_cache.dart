@@ -1,5 +1,4 @@
 import "package:dio/dio.dart";
-import "package:mongo_dart/mongo_dart.dart";
 import "../fishstick_dart.dart";
 
 class UpdateCosmeticsCacheSystemJob {
@@ -12,6 +11,7 @@ class UpdateCosmeticsCacheSystemJob {
       client.logger.info("[TASK:$name] starting...");
 
       final cosmetics = await client.database.cosmetics.find().toList();
+      client.cachedCosmetics = cosmetics;
 
       final res = ((await Dio().get("https://fortnite-api.com/v2/cosmetics/br"))
           .data["data"] as List);
