@@ -116,9 +116,6 @@ class Client {
     /// setup auto tasks
     updateCosmeticsCacheSystemJob = UpdateCosmeticsCacheSystemJob();
     premiumRoleSyncSystemJob = PremiumRoleSyncSystemJob();
-
-    /// handle system jobs
-    handleSystemJobs();
   }
 
   /// Start the client.
@@ -135,6 +132,9 @@ class Client {
     await database.connect();
     logger.info(
         "Connected to database [${(DateTime.now().millisecondsSinceEpoch - start).toStringAsFixed(2)}ms]");
+
+    /// handle system jobs
+    handleSystemJobs();
   }
 
   /// encrypt a string
