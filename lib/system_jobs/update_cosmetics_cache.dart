@@ -10,11 +10,26 @@ class UpdateCosmeticsCacheSystemJob {
       int time = DateTime.now().millisecondsSinceEpoch;
       client.logger.info("[TASK:$name] starting...");
 
-      final cosmetics = await client.database.cosmetics.find().toList();
-      client.cachedCosmetics = cosmetics;
-
       final res = ((await Dio().get("https://fortnite-api.com/v2/cosmetics/br"))
           .data["data"] as List);
+
+      client.cachedCosmetics = res
+          .map((c) => {
+                "id": c["id"].toString().toLowerCase(),
+                "name": c["name"],
+                "description": c["description"],
+                "type": c["type"]?["value"] ?? "unknown",
+                "rarity": c["rarity"]?["value"] ?? "unknown",
+                "series": c["series"]?["value"] ?? "unknown",
+                "set": c["set"]?["value"] ?? "unknown",
+                "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
+                "displayAssetPath": c["displayAssetPath"] ?? "",
+                "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
+              })
+          .toList();
+
+      final cosmetics = await client.database.cosmetics.find().toList();
+      client.cachedCosmetics = cosmetics;
 
       for (final c in res) {
         bool _exists = cosmetics

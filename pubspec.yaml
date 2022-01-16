@@ -23,8 +23,6 @@ dependencies:
     time_ago_provider: ^4.1.2
     # parse numerals
     numeral: ^1.2.5
-    # manage pdf
-    pdf: ^3.6.5
     # encryption
     encrypt: ^5.0.1
     # get package info

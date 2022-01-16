@@ -71,3 +71,6 @@
 
 -   Premium role sync system job.
 -   Optimizations and bug fixes.
+-   Removed pdf command (taking over 400mb ram).
+-   Locker text command.
+-   Locker image command.

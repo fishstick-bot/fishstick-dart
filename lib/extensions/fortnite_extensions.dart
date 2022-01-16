@@ -29,6 +29,9 @@ extension Extras on AthenaCosmetic {
     return searched.first["image"] ?? "";
   }
 
+  String get imagePath =>
+      "cosmetics/${type.toLowerCase()}/${templateId.split(":")[1].toLowerCase()}.png";
+
   String get rarity {
     if (searched.isEmpty) {
       return "";

@@ -118,3 +118,24 @@ String encrypt(String text) =>
 String decrypt(String text) =>
     Encrypter(Salsa20(Key.fromUtf8(client.config.encryptionKey)))
         .decrypt64(text, iv: IV.fromLength(8));
+
+/// rarities priority
+Map<String, int> raritiesPriority = {
+  "common": 1,
+  "uncommon": 2,
+  "rare": 3,
+  "epic": 4,
+  "legendary": 5,
+  "gaminglegends": 6,
+  "shadow": 7,
+  "icon": 8,
+  "starwars": 9,
+  "lava": 10,
+  "slurp": 11,
+  "dc": 12,
+  "marvel": 13,
+  "dark": 14,
+  "frozen": 15,
+  "mythic": 16,
+  "exclusive": 17,
+};

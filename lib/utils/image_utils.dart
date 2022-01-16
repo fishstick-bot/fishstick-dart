@@ -1,5 +1,8 @@
 import "dart:io";
+import "dart:math";
 import "package:image_extensions/image_extensions.dart";
+import "package:fortnite/fortnite.dart";
+import "../extensions/fortnite_extensions.dart";
 
 Map<String, Image?> cache = {};
 
@@ -74,11 +77,86 @@ class ImageUtils {
 
     return removeAlphaChannel(canvas);
   }
+
+  /// draw locker
+  Future<Image> drawLocker({
+    required List<AthenaCosmetic> cosmetics,
+  }) async {
+    int padding = 50;
+    int itemX = 416 ~/ 2;
+    int itemY = 520 ~/ 2;
+
+    int itemsInARow = (sqrt(cosmetics.length).ceilToDouble()).toInt();
+
+    int x = itemX * itemsInARow + padding + itemsInARow * padding;
+    int y = itemY * ((cosmetics.length / itemsInARow).ceilToDouble().toInt()) +
+        padding +
+        itemsInARow * padding;
+
+    /// create canvas
+    final Image canvas = drawCanvas(x, y);
+
+    /// draw background
+    drawRadialGradient(
+      canvas,
+      0,
+      0,
+      x,
+      y,
+      x ~/ 2,
+      y ~/ 2,
+      Colors.bg1,
+      Colors.bg2,
+    );
+
+    int fX = padding;
+    int fY = padding;
+    int numRendered = 0;
+
+    Image icon;
+    for (final cosmetic in cosmetics) {
+      icon = await loadImage(cosmetic.imagePath) ?? Image(0, 0);
+
+      fillRect(
+        canvas,
+        fX - padding ~/ 4,
+        fY - padding ~/ 4,
+        fX + itemX + padding ~/ 4,
+        fY + itemY + padding ~/ 4,
+        Colors.white,
+      );
+      drawImage(
+        canvas,
+        icon,
+        dstX: fX,
+        dstY: fY,
+        dstW: itemX,
+        dstH: itemY,
+      );
+
+      fX += itemX + padding;
+      numRendered++;
+      if (numRendered % itemsInARow == 0) {
+        fX = padding;
+        fY += itemY + padding;
+      }
+    }
+
+    return canvas;
+  }
 }
 
 class Colors {
+  static int get white => getColor(255, 255, 255, 255);
+
   /// background color for fortnite images
   static int get background => getColor(19, 105, 199);
+
+  /// gradient color 1 for fortnite images
+  static int get bg1 => getColor(22, 134, 224);
+
+  /// gradient color 2 for fortnite images
+  static int get bg2 => getColor(14, 80, 153);
 
   /// gradient color 1 background for fortnite card
   static int get gradient1 => getColor(45, 150, 235);
