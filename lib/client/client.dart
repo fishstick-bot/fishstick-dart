@@ -12,6 +12,7 @@ import "../utils/image_utils.dart";
 import "../utils/commands_handler.dart";
 
 import "../system_jobs/update_cosmetics_cache.dart";
+import "../system_jobs/premium_role_sync.dart";
 
 class Client {
   /// Configuration for the client
@@ -34,6 +35,9 @@ class Client {
 
   /// update cosmetics cache system job
   late UpdateCosmeticsCacheSystemJob updateCosmeticsCacheSystemJob;
+
+  /// premium role sync system job
+  late PremiumRoleSyncSystemJob premiumRoleSyncSystemJob;
 
   // Footer text
   String footerText = "discord.gg/fishstick";
@@ -108,6 +112,7 @@ class Client {
 
     /// setup auto tasks
     updateCosmeticsCacheSystemJob = UpdateCosmeticsCacheSystemJob();
+    premiumRoleSyncSystemJob = PremiumRoleSyncSystemJob();
 
     /// handle system jobs
     handleSystemJobs();
@@ -138,7 +143,8 @@ class Client {
   /// handle the system jobs
   void handleSystemJobs() {
     Timer.periodic(Duration(hours: 12), (timer) async {
-      await updateCosmeticsCacheSystemJob.run();
+      updateCosmeticsCacheSystemJob.run();
+      premiumRoleSyncSystemJob.run();
     });
   }
 }

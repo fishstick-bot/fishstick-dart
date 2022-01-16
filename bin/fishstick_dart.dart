@@ -1,6 +1,5 @@
 import "package:fishstick_dart/fishstick_dart.dart";
 import "package:fishstick_dart/system_jobs/update_cosmetics_cache.dart";
-import "package:fishstick_dart/system_jobs/premium_role_sync.dart";
 
 void main() async {
   /// register the commands
@@ -30,7 +29,4 @@ void main() async {
 
   final UpdateCosmeticsCacheSystemJob job = UpdateCosmeticsCacheSystemJob();
   job.run();
-
-  final PremiumRoleSyncSystemJob job2 = PremiumRoleSyncSystemJob();
-  job2.run();
 }
