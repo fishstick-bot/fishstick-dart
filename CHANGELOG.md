@@ -68,3 +68,6 @@
 -   Cosmetics cache system job.
 
 ## 0.7.0
+
+-   Premium role sync system job.
+-   Optimizations and bug fixes.
