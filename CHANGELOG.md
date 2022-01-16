@@ -64,4 +64,7 @@
 -   Overview command.
 -   String linting rules (yet have to increase level of linting).
 -   STW resources command.
--   Image utils
+-   Image utils.
+-   Cosmetics cache system job.
+
+## 0.7.0

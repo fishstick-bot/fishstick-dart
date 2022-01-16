@@ -15,6 +15,12 @@ class Config {
   /// support server invite
   String get supportServer => "https://discord.gg/fishstick";
 
+  /// support server id
+  String get supportServerId => "797736897941995540";
+
+  /// support server premium role id
+  String get supportServerPremiumRoleId => "810581872773693490";
+
   /// encryption key
   String get encryptionKey => Privates.encryptionKey;
 

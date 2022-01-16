@@ -17,3 +17,6 @@ test.dart
 test.js
 test.png
 test.txt
+
+# ide folders
+.vscode
