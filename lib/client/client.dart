@@ -3,11 +3,15 @@ import "package:numeral/numeral.dart";
 import "package:logging/logging.dart";
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
+
 import "../database/database.dart";
 import "../config.dart";
+
 import "../utils/utils.dart";
 import "../utils/image_utils.dart";
 import "../utils/commands_handler.dart";
+
+import "../system_jobs/update_cosmetics_cache.dart";
 
 class Client {
   /// Configuration for the client
@@ -27,6 +31,9 @@ class Client {
 
   /// Image utils for the client
   late ImageUtils imageUtils;
+
+  /// update cosmetics cache system job
+  late UpdateCosmeticsCacheSystemJob updateCosmeticsCacheSystemJob;
 
   // Footer text
   String footerText = "discord.gg/fishstick";
@@ -98,6 +105,12 @@ class Client {
 
     /// setup image utils
     imageUtils = ImageUtils();
+
+    /// setup auto tasks
+    updateCosmeticsCacheSystemJob = UpdateCosmeticsCacheSystemJob();
+
+    /// handle system jobs
+    handleSystemJobs();
   }
 
   /// Start the client.
@@ -121,4 +134,11 @@ class Client {
 
   /// decrypt a string
   String decryptString(String text) => decrypt(text);
+
+  /// handle the system jobs
+  void handleSystemJobs() {
+    Timer.periodic(Duration(hours: 12), (timer) async {
+      await updateCosmeticsCacheSystemJob.run();
+    });
+  }
 }

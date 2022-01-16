@@ -19,6 +19,9 @@ class Database {
   /// stw leaderboards collections
   late DbCollection leaderboards;
 
+  /// cosmetics collections
+  late DbCollection cosmetics;
+
   /// The database object
   Database(this._client) {
     db = Db(_client.config.mongoUri);
@@ -31,6 +34,7 @@ class Database {
     users = db.collection("users");
     guilds = db.collection("guilds");
     leaderboards = db.collection("leaderboards");
+    cosmetics = db.collection("cosmetics");
   }
 
   /// find or create a user

@@ -1,4 +1,5 @@
 import "package:fishstick_dart/fishstick_dart.dart";
+import "package:fishstick_dart/system_jobs/update_cosmetics_cache.dart";
 
 void main() async {
   /// register the commands
@@ -25,4 +26,7 @@ void main() async {
 
   /// start the client
   await client.start();
+
+  final UpdateCosmeticsCacheSystemJob job = UpdateCosmeticsCacheSystemJob();
+  await job.run();
 }
