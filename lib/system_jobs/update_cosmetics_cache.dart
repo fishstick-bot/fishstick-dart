@@ -11,29 +11,32 @@ class UpdateCosmeticsCacheSystemJob {
       int time = DateTime.now().millisecondsSinceEpoch;
       client.logger.info("[TASK:$name] starting...");
 
-      final res = (await Dio().get("https://fortnite-api.com/v2/cosmetics/br"))
-          .data["data"];
+      final cosmetics = await client.database.cosmetics.find().toList();
+
+      final res = ((await Dio().get("https://fortnite-api.com/v2/cosmetics/br"))
+          .data["data"] as List);
 
       for (final c in res) {
-        var dbCosmetic = await client.database.cosmetics
-            .findOne(where.eq("id", c["id"].toString().toLowerCase()));
+        bool _exists = cosmetics
+                .where((cosm) => cosm["id"] == c["id"].toString().toLowerCase())
+                .length ==
+            1;
+        if (_exists) continue;
 
-        if (dbCosmetic == null) {
-          await client.database.cosmetics.insert({
-            "id": c["id"].toString().toLowerCase(),
-            "name": c["name"],
-            "description": c["description"],
-            "type": c["type"]?["value"] ?? "unknown",
-            "rarity": c["rarity"]?["value"] ?? "unknown",
-            "series": c["series"]?["value"] ?? "unknown",
-            "set": c["set"]?["value"] ?? "unknown",
-            "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
-            "displayAssetPath": c["displayAssetPath"] ?? "",
-            "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
-          });
-          client.logger
-              .info("[TASK:$name] added cosmetic to database: ${c["name"]}");
-        }
+        await client.database.cosmetics.insert({
+          "id": c["id"].toString().toLowerCase(),
+          "name": c["name"],
+          "description": c["description"],
+          "type": c["type"]?["value"] ?? "unknown",
+          "rarity": c["rarity"]?["value"] ?? "unknown",
+          "series": c["series"]?["value"] ?? "unknown",
+          "set": c["set"]?["value"] ?? "unknown",
+          "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
+          "displayAssetPath": c["displayAssetPath"] ?? "",
+          "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
+        });
+        client.logger
+            .info("[TASK:$name] added cosmetic to database: ${c["name"]}");
       }
 
       client.logger.info(
