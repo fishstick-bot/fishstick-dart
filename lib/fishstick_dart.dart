@@ -20,5 +20,6 @@ export "commands/fortnite/mfa/mfa.dart";
 export "commands/fortnite/afk.dart";
 export "commands/fortnite/overview/overview.dart";
 export "commands/fortnite/resources.dart";
+export "commands/fortnite/locker/locker.dart";
 
 final Client client = Client();

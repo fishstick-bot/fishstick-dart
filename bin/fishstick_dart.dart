@@ -22,6 +22,7 @@ void main() async {
   client.commands.addCommand(afkCommand);
   client.commands.addCommand(overviewCommand);
   client.commands.addCommand(resourcesSTWCommand);
+  client.commands.addCommand(lockerCommand);
 
   /// start the client
   await client.start();
