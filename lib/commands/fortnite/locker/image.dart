@@ -15,7 +15,6 @@ import "../../../fishstick_dart.dart";
 import "../../../database/database_user.dart";
 
 import "../../../extensions/context_extensions.dart";
-import "../../../extensions/string_extensions.dart";
 import "../../../extensions/fortnite_extensions.dart";
 
 import "../../../resources/emojis.dart";
@@ -36,22 +35,7 @@ final Command lockerImageCommand = Command(
 
     final menuID = randomString(30);
 
-    final MultiselectBuilder lockerOptions = MultiselectBuilder(
-      menuID,
-      [
-        "outfits",
-        "backblings",
-        "pickaxes",
-        "gliders",
-        "contrails",
-        "emotes",
-        "toys",
-        "sprays",
-        "wraps",
-        "music packs",
-        "loading screens",
-      ].map((o) => MultiselectOptionBuilder(o.upperCaseFirst(), o)),
-    );
+    final MultiselectBuilder lockerOptions = lockerOptionsBuilder(menuID);
 
     IMessage msg = await ctx.respond(
       ComponentMessageBuilder()
@@ -71,63 +55,10 @@ final Command lockerImageCommand = Command(
 
       await dbUser.fnClient.athena.init();
 
-      List<AthenaCosmetic> cosmetics = [];
-
-      switch (selected.interaction.values.first) {
-        case "outfits":
-          cosmetics = dbUser.fnClient.athena.skins;
-          break;
-
-        case "backblings":
-          cosmetics = dbUser.fnClient.athena.backpacks;
-          break;
-
-        case "pickaxes":
-          cosmetics = dbUser.fnClient.athena.pickaxes;
-          break;
-
-        case "gliders":
-          cosmetics = dbUser.fnClient.athena.gliders;
-          break;
-
-        case "contrails":
-          cosmetics = dbUser.fnClient.athena.skydiveContrails;
-          break;
-
-        case "emotes":
-          cosmetics = dbUser.fnClient.athena.dances
-              .where((d) => d.templateId.startsWith("AthenaDance:eid_"))
-              .toList();
-          break;
-
-        case "toys":
-          cosmetics = dbUser.fnClient.athena.dances
-              .where((d) => d.templateId.startsWith("AthenaDance:toy_"))
-              .toList();
-          break;
-
-        case "sprays":
-          cosmetics = dbUser.fnClient.athena.dances
-              .where((d) => d.templateId.startsWith("AthenaDance:spid_"))
-              .toList();
-          break;
-
-        case "wraps":
-          cosmetics = dbUser.fnClient.athena.itemWraps;
-          break;
-
-        case "music packs":
-          cosmetics = dbUser.fnClient.athena.musicPacks;
-          break;
-
-        case "loading screens":
-          cosmetics = dbUser.fnClient.athena.loadingScreens;
-          break;
-
-        default:
-          cosmetics = dbUser.fnClient.athena.cosmetics;
-          break;
-      }
+      List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
+        dbUser: dbUser,
+        type: selected.interaction.values.first,
+      );
 
       if (cosmetics.isEmpty) {
         return await msg.edit(
@@ -150,11 +81,6 @@ final Command lockerImageCommand = Command(
               .saveAsPNG(c.imagePath);
         }
       }
-
-      cosmetics.sort((a, b) => a.name.compareTo(b.name));
-      cosmetics.sort((a, b) =>
-          raritiesPriority.keys.toList().indexOf(b.rarity) -
-          raritiesPriority.keys.toList().indexOf(a.rarity));
 
       await msg.edit(
         ComponentMessageBuilder()

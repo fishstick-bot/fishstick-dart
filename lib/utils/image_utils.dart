@@ -89,8 +89,7 @@ class ImageUtils {
     int itemsInARow = (sqrt(cosmetics.length).ceilToDouble()).toInt();
 
     int x = itemX * itemsInARow + padding + itemsInARow * padding;
-    int y = itemY * ((cosmetics.length / itemsInARow).ceilToDouble().toInt()) +
-        padding +
+    int y = itemY * (cosmetics.length / itemsInARow).ceilToDouble().toInt() +
         itemsInARow * padding;
 
     /// create canvas
