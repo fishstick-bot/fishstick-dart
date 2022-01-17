@@ -24,6 +24,7 @@ void main() async {
   client.commands.addCommand(resourcesSTWCommand);
   client.commands.addCommand(lockerCommand);
   client.commands.addCommand(skipTutorialCommand);
+  client.commands.addCommand(homebaseNameCommand);
 
   /// start the client
   await client.start();

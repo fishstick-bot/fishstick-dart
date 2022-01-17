@@ -75,3 +75,4 @@
 -   Locker text command.
 -   Locker image command.
 -   Skip tutorial command.
+-   Homebase name command.
