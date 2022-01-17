@@ -35,31 +35,34 @@ void handleCommandsError(Client client) {
           break;
 
         case "premium-check":
+          await exception.context.respond(
+            MessageBuilder.content(
+              "You need to be a premium user to use this command! Contact Vanxh#6969 for more information.",
+            ),
+            private: true,
+          );
           break;
 
         case "partner-check":
-          await respond(
-            exception.context,
+          await exception.context.respond(
             MessageBuilder.content(
-                "You need Fishstick partner to use this command.\nDM Vanxh#6969 for more info."),
-            hidden: true,
+                "You need Fishstick partner to use this command.\nContact Vanxh#6969 for more information."),
+            private: true,
           );
           break;
 
         case "owner-check":
-          await respond(
-            exception.context,
+          await exception.context.respond(
             MessageBuilder.content(
                 "You need to be the owner of the bot to use this command."),
-            hidden: true,
+            private: true,
           );
           break;
 
         case "guild-check":
-          await respond(
-            exception.context,
+          await exception.context.respond(
             MessageBuilder.content("This command can not be done on DMs."),
-            hidden: true,
+            private: true,
           );
           break;
 
@@ -71,7 +74,7 @@ void handleCommandsError(Client client) {
             hidden: true,
           );
           await Future.delayed(
-            Duration(seconds: 2),
+            Duration(seconds: 3),
             () async => await m.delete(),
           );
           break;

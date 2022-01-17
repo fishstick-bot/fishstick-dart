@@ -74,3 +74,4 @@
 -   Removed pdf command (taking over 400mb ram).
 -   Locker text command.
 -   Locker image command.
+-   Skip tutorial command.

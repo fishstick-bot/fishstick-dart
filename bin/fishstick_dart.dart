@@ -23,6 +23,7 @@ void main() async {
   client.commands.addCommand(overviewCommand);
   client.commands.addCommand(resourcesSTWCommand);
   client.commands.addCommand(lockerCommand);
+  client.commands.addCommand(skipTutorialCommand);
 
   /// start the client
   await client.start();

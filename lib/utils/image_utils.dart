@@ -6,6 +6,8 @@ import "../extensions/fortnite_extensions.dart";
 
 Map<String, Image?> cache = {};
 
+int reduceBy = 4;
+
 class ImageUtils {
   /// fortnite font
   late BitmapFont burbank;
@@ -41,8 +43,8 @@ class ImageUtils {
     required String rarity,
     bool isExclusive = false,
   }) async {
-    int x = 416 ~/ 2;
-    int y = 520 ~/ 2;
+    int x = 416 ~/ reduceBy;
+    int y = 520 ~/ reduceBy;
     final Image canvas = drawCanvas(x, y);
 
     drawRadialGradient(
@@ -100,9 +102,9 @@ class ImageUtils {
   Future<Image> drawLocker({
     required List<AthenaCosmetic> cosmetics,
   }) async {
-    int padding = 50;
-    int itemX = 416 ~/ 2;
-    int itemY = 520 ~/ 2;
+    int padding = 100 ~/ reduceBy;
+    int itemX = 416 ~/ reduceBy;
+    int itemY = 520 ~/ reduceBy;
 
     int itemsInARow = (sqrt(cosmetics.length).ceilToDouble()).toInt();
 
