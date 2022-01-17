@@ -104,5 +104,8 @@ final Command lockerExclusivesImageCommand = Command(
     await msg.delete();
   },
   hideOriginalResponse: false,
-  checks: [premiumCheck],
+  checks: [
+    premiumCheck,
+    CooldownCheck(CooldownType.global, Duration(seconds: 5), 3),
+  ],
 );

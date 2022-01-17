@@ -1,6 +1,5 @@
 import "dart:io";
 import "dart:math";
-import 'dart:typed_data';
 import "package:image_extensions/image_extensions.dart";
 import "package:fortnite/fortnite.dart";
 import "../extensions/fortnite_extensions.dart";
@@ -102,115 +101,97 @@ class ImageUtils {
     required List<AthenaCosmetic> cosmetics,
   }) async {
     int padding = 50;
-    int itemWidth = 416 ~/ 2;
-    int itemHeight = 520 ~/ 2;
+    int itemX = 416 ~/ 2;
+    int itemY = 520 ~/ 2;
 
-    int itemsInARow = sqrt(cosmetics.length).ceil();
-    int itemsInAColumn = (cosmetics.length / itemsInARow).ceil();
+    int itemsInARow = (sqrt(cosmetics.length).ceilToDouble()).toInt();
 
-    int width = itemWidth * itemsInARow + padding + itemsInARow * padding;
-    int height =
-        itemHeight * itemsInAColumn + itemsInAColumn * padding + itemHeight;
+    int x = itemX * itemsInARow + padding + itemsInARow * padding;
+    int y = itemY * (cosmetics.length / itemsInARow).ceilToDouble().toInt() +
+        itemsInARow * padding +
+        itemY;
 
-    int maxDistance =
-        ((width / 2) * (width / 2) + (height / 2) * (height / 2)).ceil();
+    /// create canvas
+    final Image canvas = drawCanvas(x, y);
 
-    int distanceSquared(int x1, int y1, int x2, int y2) =>
-        (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2);
+    /// draw background
+    drawRadialGradient(
+      canvas,
+      0,
+      0,
+      x,
+      y,
+      x ~/ 2,
+      y ~/ 2,
+      Colors.bg1,
+      Colors.bg2,
+    );
 
-    Uint32List data = Uint32List(width * height);
+    int fX = padding;
+    int fY = padding;
+    int numRendered = 0;
 
-    List<Image?> cosmeticImages =
-        await Future.wait(cosmetics.map((e) => loadImage(e.imagePath)));
+    Image icon;
+    for (final cosmetic in cosmetics) {
+      icon = await loadImage(cosmetic.imagePath) ?? Image(0, 0);
 
-    int tileWidth = (itemWidth + padding);
-    int tileHeight = (itemHeight + padding);
+      fillRect(
+        canvas,
+        fX - padding ~/ 4,
+        fY - padding ~/ 4,
+        fX + itemX + padding ~/ 4,
+        fY + itemY + padding ~/ 4,
+        Colors.white,
+      );
+      drawImage(
+        canvas,
+        icon,
+        dstX: fX,
+        dstY: fY,
+      );
 
-    double whiteStart = padding - padding / 4;
-
-    for (int x = 0; x < width; x++) {
-      int tileX = (x - padding / 2).floor() % tileWidth;
-      int tileXPos = (x / tileWidth).floor();
-
-      for (int y = 0; y < height; y++) {
-        int tileY = (y - padding / 2).floor() % tileHeight;
-        int tileYPos = (y / tileHeight).floor();
-
-        int imageIndex = tileYPos * itemsInAColumn + tileXPos;
-
-        int pixel;
-
-        if (tileX > whiteStart &&
-            tileY > whiteStart &&
-            tileX < tileWidth - whiteStart &&
-            tileY < tileHeight - whiteStart &&
-            imageIndex < cosmeticImages.length) {
-          if (tileX > padding &&
-              tileY > padding &&
-              tileX < tileWidth - padding &&
-              tileY < tileHeight - padding) {
-            // Render image
-            Image current = cosmeticImages[imageIndex] ?? Image(0, 0);
-
-            int imageX =
-                (((tileX - padding / 2) / itemWidth) * current.width).floor();
-            int imageY =
-                (((tileY - padding / 2) / itemHeight) * current.height).floor();
-
-            pixel = current.getPixel(imageX, imageY);
-          } else {
-            pixel = 0xffffffff; // White
-          }
-        } else {
-          int distance = distanceSquared(x, y, width ~/ 2, height ~/ 2);
-
-          num interpolation = distance / maxDistance;
-
-          int fraction = (interpolation * 255).floor();
-
-          pixel = alphaBlendColors(Colors.bg1, Colors.bg2, fraction);
-        }
-
-        data[y * width + x] = pixel;
+      fX += itemX + padding;
+      numRendered++;
+      if (numRendered % itemsInARow == 0) {
+        fX = padding;
+        fY += itemY + padding;
       }
     }
 
-    Image rendered = Image.fromBytes(width, height, data);
-
     drawImage(
-      rendered,
+      canvas,
       botLogo,
-      dstX: rendered.width - itemHeight,
-      dstY: rendered.height - itemHeight,
-      dstW: (itemHeight * 0.9).toInt(),
-      dstH: (itemHeight * 0.9).toInt(),
+      dstX: canvas.width - itemY,
+      dstY: canvas.height - itemY,
+      dstW: (itemY * 0.9).toInt(),
+      dstH: (itemY * 0.9).toInt(),
     );
 
     int fontSize = 20;
 
     drawString(
-      rendered,
+      canvas,
       burbank
         ..size = fontSize
         ..italic = true,
-      rendered.width - itemHeight - "discord.gg/fishstick".length * fontSize,
-      rendered.height - (itemHeight ~/ 2) - fontSize,
+      canvas.width - itemY - "discord.gg/fishstick".length * fontSize,
+      canvas.height - (itemY ~/ 2) - fontSize,
       "discord.gg/fishstick",
       color: Colors.white,
     );
 
     drawImage(
-      rendered,
+      canvas,
       lockerIcon,
-      dstX: (itemHeight * 0.1).toInt(),
-      dstY: rendered.height - itemHeight,
-      dstW: (itemHeight * 0.9).toInt(),
-      dstH: (itemHeight * 0.9).toInt(),
+      dstX: (itemY * 0.1).toInt(),
+      dstY: canvas.height - itemY,
+      dstW: (itemY * 0.9).toInt(),
+      dstH: (itemY * 0.9).toInt(),
     );
 
-    // add number of cosmetics string after locker icon..
+    /// add number of cosmetics string after locker icon
 
-    return rendered;
+    return canvas;
   }
 }
 

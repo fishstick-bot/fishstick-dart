@@ -134,16 +134,14 @@ void handleCommandsCheckHandler(Client client) {
         premiumCheck,
         CooldownCheck(
           CooldownType.user,
-          Duration(seconds: 5),
-          client.commandsCooldown,
+          Duration(seconds: client.commandsCooldown),
         ),
       ]),
       Check.all([
         Check.deny(premiumCheck),
         CooldownCheck(
           CooldownType.user,
-          Duration(seconds: 5),
-          (client.commandsCooldown / 2).round(),
+          Duration(seconds: (client.commandsCooldown / 2).round()),
         ),
       ]),
     ]),

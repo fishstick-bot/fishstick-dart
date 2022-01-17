@@ -131,5 +131,7 @@ final Command lockerImageCommand = Command(
     }
   },
   hideOriginalResponse: false,
-  checks: [],
+  checks: [
+    CooldownCheck(CooldownType.global, Duration(seconds: 5), 3),
+  ],
 );
