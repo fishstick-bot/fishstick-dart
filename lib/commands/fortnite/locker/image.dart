@@ -23,7 +23,7 @@ import "../../../utils/utils.dart";
 
 final Command lockerImageCommand = Command(
   "image",
-  "View your locker in a image format.",
+  "View your locker in an image format.",
   (Context ctx) async {
     if (client.cachedCosmetics.isEmpty) {
       throw Exception(

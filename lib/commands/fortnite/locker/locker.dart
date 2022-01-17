@@ -1,6 +1,7 @@
 import "package:nyxx_commands/nyxx_commands.dart";
 import "text.dart";
 import "image.dart";
+import "exclusives.dart";
 
 final Group lockerCommand = Group(
   "locker",
@@ -8,6 +9,7 @@ final Group lockerCommand = Group(
   children: [
     lockerTextCommand,
     lockerImageCommand,
+    lockerExclusivesImageCommand,
   ],
   checks: [],
 );
