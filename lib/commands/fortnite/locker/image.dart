@@ -127,7 +127,6 @@ final Command lockerImageCommand = Command(
 
       await msg.delete();
     } catch (e) {
-      client.logger.shout(e);
       await msg.delete();
     }
   },

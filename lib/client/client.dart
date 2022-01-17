@@ -133,6 +133,10 @@ class Client {
     logger.info(
         "Connected to database [${(DateTime.now().millisecondsSinceEpoch - start).toStringAsFixed(2)}ms]");
 
+    /// load images
+    await imageUtils.loadFont();
+    await imageUtils.loadImages();
+
     /// handle system jobs
     handleSystemJobs();
   }

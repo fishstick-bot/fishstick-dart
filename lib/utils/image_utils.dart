@@ -10,11 +10,29 @@ class ImageUtils {
   /// fortnite font
   late BitmapFont burbank;
 
+  /// bot logo
+  late Image botLogo;
+
+  /// locker icon
+  late Image lockerIcon;
+
+  /// discord logo
+  late Image discordLogo;
+
   /// load fonts
   Future<BitmapFont> loadFont() async {
     burbank = readFontZip(
         await File("assets/fonts/BurbankBigRegular-Black.zip").readAsBytes());
+    burbank.scaleW = 2;
+    burbank.scaleH = 2;
     return burbank;
+  }
+
+  /// load images
+  Future<void> loadImages() async {
+    botLogo = (await loadImage("assets/logo.png"))!;
+    lockerIcon = (await loadImage("assets/locker_icon.png"))!;
+    discordLogo = (await loadImage("assets/discord.png"))!;
   }
 
   /// draw fortnite cosmetic
@@ -90,7 +108,8 @@ class ImageUtils {
 
     int x = itemX * itemsInARow + padding + itemsInARow * padding;
     int y = itemY * (cosmetics.length / itemsInARow).ceilToDouble().toInt() +
-        itemsInARow * padding;
+        itemsInARow * padding +
+        itemY;
 
     /// create canvas
     final Image canvas = drawCanvas(x, y);
@@ -138,6 +157,39 @@ class ImageUtils {
         fY += itemY + padding;
       }
     }
+
+    drawImage(
+      canvas,
+      botLogo,
+      dstX: canvas.width - itemY,
+      dstY: canvas.height - itemY,
+      dstW: (itemY * 0.9).toInt(),
+      dstH: (itemY * 0.9).toInt(),
+    );
+
+    int fontSize = 20;
+
+    drawString(
+      canvas,
+      burbank
+        ..size = fontSize
+        ..italic = true,
+      canvas.width - itemY - "discord.gg/fishstick".length * fontSize,
+      canvas.height - (itemY ~/ 2) - fontSize,
+      "discord.gg/fishstick",
+      color: Colors.white,
+    );
+
+    drawImage(
+      canvas,
+      lockerIcon,
+      dstX: (itemY * 0.1).toInt(),
+      dstY: canvas.height - itemY,
+      dstW: (itemY * 0.9).toInt(),
+      dstH: (itemY * 0.9).toInt(),
+    );
+
+    /// add number of cosmetics string after locker icon..
 
     return canvas;
   }
