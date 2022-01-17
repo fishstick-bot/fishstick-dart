@@ -23,8 +23,8 @@ class ImageUtils {
     required String rarity,
     bool isExclusive = false,
   }) async {
-    int x = 416;
-    int y = 520;
+    int x = 416 ~/ 2;
+    int y = 520 ~/ 2;
     final Image canvas = drawCanvas(x, y);
 
     drawRadialGradient(
@@ -130,8 +130,6 @@ class ImageUtils {
         icon,
         dstX: fX,
         dstY: fY,
-        dstW: itemX,
-        dstH: itemY,
       );
 
       fX += itemX + padding;

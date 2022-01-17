@@ -1,5 +1,6 @@
 import "package:fortnite/fortnite.dart";
 import "../fishstick_dart.dart";
+import "../resources/exclusives.dart";
 
 extension Extras on AthenaCosmetic {
   Iterable<Map<String, dynamic>> get searched => client.cachedCosmetics.where(
@@ -39,4 +40,7 @@ extension Extras on AthenaCosmetic {
 
     return searched.first["rarity"] ?? "";
   }
+
+  bool get isExclusive =>
+      exclusives.contains(templateId.split(":")[1].toLowerCase());
 }
