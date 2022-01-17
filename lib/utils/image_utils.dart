@@ -22,7 +22,8 @@ class ImageUtils {
 
   /// load fonts
   Future<BitmapFont> loadFont() async {
-    burbank = readFontZip(await File("assets/fonts/BurbankBigRegular-Black.zip").readAsBytes());
+    burbank = readFontZip(
+        await File("assets/fonts/BurbankBigRegular-Black.zip").readAsBytes());
     burbank.scaleW = 2;
     burbank.scaleH = 2;
     return burbank;
@@ -66,7 +67,8 @@ class ImageUtils {
       dstH: canvas.height,
     );
 
-    List<int> rgba = Colors.overlayColors[rarity] ?? Colors.overlayColors["common"]!;
+    List<int> rgba =
+        Colors.overlayColors[rarity] ?? Colors.overlayColors["common"]!;
     if (isExclusive) {
       rgba = rgba;
     }
@@ -107,16 +109,19 @@ class ImageUtils {
     int itemsInAColumn = (cosmetics.length / itemsInARow).ceil();
 
     int width = itemWidth * itemsInARow + padding + itemsInARow * padding;
-    int height = itemHeight * itemsInAColumn + itemsInAColumn * padding + itemHeight;
+    int height =
+        itemHeight * itemsInAColumn + itemsInAColumn * padding + itemHeight;
 
-    int maxDistance = ((width / 2) * (width / 2) + (height / 2) * (height / 2)).ceil();
+    int maxDistance =
+        ((width / 2) * (width / 2) + (height / 2) * (height / 2)).ceil();
 
     int distanceSquared(int x1, int y1, int x2, int y2) =>
         (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2);
 
     Uint32List data = Uint32List(width * height);
 
-    List<Image?> cosmeticImages = await Future.wait(cosmetics.map((e) => loadImage(e.imagePath)));
+    List<Image?> cosmeticImages =
+        await Future.wait(cosmetics.map((e) => loadImage(e.imagePath)));
 
     int tileWidth = (itemWidth + padding);
     int tileHeight = (itemHeight + padding);
@@ -147,8 +152,10 @@ class ImageUtils {
             // Render image
             Image current = cosmeticImages[imageIndex] ?? Image(0, 0);
 
-            int imageX = (((tileX - padding / 2) / itemWidth) * current.width).floor();
-            int imageY = (((tileY - padding / 2) / itemHeight) * current.height).floor();
+            int imageX =
+                (((tileX - padding / 2) / itemWidth) * current.width).floor();
+            int imageY =
+                (((tileY - padding / 2) / itemHeight) * current.height).floor();
 
             pixel = current.getPixel(imageX, imageY);
           } else {
