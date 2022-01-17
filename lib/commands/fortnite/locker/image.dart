@@ -145,6 +145,7 @@ final Command lockerImageCommand = Command(
           await (await client.imageUtils.drawFortniteCosmetic(
             icon: c.image,
             rarity: c.rarity,
+            isExclusive: c.isExclusive,
           ))
               .saveAsPNG(c.imagePath);
         }

@@ -287,11 +287,16 @@ class DatabaseUser {
           "You don't have any epic accounts linked to your account.");
     }
 
+    var found = linkedAccounts.where((a) => a.accountId == selectedAccount);
+
+    if (found.isEmpty) {
+      throw Exception(
+          "You don't have any epic accounts linked to your account.");
+    }
+
     fnClient = Client(
       options: ClientOptions(
-        deviceAuth: linkedAccounts
-            .firstWhere((a) => a.accountId == selectedAccount)
-            .deviceAuth,
+        deviceAuth: found.first.deviceAuth,
         logLevel: Level.INFO,
       ),
       overrideSession: sessions[selectedAccount] == null
