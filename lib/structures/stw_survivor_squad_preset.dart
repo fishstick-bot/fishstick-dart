@@ -1,16 +1,24 @@
-class STWSurvivorSquadPreset {
+// ignore_for_file: annotate_overrides, overridden_fields
+
+import "package:fortnite/fortnite.dart";
+
+class STWSurvivorSquadPreset extends SurvivorSquadPreset {
   late String name;
 
-  late List<String> characterIds;
-  late List<String> squadIds;
-  late List<int> slotIndices;
+  List<String> characterIds;
+  List<String> squadIds;
+  List<int> slotIndices;
 
   STWSurvivorSquadPreset({
     required this.name,
     required this.characterIds,
     required this.squadIds,
     required this.slotIndices,
-  });
+  }) : super(
+          characterIds: characterIds,
+          squadIds: squadIds,
+          slotIndices: slotIndices,
+        );
 
   factory STWSurvivorSquadPreset.fromJson(Map<String, dynamic> json) =>
       STWSurvivorSquadPreset(
@@ -26,6 +34,7 @@ class STWSurvivorSquadPreset {
             .toList(),
       );
 
+  @override
   Map<String, dynamic> toJson() => {
         "name": name,
         "characterIds": characterIds,
