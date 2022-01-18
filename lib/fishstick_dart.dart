@@ -23,5 +23,6 @@ export "commands/fortnite/locker/locker.dart";
 export "commands/fortnite/stw/resources.dart";
 export "commands/fortnite/stw/skip_tutorial.dart";
 export "commands/fortnite/stw/homebase_name.dart";
+export "commands/fortnite/stw/upgrade.dart";
 
 final Client client = Client();

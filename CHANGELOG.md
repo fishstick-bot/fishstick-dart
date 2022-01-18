@@ -76,3 +76,4 @@
 -   Locker image command.
 -   Skip tutorial command.
 -   Homebase name command.
+-   Upgrade homebase node command.
