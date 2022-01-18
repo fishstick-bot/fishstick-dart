@@ -66,7 +66,7 @@ void handleCommandsError(Client client) {
           );
           break;
 
-        case "cooldown-check":
+        case "Any of [All of [premium-check, Cooldown Check on CooldownType[User]], All of [Denied premium-check, Cooldown Check on CooldownType[User]]]":
           var m = await respond(
             exception.context,
             MessageBuilder.content(
