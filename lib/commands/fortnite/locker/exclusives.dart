@@ -15,6 +15,8 @@ import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
 import "../../../extensions/fortnite_extensions.dart";
 
+import "../../../structures/privacy.dart";
+
 import "../../../resources/emojis.dart";
 
 import "../../../utils/utils.dart";
@@ -22,13 +24,27 @@ import "../../../utils/utils.dart";
 final Command lockerExclusivesImageCommand = Command(
   "exclusives",
   "View your locker exclusive items in an image format.",
-  (Context ctx) async {
+  (
+    Context ctx, [
+    @Description("User to get V-Bucks balance for") IUser? user,
+  ]) async {
     if (client.cachedCosmetics.isEmpty) {
       throw Exception(
           "Cosmetics are not loaded yet, please try again in a while.");
     }
 
     DatabaseUser dbUser = await ctx.dbUser;
+    dbUser.fnClientSetup();
+
+    if (user != null) {
+      dbUser = await client.database.getUser(user.id.toString());
+      if (dbUser.linkedAccounts.isEmpty) {
+        throw Exception("This user has no linked accounts.");
+      }
+      if (dbUser.privacyEnum == Privacy.private) {
+        throw Exception("This user has set their privacy to private.");
+      }
+    }
     dbUser.fnClientSetup();
 
     await dbUser.fnClient.athena.init();
@@ -41,7 +57,7 @@ final Command lockerExclusivesImageCommand = Command(
     if (cosmetics.isEmpty) {
       return await ctx.respond(
         MessageBuilder.content(
-          "You don't have any exclusives in your locker.",
+          "${(user ?? ctx.user).username} don't have any exclusives in your locker.",
         ),
       );
     }
@@ -81,8 +97,8 @@ final Command lockerExclusivesImageCommand = Command(
         MessageBuilder.embed(
           EmbedBuilder()
             ..author = (EmbedAuthorBuilder()
-              ..name = ctx.user.username
-              ..iconUrl = ctx.user.avatarURL(format: "png"))
+              ..name = (user ?? ctx.user).username
+              ..iconUrl = (user ?? ctx.user).avatarURL(format: "png"))
             ..description =
                 "Rendered locker image in ${((DateTime.now().millisecondsSinceEpoch - startTime) / 1000).toStringAsFixed(2)}s"
             ..color = DiscordColor.fromHexString(dbUser.color)
