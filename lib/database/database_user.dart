@@ -121,6 +121,10 @@ class DatabaseUser {
 
   /// is the user premium
   bool get isPremium {
+    if (isPartner) {
+      return true;
+    }
+
     if (premium.tierEnum == PremiumTier.premium ||
         premium.tierEnum == PremiumTier.partner) {
       if (premium.until.millisecondsSinceEpoch >
