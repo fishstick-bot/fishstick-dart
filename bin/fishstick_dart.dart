@@ -26,6 +26,7 @@ void main() async {
   client.commands.addCommand(skipTutorialCommand);
   client.commands.addCommand(homebaseNameCommand);
   client.commands.addCommand(stwUpgradeCommand);
+  client.commands.addCommand(mskCommand);
 
   /// start the client
   await client.start();

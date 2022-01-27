@@ -1,11 +1,14 @@
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
+
 import "package:fortnite/fortnite.dart";
+
 import "../../../../database/database_user.dart";
+
 import "../../../../extensions/context_extensions.dart";
 import "../../../../extensions/string_extensions.dart";
+
 import "../../../../resources/emojis.dart";
-// import "../../../utils/utils.dart";
 
 final Command resourcesSTWCommand = Command(
   "resources",
