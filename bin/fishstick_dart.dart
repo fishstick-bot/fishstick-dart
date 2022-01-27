@@ -27,6 +27,7 @@ void main() async {
   client.commands.addCommand(homebaseNameCommand);
   client.commands.addCommand(stwUpgradeCommand);
   client.commands.addCommand(mskCommand);
+  client.commands.addCommand(pendingDifficultyRewardsCommand);
 
   /// start the client
   await client.start();

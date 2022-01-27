@@ -25,5 +25,6 @@ export "commands/fortnite/stw/skip_tutorial.dart";
 export "commands/fortnite/stw/homebase_name.dart";
 export "commands/fortnite/stw/upgrade.dart";
 export "commands/fortnite/stw/storm_king.dart";
+export "commands/fortnite/stw/pending_difficulty_rewards.dart";
 
 final Client client = Client();
