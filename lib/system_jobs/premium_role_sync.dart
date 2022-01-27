@@ -6,6 +6,8 @@ import "../database/database_user.dart";
 class PremiumRoleSyncSystemJob {
   final String name = "premium_role_sync";
 
+  final Duration runDuration = Duration(hours: 12);
+
   /// run the task
   Future<void> run() async {
     try {

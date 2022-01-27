@@ -4,6 +4,8 @@ import "../fishstick_dart.dart";
 class UpdateCosmeticsCacheSystemJob {
   final String name = "update_cosmetics_cache";
 
+  final Duration runDuration = Duration(hours: 6);
+
   /// run the task
   Future<void> run() async {
     try {

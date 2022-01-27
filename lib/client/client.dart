@@ -11,6 +11,7 @@ import "../utils/utils.dart";
 import "../utils/image_utils.dart";
 import "../utils/commands_handler.dart";
 
+import "../system_jobs/system_jobs.dart";
 import "../system_jobs/update_cosmetics_cache.dart";
 import "../system_jobs/premium_role_sync.dart";
 
@@ -36,11 +37,8 @@ class Client {
   /// Cached cosmetics for the client
   List<Map<String, dynamic>> cachedCosmetics = [];
 
-  /// update cosmetics cache system job
-  late UpdateCosmeticsCacheSystemJob updateCosmeticsCacheSystemJob;
-
-  /// premium role sync system job
-  late PremiumRoleSyncSystemJob premiumRoleSyncSystemJob;
+  /// System jobs manager
+  late SystemJobsPlugin systemJobs;
 
   // Footer text
   String footerText = "discord.gg/fishstick";
@@ -54,6 +52,9 @@ class Client {
   Client() {
     /// setup logger
     Logger.root.level = Level.INFO;
+
+    /// setup system jobs manager
+    systemJobs = SystemJobsPlugin(this);
 
     /// setup commands
     commands = CommandsPlugin(
@@ -93,7 +94,8 @@ class Client {
       ..registerPlugin(Logging())
       ..registerPlugin(CliIntegration())
       ..registerPlugin(IgnoreExceptions())
-      ..registerPlugin(commands);
+      ..registerPlugin(commands)
+      ..registerPlugin(systemJobs);
 
     bot.onReady.listen((_) {
       Timer.periodic(Duration(minutes: 1), (timer) {
@@ -112,10 +114,6 @@ class Client {
 
     /// setup image utils
     imageUtils = ImageUtils();
-
-    /// setup auto tasks
-    updateCosmeticsCacheSystemJob = UpdateCosmeticsCacheSystemJob();
-    premiumRoleSyncSystemJob = PremiumRoleSyncSystemJob();
   }
 
   /// Start the client.
@@ -136,9 +134,6 @@ class Client {
     /// load images
     await imageUtils.loadFont();
     await imageUtils.loadImages();
-
-    /// handle system jobs
-    handleSystemJobs();
   }
 
   /// encrypt a string
@@ -146,13 +141,4 @@ class Client {
 
   /// decrypt a string
   String decryptString(String text) => decrypt(text);
-
-  /// handle the system jobs
-  void handleSystemJobs() {
-    updateCosmeticsCacheSystemJob.run();
-    Timer.periodic(Duration(hours: 12), (timer) async {
-      updateCosmeticsCacheSystemJob.run();
-      premiumRoleSyncSystemJob.run();
-    });
-  }
 }
