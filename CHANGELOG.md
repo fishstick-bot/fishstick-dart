@@ -83,3 +83,4 @@
 -   MSK command.
 -   Pending STW Rewards command.
 -   Survivor squad presets command.
+-   System jobs plugin.

@@ -12,8 +12,6 @@ import "../utils/image_utils.dart";
 import "../utils/commands_handler.dart";
 
 import "../system_jobs/system_jobs.dart";
-import "../system_jobs/update_cosmetics_cache.dart";
-import "../system_jobs/premium_role_sync.dart";
 
 class Client {
   /// Configuration for the client
@@ -78,6 +76,12 @@ class Client {
     /// handle commands post call
     handleCommandsPostCall(this);
 
+    /// setup database
+    database = Database(this);
+
+    /// setup image utils
+    imageUtils = ImageUtils();
+
     /// setup discord client
     bot = NyxxFactory.createNyxxWebsocket(
       config.token,
@@ -108,32 +112,26 @@ class Client {
         );
       });
     });
-
-    /// setup database
-    database = Database(this);
-
-    /// setup image utils
-    imageUtils = ImageUtils();
   }
 
   /// Start the client.
   /// This will connect to the bot to discord and database.
   Future<void> start() async {
-    int start;
+    int _start;
 
-    start = DateTime.now().millisecondsSinceEpoch;
-    await bot.connect();
-    logger.info(
-        "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - start).toStringAsFixed(2)}ms]");
-
-    start = DateTime.now().millisecondsSinceEpoch;
+    _start = DateTime.now().millisecondsSinceEpoch;
     await database.connect();
     logger.info(
-        "Connected to database [${(DateTime.now().millisecondsSinceEpoch - start).toStringAsFixed(2)}ms]");
+        "Connected to database [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
 
     /// load images
     await imageUtils.loadFont();
     await imageUtils.loadImages();
+
+    _start = DateTime.now().millisecondsSinceEpoch;
+    await bot.connect();
+    logger.info(
+        "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
   }
 
   /// encrypt a string
