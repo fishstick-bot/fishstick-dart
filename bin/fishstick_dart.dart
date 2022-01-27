@@ -28,6 +28,7 @@ void main() async {
   client.commands.addCommand(stwUpgradeCommand);
   client.commands.addCommand(mskCommand);
   client.commands.addCommand(pendingDifficultyRewardsCommand);
+  client.commands.addCommand(survivorSquadPresetCommand);
 
   /// start the client
   await client.start();

@@ -77,3 +77,9 @@
 -   Skip tutorial command.
 -   Homebase name command.
 -   Upgrade homebase node command.
+
+## 0.8.0
+
+-   MSK command.
+-   Pending STW Rewards command.
+-   Survivor squad presets command.

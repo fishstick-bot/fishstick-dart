@@ -26,5 +26,6 @@ export "commands/fortnite/stw/homebase_name.dart";
 export "commands/fortnite/stw/upgrade.dart";
 export "commands/fortnite/stw/storm_king.dart";
 export "commands/fortnite/stw/pending_difficulty_rewards.dart";
+export "commands/fortnite/stw/survivor_squad_presets/survivor_squad_presets.dart";
 
 final Client client = Client();
