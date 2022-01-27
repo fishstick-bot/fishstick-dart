@@ -270,6 +270,15 @@ class DatabaseUser {
     });
   }
 
+  /// update current account
+  Future<void> updateActiveAccount() async {
+    linkedAccounts[linkedAccounts.indexOf(linkedAccounts.firstWhere(
+        (a) => a.accountId == activeAccount.accountId))] = activeAccount;
+    await _database.updateUser(id, {
+      "linkedEpicAccounts": linkedAccounts.map((x) => x.toJson()).toList(),
+    });
+  }
+
   /// set active account
   Future<void> setActiveAccount(String accId) async {
     selectedAccount = accId;
