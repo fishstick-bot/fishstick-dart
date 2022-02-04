@@ -227,6 +227,11 @@ List<AthenaCosmetic> filterAndSortCosmetics({
       cosmetics = dbUser.fnClient.athena.loadingScreens;
       break;
 
+    case "exclusives":
+      cosmetics =
+          dbUser.fnClient.athena.cosmetics.where((c) => c.isExclusive).toList();
+      break;
+
     case "all":
       cosmetics = dbUser.fnClient.athena.cosmetics;
       break;

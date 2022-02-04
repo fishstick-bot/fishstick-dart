@@ -10,9 +10,9 @@ Map<String, Image?> cache = {};
 int reduceBy = 4;
 
 class ImageUtils {
-  late final Client _client;
+  late final String _apiKey;
 
-  ImageUtils(this._client);
+  ImageUtils(this._apiKey);
 
   /// draw fortnite cosmetic
   Future<String> drawLocker({
@@ -36,7 +36,7 @@ class ImageUtils {
       },
       options: Options(
         headers: {
-          "Authorization": _client.config.apiKey,
+          "Authorization": _apiKey,
         },
       ),
     );

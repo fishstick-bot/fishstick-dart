@@ -52,7 +52,7 @@ class Client {
     Logger.root.level = Level.INFO;
 
     /// setup system jobs manager
-    systemJobs = SystemJobsPlugin(this);
+    systemJobs = SystemJobsPlugin();
 
     /// setup commands
     commands = CommandsPlugin(
@@ -77,10 +77,10 @@ class Client {
     handleCommandsPostCall(this);
 
     /// setup database
-    database = Database(this);
+    database = Database(config.mongoUri);
 
     /// setup image utils
-    imageUtils = ImageUtils(this);
+    imageUtils = ImageUtils(config.apiKey);
 
     /// setup discord client
     bot = NyxxFactory.createNyxxWebsocket(
@@ -102,7 +102,7 @@ class Client {
       ..registerPlugin(systemJobs);
 
     bot.onReady.listen((_) {
-      Timer.periodic(Duration(minutes: 1), (timer) {
+      Timer.periodic(Duration(minutes: 10), (timer) {
         bot.setPresence(
           PresenceBuilder.of(
             activity: ActivityBuilder.game(

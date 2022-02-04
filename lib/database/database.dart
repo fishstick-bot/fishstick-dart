@@ -5,7 +5,7 @@ import "database_guild.dart";
 
 class Database {
   /// The main bot client.
-  late final Client _client;
+  late final String _mongoUri;
 
   /// The database connection.
   late final Db db;
@@ -23,11 +23,11 @@ class Database {
   late DbCollection cosmetics;
 
   /// The database object
-  Database(this._client);
+  Database(this._mongoUri);
 
   /// connect to the database
   Future<void> connect() async {
-    db = await Db.create(_client.config.mongoUri);
+    db = await Db.create(_mongoUri);
     await db.open();
 
     users = db.collection("users");
