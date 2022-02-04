@@ -10,6 +10,8 @@ import "../../../fishstick_dart.dart";
 
 import "../../../database/database_user.dart";
 
+import "../../../resources/exclusives.dart";
+
 import "../../../extensions/context_extensions.dart";
 import "../../../extensions/fortnite_extensions.dart";
 
@@ -50,7 +52,8 @@ final Command lockerExclusivesImageCommand = Command(
     List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
       dbUser: dbUser,
       type: "all",
-    ).where((c) => c.isExclusive).toList();
+    );
+    cosmetics.removeWhere((c) => !exclusives.contains(c.id.toLowerCase()));
 
     if (cosmetics.isEmpty) {
       return await ctx.respond(

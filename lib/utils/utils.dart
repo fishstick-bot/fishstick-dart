@@ -227,6 +227,10 @@ List<AthenaCosmetic> filterAndSortCosmetics({
       cosmetics = dbUser.fnClient.athena.loadingScreens;
       break;
 
+    case "all":
+      cosmetics = dbUser.fnClient.athena.cosmetics;
+      break;
+
     default:
       cosmetics = dbUser.fnClient.athena.cosmetics;
       break;
