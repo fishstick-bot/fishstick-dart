@@ -38,9 +38,9 @@ class SystemJobsPlugin extends BasePlugin {
 
   /// Schedule all the system jobs
   @override
-  Future<void> onBotStart(INyxx nyxx, Logger logger) async {
+  void onBotStart(INyxx nyxx, Logger logger) async {
     try {
-      await updateCosmeticsCacheSystemJob.run();
+      updateCosmeticsCacheSystemJob.run();
 
       _client.logger.info(
           "Scheduling update cosmetics cache system job to run every ${updateCosmeticsCacheSystemJob.runDuration.inHours} hours.");

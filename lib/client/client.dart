@@ -80,7 +80,7 @@ class Client {
     database = Database(this);
 
     /// setup image utils
-    imageUtils = ImageUtils();
+    imageUtils = ImageUtils(this);
 
     /// setup discord client
     bot = NyxxFactory.createNyxxWebsocket(
@@ -123,10 +123,6 @@ class Client {
     await database.connect();
     logger.info(
         "Connected to database [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
-
-    /// load images
-    await imageUtils.loadFont();
-    await imageUtils.loadImages();
 
     _start = DateTime.now().millisecondsSinceEpoch;
     await bot.connect();

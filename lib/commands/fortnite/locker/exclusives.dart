@@ -1,12 +1,10 @@
-import "dart:io";
+import "dart:convert";
 
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 import "package:nyxx_interactions/nyxx_interactions.dart";
 
 import "package:fortnite/fortnite.dart";
-
-import "package:image_extensions/image_extensions.dart";
 
 import "../../../fishstick_dart.dart";
 
@@ -62,20 +60,6 @@ final Command lockerExclusivesImageCommand = Command(
       );
     }
 
-    for (final c in cosmetics) {
-      await Directory("cosmetics/${c.type.toLowerCase()}")
-          .create(recursive: true);
-
-      if (!(await File(c.imagePath).exists())) {
-        await (await client.imageUtils.drawFortniteCosmetic(
-          icon: c.image,
-          rarity: c.rarity,
-          isExclusive: c.isExclusive,
-        ))
-            .saveAsPNG(c.imagePath);
-      }
-    }
-
     IMessage msg = await ctx.respond(
       ComponentMessageBuilder()
         ..content = "Rendering locker image for exclusives ${loading.emoji}"
@@ -87,10 +71,11 @@ final Command lockerExclusivesImageCommand = Command(
       int sublistSize = i + 500 < cosmetics.length ? 500 + i : cosmetics.length;
 
       int startTime = DateTime.now().millisecondsSinceEpoch;
-      img = encodeJpg(
-        await client.imageUtils
-            .drawLocker(cosmetics: cosmetics.sublist(i, sublistSize)),
-        quality: 75,
+      img = base64Decode(
+        await client.imageUtils.drawLocker(
+          cosmetics: cosmetics.sublist(i, sublistSize),
+          epicname: dbUser.activeAccount.displayName,
+        ),
       );
 
       await ctx.respond(

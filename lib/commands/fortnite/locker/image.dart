@@ -1,12 +1,10 @@
-import "dart:io";
+import "dart:convert";
 
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 import "package:nyxx_interactions/nyxx_interactions.dart";
 
 import "package:fortnite/fortnite.dart";
-
-import "package:image_extensions/image_extensions.dart";
 
 import "package:random_string/random_string.dart";
 
@@ -15,7 +13,6 @@ import "../../../fishstick_dart.dart";
 import "../../../database/database_user.dart";
 
 import "../../../extensions/context_extensions.dart";
-import "../../../extensions/fortnite_extensions.dart";
 
 import "../../../structures/privacy.dart";
 
@@ -84,20 +81,6 @@ final Command lockerImageCommand = Command(
         );
       }
 
-      for (final c in cosmetics) {
-        await Directory("cosmetics/${c.type.toLowerCase()}")
-            .create(recursive: true);
-
-        if (!(await File(c.imagePath).exists())) {
-          await (await client.imageUtils.drawFortniteCosmetic(
-            icon: c.image,
-            rarity: c.rarity,
-            isExclusive: c.isExclusive,
-          ))
-              .saveAsPNG(c.imagePath);
-        }
-      }
-
       await msg.edit(
         ComponentMessageBuilder()
           ..content =
@@ -111,10 +94,11 @@ final Command lockerImageCommand = Command(
             i + 500 < cosmetics.length ? 500 + i : cosmetics.length;
 
         int startTime = DateTime.now().millisecondsSinceEpoch;
-        img = encodeJpg(
-          await client.imageUtils
-              .drawLocker(cosmetics: cosmetics.sublist(i, sublistSize)),
-          quality: 75,
+        img = base64Decode(
+          await client.imageUtils.drawLocker(
+            cosmetics: cosmetics.sublist(i, sublistSize),
+            epicname: dbUser.activeAccount.displayName,
+          ),
         );
 
         await ctx.respond(

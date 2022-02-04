@@ -24,6 +24,9 @@ class Config {
   /// encryption key
   String get encryptionKey => Privates.encryptionKey;
 
+  /// api key for backend
+  String get apiKey => Privates.apiKey;
+
   /// the bot's token
   String get token =>
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;
