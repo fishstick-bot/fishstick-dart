@@ -194,11 +194,11 @@ final Command loginCommand = Command(
 
     try {
       var selected = await (StreamGroup()
-            ..add(client.commands.interactions.events.onButtonEvent.where(
+            ..add(ctx.commands.interactions.events.onButtonEvent.where(
                 (event) => ([newAccountButtonID, cancelButtonID]
                         .contains(event.interaction.customId) &&
                     event.interaction.userAuthor?.id == ctx.user.id)))
-            ..add(client.commands.interactions.events.onMultiselectEvent.where(
+            ..add(ctx.commands.interactions.events.onMultiselectEvent.where(
                 (event) =>
                     ([accountMenuID].contains(event.interaction.customId) &&
                         event.interaction.userAuthor?.id == ctx.user.id))))

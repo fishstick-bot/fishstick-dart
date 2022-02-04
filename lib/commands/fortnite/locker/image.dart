@@ -57,8 +57,7 @@ final Command lockerImageCommand = Command(
     );
 
     try {
-      var selected = await client
-          .commands.interactions.events.onMultiselectEvent
+      var selected = await ctx.commands.interactions.events.onMultiselectEvent
           .where((event) =>
               (event.interaction.customId == menuID) &&
               event.interaction.userAuthor?.id == ctx.user.id)

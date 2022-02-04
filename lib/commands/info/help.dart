@@ -17,15 +17,15 @@ final Command helpCommand = Command(
     int perPageCommands = 9;
 
     for (var i = 0;
-        i < client.commands.walkCommands().length;
+        i < ctx.commands.walkCommands().length;
         i += perPageCommands) {
       int pageCommandsSize =
-          i + perPageCommands < client.commands.walkCommands().length
+          i + perPageCommands < ctx.commands.walkCommands().length
               ? perPageCommands + i
-              : client.commands.walkCommands().length;
+              : ctx.commands.walkCommands().length;
 
       List<Command> commandsOnPage =
-          client.commands.walkCommands().toList().sublist(i, pageCommandsSize);
+          ctx.commands.walkCommands().toList().sublist(i, pageCommandsSize);
 
       EmbedBuilder page = EmbedBuilder()
         ..author = (EmbedAuthorBuilder()
@@ -34,10 +34,10 @@ final Command helpCommand = Command(
         ..color = DiscordColor.fromHexString(user.color)
         ..timestamp = DateTime.now()
         ..description =
-            "Showing ${i + 1} - $pageCommandsSize of ${client.commands.walkCommands().length} commands.\n\n• ⏱️ - ${client.commandsCooldown}s/command (50% less for premium users).\n• 🔒 - Owner only.\n• ${tick.emoji} - Fishstick partners only.\n• ${star.emoji} - Premium users only."
+            "Showing ${i + 1} - $pageCommandsSize of ${ctx.commands.walkCommands().length} commands.\n\n• ⏱️ - ${client.commandsCooldown}s/command (50% less for premium users).\n• 🔒 - Owner only.\n• ${tick.emoji} - Fishstick partners only.\n• ${star.emoji} - Premium users only."
         ..footer = (EmbedFooterBuilder()
           ..text =
-              "Page ${i ~/ perPageCommands + 1} of ${(client.commands.walkCommands().length / perPageCommands).ceil()}")
+              "Page ${i ~/ perPageCommands + 1} of ${(ctx.commands.walkCommands().length / perPageCommands).ceil()}")
         ..title = "Fishstick Bot Help";
 
       for (final command in commandsOnPage) {

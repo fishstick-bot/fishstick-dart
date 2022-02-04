@@ -1,31 +1,3 @@
 import "client/client.dart";
 
-export "commands/info/ping.dart";
-export "commands/info/invite.dart";
-export "commands/info/info.dart";
-export "commands/info/help.dart";
-export "commands/autopost_stw_alerts/autopost.dart";
-export "commands/general/color.dart";
-export "commands/general/settings.dart";
-export "commands/premium/premium.dart";
-export "commands/partner/partner.dart";
-export "commands/blacklist/blacklist.dart";
-export "commands/fortnite/account/login.dart";
-export "commands/fortnite/account/logout.dart";
-export "commands/fortnite/account/account.dart";
-export "commands/fortnite/account/launch.dart";
-export "commands/fortnite/vbucks/vbucks.dart";
-export "commands/fortnite/sac/sac.dart";
-export "commands/fortnite/mfa/mfa.dart";
-export "commands/fortnite/afk.dart";
-export "commands/fortnite/overview/overview.dart";
-export "commands/fortnite/locker/locker.dart";
-export "commands/fortnite/stw/resources.dart";
-export "commands/fortnite/stw/skip_tutorial.dart";
-export "commands/fortnite/stw/homebase_name.dart";
-export "commands/fortnite/stw/upgrade.dart";
-export "commands/fortnite/stw/storm_king.dart";
-export "commands/fortnite/stw/pending_difficulty_rewards.dart";
-export "commands/fortnite/stw/survivor_squad_presets/survivor_squad_presets.dart";
-
 final Client client = Client();

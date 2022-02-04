@@ -85,7 +85,7 @@ extension Util on Context {
     );
 
     try {
-      var selected = await client.commands.interactions.events.onButtonEvent
+      var selected = await commands.interactions.events.onButtonEvent
           .where((event) => ([confirmButtonID, cancelButtonID]
                   .contains(event.interaction.customId) &&
               event.interaction.userAuthor?.id == user.id))

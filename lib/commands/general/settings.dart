@@ -118,7 +118,7 @@ final Command settingsCommand = Command(
     );
 
     try {
-      var selected = await client.commands.interactions.events.onButtonEvent
+      var selected = await ctx.commands.interactions.events.onButtonEvent
           .where((event) => [
                 autoDailyButtonId,
                 freeLlamasButtonId,

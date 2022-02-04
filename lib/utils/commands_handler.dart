@@ -6,16 +6,16 @@ import "../extensions/context_extensions.dart";
 import "utils.dart";
 
 /// commands post call handler
-void handleCommandsPostCall(Client client) {
-  client.commands.onPostCall.listen((ctx) {
+void handleCommandsPostCall(CommandsPlugin commands) {
+  commands.onPostCall.listen((ctx) {
     ctx.disposeCache();
   });
 }
 
 /// commands error handler
-void handleCommandsError(Client client) {
+void handleCommandsError(Client client, CommandsPlugin commands) {
   /// listen for commands error and handle them
-  client.commands.onCommandError.listen((exception) async {
+  commands.onCommandError.listen((exception) async {
     if (exception is CommandNotFoundException) {
       return;
     }
@@ -124,27 +124,27 @@ void handleCommandsError(Client client) {
 }
 
 /// handle commands check
-void handleCommandsCheckHandler(Client client) {
+void handleCommandsCheckHandler(CommandsPlugin commands, int commandsCooldown) {
   /// user blacklist check for commands
-  client.commands.check(
+  commands.check(
     Check((ctx) async => !(await ctx.dbUser).isBanned, "blacklist-check"),
   );
 
   /// cooldown check for commands
-  client.commands.check(
+  commands.check(
     Check.any([
       Check.all([
         Check.deny(premiumCheck),
         CooldownCheck(
           CooldownType.user,
-          Duration(seconds: client.commandsCooldown),
+          Duration(seconds: commandsCooldown),
         ),
       ]),
       Check.all([
         premiumCheck,
         CooldownCheck(
           CooldownType.user,
-          Duration(seconds: (client.commandsCooldown / 2).round()),
+          Duration(seconds: (commandsCooldown / 2).round()),
         ),
       ]),
     ]),

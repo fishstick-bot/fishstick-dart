@@ -13,6 +13,34 @@ import "../utils/commands_handler.dart";
 
 import "../system_jobs/system_jobs.dart";
 
+import "../commands/info/ping.dart";
+import "../commands/info/invite.dart";
+import "../commands/info/info.dart";
+import "../commands/info/help.dart";
+import "../commands/autopost_stw_alerts/autopost.dart";
+import "../commands/general/color.dart";
+import "../commands/general/settings.dart";
+import "../commands/premium/premium.dart";
+import "../commands/partner/partner.dart";
+import "../commands/blacklist/blacklist.dart";
+import "../commands/fortnite/account/login.dart";
+import "../commands/fortnite/account/logout.dart";
+import "../commands/fortnite/account/account.dart";
+import "../commands/fortnite/account/launch.dart";
+import "../commands/fortnite/vbucks/vbucks.dart";
+import "../commands/fortnite/sac/sac.dart";
+import "../commands/fortnite/mfa/mfa.dart";
+import "../commands/fortnite/afk.dart";
+import "../commands/fortnite/overview/overview.dart";
+import "../commands/fortnite/locker/locker.dart";
+import "../commands/fortnite/stw/resources.dart";
+import "../commands/fortnite/stw/skip_tutorial.dart";
+import "../commands/fortnite/stw/homebase_name.dart";
+import "../commands/fortnite/stw/upgrade.dart";
+import "../commands/fortnite/stw/storm_king.dart";
+import "../commands/fortnite/stw/pending_difficulty_rewards.dart";
+import "../commands/fortnite/stw/survivor_squad_presets/survivor_squad_presets.dart";
+
 class Client {
   /// Configuration for the client
   late final Config config = Config();
@@ -25,9 +53,6 @@ class Client {
 
   /// The database for the bot
   late Database database;
-
-  /// Commands for the client
-  late CommandsPlugin commands;
 
   /// Image utils for the client
   late ImageUtils imageUtils;
@@ -55,7 +80,7 @@ class Client {
     systemJobs = SystemJobsPlugin();
 
     /// setup commands
-    commands = CommandsPlugin(
+    final CommandsPlugin _commands = CommandsPlugin(
       prefix: dmOr((_) => "."),
       guild: config.developmentMode ? Snowflake(config.developmentGuild) : null,
       options: CommandsOptions(
@@ -67,14 +92,43 @@ class Client {
       ),
     );
 
+    /// register the commands
+    _commands.addCommand(pingCommand);
+    _commands.addCommand(inviteCommand);
+    _commands.addCommand(infoCommand);
+    _commands.addCommand(helpCommand);
+    _commands.addCommand(autopostCommand);
+    _commands.addCommand(colorCommand);
+    _commands.addCommand(settingsCommand);
+    _commands.addCommand(premiumCommand);
+    _commands.addCommand(partnerCommand);
+    _commands.addCommand(blacklistCommand);
+    _commands.addCommand(loginCommand);
+    _commands.addCommand(logoutCommand);
+    _commands.addCommand(accountCommand);
+    _commands.addCommand(gameLaunchCommand);
+    _commands.addCommand(vbucksCommand);
+    _commands.addCommand(affiliateCommand);
+    _commands.addCommand(mfaCommand);
+    _commands.addCommand(afkCommand);
+    _commands.addCommand(overviewCommand);
+    _commands.addCommand(resourcesSTWCommand);
+    _commands.addCommand(lockerCommand);
+    _commands.addCommand(skipTutorialCommand);
+    _commands.addCommand(homebaseNameCommand);
+    _commands.addCommand(stwUpgradeCommand);
+    _commands.addCommand(mskCommand);
+    _commands.addCommand(pendingDifficultyRewardsCommand);
+    _commands.addCommand(survivorSquadPresetCommand);
+
     /// handle commands error
-    handleCommandsError(this);
+    handleCommandsError(this, _commands);
 
     /// handle commands check
-    handleCommandsCheckHandler(this);
+    handleCommandsCheckHandler(_commands, commandsCooldown);
 
     /// handle commands post call
-    handleCommandsPostCall(this);
+    handleCommandsPostCall(_commands);
 
     /// setup database
     database = Database(config.mongoUri);
@@ -91,7 +145,7 @@ class Client {
           activity: ActivityBuilder.game("/help"),
           status: UserStatus.online,
         ),
-        messageCacheSize: 20,
+        messageCacheSize: 0,
         guildSubscriptions: false,
         dispatchRawShardEvent: true,
       ),
@@ -100,8 +154,10 @@ class Client {
       ..registerPlugin(Logging())
       ..registerPlugin(CliIntegration())
       ..registerPlugin(IgnoreExceptions())
-      ..registerPlugin(commands)
+      ..registerPlugin(_commands)
       ..registerPlugin(systemJobs);
+
+    return;
   }
 
   /// Start the client.
@@ -128,6 +184,8 @@ class Client {
         ),
       );
     });
+
+    return;
   }
 
   /// encrypt a string
