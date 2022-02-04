@@ -2,7 +2,6 @@ import "package:image_extensions/image_extensions.dart";
 import "package:dio/dio.dart";
 import "package:fortnite/fortnite.dart" hide Client;
 
-import "../client/client.dart";
 import "../extensions/fortnite_extensions.dart";
 
 Map<String, Image?> cache = {};

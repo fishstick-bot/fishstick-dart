@@ -91,6 +91,8 @@ class Client {
           activity: ActivityBuilder.game("/help"),
           status: UserStatus.online,
         ),
+        messageCacheSize: 20,
+        guildSubscriptions: false,
         dispatchRawShardEvent: true,
       ),
       useDefaultLogger: false,
@@ -100,18 +102,6 @@ class Client {
       ..registerPlugin(IgnoreExceptions())
       ..registerPlugin(commands)
       ..registerPlugin(systemJobs);
-
-    bot.onReady.listen((_) {
-      Timer.periodic(Duration(minutes: 10), (timer) {
-        bot.setPresence(
-          PresenceBuilder.of(
-            activity: ActivityBuilder.game(
-                "/help | ${Numeral(bot.guilds.length).value()} Guilds"),
-            status: UserStatus.online,
-          ),
-        );
-      });
-    });
   }
 
   /// Start the client.
@@ -128,6 +118,16 @@ class Client {
     await bot.connect();
     logger.info(
         "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
+
+    Timer.periodic(Duration(minutes: 10), (timer) {
+      bot.setPresence(
+        PresenceBuilder.of(
+          activity: ActivityBuilder.game(
+              "/help | ${Numeral(bot.guilds.length).value()} Guilds"),
+          status: UserStatus.online,
+        ),
+      );
+    });
   }
 
   /// encrypt a string

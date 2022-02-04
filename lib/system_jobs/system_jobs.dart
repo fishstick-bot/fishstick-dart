@@ -3,8 +3,6 @@ import "dart:async";
 import "package:nyxx/nyxx.dart";
 import "package:logging/logging.dart";
 
-import "../client/client.dart";
-
 import "update_cosmetics_cache.dart";
 import "premium_role_sync.dart";
 
