@@ -23,3 +23,6 @@ test.txt
 
 # cosmetics cache
 cosmetics/
+
+# mac
+.DS_STORE
