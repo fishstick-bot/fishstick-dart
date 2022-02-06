@@ -80,6 +80,11 @@ class DatabaseUser {
   ) {
     json["linkedEpicAccounts"] ??= [];
 
+    if ((json["linkedEpicAccounts"] as List<dynamic>).length > 25) {
+      json["linkedEpicAccounts"] =
+          (json["linkedEpicAccounts"] as List<dynamic>).take(25).toList();
+    }
+
     return DatabaseUser(
       db,
       id: json["id"] as String,
