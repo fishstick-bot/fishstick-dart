@@ -213,7 +213,7 @@ final Command settingsCommand = Command(
             ..embeds = []
             ..componentRows = []
             ..content =
-                "${tick.emoji} Successfully **${user.privacyEnum == Privacy.private ? "disabled" : "enabled"}** mentions privacy.",
+                "${tick.emoji} Successfully **${user.privacyEnum == Privacy.private ? "enabled" : "disabled"}** mentions privacy.",
         );
       }
     } catch (e) {

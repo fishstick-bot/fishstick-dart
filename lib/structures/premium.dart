@@ -14,9 +14,11 @@ class Premium {
   });
 
   factory Premium.fromJson(Map<String, dynamic> json) => Premium(
-        until: json["until"] is DateTime
-            ? json["until"]
-            : DateTime.utc(1900, 1, 1),
+        until: json["until"] is int
+            ? DateTime.fromMillisecondsSinceEpoch(json["until"])
+            : json["until"] is String
+                ? DateTime.tryParse(json["until"]) ?? DateTime.utc(1900, 1, 1)
+                : DateTime.utc(1900, 1, 1),
         tierEnum: PremiumTier.values[json["tier"] is int ? json["tier"] : 0],
         tier: json["tier"] is int ? json["tier"] : 0,
         grantedBy: json["granted_by"] is String ? json["granted_by"] : "",
@@ -24,7 +26,7 @@ class Premium {
 
   Map<String, dynamic> toJson() {
     return {
-      "until": until,
+      "until": until.millisecondsSinceEpoch,
       "tier": tier,
       "granted_by": grantedBy,
     };
