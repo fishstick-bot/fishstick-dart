@@ -16,6 +16,8 @@ dependencies:
     nyxx_commands: ^3.3.0
     nyxx_extensions: ^3.0.0
     nyxx_pagination: ^2.1.0
+    # libraries for telegram api
+    teledart: ^0.3.2
     # libraries for fortnite
     fortnite: ^1.2.0
     # utils

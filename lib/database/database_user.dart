@@ -121,6 +121,9 @@ class DatabaseUser {
     );
   }
 
+  /// is user from discord?
+  bool get isDiscordUser => id.length >= 16;
+
   /// is the user blacklisted?
   bool get isBanned => blacklisted.value;
 

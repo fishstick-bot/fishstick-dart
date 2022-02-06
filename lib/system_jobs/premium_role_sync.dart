@@ -20,6 +20,7 @@ class PremiumRoleSyncSystemJob {
 
       await for (final user in users) {
         var u = DatabaseUser.fromJson(client.database, user);
+        if (!u.isDiscordUser) continue;
         try {
           var member = await supportServer.fetchMember(u.id.toSnowflake());
 

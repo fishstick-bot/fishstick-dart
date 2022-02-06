@@ -4,6 +4,9 @@ import "package:logging/logging.dart";
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 
+/// telegram bot
+import "../telegram/telegram.dart";
+
 import "../database/database.dart";
 import "../config.dart";
 
@@ -49,19 +52,22 @@ class Client {
   final Logger logger = Logger("BOT");
 
   /// The nyxx client
-  late INyxxWebsocket bot;
+  late final INyxxWebsocket bot;
+
+  /// Telegram bot client
+  late final TeleBotClient telebot;
 
   /// The database for the bot
-  late Database database;
+  late final Database database;
 
   /// Image utils for the client
-  late ImageUtils imageUtils;
+  late final ImageUtils imageUtils;
 
   /// Cached cosmetics for the client
   List<Map<String, dynamic>> cachedCosmetics = [];
 
   /// System jobs manager
-  late SystemJobsPlugin systemJobs;
+  late final SystemJobsPlugin systemJobs;
 
   // Footer text
   String footerText = "discord.gg/fishstick";
@@ -157,6 +163,8 @@ class Client {
       ..registerPlugin(_commands)
       ..registerPlugin(systemJobs);
 
+    telebot = TeleBotClient(this);
+
     return;
   }
 
@@ -184,6 +192,11 @@ class Client {
         ),
       );
     });
+
+    _start = DateTime.now().millisecondsSinceEpoch;
+    await telebot.connect();
+    logger.info(
+        "Connected to telegram [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
 
     return;
   }

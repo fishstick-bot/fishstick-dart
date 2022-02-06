@@ -84,3 +84,7 @@
 -   Pending STW Rewards command.
 -   Survivor squad presets command.
 -   System jobs plugin.
+
+## 0.9.0
+
+-   Add telegram support to bot.

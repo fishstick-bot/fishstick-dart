@@ -12,6 +12,9 @@ class Config {
   /// the bot's owner id
   String get ownerId => "727224012912197652";
 
+  /// the bot's telegram owner id
+  String get telegramOwnerId => "1784287150";
+
   /// support server invite
   String get supportServer => "https://discord.gg/fishstick";
 
@@ -30,6 +33,9 @@ class Config {
   /// the bot's token
   String get token =>
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;
+
+  /// telegram bot token
+  String get telegramToken => Privates.teleToken;
 
   /// mongo db uri
   String get mongoUri => Privates.mongoDbUri;
