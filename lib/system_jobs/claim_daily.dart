@@ -54,8 +54,15 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
 
         for (final acc in accs) {
           String message = "";
+          var fnClient = user.fnClientSetup(acc.accountId);
           try {
-            /// CLAIM THE DAILY REWARD AND UPDATE THE MESSAGE
+            var claimed = await fnClient.campaign.claimDailyReward();
+
+            message = "${acc.displayName} ${tick.emoji}\n";
+            message += claimed.alreadyClaimed
+                ? "You have already claimed todays reward."
+                : "Successfully claimed todays reward.";
+            message += "\n";
           } on Exception catch (e) {
             message = "${acc.displayName} ${cross.emoji}\n$e";
           }
