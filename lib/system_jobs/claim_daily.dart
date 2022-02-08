@@ -17,18 +17,18 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
 
   @override
   Future<List<DatabaseUser>> fetchUsers() async {
-    users = [await client.database.getUser("727224012912197652")];
-    return users;
-    // users = [];
-    // var _stream = client.database.users
-    //     .find(where.eq("autoSubscriptions.dailyRewards", true));
-
-    // await for (final u in _stream) {
-    //   if (u["id"] == null) continue;
-    //   users.add(DatabaseUser.fromJson(client.database, u));
-    // }
-
+    // users = [await client.database.getUser("727224012912197652")];
     // return users;
+    users = [];
+    var _stream = client.database.users
+        .find(where.eq("autoSubscriptions.dailyRewards", true));
+
+    await for (final u in _stream) {
+      if (u["id"] == null) continue;
+      users.add(DatabaseUser.fromJson(client.database, u));
+    }
+
+    return users;
   }
 
   @override
@@ -58,15 +58,23 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
           try {
             var claimed = await fnClient.campaign.claimDailyReward();
 
-            message = "${acc.displayName} ${tick.emoji}\n";
+            message = "**${acc.displayName}** ${tick.emoji}\n";
             message += claimed.alreadyClaimed
                 ? "You have already claimed todays reward."
                 : "Successfully claimed todays reward.";
             message += "\n";
+            message +=
+                "Day ${claimed.daysLoggedIn} - **${claimed.rewardsByDay.first.amount}x ${claimed.rewardsByDay.first.name}**";
+            if (claimed.rewardsByDay.length > 1) {
+              message += "\n";
+              message +=
+                  "Day ${claimed.daysLoggedIn + 1} - **${claimed.rewardsByDay[1].amount}x ${claimed.rewardsByDay[1].name}**";
+            }
           } on Exception catch (e) {
-            message = "${acc.displayName} ${cross.emoji}\n$e";
+            message = "**${acc.displayName}** ${cross.emoji}\n$e";
           }
           description += message;
+          description += "\n";
           description += "\n";
         }
 
@@ -83,12 +91,15 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
                 ..description = description,
             ),
           );
-        } on Exception {
+        } on Exception catch (e) {
           /// ignore the [Exception] as bot is not able to send message to user.
+          /// just to be sure log the error.
+          client.logger.shout(
+              "[TASK:$name:${user.id}] Failed to send message to user: $e");
         }
       }
     } catch (e) {
-      client.logger.shout("[TASK:$name:id] Unhandled error: $e");
+      client.logger.shout("[TASK:$name:${user.id}] Unhandled error: $e");
     }
   }
 }

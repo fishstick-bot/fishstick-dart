@@ -70,7 +70,6 @@ class SystemJobsPlugin extends BasePlugin {
         await premiumRoleSyncSystemJob.run();
       });
 
-      claimDailySystemJob.run(); // FOR DEBUGGING
       logger.info(
           "Scheduling claim daily system job to run every day at 0:00 UTC.");
       _claimDailySystemJobTimer =
