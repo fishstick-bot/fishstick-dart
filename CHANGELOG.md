@@ -88,3 +88,4 @@
 ## 0.9.0
 
 -   Add telegram support to bot.
+-   Claim daily reward discord command.

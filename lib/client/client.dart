@@ -43,6 +43,7 @@ import "../commands/fortnite/stw/upgrade.dart";
 import "../commands/fortnite/stw/storm_king.dart";
 import "../commands/fortnite/stw/pending_difficulty_rewards.dart";
 import "../commands/fortnite/stw/survivor_squad_presets/survivor_squad_presets.dart";
+import "../commands/fortnite/stw/daily.dart";
 
 class Client {
   /// Configuration for the client
@@ -126,6 +127,7 @@ class Client {
     _commands.addCommand(mskCommand);
     _commands.addCommand(pendingDifficultyRewardsCommand);
     _commands.addCommand(survivorSquadPresetCommand);
+    _commands.addCommand(claimDailyCommand);
 
     /// handle commands error
     handleCommandsError(this, _commands);
