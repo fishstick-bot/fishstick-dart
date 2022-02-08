@@ -3,6 +3,8 @@ import "database_user.dart";
 import "database_guild.dart";
 
 class Database {
+  bool connected = false;
+
   /// The main bot client.
   late final String _mongoUri;
 
@@ -26,6 +28,8 @@ class Database {
 
   /// connect to the database
   Future<void> connect() async {
+    if (connected) return;
+
     db = await Db.create(_mongoUri);
     await db.open();
 
@@ -33,6 +37,8 @@ class Database {
     guilds = db.collection("guilds");
     leaderboards = db.collection("leaderboards");
     cosmetics = db.collection("cosmetics");
+
+    connected = true;
   }
 
   /// find or create a user

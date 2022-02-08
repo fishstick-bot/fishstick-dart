@@ -1,9 +1,12 @@
 import "package:nyxx/nyxx.dart";
-import "../fishstick_dart.dart";
+import "../client/client.dart";
 import "../database/database_user.dart";
 
 /// User System Job Abstract Class
 abstract class AbstractUserSystemJob {
+  /// main client
+  late final Client client;
+
   /// is the task running
   bool _isRunning = false;
 
@@ -13,24 +16,16 @@ abstract class AbstractUserSystemJob {
   /// Delay per user
   Duration delay;
 
-  /// Number of users to do at once
-  int threads;
-
   /// List of users to perform task on
   late List<DatabaseUser> users;
 
   /// Constructor
-  AbstractUserSystemJob({
-    required this.name,
-    required this.delay,
-    this.threads = 1,
-  });
+  AbstractUserSystemJob(this.client, {required this.name, required this.delay});
 
   /// toJson method
   Map<String, dynamic> toJson() => {
         "name": name,
         "delay": delay.inMilliseconds,
-        "threads": threads,
         "users": users.map((user) => user.id).toList(),
       };
 
@@ -56,16 +51,21 @@ abstract class AbstractUserSystemJob {
 
     running = true;
 
+    int time = DateTime.now().millisecondsSinceEpoch;
+    client.logger.info("[TASK:$name] starting...");
+
     try {
-      for (int i = 0; i < users.length; i += threads) {
-        await Future.wait((users.sublist(
-                i, ((i + threads > users.length) ? users.length : i + threads)))
-            .map(performOnUser));
+      await fetchUsers();
+
+      for (final user in users) {
+        await performOnUser(user);
       }
     } catch (e) {
       client.logger.shout("[TASK:$name] Unhandled error: $e");
     }
 
+    client.logger.info(
+        "[TASK:$name] finished in ${DateTime.now().millisecondsSinceEpoch - time}ms");
     running = false;
   }
 

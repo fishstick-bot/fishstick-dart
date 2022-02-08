@@ -84,7 +84,7 @@ class Client {
     Logger.root.level = Level.INFO;
 
     /// setup system jobs manager
-    systemJobs = SystemJobsPlugin();
+    systemJobs = SystemJobsPlugin(this);
 
     /// setup commands
     final CommandsPlugin _commands = CommandsPlugin(

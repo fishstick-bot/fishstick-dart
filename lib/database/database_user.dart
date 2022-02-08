@@ -87,7 +87,7 @@ class DatabaseUser {
 
     return DatabaseUser(
       db,
-      id: json["id"] as String,
+      id: json["id"] is String ? json["id"] : json["id"].toString(),
       name: "",
       selectedAccount: json["selectedAccount"] == null
           ? ""
@@ -302,13 +302,15 @@ class DatabaseUser {
   }
 
   /// get the user's fortnite client.
-  Client fnClientSetup() {
+  Client fnClientSetup([String? accId]) {
     if (linkedAccounts.isEmpty) {
       throw Exception(
           "You don't have any epic accounts linked to your account.");
     }
 
-    var found = linkedAccounts.where((a) => a.accountId == selectedAccount);
+    String accountId = accId ?? selectedAccount;
+
+    var found = linkedAccounts.where((a) => a.accountId == accountId);
 
     if (found.isEmpty) {
       throw Exception(
@@ -320,10 +322,10 @@ class DatabaseUser {
         deviceAuth: found.first.deviceAuth,
         logLevel: Level.INFO,
       ),
-      overrideSession: sessions[selectedAccount] == null
+      overrideSession: sessions[accountId] == null
           ? ""
-          : sessions[selectedAccount] is String
-              ? sessions[selectedAccount] as String
+          : sessions[accountId] is String
+              ? sessions[accountId] as String
               : "",
     );
 

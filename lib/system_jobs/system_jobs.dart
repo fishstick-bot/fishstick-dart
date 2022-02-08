@@ -2,34 +2,52 @@ import "dart:async";
 
 import "package:nyxx/nyxx.dart";
 import "package:logging/logging.dart";
+import "package:cron/cron.dart";
+
+import "../client/client.dart";
 
 import "update_cosmetics_cache.dart";
 import "premium_role_sync.dart";
+import "claim_daily.dart";
 
 /// Handles all the system jobs
 class SystemJobsPlugin extends BasePlugin {
-  /// update cosmetics cache system job
-  late UpdateCosmeticsCacheSystemJob updateCosmeticsCacheSystemJob;
+  late final Client _client;
+
+  /// cron manager
+  late final Cron _cron;
 
   /// update cosmetics cache system job
-  late Timer _updateCosmeticsCacheSystemJobTimer;
+  late final UpdateCosmeticsCacheSystemJob updateCosmeticsCacheSystemJob;
+
+  /// update cosmetics cache system job
+  late final Timer _updateCosmeticsCacheSystemJobTimer;
 
   /// premium role sync system job
-  late PremiumRoleSyncSystemJob premiumRoleSyncSystemJob;
+  late final PremiumRoleSyncSystemJob premiumRoleSyncSystemJob;
 
   /// premium role sync system job
-  late Timer _premiumRoleSyncSystemJobTimer;
+  late final Timer _premiumRoleSyncSystemJobTimer;
+
+  /// claim daily system job
+  late final ClaimDailySystemJob claimDailySystemJob;
+
+  /// claim daily system job
+  late final ScheduledTask _claimDailySystemJobTimer;
 
   /// Creates a new instance of [SystemJobsPlugin]
-  SystemJobsPlugin();
+  SystemJobsPlugin(this._client);
 
   /// Registers all the system jobs
   @override
   Future<void> onRegister(INyxx nyxx, Logger logger) async {
-    updateCosmeticsCacheSystemJob = UpdateCosmeticsCacheSystemJob();
+    _cron = Cron();
     logger.info("Registering update cosmetics cache system job");
-    premiumRoleSyncSystemJob = PremiumRoleSyncSystemJob();
+    updateCosmeticsCacheSystemJob = UpdateCosmeticsCacheSystemJob();
     logger.info("Registering premium role sync system job");
+    premiumRoleSyncSystemJob = PremiumRoleSyncSystemJob();
+    logger.info("Registering claim daily system job");
+    claimDailySystemJob = ClaimDailySystemJob(_client);
   }
 
   /// Schedule all the system jobs
@@ -51,6 +69,14 @@ class SystemJobsPlugin extends BasePlugin {
           Timer.periodic(premiumRoleSyncSystemJob.runDuration, (_) async {
         await premiumRoleSyncSystemJob.run();
       });
+
+      claimDailySystemJob.run(); // FOR DEBUGGING
+      logger.info(
+          "Scheduling claim daily system job to run every day at 0:00 UTC.");
+      _claimDailySystemJobTimer =
+          _cron.schedule(Schedule.parse("1 0 * * *"), () async {
+        await claimDailySystemJob.run();
+      });
     } on Exception catch (e) {
       logger.severe("Failed to start system jobs", e);
     }
@@ -60,8 +86,14 @@ class SystemJobsPlugin extends BasePlugin {
   @override
   Future<void> onBotStop(INyxx nyxx, Logger logger) async {
     try {
+      logger.info("Unscheduling update cosmetics cache system job.");
       _updateCosmeticsCacheSystemJobTimer.cancel();
+      logger.info("Unscheduling premium role sync system job.");
       _premiumRoleSyncSystemJobTimer.cancel();
+      logger.info("Unscheduling claim daily system job.");
+      await _claimDailySystemJobTimer.cancel();
+      logger.info("Closing cron manager.");
+      await _cron.close();
     } on Exception catch (e) {
       logger.severe("Failed to cancel system jobs", e);
     }
