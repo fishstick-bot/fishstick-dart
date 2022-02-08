@@ -89,3 +89,4 @@
 
 -   Add telegram support to bot.
 -   Claim daily reward discord command.
+-   List extensions.
