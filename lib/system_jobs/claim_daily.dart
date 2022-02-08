@@ -76,6 +76,8 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
           description += message;
           description += "\n";
           description += "\n";
+
+          await Future.delayed(Duration(milliseconds: 500));
         }
 
         try {
@@ -101,5 +103,7 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
     } catch (e) {
       client.logger.shout("[TASK:$name:${user.id}] Unhandled error: $e");
     }
+
+    return;
   }
 }
