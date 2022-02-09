@@ -5,7 +5,7 @@ void main() async {
   final IShardingManager shardManager = IShardingManager.create(
     UncompiledDart("bin/fishstick_dart.dart"),
     token: Config().token,
-    numProcesses: 5,
+    numProcesses: 4,
     shardsPerProcess: 2,
   );
   await shardManager.start();

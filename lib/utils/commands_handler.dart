@@ -151,11 +151,11 @@ void handleCommandsCheckHandler(CommandsPlugin commands, int commandsCooldown) {
   );
 
   /// make text commands only be useable on DMs.
-  commands.check(
-    Check.any([
-      Check((context) => context
-          is InteractionContext), // Allows interaction commands to be ran anywhere
-      GuildCheck.none(),
-    ]),
-  );
+  // commands.check(
+  //   Check.any([
+  //     Check((context) => context
+  //         is InteractionContext), // Allows interaction commands to be ran anywhere
+  //     GuildCheck.none(),
+  //   ]),
+  // );
 }
