@@ -2,6 +2,7 @@ import "dart:async";
 import "package:numeral/numeral.dart";
 import "package:logging/logging.dart";
 import "package:nyxx/nyxx.dart";
+import "package:nyxx_sharding/nyxx_sharding.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 
 /// telegram bot
@@ -148,14 +149,16 @@ class Client {
     bot = NyxxFactory.createNyxxWebsocket(
       config.token,
       GatewayIntents.allUnprivileged,
-      options: ClientOptions(
-        initialPresence: PresenceBuilder.of(
-          activity: ActivityBuilder.game("/help"),
-          status: UserStatus.online,
+      options: getOptions(
+        ClientOptions(
+          initialPresence: PresenceBuilder.of(
+            activity: ActivityBuilder.game("/help | $totalShards shards"),
+            status: UserStatus.online,
+          ),
+          messageCacheSize: 0,
+          guildSubscriptions: false,
+          dispatchRawShardEvent: true,
         ),
-        messageCacheSize: 0,
-        guildSubscriptions: false,
-        dispatchRawShardEvent: true,
       ),
     )
       ..registerPlugin(Logging())
@@ -194,10 +197,10 @@ class Client {
       );
     });
 
-    _start = DateTime.now().millisecondsSinceEpoch;
-    await telebot.connect();
-    logger.info(
-        "Connected to telegram [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
+    // _start = DateTime.now().millisecondsSinceEpoch;
+    // await telebot.connect();
+    // logger.info(
+    //     "Connected to telegram [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
 
     return;
   }

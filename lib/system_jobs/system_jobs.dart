@@ -1,6 +1,7 @@
 import "dart:async";
 
 import "package:nyxx/nyxx.dart";
+import "package:nyxx_sharding/nyxx_sharding.dart";
 import "package:logging/logging.dart";
 import "package:cron/cron.dart";
 
@@ -72,6 +73,10 @@ class SystemJobsPlugin extends BasePlugin {
         await updateCosmeticsCacheSystemJob.run();
       });
 
+      if (!shardIds.contains(0)) {
+        return;
+      }
+
       logger.info(
           "Scheduling premium role sync system job to run every ${premiumRoleSyncSystemJob.runDuration.inHours} hours.");
       _premiumRoleSyncSystemJobTimer =
@@ -102,6 +107,11 @@ class SystemJobsPlugin extends BasePlugin {
     try {
       logger.info("Unscheduling update cosmetics cache system job.");
       _updateCosmeticsCacheSystemJobTimer.cancel();
+
+      if (!shardIds.contains(0)) {
+        return;
+      }
+
       logger.info("Unscheduling premium role sync system job.");
       _premiumRoleSyncSystemJobTimer.cancel();
       logger.info("Unscheduling claim daily system job.");

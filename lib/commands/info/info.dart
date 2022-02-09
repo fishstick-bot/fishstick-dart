@@ -30,7 +30,7 @@ final Command infoCommand = Command(
                   "Fishstick dart ${pubspecYaml.version.toString().split("(")[1].replaceAll(")", "")} | Dart SDK $dartVersion")
             ..timestamp = DateTime.now()
             ..addField(
-              name: "Cached guilds",
+              name: "Cached guilds (in current process)",
               content: client.bot.guilds.length,
               inline: true,
             )
