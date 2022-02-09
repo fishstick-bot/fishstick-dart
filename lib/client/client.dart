@@ -157,7 +157,6 @@ class Client {
         guildSubscriptions: false,
         dispatchRawShardEvent: true,
       ),
-      useDefaultLogger: false,
     )
       ..registerPlugin(Logging())
       ..registerPlugin(CliIntegration())
