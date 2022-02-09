@@ -251,3 +251,27 @@ List<AthenaCosmetic> filterAndSortCosmetics({
 
   return cosmetics;
 }
+
+/// Purchase an item from fortnite shop
+Future<dynamic> purchaseCatalogEntry(
+  String offerId, {
+  required Client client,
+  int quantity = 1,
+  String currency = "MtxCurrency",
+  String currencySubType = "",
+  int expectedTotalPrice = 0,
+  String gameContext = "",
+}) async {
+  return (await client.post(
+    MCP(FortniteProfile.common_core, accountId: client.accountId)
+        .PurchaseCatalogEntry,
+    body: {
+      "offerId": offerId,
+      "purchaseQuantity": quantity,
+      "currency": currency,
+      "currencySubType": currencySubType,
+      "expectedTotalPrice": expectedTotalPrice,
+      "gameContext": gameContext,
+    },
+  ))?["notifications"]?[0];
+}

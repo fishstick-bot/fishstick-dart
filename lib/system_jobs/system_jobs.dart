@@ -9,6 +9,7 @@ import "../client/client.dart";
 import "update_cosmetics_cache.dart";
 import "premium_role_sync.dart";
 import "claim_daily.dart";
+import "free_llamas.dart";
 
 /// Handles all the system jobs
 class SystemJobsPlugin extends BasePlugin {
@@ -35,6 +36,12 @@ class SystemJobsPlugin extends BasePlugin {
   /// claim daily system job
   late final ScheduledTask _claimDailySystemJobTimer;
 
+  /// free llamas system job
+  late final ClaimFreeLlamasSystemJob freeLlamasSystemJob;
+
+  /// free llamas system job
+  late final Timer _freeLlamasSystemJobTimer;
+
   /// Creates a new instance of [SystemJobsPlugin]
   SystemJobsPlugin(this._client);
 
@@ -48,6 +55,8 @@ class SystemJobsPlugin extends BasePlugin {
     premiumRoleSyncSystemJob = PremiumRoleSyncSystemJob();
     logger.info("Registering claim daily system job");
     claimDailySystemJob = ClaimDailySystemJob(_client);
+    logger.info("Registering free llamas system job");
+    freeLlamasSystemJob = ClaimFreeLlamasSystemJob(_client);
   }
 
   /// Schedule all the system jobs
@@ -76,6 +85,12 @@ class SystemJobsPlugin extends BasePlugin {
           _cron.schedule(Schedule.parse("1 0 * * *"), () async {
         await claimDailySystemJob.run();
       });
+
+      logger.info("Scheduling free llamas system job to run every 15 minutes.");
+      _freeLlamasSystemJobTimer =
+          Timer.periodic(Duration(minutes: 15), (_) async {
+        await freeLlamasSystemJob.run();
+      });
     } on Exception catch (e) {
       logger.severe("Failed to start system jobs", e);
     }
@@ -91,6 +106,8 @@ class SystemJobsPlugin extends BasePlugin {
       _premiumRoleSyncSystemJobTimer.cancel();
       logger.info("Unscheduling claim daily system job.");
       await _claimDailySystemJobTimer.cancel();
+      logger.info("Unscheduling free llamas system job.");
+      _freeLlamasSystemJobTimer.cancel();
       logger.info("Closing cron manager.");
       await _cron.close();
     } on Exception catch (e) {

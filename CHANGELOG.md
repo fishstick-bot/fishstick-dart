@@ -91,3 +91,4 @@
 -   Claim daily reward discord command.
 -   List extensions.
 -   Auto daily system job.
+-   Auto claim free llamas.
