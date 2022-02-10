@@ -94,3 +94,4 @@
 -   Auto claim free llamas.
 -   Update to nyxx_commands 4.0 beta.
 -   Made bot compilable.
+-   Added build script.

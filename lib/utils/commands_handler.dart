@@ -96,8 +96,11 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
         "⚠️ There was an error!",
       ];
       if (exception is CommandInvocationException) {
-        await respond(
-          exception.context,
+        if (exception.message.toString().contains("No stream event")) {
+          return;
+        }
+
+        await exception.context.respond(
           MessageBuilder.embed(
             EmbedBuilder()
               ..title = errorTitles[Random().nextInt(errorTitles.length)]
@@ -112,7 +115,7 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
                 content: exception.message,
               ),
           ),
-          hidden: true,
+          private: true,
         );
       } else {
         client.logger

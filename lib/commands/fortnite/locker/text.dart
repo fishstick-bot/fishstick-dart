@@ -42,102 +42,98 @@ final ChatCommand lockerTextCommand = ChatCommand(
           ..addComponentRow(ComponentRowBuilder()..addComponent(lockerOptions)),
       );
 
-      try {
-        var selected = await ctx.commands.interactions.events.onMultiselectEvent
-            .where((event) =>
-                (event.interaction.customId == menuID) &&
-                event.interaction.userAuthor?.id == ctx.user.id)
-            .first;
+      var selected = await ctx.commands.interactions.events.onMultiselectEvent
+          .where((event) =>
+              (event.interaction.customId == menuID) &&
+              event.interaction.userAuthor?.id == ctx.user.id)
+          .first;
 
-        await selected.acknowledge();
+      await selected.acknowledge();
 
-        await dbUser.fnClient.athena.init();
+      await dbUser.fnClient.athena.init();
 
-        List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
-          dbUser: dbUser,
-          type: selected.interaction.values.first,
+      List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
+        dbUser: dbUser,
+        type: selected.interaction.values.first,
+      );
+
+      if (cosmetics.isEmpty) {
+        return await msg.edit(
+          MessageBuilder.content(
+            "You don't have any ${selected.interaction.values.first} in your locker.",
+          ),
         );
+      }
 
-        if (cosmetics.isEmpty) {
-          return await msg.edit(
-            MessageBuilder.content(
-              "You don't have any ${selected.interaction.values.first} in your locker.",
-            ),
+      List<EmbedBuilder> pages = [];
+      int perPageCosmetics = 12;
+
+      for (var i = 0; i < cosmetics.length; i += perPageCosmetics) {
+        var pagesCosmeticSize = i + perPageCosmetics < cosmetics.length
+            ? perPageCosmetics + i
+            : cosmetics.length;
+
+        var pageCosmetics = cosmetics.sublist(i, pagesCosmeticSize);
+
+        var page = EmbedBuilder()
+          ..author = (EmbedAuthorBuilder()
+            ..name = ctx.user.username
+            ..iconUrl = ctx.user.avatarURL(format: "png"))
+          ..color = DiscordColor.fromHexString(dbUser.color)
+          ..title = "${dbUser.activeAccount.displayName}'s Locker"
+          ..thumbnailUrl = dbUser.activeAccount.avatar
+          ..description =
+              "Showing ${i + 1} - $perPageCosmetics of ${cosmetics.length} ${selected.interaction.values.first}."
+          ..timestamp = DateTime.now()
+          ..footer = (EmbedFooterBuilder()
+            ..text =
+                "Page ${i ~/ perPageCosmetics + 1} of ${(cosmetics.length / perPageCosmetics).ceil()}");
+
+        for (final cosmetic in pageCosmetics) {
+          String rarityEmoji = "";
+          switch (cosmetic.rarity) {
+            case "common":
+              rarityEmoji = common.emoji;
+              break;
+
+            case "uncommon":
+              rarityEmoji = uncommon.emoji;
+              break;
+
+            case "rare":
+              rarityEmoji = rare.emoji;
+              break;
+
+            case "epic":
+              rarityEmoji = epic.emoji;
+              break;
+
+            case "legendary":
+              rarityEmoji = legendary.emoji;
+              break;
+
+            default:
+              rarityEmoji = common.emoji;
+              break;
+          }
+          page.addField(
+            name: "$rarityEmoji ${cosmetic.name}",
+            content:
+                "${cosmetic.isFavourite ? "${star.emoji}\n" : ""}${cosmetic.isGifted ? "🎁 ${cosmetic.giftedFrom}\n" : ""}** **",
+            inline: true,
           );
         }
 
-        List<EmbedBuilder> pages = [];
-        int perPageCosmetics = 12;
-
-        for (var i = 0; i < cosmetics.length; i += perPageCosmetics) {
-          var pagesCosmeticSize = i + perPageCosmetics < cosmetics.length
-              ? perPageCosmetics + i
-              : cosmetics.length;
-
-          var pageCosmetics = cosmetics.sublist(i, pagesCosmeticSize);
-
-          var page = EmbedBuilder()
-            ..author = (EmbedAuthorBuilder()
-              ..name = ctx.user.username
-              ..iconUrl = ctx.user.avatarURL(format: "png"))
-            ..color = DiscordColor.fromHexString(dbUser.color)
-            ..title = "${dbUser.activeAccount.displayName}'s Locker"
-            ..thumbnailUrl = dbUser.activeAccount.avatar
-            ..description =
-                "Showing ${i + 1} - $perPageCosmetics of ${cosmetics.length} ${selected.interaction.values.first}."
-            ..timestamp = DateTime.now()
-            ..footer = (EmbedFooterBuilder()
-              ..text =
-                  "Page ${i ~/ perPageCosmetics + 1} of ${(cosmetics.length / perPageCosmetics).ceil()}");
-
-          for (final cosmetic in pageCosmetics) {
-            String rarityEmoji = "";
-            switch (cosmetic.rarity) {
-              case "common":
-                rarityEmoji = common.emoji;
-                break;
-
-              case "uncommon":
-                rarityEmoji = uncommon.emoji;
-                break;
-
-              case "rare":
-                rarityEmoji = rare.emoji;
-                break;
-
-              case "epic":
-                rarityEmoji = epic.emoji;
-                break;
-
-              case "legendary":
-                rarityEmoji = legendary.emoji;
-                break;
-
-              default:
-                rarityEmoji = common.emoji;
-                break;
-            }
-            page.addField(
-              name: "$rarityEmoji ${cosmetic.name}",
-              content:
-                  "${cosmetic.isFavourite ? "${star.emoji}\n" : ""}${cosmetic.isGifted ? "🎁 ${cosmetic.giftedFrom}\n" : ""}** **",
-              inline: true,
-            );
-          }
-
-          pages.add(page);
-        }
-
-        await msg.edit(
-          EmbedComponentPagination(
-            ctx.commands.interactions,
-            pages,
-            timeout: Duration(minutes: 3),
-          ).initMessageBuilder(),
-        );
-      } catch (e) {
-        await msg.delete();
+        pages.add(page);
       }
+
+      await msg.edit(
+        EmbedComponentPagination(
+          ctx.commands.interactions,
+          pages,
+          timeout: Duration(minutes: 3),
+        ).initMessageBuilder(),
+      );
     },
   ),
   checks: [],

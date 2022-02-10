@@ -58,78 +58,74 @@ final ChatCommand lockerImageCommand = ChatCommand(
           ..addComponentRow(ComponentRowBuilder()..addComponent(lockerOptions)),
       );
 
-      try {
-        var selected = await ctx.commands.interactions.events.onMultiselectEvent
-            .where((event) =>
-                (event.interaction.customId == menuID) &&
-                event.interaction.userAuthor?.id == ctx.user.id)
-            .first;
+      var selected = await ctx.commands.interactions.events.onMultiselectEvent
+          .where((event) =>
+              (event.interaction.customId == menuID) &&
+              event.interaction.userAuthor?.id == ctx.user.id)
+          .first;
 
-        await selected.acknowledge();
+      await selected.acknowledge();
 
-        await dbUser.fnClient.athena.init();
+      await dbUser.fnClient.athena.init();
 
-        List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
-          dbUser: dbUser,
-          type: selected.interaction.values.first,
+      List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
+        dbUser: dbUser,
+        type: selected.interaction.values.first,
+      );
+
+      if (cosmetics.isEmpty) {
+        return await msg.edit(
+          MessageBuilder.content(
+            "${(user ?? ctx.user).username} don't have any ${selected.interaction.values.first} in your locker.",
+          ),
         );
-
-        if (cosmetics.isEmpty) {
-          return await msg.edit(
-            MessageBuilder.content(
-              "${(user ?? ctx.user).username} don't have any ${selected.interaction.values.first} in your locker.",
-            ),
-          );
-        }
-
-        await msg.edit(
-          ComponentMessageBuilder()
-            ..content =
-                "Rendering locker image for ${selected.interaction.values.first} ${loading.emoji}"
-            ..componentRows = [],
-        );
-
-        List<int> img;
-        for (var i = 0; i < cosmetics.length; i += 500) {
-          int sublistSize =
-              i + 500 < cosmetics.length ? 500 + i : cosmetics.length;
-
-          int startTime = DateTime.now().millisecondsSinceEpoch;
-          img = base64Decode(
-            await client.imageUtils.drawLocker(
-              cosmetics: cosmetics.sublist(i, sublistSize),
-              epicname: (user ?? ctx.user).tag,
-            ),
-          );
-
-          await ctx.respond(
-            MessageBuilder.embed(
-              EmbedBuilder()
-                ..author = (EmbedAuthorBuilder()
-                  ..name = (user ?? ctx.user).username
-                  ..iconUrl = (user ?? ctx.user).avatarURL(format: "png"))
-                ..description =
-                    "Rendered locker image in ${((DateTime.now().millisecondsSinceEpoch - startTime) / 1000).toStringAsFixed(2)}s"
-                ..color = DiscordColor.fromHexString(dbUser.color)
-                ..title = "${dbUser.activeAccount.displayName}'s Locker"
-                ..timestamp = DateTime.now()
-                ..footer = (EmbedFooterBuilder()..text = client.footerText)
-                ..imageUrl = "attachment://locker-$i.png",
-            )
-              ..addAttachment(
-                AttachmentBuilder.bytes(
-                  img,
-                  "locker-$i.png",
-                ),
-              )
-              ..content = ctx.user.mention,
-          );
-        }
-
-        await msg.delete();
-      } catch (e) {
-        await msg.delete();
       }
+
+      await msg.edit(
+        ComponentMessageBuilder()
+          ..content =
+              "Rendering locker image for ${selected.interaction.values.first} ${loading.emoji}"
+          ..componentRows = [],
+      );
+
+      List<int> img;
+      for (var i = 0; i < cosmetics.length; i += 500) {
+        int sublistSize =
+            i + 500 < cosmetics.length ? 500 + i : cosmetics.length;
+
+        int startTime = DateTime.now().millisecondsSinceEpoch;
+        img = base64Decode(
+          await client.imageUtils.drawLocker(
+            cosmetics: cosmetics.sublist(i, sublistSize),
+            epicname: (user ?? ctx.user).tag,
+          ),
+        );
+
+        await ctx.respond(
+          MessageBuilder.embed(
+            EmbedBuilder()
+              ..author = (EmbedAuthorBuilder()
+                ..name = (user ?? ctx.user).username
+                ..iconUrl = (user ?? ctx.user).avatarURL(format: "png"))
+              ..description =
+                  "Rendered locker image in ${((DateTime.now().millisecondsSinceEpoch - startTime) / 1000).toStringAsFixed(2)}s"
+              ..color = DiscordColor.fromHexString(dbUser.color)
+              ..title = "${dbUser.activeAccount.displayName}'s Locker"
+              ..timestamp = DateTime.now()
+              ..footer = (EmbedFooterBuilder()..text = client.footerText)
+              ..imageUrl = "attachment://locker-$i.png",
+          )
+            ..addAttachment(
+              AttachmentBuilder.bytes(
+                img,
+                "locker-$i.png",
+              ),
+            )
+            ..content = ctx.user.mention,
+        );
+      }
+
+      await msg.delete();
     },
   ),
   checks: [],
