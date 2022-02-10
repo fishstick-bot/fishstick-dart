@@ -46,6 +46,10 @@ import "../commands/fortnite/stw/pending_difficulty_rewards.dart";
 import "../commands/fortnite/stw/survivor_squad_presets/survivor_squad_presets.dart";
 import "../commands/fortnite/stw/daily.dart";
 
+typedef NullableString = String;
+typedef NullableIUser = IUser;
+typedef NullableIRole = IRole;
+
 class Client {
   /// Configuration for the client
   late final Config config = Config();
@@ -98,6 +102,14 @@ class Client {
         autoAcknowledgeInteractions: true,
       ),
     );
+
+    /// setup converters
+    _commands.addConverter(_commands.getConverter(NullableString,
+        logWarn: false) as Converter<String?>);
+    _commands.addConverter(_commands.getConverter(NullableIUser, logWarn: false)
+        as Converter<IUser?>);
+    _commands.addConverter(_commands.getConverter(NullableIRole, logWarn: false)
+        as Converter<IRole?>);
 
     /// register the commands
     _commands.addCommand(pingCommand);
