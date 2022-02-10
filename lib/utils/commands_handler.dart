@@ -22,6 +22,12 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
 
     if (exception is CommandInvocationException) {
       exception.context.disposeCache();
+
+      if (exception.message.toString().contains("development-mode")) {
+        await exception.context.respond(MessageBuilder.content(
+            "Bot is in development mode, please try again later."));
+        return;
+      }
     }
 
     if (exception is CheckFailedException) {
@@ -154,10 +160,7 @@ void handleCommandsCheckHandler(CommandsPlugin commands, int commandsCooldown) {
 
   /// make text commands only be useable on DMs.
   // commands.check(
-  //   Check.any([
-  //     Check((context) => context
-  //         is InteractionContext), // Allows interaction commands to be ran anywhere
-  //     GuildCheck.none(),
-  //   ]),
+  //   Check((context) => context.user.id.toString() == "727224012912197652",
+  //       "development-mode"),
   // );
 }

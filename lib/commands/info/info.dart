@@ -15,7 +15,7 @@ final ChatCommand infoCommand = ChatCommand(
     "info_command",
     (IContext ctx) async {
       final pubspecYaml =
-          File("pubspec.yaml").readAsStringSync().toPubspecYaml();
+          (await File("pubspec.yaml").readAsString()).toPubspecYaml();
 
       var user = await ctx.dbUser;
 
