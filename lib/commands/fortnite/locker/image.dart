@@ -88,15 +88,14 @@ final ChatCommand lockerImageCommand = ChatCommand(
           ..componentRows = [],
       );
 
-      List<int> img;
-      for (var i = 0; i < cosmetics.length; i += 500) {
-        int sublistSize =
-            i + 500 < cosmetics.length ? 500 + i : cosmetics.length;
+      List<List<AthenaCosmetic>> chunks = await cosmetics.chunk(500).toList();
 
+      List<int> img;
+      for (var i = 0; i < chunks.length; i++) {
         int startTime = DateTime.now().millisecondsSinceEpoch;
         img = base64Decode(
           await client.imageUtils.drawLocker(
-            cosmetics: cosmetics.sublist(i, sublistSize),
+            cosmetics: chunks[i],
             epicname: (user ?? ctx.user).tag,
           ),
         );
