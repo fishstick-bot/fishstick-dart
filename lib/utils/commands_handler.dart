@@ -25,6 +25,19 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
     }
 
     if (exception is CheckFailedException) {
+      if (exception.failed.name.contains("premium-check")) {
+        var m = await exception.context.respond(
+          MessageBuilder.content(
+              "You are on cooldown for this command. Please try again in a while."),
+          private: true,
+        );
+        await Future.delayed(
+          Duration(seconds: 3),
+          () async => await m.delete(),
+        );
+        return;
+      }
+
       switch (exception.failed.name) {
         case "blacklist-check":
           await exception.context.respond(
@@ -62,18 +75,6 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
           await exception.context.respond(
             MessageBuilder.content("This command can not be done on DMs."),
             private: true,
-          );
-          break;
-
-        case "Any of [All of [premium-check, Cooldown Check on CooldownType[User]], All of [Denied premium-check, Cooldown Check on CooldownType[User]]]":
-          var m = await exception.context.respond(
-            MessageBuilder.content(
-                "You are on cooldown for this command. Please try again in a while."),
-            private: true,
-          );
-          await Future.delayed(
-            Duration(seconds: 3),
-            () async => await m.delete(),
           );
           break;
 

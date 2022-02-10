@@ -38,24 +38,24 @@ final ChatCommand infoCommand = ChatCommand(
                 inline: true,
               )
               ..addField(
-                name: "Cached users",
+                name: "Cached users (in current process)",
                 content: client.bot.users.length,
                 inline: true,
               )
               ..addField(
-                name: "Cached channels",
+                name: "Cached channels (in current process)",
                 content: client.bot.channels.length,
                 inline: true,
               )
               ..addField(
-                name: "Cached voice states",
+                name: "Cached voice states (in current process)",
                 content: client.bot.guilds.values
                     .map((g) => g.voiceStates.length)
                     .reduce((f, s) => f + s),
                 inline: true,
               )
               ..addField(
-                name: "Cached messages",
+                name: "Cached messages (in current process)",
                 content: client.bot.channels.values
                     .whereType<ITextChannel>()
                     .map((e) => e.messageCache.length)
@@ -63,16 +63,16 @@ final ChatCommand infoCommand = ChatCommand(
                 inline: true,
               )
               ..addField(
-                name: "Shard count",
+                name: "Shard count (in current process)",
                 content: client.bot.shards,
                 inline: true,
               )
               ..addField(
-                name: "Memory usage (current/RSS)",
+                name: "Memory usage (current/RSS) (in current process)",
                 content: getMemoryUsageString(),
               )
               ..addField(
-                name: "Uptime",
+                name: "Uptime (of current process)",
                 content: formatFull(client.bot.startTime),
               );
           })
