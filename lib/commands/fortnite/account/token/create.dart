@@ -9,24 +9,21 @@ final ChatCommand accessTokenCreateCommand = ChatCommand(
   "Create an access token used to authenticate with fortnite api.",
   Id(
     "access_token_create_command",
-    Id(
-      "access_token_create_command",
-      (IContext ctx) async {
-        DatabaseUser user = await ctx.dbUser;
-        user.fnClientSetup();
+    (IContext ctx) async {
+      DatabaseUser user = await ctx.dbUser;
+      user.fnClientSetup();
 
-        return await ctx.respond(
-          MessageBuilder.content("${await (user.fnClient.auth.createOAuthToken(
-            grantType: "device_auth",
-            grantData:
-                "account_id=${user.fnClient.accountId}&device_id=${user.fnClient.deviceId}&secret=${user.fnClient.secret}",
-            authClient: AuthClients().fortniteIOSGameClient,
-            tokenType: "bearer",
-          ))}"),
-          private: true,
-        );
-      },
-    ),
+      return await ctx.respond(
+        MessageBuilder.content("${await (user.fnClient.auth.createOAuthToken(
+          grantType: "device_auth",
+          grantData:
+              "account_id=${user.fnClient.accountId}&device_id=${user.fnClient.deviceId}&secret=${user.fnClient.secret}",
+          authClient: AuthClients().fortniteIOSGameClient,
+          tokenType: "bearer",
+        ))}"),
+        private: true,
+      );
+    },
   ),
   options: CommandOptions(
     hideOriginalResponse: true,
