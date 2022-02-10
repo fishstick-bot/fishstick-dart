@@ -10,40 +10,43 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand equipSurvivorSquadPreset = ChatCommand(
   "equip",
   "Equip a saved survivor squad preset.",
-  (
-    IContext ctx,
-    @Description("Name for preset.") String name,
-  ) async {
-    DatabaseUser dbUser = await ctx.dbUser;
-    dbUser.fnClientSetup();
-    await dbUser.fnClient.campaign.init(dbUser.activeAccount.accountId);
+  Id(
+    "equip_survivor_squad_preset_command",
+    (
+      IContext ctx,
+      @Description("Name for preset.") String name,
+    ) async {
+      DatabaseUser dbUser = await ctx.dbUser;
+      dbUser.fnClientSetup();
+      await dbUser.fnClient.campaign.init(dbUser.activeAccount.accountId);
 
-    if (dbUser.activeAccount.savedSurvivorSquads.isEmpty) {
-      throw Exception("You don't have any saved survivor squad presets.");
-    }
+      if (dbUser.activeAccount.savedSurvivorSquads.isEmpty) {
+        throw Exception("You don't have any saved survivor squad presets.");
+      }
 
-    if (dbUser.activeAccount.savedSurvivorSquads
-        .where((s) => s.name.toLowerCase() == name.toLowerCase())
-        .isEmpty) {
-      throw Exception(
-          "You don't have a saved survivor squad preset with that name.");
-    }
+      if (dbUser.activeAccount.savedSurvivorSquads
+          .where((s) => s.name.toLowerCase() == name.toLowerCase())
+          .isEmpty) {
+        throw Exception(
+            "You don't have a saved survivor squad preset with that name.");
+      }
 
-    var preset = dbUser.activeAccount.savedSurvivorSquads
-        .firstWhere((s) => s.name.toLowerCase() == name.toLowerCase());
-    await dbUser.fnClient.campaign.equipSurvivorSquadPreset(preset);
+      var preset = dbUser.activeAccount.savedSurvivorSquads
+          .firstWhere((s) => s.name.toLowerCase() == name.toLowerCase());
+      await dbUser.fnClient.campaign.equipSurvivorSquadPreset(preset);
 
-    final EmbedBuilder embed = EmbedBuilder()
-      ..author = (EmbedAuthorBuilder()
-        ..name = ctx.user.username
-        ..iconUrl = ctx.user.avatarURL(format: "png"))
-      ..color = DiscordColor.fromHexString(dbUser.color)
-      ..title = "${dbUser.activeAccount.displayName}'s Survivor Squad Presets"
-      ..description = "Equipped preset: ${preset.name}"
-      ..timestamp = DateTime.now()
-      ..footer = (EmbedFooterBuilder()..text = client.footerText);
+      final EmbedBuilder embed = EmbedBuilder()
+        ..author = (EmbedAuthorBuilder()
+          ..name = ctx.user.username
+          ..iconUrl = ctx.user.avatarURL(format: "png"))
+        ..color = DiscordColor.fromHexString(dbUser.color)
+        ..title = "${dbUser.activeAccount.displayName}'s Survivor Squad Presets"
+        ..description = "Equipped preset: ${preset.name}"
+        ..timestamp = DateTime.now()
+        ..footer = (EmbedFooterBuilder()..text = client.footerText);
 
-    await ctx.respond(MessageBuilder.embed(embed));
-  },
+      await ctx.respond(MessageBuilder.embed(embed));
+    },
+  ),
   checks: [],
 );

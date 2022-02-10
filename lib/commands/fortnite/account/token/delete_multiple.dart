@@ -6,6 +6,8 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand accessTokenDeleteAllCommand = ChatCommand(
   "kill-all",
   "Kill all active sessions of account.",
+Id("access_token_delete_all_command",
+Id("access_token_delete_all_command",
   (IContext ctx, String token) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
@@ -17,6 +19,8 @@ final ChatCommand accessTokenDeleteAllCommand = ChatCommand(
       private: true,
     );
   },
+),
+),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),

@@ -7,28 +7,31 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand affiliateChangeCommand = ChatCommand(
   "change",
   "Change your supported creator in the item shop.",
-  (
-    IContext ctx,
-    @Description("The creator to support.") String creator,
-  ) async {
-    DatabaseUser dbUser = await ctx.dbUser;
-    dbUser.fnClientSetup();
-    await dbUser.fnClient.commonCore.init();
-    await dbUser.fnClient.commonCore.setSupportedCreator(creator);
+  Id(
+    "affiliate_change_command",
+    (
+      IContext ctx,
+      @Description("The creator to support.") String creator,
+    ) async {
+      DatabaseUser dbUser = await ctx.dbUser;
+      dbUser.fnClientSetup();
+      await dbUser.fnClient.commonCore.init();
+      await dbUser.fnClient.commonCore.setSupportedCreator(creator);
 
-    final EmbedBuilder embed = EmbedBuilder()
-      ..author = (EmbedAuthorBuilder()
-        ..name = ctx.user.username
-        ..iconUrl = ctx.user.avatarURL(format: "png"))
-      ..color = DiscordColor.fromHexString(dbUser.color)
-      ..title = "${dbUser.activeAccount.displayName}'s Supported Creator"
-      ..description = dbUser.fnClient.commonCore.supportedCreator.isEmpty
-          ? "You are now supporting: **$creator**."
-          : "Successfully updated supported creator from **${dbUser.fnClient.commonCore.supportedCreator}** to **$creator**."
-      ..timestamp = DateTime.now()
-      ..footer = (EmbedFooterBuilder()..text = client.footerText);
+      final EmbedBuilder embed = EmbedBuilder()
+        ..author = (EmbedAuthorBuilder()
+          ..name = ctx.user.username
+          ..iconUrl = ctx.user.avatarURL(format: "png"))
+        ..color = DiscordColor.fromHexString(dbUser.color)
+        ..title = "${dbUser.activeAccount.displayName}'s Supported Creator"
+        ..description = dbUser.fnClient.commonCore.supportedCreator.isEmpty
+            ? "You are now supporting: **$creator**."
+            : "Successfully updated supported creator from **${dbUser.fnClient.commonCore.supportedCreator}** to **$creator**."
+        ..timestamp = DateTime.now()
+        ..footer = (EmbedFooterBuilder()..text = client.footerText);
 
-    await ctx.respond(MessageBuilder.embed(embed));
-  },
+      await ctx.respond(MessageBuilder.embed(embed));
+    },
+  ),
   checks: [],
 );

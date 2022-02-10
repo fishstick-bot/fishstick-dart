@@ -7,40 +7,44 @@ import "../../utils/utils.dart";
 final ChatCommand premiumRevokeCommand = ChatCommand(
   "revoke",
   "Revoke a user's premium subscription.",
-  (
-    IContext ctx,
-    @Description("The user you want to revoke premium subscription of.")
-        IUser user,
-  ) async {
-    // DatabaseUser dbUser = await ctx.dbUser;
-    DatabaseUser targetUser = await client.database.getUser(user.id.toString());
+  Id(
+    "premium_revoke_command",
+    (
+      IContext ctx,
+      @Description("The user you want to revoke premium subscription of.")
+          IUser user,
+    ) async {
+      // DatabaseUser dbUser = await ctx.dbUser;
+      DatabaseUser targetUser =
+          await client.database.getUser(user.id.toString());
 
-    if (targetUser.isPartner) {
+      if (targetUser.isPartner) {
+        return await respond(
+          ctx,
+          MessageBuilder.content(
+              "This user is a partner. You cannot revoke their subscription."),
+          hidden: true,
+        );
+      }
+
+      if (!targetUser.isPremium) {
+        return await respond(
+          ctx,
+          MessageBuilder.content(
+              "This user dont have an active premium subscription."),
+          hidden: true,
+        );
+      }
+
+      await targetUser.revokePremium(ctx.user, user);
+
       return await respond(
         ctx,
         MessageBuilder.content(
-            "This user is a partner. You cannot revoke their subscription."),
-        hidden: true,
+            "You have revoked ${user.mention}'s premium subscription."),
       );
-    }
-
-    if (!targetUser.isPremium) {
-      return await respond(
-        ctx,
-        MessageBuilder.content(
-            "This user dont have an active premium subscription."),
-        hidden: true,
-      );
-    }
-
-    await targetUser.revokePremium(ctx.user, user);
-
-    return await respond(
-      ctx,
-      MessageBuilder.content(
-          "You have revoked ${user.mention}'s premium subscription."),
-    );
-  },
+    },
+  ),
   checks: [
     partnerCheck,
   ],

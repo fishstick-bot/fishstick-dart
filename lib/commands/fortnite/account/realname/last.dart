@@ -9,6 +9,7 @@ import "../../../../resources/emojis.dart";
 final ChatCommand realNameLastCommand = ChatCommand(
   "last",
   "Update your account last name.",
+Id("real_name_last_command",
   (
     IContext ctx,
     @Description("What would you like your real last name to?") String update,
@@ -45,6 +46,7 @@ final ChatCommand realNameLastCommand = ChatCommand(
         ],
     );
   },
+),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),

@@ -7,6 +7,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand usernameViewCommand = ChatCommand(
   "view",
   "View your account username information.",
+Id("username_view_command",
   (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
@@ -30,6 +31,7 @@ final ChatCommand usernameViewCommand = ChatCommand(
       private: true,
     );
   },
+),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),

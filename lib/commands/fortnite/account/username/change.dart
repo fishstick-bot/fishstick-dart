@@ -8,6 +8,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand usernameChangeCommand = ChatCommand(
   "change",
   "Change your account username.",
+Id("username_change_command",
   (
     IContext ctx,
     @Description("What would you like your new username as?") String update,
@@ -49,6 +50,7 @@ final ChatCommand usernameChangeCommand = ChatCommand(
         ..componentRows = [],
     );
   },
+),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),

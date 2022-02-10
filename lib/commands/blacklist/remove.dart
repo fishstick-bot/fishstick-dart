@@ -7,28 +7,32 @@ import "../../utils/utils.dart";
 final ChatCommand blacklistRemoveCommand = ChatCommand(
   "remove",
   "Unblacklist a user.",
-  (
-    IContext ctx,
-    @Description("The user you want to remove from blacklist.") IUser user,
-  ) async {
-    // DatabaseUser dbUser = await ctx.dbUser;
-    DatabaseUser targetUser = await client.database.getUser(user.id.toString());
+  Id(
+    "blacklist_remove_command",
+    (
+      IContext ctx,
+      @Description("The user you want to remove from blacklist.") IUser user,
+    ) async {
+      // DatabaseUser dbUser = await ctx.dbUser;
+      DatabaseUser targetUser =
+          await client.database.getUser(user.id.toString());
 
-    if (!targetUser.isBanned) {
+      if (!targetUser.isBanned) {
+        return await respond(
+          ctx,
+          MessageBuilder.content("This user is not blacklisted."),
+          hidden: true,
+        );
+      }
+
+      await targetUser.unblacklist();
+
       return await respond(
         ctx,
-        MessageBuilder.content("This user is not blacklisted."),
-        hidden: true,
+        MessageBuilder.content(
+            "You have removed ${user.mention} from blacklist."),
       );
-    }
-
-    await targetUser.unblacklist();
-
-    return await respond(
-      ctx,
-      MessageBuilder.content(
-          "You have removed ${user.mention} from blacklist."),
-    );
-  },
+    },
+  ),
   checks: [ownerCheck],
 );

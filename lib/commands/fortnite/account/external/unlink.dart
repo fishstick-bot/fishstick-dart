@@ -9,6 +9,7 @@ import "../../../../resources/emojis.dart";
 final ChatCommand externalUnlinkCommand = ChatCommand(
   "unlink",
   "Unlink an account external auth connection.",
+Id("external_unlink_command",
   (
     IContext ctx,
     @Description("External auth platform that you want to unlink.")
@@ -54,6 +55,7 @@ final ChatCommand externalUnlinkCommand = ChatCommand(
         ],
     );
   },
+),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),

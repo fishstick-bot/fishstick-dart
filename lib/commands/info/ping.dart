@@ -6,17 +6,20 @@ import "../../fishstick_dart.dart";
 final ChatCommand pingCommand = ChatCommand(
   "ping",
   "Check bot's connection to discord.",
-  (IContext ctx) async {
-    await ctx.respond(
-      MessageBuilder.embed(
-        EmbedBuilder()
-          ..description =
-              "🏓Pong! `${client.bot.shardManager.gatewayLatency.inMilliseconds}ms`"
-          ..color = DiscordColor.fromHexString((await ctx.dbUser).color)
-          ..footer = (EmbedFooterBuilder()..text = client.footerText)
-          ..timestamp = DateTime.now(),
-      ),
-    );
-  },
+  Id(
+    "ping_command",
+    (IContext ctx) async {
+      await ctx.respond(
+        MessageBuilder.embed(
+          EmbedBuilder()
+            ..description =
+                "🏓Pong! `${client.bot.shardManager.gatewayLatency.inMilliseconds}ms`"
+            ..color = DiscordColor.fromHexString((await ctx.dbUser).color)
+            ..footer = (EmbedFooterBuilder()..text = client.footerText)
+            ..timestamp = DateTime.now(),
+        ),
+      );
+    },
+  ),
   aliases: ["pong"],
 );

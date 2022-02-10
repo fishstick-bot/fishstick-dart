@@ -9,43 +9,46 @@ import "../../../resources/emojis.dart";
 final ChatCommand vbucksPlatformCommand = ChatCommand(
   "platform",
   "Change your V-Bucks platform for purchases in the item shop.",
-  (
-    IContext ctx,
-    @Description("The platform you want to use.")
-    @Choices({
-      "Playstation": "PSN",
-      "Xbox": "Live",
-      "Epic": "Epic",
-      "Epic PC": "EpicPC",
-      "Epic PC Korea": "EpicPCKorea",
-      "Shared": "Shared",
-      "IOS": "IOSAppStore",
-      "Android": "EpicAndroid",
-      "Nintendo": "Nintendo",
-      "Samsung": "Samsung",
-      "WeGame": "wegame",
-    })
-        String platform,
-  ) async {
-    DatabaseUser dbUser = await ctx.dbUser;
-    dbUser.fnClientSetup();
+  Id(
+    "vbucks_platform_command",
+    (
+      IContext ctx,
+      @Description("The platform you want to use.")
+      @Choices({
+        "Playstation": "PSN",
+        "Xbox": "Live",
+        "Epic": "Epic",
+        "Epic PC": "EpicPC",
+        "Epic PC Korea": "EpicPCKorea",
+        "Shared": "Shared",
+        "IOS": "IOSAppStore",
+        "Android": "EpicAndroid",
+        "Nintendo": "Nintendo",
+        "Samsung": "Samsung",
+        "WeGame": "wegame",
+      })
+          String platform,
+    ) async {
+      DatabaseUser dbUser = await ctx.dbUser;
+      dbUser.fnClientSetup();
 
-    await dbUser.fnClient.commonCore.init();
-    await dbUser.fnClient.commonCore.setMtxPlatform(platform);
+      await dbUser.fnClient.commonCore.init();
+      await dbUser.fnClient.commonCore.setMtxPlatform(platform);
 
-    final EmbedBuilder vBucksEmbed = EmbedBuilder()
-      ..author = (EmbedAuthorBuilder()
-        ..name = ctx.user.username
-        ..iconUrl = ctx.user.avatarURL(format: "png"))
-      ..color = DiscordColor.fromHexString(dbUser.color)
-      ..title = "${dbUser.activeAccount.displayName}'s V-Bucks Platform"
-      ..thumbnailUrl = dbUser.activeAccount.avatar
-      ..description =
-          "${tick.emoji} Successfully updated your V-Bucks platform from **${dbUser.fnClient.commonCore.currentMtxPlatform}** to **$platform**."
-      ..timestamp = DateTime.now()
-      ..footer = (EmbedFooterBuilder()..text = client.footerText);
+      final EmbedBuilder vBucksEmbed = EmbedBuilder()
+        ..author = (EmbedAuthorBuilder()
+          ..name = ctx.user.username
+          ..iconUrl = ctx.user.avatarURL(format: "png"))
+        ..color = DiscordColor.fromHexString(dbUser.color)
+        ..title = "${dbUser.activeAccount.displayName}'s V-Bucks Platform"
+        ..thumbnailUrl = dbUser.activeAccount.avatar
+        ..description =
+            "${tick.emoji} Successfully updated your V-Bucks platform from **${dbUser.fnClient.commonCore.currentMtxPlatform}** to **$platform**."
+        ..timestamp = DateTime.now()
+        ..footer = (EmbedFooterBuilder()..text = client.footerText);
 
-    await ctx.respond(MessageBuilder.embed(vBucksEmbed));
-  },
+      await ctx.respond(MessageBuilder.embed(vBucksEmbed));
+    },
+  ),
   checks: [],
 );

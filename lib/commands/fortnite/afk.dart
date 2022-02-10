@@ -8,32 +8,35 @@ import "../../utils/utils.dart";
 final ChatCommand afkCommand = ChatCommand(
   "afk",
   "Get your afk creative progress.",
-  (IContext ctx) async {
-    DatabaseUser dbUser = await ctx.dbUser;
-    dbUser.fnClientSetup();
+  Id(
+    "afk_command",
+    (IContext ctx) async {
+      DatabaseUser dbUser = await ctx.dbUser;
+      dbUser.fnClientSetup();
 
-    await dbUser.fnClient.athena.init();
+      await dbUser.fnClient.athena.init();
 
-    if (dbUser.fnClient.athena.creativeAFKTimePlayed ==
-        dbUser.fnClient.athena.maxCreativeAFKTimePlayable) {
-      throw Exception(
-          "You have already claimed max afk creative xp claimable for today.");
-    }
+      if (dbUser.fnClient.athena.creativeAFKTimePlayed ==
+          dbUser.fnClient.athena.maxCreativeAFKTimePlayable) {
+        throw Exception(
+            "You have already claimed max afk creative xp claimable for today.");
+      }
 
-    final EmbedBuilder embed = EmbedBuilder()
-      ..author = (EmbedAuthorBuilder()
-        ..name = ctx.user.username
-        ..iconUrl = ctx.user.avatarURL(format: "png"))
-      ..color = DiscordColor.fromHexString(dbUser.color)
-      ..title = "${dbUser.activeAccount.displayName}'s AFK Creative Progress"
-      ..thumbnailUrl = dbUser.activeAccount.avatar
-      ..description =
-          "${ctx.createProgressBar(dbUser.fnClient.athena.creativeAFKTimePlayed / dbUser.fnClient.athena.maxCreativeAFKTimePlayable)}\n• ${dbUser.fnClient.athena.creativeAFKTimePlayed} / ${dbUser.fnClient.athena.maxCreativeAFKTimePlayable} minutes played\n• ${dbUser.fnClient.athena.xpClaimedFromAFKCreative.toString().replaceAll(numberFormatRegex, ",")} / ${dbUser.fnClient.athena.maxAFKCreativeXPPerDay.toString().replaceAll(numberFormatRegex, ",")} ${seasonxp.emoji}"
-      ..timestamp = dbUser.fnClient.athena.lastCreativeAFKTimeGranted
-      ..footer = (EmbedFooterBuilder()..text = "Last grant");
+      final EmbedBuilder embed = EmbedBuilder()
+        ..author = (EmbedAuthorBuilder()
+          ..name = ctx.user.username
+          ..iconUrl = ctx.user.avatarURL(format: "png"))
+        ..color = DiscordColor.fromHexString(dbUser.color)
+        ..title = "${dbUser.activeAccount.displayName}'s AFK Creative Progress"
+        ..thumbnailUrl = dbUser.activeAccount.avatar
+        ..description =
+            "${ctx.createProgressBar(dbUser.fnClient.athena.creativeAFKTimePlayed / dbUser.fnClient.athena.maxCreativeAFKTimePlayable)}\n• ${dbUser.fnClient.athena.creativeAFKTimePlayed} / ${dbUser.fnClient.athena.maxCreativeAFKTimePlayable} minutes played\n• ${dbUser.fnClient.athena.xpClaimedFromAFKCreative.toString().replaceAll(numberFormatRegex, ",")} / ${dbUser.fnClient.athena.maxAFKCreativeXPPerDay.toString().replaceAll(numberFormatRegex, ",")} ${seasonxp.emoji}"
+        ..timestamp = dbUser.fnClient.athena.lastCreativeAFKTimeGranted
+        ..footer = (EmbedFooterBuilder()..text = "Last grant");
 
-    await ctx.respond(MessageBuilder.embed(embed));
-  },
+      await ctx.respond(MessageBuilder.embed(embed));
+    },
+  ),
   checks: [],
   aliases: ["cxp"],
 );

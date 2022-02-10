@@ -1,12 +1,12 @@
 include: package:lints/recommended.yaml
 
 analyzer:
-    exclude: [build/** , gdart.dart]
+    exclude: [build/**, gdart.dart, test.dart]
     language:
         strict-raw-types: true
     # strong-mode: # in future enable both of strong lint modes
-        # implicit-casts: false
-        # implicit-dynamic: false
+    # implicit-casts: false
+    # implicit-dynamic: false
 
 linter:
     rules:

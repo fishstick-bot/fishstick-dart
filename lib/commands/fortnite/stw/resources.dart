@@ -13,53 +13,57 @@ import "../../../../resources/emojis.dart";
 final ChatCommand resourcesSTWCommand = ChatCommand(
   "resources",
   "View your save the world game mode profile resources.",
-  (
-    IContext ctx, [
-    @Description("The player to check resources for.") String? player,
-  ]) async {
-    DatabaseUser dbUser = await ctx.dbUser;
-    dbUser.fnClientSetup();
-    final campaign = dbUser.fnClient.campaign;
+  Id(
+    "resources_stwcommand",
+    (
+      IContext ctx, [
+      @Description("The player to check resources for.") String? player,
+    ]) async {
+      DatabaseUser dbUser = await ctx.dbUser;
+      dbUser.fnClientSetup();
+      final campaign = dbUser.fnClient.campaign;
 
-    String displayName = dbUser.fnClient.displayName;
-    String accountId = dbUser.fnClient.accountId;
+      String displayName = dbUser.fnClient.displayName;
+      String accountId = dbUser.fnClient.accountId;
 
-    if (player != null) {
-      var search = await dbUser.fnClient.findPlayers(player);
-      if (search.isEmpty) {
-        throw Exception("No players found with prefix: $player.");
+      if (player != null) {
+        var search = await dbUser.fnClient.findPlayers(player);
+        if (search.isEmpty) {
+          throw Exception("No players found with prefix: $player.");
+        }
+
+        displayName = search.first.displayName;
+        accountId = search.first.accountId;
       }
 
-      displayName = search.first.displayName;
-      accountId = search.first.accountId;
-    }
+      await campaign.init(accountId);
 
-    await campaign.init(accountId);
+      if (!campaign.tutorialCompleted) {
+        throw Exception(
+            "$displayName haven't completed the tutorial yet. Please complete the tutorial before using this command.");
+      }
 
-    if (!campaign.tutorialCompleted) {
-      throw Exception(
-          "$displayName haven't completed the tutorial yet. Please complete the tutorial before using this command.");
-    }
+      var resources = campaign.accountResources;
 
-    var resources = campaign.accountResources;
+      final EmbedBuilder embed = EmbedBuilder()
+        ..author = (EmbedAuthorBuilder()
+          ..name = ctx.user.username
+          ..iconUrl = ctx.user.avatarURL(format: "png"))
+        ..color = DiscordColor.fromHexString(dbUser.color)
+        ..title =
+            "[${campaign.powerLevel.toStringAsFixed(1)}] $displayName | Save the World Resources"
+        ..thumbnailUrl = player == null ? dbUser.activeAccount.avatar : null
+        ..description = resources.map((r) {
+          var resource =
+              accountResources.firstWhere((i) => i.id == r.resourceId);
+          var emoji = emojis.where((e) => e.name.contains(r.resourceId));
+          return "${emoji.isEmpty ? resource.name : emoji.first.emoji} - ${r.quantityString.toBold()}";
+        }).join("\n")
+        ..timestamp = campaign.created
+        ..footer = (EmbedFooterBuilder()..text = "Account created on");
 
-    final EmbedBuilder embed = EmbedBuilder()
-      ..author = (EmbedAuthorBuilder()
-        ..name = ctx.user.username
-        ..iconUrl = ctx.user.avatarURL(format: "png"))
-      ..color = DiscordColor.fromHexString(dbUser.color)
-      ..title =
-          "[${campaign.powerLevel.toStringAsFixed(1)}] $displayName | Save the World Resources"
-      ..thumbnailUrl = player == null ? dbUser.activeAccount.avatar : null
-      ..description = resources.map((r) {
-        var resource = accountResources.firstWhere((i) => i.id == r.resourceId);
-        var emoji = emojis.where((e) => e.name.contains(r.resourceId));
-        return "${emoji.isEmpty ? resource.name : emoji.first.emoji} - ${r.quantityString.toBold()}";
-      }).join("\n")
-      ..timestamp = campaign.created
-      ..footer = (EmbedFooterBuilder()..text = "Account created on");
-
-    await ctx.respond(MessageBuilder.embed(embed));
-  },
+      await ctx.respond(MessageBuilder.embed(embed));
+    },
+  ),
   checks: [],
 );

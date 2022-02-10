@@ -8,26 +8,29 @@ import "../../../utils/utils.dart";
 final ChatCommand accountSettingsPageCommand = ChatCommand(
   "page",
   "Create a link to visit your epic games account settings.",
-  (IContext ctx) async {
-    DatabaseUser user = await ctx.dbUser;
-    user.fnClientSetup();
+  Id(
+    "page_command",
+    (IContext ctx) async {
+      DatabaseUser user = await ctx.dbUser;
+      user.fnClientSetup();
 
-    return await ctx.respond(
-      ComponentMessageBuilder()
-        ..content =
-            "Visit your Epic Games account settings by clicking on the button below."
-        ..addComponentRow(
-          ComponentRowBuilder()
-            ..addComponent(
-              LinkButtonBuilder(
-                "Account Page",
-                "https://epicgames.com/id/exchange?exchangeCode=${await (user.fnClient.auth.createExchangeCode())}",
+      return await ctx.respond(
+        ComponentMessageBuilder()
+          ..content =
+              "Visit your Epic Games account settings by clicking on the button below."
+          ..addComponentRow(
+            ComponentRowBuilder()
+              ..addComponent(
+                LinkButtonBuilder(
+                  "Account Page",
+                  "https://epicgames.com/id/exchange?exchangeCode=${await (user.fnClient.auth.createExchangeCode())}",
+                ),
               ),
-            ),
-        ),
-      private: true,
-    );
-  },
+          ),
+        private: true,
+      );
+    },
+  ),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),
