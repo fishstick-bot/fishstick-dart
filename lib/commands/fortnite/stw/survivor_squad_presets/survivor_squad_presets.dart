@@ -7,7 +7,7 @@ import "new.dart";
 import "delete.dart";
 import "equip.dart";
 
-final Group survivorSquadPresetCommand = Group(
+final ChatGroup survivorSquadPresetCommand = ChatGroup(
   "survivor-squad-preset",
   "Manage your survivor squad presets.",
   children: [

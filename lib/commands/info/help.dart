@@ -6,14 +6,14 @@ import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 import "../../resources/emojis.dart";
 
-final Command helpCommand = Command(
+final ChatCommand helpCommand = ChatCommand(
   "help",
   "Get help on commands.",
-  (Context ctx) async {
+  (IContext ctx) async {
     var user = await ctx.dbUser;
 
     List<EmbedBuilder> pages = <EmbedBuilder>[];
-    bool isSlash = ctx is InteractionContext;
+    bool isSlash = ctx is InteractionChatContext;
     int perPageCommands = 9;
 
     for (var i = 0;
@@ -24,8 +24,11 @@ final Command helpCommand = Command(
               ? perPageCommands + i
               : ctx.commands.walkCommands().length;
 
-      List<Command> commandsOnPage =
-          ctx.commands.walkCommands().toList().sublist(i, pageCommandsSize);
+      List<ChatCommand> commandsOnPage = ctx.commands
+          .walkCommands()
+          .toList()
+          .sublist(i, pageCommandsSize)
+          .cast<ChatCommand>();
 
       EmbedBuilder page = EmbedBuilder()
         ..author = (EmbedAuthorBuilder()

@@ -10,11 +10,11 @@ import "../../../extensions/context_extensions.dart";
 import "../../../utils/utils.dart";
 import "../../../fishstick_dart.dart";
 
-final Command loginCommand = Command(
+final ChatCommand loginCommand = ChatCommand(
   "login",
   "Switch current active account or Login to a new epic account.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("32 digit authorization code.") String? code,
   ]) async {
     final DatabaseUser user = await ctx.dbUser;
@@ -263,5 +263,7 @@ final Command loginCommand = Command(
   },
   aliases: ["i"],
   checks: [],
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
 );

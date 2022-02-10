@@ -2,7 +2,7 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "view.dart";
 import "change.dart";
 
-final Group affiliateCommand = Group(
+final ChatGroup affiliateCommand = ChatGroup(
   "sac",
   "Manage your supported creator in item shop.",
   children: [

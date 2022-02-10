@@ -6,10 +6,10 @@ import "../../../extensions/string_extensions.dart";
 import "../../../resources/emojis.dart";
 import "../../../utils/utils.dart";
 
-final Command overviewBRCommand = Command(
+final ChatCommand overviewBRCommand = ChatCommand(
   "br",
   "View your battle royale game mode profile overview.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
     final athena = dbUser.fnClient.athena;
@@ -45,6 +45,5 @@ final Command overviewBRCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

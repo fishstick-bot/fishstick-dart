@@ -3,10 +3,10 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 
-final Command exchangeCodeCreateCommand = Command(
+final ChatCommand exchangeCodeCreateCommand = ChatCommand(
   "create",
   "Create an exchange code used to authenticate with fortnite api.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
 
@@ -15,6 +15,8 @@ final Command exchangeCodeCreateCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

@@ -4,10 +4,10 @@ import "package:nyxx_commands/nyxx_commands.dart";
 // import "../../extensions/context_extensions.dart";
 import "../../fishstick_dart.dart";
 
-final Command inviteCommand = Command(
+final ChatCommand inviteCommand = ChatCommand(
   "invite",
   "Get bot's invite link.",
-  (Context ctx) async {
+  (IContext ctx) async {
     await ctx.respond(
       ComponentMessageBuilder()
         ..content = "**Invite links:**"

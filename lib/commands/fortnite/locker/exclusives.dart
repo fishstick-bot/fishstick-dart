@@ -18,11 +18,11 @@ import "../../../resources/emojis.dart";
 
 import "../../../utils/utils.dart";
 
-final Command lockerExclusivesImageCommand = Command(
+final ChatCommand lockerExclusivesImageCommand = ChatCommand(
   "exclusives",
   "View your locker exclusive items in an image format.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("User to get V-Bucks balance for") IUser? user,
   ]) async {
     if (client.cachedCosmetics.isEmpty) {
@@ -103,6 +103,5 @@ final Command lockerExclusivesImageCommand = Command(
 
     await msg.delete();
   },
-  hideOriginalResponse: false,
   checks: [premiumCheck],
 );

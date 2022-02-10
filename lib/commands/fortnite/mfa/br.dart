@@ -5,10 +5,10 @@ import "../../../fishstick_dart.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 
-final Command mfaBRCommand = Command(
+final ChatCommand mfaBRCommand = ChatCommand(
   "br",
   "Claim MFA rewards for battle royale gamemode.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
 
@@ -51,6 +51,5 @@ final Command mfaBRCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

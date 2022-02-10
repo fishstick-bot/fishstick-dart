@@ -5,10 +5,10 @@ import "../../../fishstick_dart.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 
-final Command mfaSTWCommand = Command(
+final ChatCommand mfaSTWCommand = ChatCommand(
   "stw",
   "Claim MFA rewards for save the world royale gamemode.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
 
@@ -62,6 +62,5 @@ final Command mfaSTWCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

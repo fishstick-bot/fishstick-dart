@@ -4,10 +4,10 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../resources/emojis.dart";
 
-final Command skipTutorialCommand = Command(
+final ChatCommand skipTutorialCommand = ChatCommand(
   "skip-tutorial",
   "Skip your save the world gamemode tutorial.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
     final campaign = dbUser.fnClient.campaign;
@@ -29,6 +29,5 @@ final Command skipTutorialCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

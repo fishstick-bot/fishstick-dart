@@ -8,10 +8,10 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../extensions/string_extensions.dart";
 
-final Command listSurvivorSquadPresets = Command(
+final ChatCommand listSurvivorSquadPresets = ChatCommand(
   "list",
   "View your saved survivor squad presets.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
 
@@ -33,6 +33,5 @@ final Command listSurvivorSquadPresets = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

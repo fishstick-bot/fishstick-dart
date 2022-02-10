@@ -5,6 +5,12 @@ version: 0.9.0
 environment:
     sdk: ">=2.15.0 <3.0.0"
 
+dependency_overrides:
+    nyxx_commands:
+        git:
+            url: https://github.com/nyxx-discord/nyxx_commands.git
+            ref: feat/compile
+
 dependencies:
     # logging
     logging: ^1.0.2
@@ -13,7 +19,7 @@ dependencies:
     # libraries for discord api
     nyxx: ^3.2.3
     nyxx_interactions: ^3.2.0
-    nyxx_commands: ^3.3.0
+    nyxx_commands: ^4.0.0-dev.0
     nyxx_extensions: ^3.0.0
     nyxx_pagination: ^2.1.0
     nyxx_sharding: ^1.0.0

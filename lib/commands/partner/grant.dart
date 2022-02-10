@@ -4,11 +4,11 @@ import "../../database/database_user.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 
-final Command grantPartnerCommand = Command(
+final ChatCommand grantPartnerCommand = ChatCommand(
   "grant",
   "Grant a user a partner tier.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The user you want to grant partner.") IUser user,
   ) async {
     // DatabaseUser dbUser = await ctx.dbUser;

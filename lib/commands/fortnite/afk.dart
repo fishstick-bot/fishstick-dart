@@ -5,10 +5,10 @@ import "../../extensions/context_extensions.dart";
 import "../../resources/emojis.dart";
 import "../../utils/utils.dart";
 
-final Command afkCommand = Command(
+final ChatCommand afkCommand = ChatCommand(
   "afk",
   "Get your afk creative progress.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
 
@@ -34,7 +34,6 @@ final Command afkCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
   aliases: ["cxp"],
 );

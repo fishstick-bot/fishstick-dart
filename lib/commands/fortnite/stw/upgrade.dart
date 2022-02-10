@@ -5,11 +5,11 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../resources/emojis.dart";
 
-final Command stwUpgradeCommand = Command(
+final ChatCommand stwUpgradeCommand = ChatCommand(
   "upgrade",
   "Upgrade a save the world homebase node..",
   (
-    Context ctx,
+    IContext ctx,
     @Choices({
       "Backpack": "HomebaseNode:skilltree_backpacksize",
       "Storage": "HomebaseNode:skilltree_stormshieldstorage",
@@ -38,6 +38,5 @@ final Command stwUpgradeCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

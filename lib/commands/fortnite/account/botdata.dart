@@ -7,10 +7,10 @@
 // import "../../../extensions/context_extensions.dart";
 // import "../../../fishstick_dart.dart";
 
-// final Command botDataCommand = Command(
+// final ChatCommand botDataCommand = ChatCommand(
 //   "botdata",
 //   "Sends your saved data in bot in a pdf file.",
-//   (Context ctx) async {
+//   (IContext ctx) async {
 //     DatabaseUser user = await ctx.dbUser;
 
 //     final pdf = pw.Document(
@@ -157,6 +157,6 @@
 //       private: true,
 //     );
 //   },
-//   hideOriginalResponse: true,
+//   options: CommandOptions(hideOriginalResponse: true,),
 //   checks: [],
 // );

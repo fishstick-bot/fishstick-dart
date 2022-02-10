@@ -3,7 +3,7 @@ import "text.dart";
 import "image.dart";
 import "exclusives.dart";
 
-final Group lockerCommand = Group(
+final ChatGroup lockerCommand = ChatGroup(
   "locker",
   "Locker related commands.",
   children: [

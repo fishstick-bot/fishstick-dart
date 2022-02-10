@@ -6,11 +6,11 @@ import "../../../extensions/string_extensions.dart";
 import "../../../resources/emojis.dart";
 import "../../../utils/utils.dart";
 
-final Command overviewSTWCommand = Command(
+final ChatCommand overviewSTWCommand = ChatCommand(
   "stw",
   "View your save the world game mode profile overview.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("The player to check profile for.") String? player,
   ]) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -103,6 +103,5 @@ final Command overviewSTWCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

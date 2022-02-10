@@ -6,11 +6,11 @@ import "../../../../extensions/context_extensions.dart";
 import "../../../../fishstick_dart.dart";
 import "../../../../resources/emojis.dart";
 
-final Command realNameLastCommand = Command(
+final ChatCommand realNameLastCommand = ChatCommand(
   "last",
   "Update your account last name.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("What would you like your real last name to?") String update,
   ) async {
     DatabaseUser user = await ctx.dbUser;
@@ -45,6 +45,8 @@ final Command realNameLastCommand = Command(
         ],
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

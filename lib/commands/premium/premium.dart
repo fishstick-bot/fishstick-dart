@@ -3,7 +3,7 @@ import "grant.dart";
 import "revoke.dart";
 import "check.dart";
 
-final Group premiumCommand = Group(
+final ChatGroup premiumCommand = ChatGroup(
   "premium",
   "Grant/Revoke a user's premium subscription.",
   children: [

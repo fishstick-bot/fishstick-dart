@@ -95,11 +95,11 @@ Check guildCheck = Check((ctx) async => ctx.guild != null, "guild-check");
 
 /// override respond function
 Future<IMessage> respond(
-  Context ctx,
+  IContext ctx,
   MessageBuilder builder, {
   bool hidden = false,
 }) async {
-  if (ctx is InteractionContext) {
+  if (ctx is InteractionChatContext) {
     return await ctx.respond(builder, hidden: hidden);
   } else {
     return await ctx.respond(builder);

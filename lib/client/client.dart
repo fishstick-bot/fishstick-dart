@@ -96,7 +96,6 @@ class Client {
         acceptBotCommands: false,
         acceptSelfCommands: false,
         autoAcknowledgeInteractions: true,
-        hideOriginalResponse: false,
       ),
     );
 

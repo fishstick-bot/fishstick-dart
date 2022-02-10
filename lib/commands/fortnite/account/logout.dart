@@ -9,10 +9,10 @@ import "../../../extensions/context_extensions.dart";
 import "../../../utils/utils.dart";
 import "../../../fishstick_dart.dart";
 
-final Command logoutCommand = Command(
+final ChatCommand logoutCommand = ChatCommand(
   "logout",
   "Logout of your saved epic accounts.",
-  (Context ctx) async {
+  (IContext ctx) async {
     final DatabaseUser user = await ctx.dbUser;
 
     if (user.linkedAccounts.isEmpty) {

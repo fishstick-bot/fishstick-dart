@@ -3,7 +3,7 @@ import "../../utils/utils.dart";
 import "vbucks_alerts.dart";
 import "legendary_survivor_alerts.dart";
 
-final Group autopostCommand = Group(
+final ChatGroup autopostCommand = ChatGroup(
   "autopost",
   "Configure auto post settings.",
   children: [

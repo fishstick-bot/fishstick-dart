@@ -4,11 +4,11 @@ import "../../database/database_user.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 
-final Command blacklistRemoveCommand = Command(
+final ChatCommand blacklistRemoveCommand = ChatCommand(
   "remove",
   "Unblacklist a user.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The user you want to remove from blacklist.") IUser user,
   ) async {
     // DatabaseUser dbUser = await ctx.dbUser;

@@ -20,11 +20,11 @@ import "../../../resources/emojis.dart";
 
 import "../../../utils/utils.dart";
 
-final Command lockerImageCommand = Command(
+final ChatCommand lockerImageCommand = ChatCommand(
   "image",
   "View your locker in an image format.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("User to get V-Bucks balance for") IUser? user,
   ]) async {
     if (client.cachedCosmetics.isEmpty) {
@@ -129,6 +129,5 @@ final Command lockerImageCommand = Command(
       await msg.delete();
     }
   },
-  hideOriginalResponse: false,
   checks: [],
 );

@@ -6,10 +6,10 @@ import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
 import "../../../utils/utils.dart";
 
-final Command accountReceiptsCommand = Command(
+final ChatCommand accountReceiptsCommand = ChatCommand(
   "receipts",
   "Gives your account purchase receipts in a file.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
 
@@ -27,6 +27,8 @@ final Command accountReceiptsCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [premiumCheck],
 );

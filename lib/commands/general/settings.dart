@@ -9,10 +9,10 @@ import "../../structures/privacy.dart";
 import "../../utils/utils.dart";
 import "../../resources/emojis.dart";
 
-final Command settingsCommand = Command(
+final ChatCommand settingsCommand = ChatCommand(
   "settings",
   "Configure your bot usage settings.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
 
     EmbedBuilder embed = EmbedBuilder()

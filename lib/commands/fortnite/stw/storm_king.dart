@@ -10,11 +10,11 @@ import "../../../../extensions/string_extensions.dart";
 
 import "../../../../resources/emojis.dart";
 
-final Command mskCommand = Command(
+final ChatCommand mskCommand = ChatCommand(
   "msk",
   "View your save the world game mode mythic storm king quest.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("The player to check quest for.") String? player,
   ]) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -87,7 +87,6 @@ final Command mskCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
   aliases: ["stormking"],
 );

@@ -4,10 +4,10 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../fishstick_dart.dart";
 
-final Command externalViewCommand = Command(
+final ChatCommand externalViewCommand = ChatCommand(
   "view",
   "View your account external auth connections information.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
 
@@ -40,6 +40,8 @@ final Command externalViewCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

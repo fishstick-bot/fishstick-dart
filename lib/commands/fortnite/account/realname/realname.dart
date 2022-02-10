@@ -4,7 +4,7 @@ import "first.dart";
 import "last.dart";
 import "../../../../utils/utils.dart";
 
-final Group realNameCommand = Group(
+final ChatGroup realNameCommand = ChatGroup(
   "realname",
   "Manage your account real name information.",
   children: [

@@ -4,11 +4,11 @@ import "../../database/database_user.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 
-final Command blacklistAddCommand = Command(
+final ChatCommand blacklistAddCommand = ChatCommand(
   "add",
   "Blacklist a user.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The user you want to blacklist.") IUser user,
     @Description("The reason for blacklisting the user.") String reason,
   ) async {

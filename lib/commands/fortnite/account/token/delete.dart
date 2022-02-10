@@ -3,10 +3,10 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 
-final Command accessTokenDeleteCommand = Command(
+final ChatCommand accessTokenDeleteCommand = ChatCommand(
   "kill",
   "Invalidate an access token.",
-  (Context ctx, String token) async {
+  (IContext ctx, String token) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
     await user.fnClient.auth.killAccessToken(token: token);
@@ -16,6 +16,8 @@ final Command accessTokenDeleteCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

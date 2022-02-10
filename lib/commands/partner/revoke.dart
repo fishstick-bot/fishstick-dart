@@ -4,11 +4,11 @@ import "../../database/database_user.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 
-final Command revokePartnerCommand = Command(
+final ChatCommand revokePartnerCommand = ChatCommand(
   "revoke",
   "Revoke a user's partner tier.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The user you want to revoke partner tier of.") IUser user,
   ) async {
     // DatabaseUser dbUser = await ctx.dbUser;

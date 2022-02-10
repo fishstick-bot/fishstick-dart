@@ -5,11 +5,11 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../fishstick_dart.dart";
 
-final Command usernameChangeCommand = Command(
+final ChatCommand usernameChangeCommand = ChatCommand(
   "change",
   "Change your account username.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("What would you like your new username as?") String update,
   ) async {
     DatabaseUser user = await ctx.dbUser;
@@ -49,6 +49,8 @@ final Command usernameChangeCommand = Command(
         ..componentRows = [],
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

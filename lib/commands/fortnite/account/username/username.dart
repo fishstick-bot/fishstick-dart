@@ -3,7 +3,7 @@ import "view.dart";
 import "change.dart";
 import "../../../../utils/utils.dart";
 
-final Group usernameCommand = Group(
+final ChatGroup usernameCommand = ChatGroup(
   "username",
   "Manage your account username information.",
   children: [

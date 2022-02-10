@@ -6,11 +6,11 @@ import "../../../../extensions/context_extensions.dart";
 import "../../../../fishstick_dart.dart";
 import "../../../../resources/emojis.dart";
 
-final Command externalUnlinkCommand = Command(
+final ChatCommand externalUnlinkCommand = ChatCommand(
   "unlink",
   "Unlink an account external auth connection.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("External auth platform that you want to unlink.")
         String platform,
   ) async {
@@ -54,6 +54,8 @@ final Command externalUnlinkCommand = Command(
         ],
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

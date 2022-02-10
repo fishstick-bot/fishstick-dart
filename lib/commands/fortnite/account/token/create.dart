@@ -4,10 +4,10 @@ import "package:fortnite/fortnite.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 
-final Command accessTokenCreateCommand = Command(
+final ChatCommand accessTokenCreateCommand = ChatCommand(
   "create",
   "Create an access token used to authenticate with fortnite api.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
 
@@ -22,6 +22,8 @@ final Command accessTokenCreateCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

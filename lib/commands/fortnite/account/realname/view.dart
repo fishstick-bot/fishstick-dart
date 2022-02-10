@@ -4,10 +4,10 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../fishstick_dart.dart";
 
-final Command realNameViewCommand = Command(
+final ChatCommand realNameViewCommand = ChatCommand(
   "view",
   "View your account real name information.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
 
@@ -30,6 +30,8 @@ final Command realNameViewCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

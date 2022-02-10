@@ -6,11 +6,11 @@ import "../../../extensions/context_extensions.dart";
 import "../../../extensions/string_extensions.dart";
 import "../../../fishstick_dart.dart";
 
-final Command homebaseNameCommand = Command(
+final ChatCommand homebaseNameCommand = ChatCommand(
   "homebase-name",
   "View/change your save the world gamemode homebase name.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("The new homebase name.") String? update,
   ]) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -65,6 +65,5 @@ final Command homebaseNameCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

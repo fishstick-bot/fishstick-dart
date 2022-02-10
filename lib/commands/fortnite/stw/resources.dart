@@ -10,11 +10,11 @@ import "../../../../extensions/string_extensions.dart";
 
 import "../../../../resources/emojis.dart";
 
-final Command resourcesSTWCommand = Command(
+final ChatCommand resourcesSTWCommand = ChatCommand(
   "resources",
   "View your save the world game mode profile resources.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("The player to check resources for.") String? player,
   ]) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -61,6 +61,5 @@ final Command resourcesSTWCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

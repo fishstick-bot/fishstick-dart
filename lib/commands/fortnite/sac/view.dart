@@ -4,10 +4,10 @@ import "../../../fishstick_dart.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 
-final Command affiliateViewCommand = Command(
+final ChatCommand affiliateViewCommand = ChatCommand(
   "view",
   "View your supported creator in the item shop.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
     await dbUser.fnClient.commonCore.init();
@@ -26,6 +26,5 @@ final Command affiliateViewCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

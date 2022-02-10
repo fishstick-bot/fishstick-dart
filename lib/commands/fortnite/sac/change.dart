@@ -4,11 +4,11 @@ import "../../../fishstick_dart.dart";
 import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 
-final Command affiliateChangeCommand = Command(
+final ChatCommand affiliateChangeCommand = ChatCommand(
   "change",
   "Change your supported creator in the item shop.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The creator to support.") String creator,
   ) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -30,6 +30,5 @@ final Command affiliateChangeCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

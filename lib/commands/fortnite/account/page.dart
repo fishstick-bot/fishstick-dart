@@ -5,10 +5,10 @@ import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
 import "../../../utils/utils.dart";
 
-final Command accountSettingsPageCommand = Command(
+final ChatCommand accountSettingsPageCommand = ChatCommand(
   "page",
   "Create a link to visit your epic games account settings.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser user = await ctx.dbUser;
     user.fnClientSetup();
 
@@ -28,6 +28,8 @@ final Command accountSettingsPageCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [premiumCheck],
 );

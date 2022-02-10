@@ -3,7 +3,7 @@ import "view.dart";
 import "unlink.dart";
 import "../../../../utils/utils.dart";
 
-final Group externalsCommand = Group(
+final ChatGroup externalsCommand = ChatGroup(
   "external",
   "Manage your account external links.",
   children: [

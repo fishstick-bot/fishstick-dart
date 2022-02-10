@@ -10,11 +10,11 @@ import "../../../../structures/stw_survivor_squad_preset.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../extensions/string_extensions.dart";
 
-final Command newSurvivorSquadPreset = Command(
+final ChatCommand newSurvivorSquadPreset = ChatCommand(
   "new",
   "Create a new survivor squad preset.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("Name for preset.") String name,
   ) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -51,6 +51,5 @@ final Command newSurvivorSquadPreset = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

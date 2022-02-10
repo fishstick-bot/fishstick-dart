@@ -92,3 +92,4 @@
 -   List extensions.
 -   Auto daily system job.
 -   Auto claim free llamas.
+-   Update to nyxx_commands 4.0 beta.

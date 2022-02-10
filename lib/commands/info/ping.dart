@@ -3,10 +3,10 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "../../extensions/context_extensions.dart";
 import "../../fishstick_dart.dart";
 
-final Command pingCommand = Command(
+final ChatCommand pingCommand = ChatCommand(
   "ping",
   "Check bot's connection to discord.",
-  (Context ctx) async {
+  (IContext ctx) async {
     await ctx.respond(
       MessageBuilder.embed(
         EmbedBuilder()

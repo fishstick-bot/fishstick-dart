@@ -6,11 +6,11 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../resources/emojis.dart";
 
-final Command vbucksPlatformCommand = Command(
+final ChatCommand vbucksPlatformCommand = ChatCommand(
   "platform",
   "Change your V-Bucks platform for purchases in the item shop.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The platform you want to use.")
     @Choices({
       "Playstation": "PSN",
@@ -47,6 +47,5 @@ final Command vbucksPlatformCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(vBucksEmbed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

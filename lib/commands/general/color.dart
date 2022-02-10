@@ -5,11 +5,11 @@ import "../../extensions/context_extensions.dart";
 import "../../utils/utils.dart";
 import "../../fishstick_dart.dart";
 
-final Command colorCommand = Command(
+final ChatCommand colorCommand = ChatCommand(
   "color",
   "Configure color to be used for embeds etc.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("Hex color code to use for the color.") String hexcode,
   ) async {
     DatabaseUser user = await ctx.dbUser;

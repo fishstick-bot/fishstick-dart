@@ -8,11 +8,11 @@ import "../../../../extensions/context_extensions.dart";
 import "../../../resources/emojis.dart";
 import "../../../structures/privacy.dart";
 
-final Command vbucksBalanceCommand = Command(
+final ChatCommand vbucksBalanceCommand = ChatCommand(
   "balance",
   "Get your or someone else's V-Bucks balance.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("User to get V-Bucks balance for") IUser? user,
     @Description("Get breakdown of V-Bucks purchases.")
         bool purchaseBreakdown = false,
@@ -62,6 +62,5 @@ final Command vbucksBalanceCommand = Command(
       await ctx.respond(MessageBuilder.embed(vBucksEmbed));
     }
   },
-  hideOriginalResponse: false,
   checks: [],
 );

@@ -18,10 +18,10 @@ import "../../../utils/utils.dart";
 
 import "../../../resources/emojis.dart";
 
-final Command lockerTextCommand = Command(
+final ChatCommand lockerTextCommand = ChatCommand(
   "text",
   "View your locker in a text-based format.",
-  (Context ctx) async {
+  (IContext ctx) async {
     if (client.cachedCosmetics.isEmpty) {
       throw Exception(
           "Cosmetics are not loaded yet, please try again in a while.");
@@ -137,6 +137,5 @@ final Command lockerTextCommand = Command(
       await msg.delete();
     }
   },
-  hideOriginalResponse: false,
   checks: [],
 );

@@ -5,10 +5,10 @@ import "../../../../database/database_user.dart";
 
 import "../../../../extensions/context_extensions.dart";
 
-final Command claimDailyCommand = Command(
+final ChatCommand claimDailyCommand = ChatCommand(
   "claim-daily",
   "Claim your save the world game mode daily login rewards.",
-  (Context ctx) async {
+  (IContext ctx) async {
     DatabaseUser dbUser = await ctx.dbUser;
     dbUser.fnClientSetup();
     final campaign = dbUser.fnClient.campaign;
@@ -46,6 +46,5 @@ final Command claimDailyCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

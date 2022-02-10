@@ -3,11 +3,11 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
 
-final Command gameLaunchCommand = Command(
+final ChatCommand gameLaunchCommand = ChatCommand(
   "launch",
   "Creates launch arguments to launch your game on windows device.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("Path to Win64 directory.") String path =
         "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Binaries\\Win64",
   ]) async {
@@ -22,6 +22,8 @@ final Command gameLaunchCommand = Command(
       private: true,
     );
   },
-  hideOriginalResponse: true,
+  options: CommandOptions(
+    hideOriginalResponse: true,
+  ),
   checks: [],
 );

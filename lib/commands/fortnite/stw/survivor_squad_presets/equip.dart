@@ -7,11 +7,11 @@ import "../../../../database/database_user.dart";
 
 import "../../../../extensions/context_extensions.dart";
 
-final Command equipSurvivorSquadPreset = Command(
+final ChatCommand equipSurvivorSquadPreset = ChatCommand(
   "equip",
   "Equip a saved survivor squad preset.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("Name for preset.") String name,
   ) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -45,6 +45,5 @@ final Command equipSurvivorSquadPreset = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

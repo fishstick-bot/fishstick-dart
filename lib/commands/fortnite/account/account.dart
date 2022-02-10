@@ -8,7 +8,7 @@ import "realname/realname.dart";
 import "username/username.dart";
 import "external/external.dart";
 
-final Group accountCommand = Group(
+final ChatGroup accountCommand = ChatGroup(
   "account",
   "Account management commands.",
   children: [

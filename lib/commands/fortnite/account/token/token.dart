@@ -4,7 +4,7 @@ import "delete.dart";
 import "delete_multiple.dart";
 import "../../../../utils/utils.dart";
 
-final Group accessTokenCommand = Group(
+final ChatGroup accessTokenCommand = ChatGroup(
   "token",
   "Access token commands.",
   children: [

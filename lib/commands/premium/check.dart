@@ -4,11 +4,11 @@ import "../../database/database_user.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 
-final Command premiumCheckCommand = Command(
+final ChatCommand premiumCheckCommand = ChatCommand(
   "check",
   "Check a user's premium subscription.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The user you want to check premium subscription of.")
         IUser user,
   ) async {

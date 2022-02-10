@@ -5,11 +5,11 @@ import "../../extensions/context_extensions.dart";
 import "../../utils/utils.dart";
 import "../../fishstick_dart.dart";
 
-final Command autopostVbucksAlertsCommand = Command(
+final ChatCommand autopostVbucksAlertsCommand = ChatCommand(
   "vbucks-alerts",
   "Configure settings for auto post vbucks alerts.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The channel to post in.") ITextGuildChannel channel, [
     @Description("The role to mention with the post.") IRole? role,
   ]) async {

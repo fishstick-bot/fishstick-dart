@@ -8,11 +8,11 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../extensions/string_extensions.dart";
 
-final Command pendingDifficultyRewardsCommand = Command(
+final ChatCommand pendingDifficultyRewardsCommand = ChatCommand(
   "difficultyrewards",
   "View your unclaimed save the world game mode difficulty rewards.",
   (
-    Context ctx, [
+    IContext ctx, [
     @Description("The player to check unclaimed rewards for.") String? player,
   ]) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -62,7 +62,6 @@ final Command pendingDifficultyRewardsCommand = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
   aliases: ["di"],
 );

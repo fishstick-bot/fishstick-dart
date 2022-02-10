@@ -8,10 +8,10 @@ import "../../extensions/context_extensions.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 
-final Command infoCommand = Command(
+final ChatCommand infoCommand = ChatCommand(
   "info",
   "Get basic bot info.",
-  (Context ctx) async {
+  (IContext ctx) async {
     final pubspecYaml = File("pubspec.yaml").readAsStringSync().toPubspecYaml();
 
     var user = await ctx.dbUser;

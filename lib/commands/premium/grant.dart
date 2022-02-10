@@ -4,11 +4,11 @@ import "../../database/database_user.dart";
 import "../../fishstick_dart.dart";
 import "../../utils/utils.dart";
 
-final Command premiumGrantCommand = Command(
+final ChatCommand premiumGrantCommand = ChatCommand(
   "grant",
   "Grant a user a premium subscription.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("The user you want to grant premium subscription.") IUser user,
     @Description("The duration of the subscription in days.") int days,
   ) async {

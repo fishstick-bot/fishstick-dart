@@ -8,11 +8,11 @@ import "../../../../database/database_user.dart";
 import "../../../../extensions/context_extensions.dart";
 import "../../../../extensions/string_extensions.dart";
 
-final Command deleteSurvivorSquadPreset = Command(
+final ChatCommand deleteSurvivorSquadPreset = ChatCommand(
   "delete",
   "Delete a saved survivor squad preset.",
   (
-    Context ctx,
+    IContext ctx,
     @Description("Name for preset.") String name,
   ) async {
     DatabaseUser dbUser = await ctx.dbUser;
@@ -46,6 +46,5 @@ final Command deleteSurvivorSquadPreset = Command(
 
     await ctx.respond(MessageBuilder.embed(embed));
   },
-  hideOriginalResponse: false,
   checks: [],
 );

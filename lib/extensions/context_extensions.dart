@@ -10,7 +10,7 @@ import "../resources/emojis.dart" show filled, empty, cross, tick;
 Map<String, DatabaseUser> cachedDbUsers = {};
 Map<String, DatabaseGuild> cachedDbGuilds = {};
 
-extension DB on Context {
+extension DB on IContext {
   /// fetch the db user from the cache or database
   Future<DatabaseUser> get dbUser async {
     cachedDbUsers[user.id.toString()] ??=
@@ -42,7 +42,7 @@ extension DB on Context {
   }
 }
 
-extension Util on Context {
+extension Util on IContext {
   /// take confirmation from the user
   Future<IMessage?> takeConfirmation(String message) async {
     final String confirmButtonID = "${randomString(30)}-confirm";
