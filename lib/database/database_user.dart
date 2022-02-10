@@ -309,6 +309,9 @@ class DatabaseUser {
     }
 
     String accountId = accId ?? selectedAccount;
+    if (accountId == "" && linkedAccounts.isNotEmpty) {
+      accountId = linkedAccounts.first.accountId;
+    }
 
     var found = linkedAccounts.where((a) => a.accountId == accountId);
 

@@ -3,10 +3,12 @@ import "package:fishstick_dart/fishstick_dart.dart";
 
 void main() async {
   final IShardingManager shardManager = IShardingManager.create(
-    UncompiledDart("bin/fishstick_dart.dart"),
+    Config().developmentMode
+        ? UncompiledDart("bin/fishstick_dart.dart")
+        : Executable("build/bot.exe"),
     token: Config().token,
-    numProcesses: 4,
-    shardsPerProcess: 2,
+    numProcesses: Config().developmentMode ? 1 : 5,
+    shardsPerProcess: Config().developmentMode ? 1 : 2,
   );
   await shardManager.start();
 }

@@ -45,7 +45,5 @@ final ChatCommand premiumGrantCommand = ChatCommand(
       );
     },
   ),
-  checks: [
-    partnerCheck,
-  ],
+  checks: [partnerCheck],
 );

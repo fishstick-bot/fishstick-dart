@@ -7,41 +7,42 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand externalViewCommand = ChatCommand(
   "view",
   "View your account external auth connections information.",
-Id("external_view_command",
-  (IContext ctx) async {
-    DatabaseUser user = await ctx.dbUser;
-    user.fnClientSetup();
+  Id(
+    "external_view_command",
+    (IContext ctx) async {
+      DatabaseUser user = await ctx.dbUser;
+      user.fnClientSetup();
 
-    final externalAuths = await user.fnClient.auth.getExternalAuths();
-    if (externalAuths.isEmpty) {
-      throw Exception("You don't have any external auths.");
-    }
+      final externalAuths = await user.fnClient.auth.getExternalAuths();
+      if (externalAuths.isEmpty) {
+        throw Exception("You don't have any external auths.");
+      }
 
-    var externalAuthNames = {
-      "google": "Google",
-      "github": "GitHub",
-      "psn": "PlayStation Network",
-      "xbl": "Xbox Live",
-    };
+      var externalAuthNames = {
+        "google": "Google",
+        "github": "GitHub",
+        "psn": "PlayStation Network",
+        "xbl": "Xbox Live",
+      };
 
-    return await ctx.respond(
-      MessageBuilder.embed(
-        EmbedBuilder()
-          ..author = (EmbedAuthorBuilder()
-            ..name = ctx.user.username
-            ..iconUrl = ctx.user.avatarURL(format: "png"))
-          ..color = DiscordColor.fromHexString(user.color)
-          ..footer = (EmbedFooterBuilder()..text = client.footerText)
-          ..timestamp = DateTime.now()
-          ..title = "${user.activeAccount.displayName} | External Auths"
-          ..thumbnailUrl = user.activeAccount.avatar
-          ..description =
-              "${externalAuths.map((e) => "• ${externalAuthNames[e.type] ?? e.type.toUpperCase()}: **${e.externalDisplayName}**").join("\n")}\n\nYou can unlink an external auth with:\n• /account external unlink <platform>",
-      ),
-      private: true,
-    );
-  },
-),
+      return await ctx.respond(
+        MessageBuilder.embed(
+          EmbedBuilder()
+            ..author = (EmbedAuthorBuilder()
+              ..name = ctx.user.username
+              ..iconUrl = ctx.user.avatarURL(format: "png"))
+            ..color = DiscordColor.fromHexString(user.color)
+            ..footer = (EmbedFooterBuilder()..text = client.footerText)
+            ..timestamp = DateTime.now()
+            ..title = "${user.activeAccount.displayName} | External Auths"
+            ..thumbnailUrl = user.activeAccount.avatar
+            ..description =
+                "${externalAuths.map((e) => "• ${externalAuthNames[e.type] ?? e.type.toUpperCase()}: **${e.externalDisplayName}**").join("\n")}\n\nYou can unlink an external auth with:\n• /account external unlink <platform>",
+        ),
+        private: true,
+      );
+    },
+  ),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),

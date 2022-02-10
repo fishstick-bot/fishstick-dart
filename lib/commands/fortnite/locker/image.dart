@@ -98,7 +98,7 @@ final ChatCommand lockerImageCommand = ChatCommand(
           img = base64Decode(
             await client.imageUtils.drawLocker(
               cosmetics: cosmetics.sublist(i, sublistSize),
-              epicname: dbUser.activeAccount.displayName,
+              epicname: (user ?? ctx.user).tag,
             ),
           );
 

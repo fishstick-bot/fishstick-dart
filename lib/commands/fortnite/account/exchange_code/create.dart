@@ -6,17 +6,18 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand exchangeCodeCreateCommand = ChatCommand(
   "create",
   "Create an exchange code used to authenticate with fortnite api.",
-Id("exchange_code_create_command",
-  (IContext ctx) async {
-    DatabaseUser user = await ctx.dbUser;
-    user.fnClientSetup();
+  Id(
+    "exchange_code_create_command",
+    (IContext ctx) async {
+      DatabaseUser user = await ctx.dbUser;
+      user.fnClientSetup();
 
-    return await ctx.respond(
-      MessageBuilder.content(await (user.fnClient.auth.createExchangeCode())),
-      private: true,
-    );
-  },
-),
+      return await ctx.respond(
+        MessageBuilder.content(await (user.fnClient.auth.createExchangeCode())),
+        private: true,
+      );
+    },
+  ),
   options: CommandOptions(
     hideOriginalResponse: true,
   ),

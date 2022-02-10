@@ -27,10 +27,9 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
     if (exception is CheckFailedException) {
       switch (exception.failed.name) {
         case "blacklist-check":
-          await respond(
-            exception.context,
+          await exception.context.respond(
             MessageBuilder.content("You are blacklisted from using the bot!"),
-            hidden: true,
+            private: true,
           );
           break;
 
@@ -67,11 +66,10 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
           break;
 
         case "Any of [All of [premium-check, Cooldown Check on CooldownType[User]], All of [Denied premium-check, Cooldown Check on CooldownType[User]]]":
-          var m = await respond(
-            exception.context,
+          var m = await exception.context.respond(
             MessageBuilder.content(
                 "You are on cooldown for this command. Please try again in a while."),
-            hidden: true,
+            private: true,
           );
           await Future.delayed(
             Duration(seconds: 3),

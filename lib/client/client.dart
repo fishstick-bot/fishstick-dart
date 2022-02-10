@@ -1,5 +1,5 @@
 import "dart:async";
-import "package:numeral/numeral.dart";
+// import "package:numeral/numeral.dart";
 import "package:logging/logging.dart";
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_sharding/nyxx_sharding.dart";
@@ -186,15 +186,15 @@ class Client {
     logger.info(
         "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
 
-    Timer.periodic(Duration(minutes: 10), (timer) {
-      bot.setPresence(
-        PresenceBuilder.of(
-          activity: ActivityBuilder.game(
-              "/help | ${Numeral(bot.guilds.length).value()} Guilds"),
-          status: UserStatus.online,
-        ),
-      );
-    });
+    // Timer.periodic(Duration(minutes: 10), (timer) {
+    //   bot.setPresence(
+    //     PresenceBuilder.of(
+    //       activity: ActivityBuilder.game(
+    //           "/help | ${Numeral(bot.guilds.length).value()} Guilds"),
+    //       status: UserStatus.online,
+    //     ),
+    //   );
+    // });
 
     // _start = DateTime.now().millisecondsSinceEpoch;
     // await telebot.connect();

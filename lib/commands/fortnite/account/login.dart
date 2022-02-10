@@ -43,7 +43,7 @@ final ChatCommand loginCommand = ChatCommand(
       final LinkButtonBuilder switchAccountAuthorizationCodeButton =
           LinkButtonBuilder(
         "Authorization Code 2",
-        getAuthorizationCodeURL(forceLogin: true),
+        getAuthorizationCodeURL() + "&prompt=login",
       );
 
       final ComponentRowBuilder authorizationCodeRow = ComponentRowBuilder()
@@ -82,7 +82,7 @@ final ChatCommand loginCommand = ChatCommand(
         return;
       }
 
-      if (code != null && (code.isEmpty || code.length != 32)) {
+      if (code != null && code.isEmpty) {
         await respond(
           ctx,
           ComponentMessageBuilder()
@@ -195,73 +195,67 @@ final ChatCommand loginCommand = ChatCommand(
           ..addComponentRow(buttonsRow),
       );
 
-      try {
-        var selected = await (StreamGroup()
-              ..add(ctx.commands.interactions.events.onButtonEvent.where(
-                  (event) => ([newAccountButtonID, cancelButtonID]
-                          .contains(event.interaction.customId) &&
-                      event.interaction.userAuthor?.id == ctx.user.id)))
-              ..add(ctx.commands.interactions.events.onMultiselectEvent.where(
-                  (event) =>
-                      ([accountMenuID].contains(event.interaction.customId) &&
-                          event.interaction.userAuthor?.id == ctx.user.id))))
-            .stream
-            .timeout(Duration(minutes: 1))
-            .first;
+      var selected = await (StreamGroup()
+            ..add(ctx.commands.interactions.events.onButtonEvent.where(
+                (event) => ([newAccountButtonID, cancelButtonID]
+                        .contains(event.interaction.customId) &&
+                    event.interaction.userAuthor?.id == ctx.user.id)))
+            ..add(ctx.commands.interactions.events.onMultiselectEvent.where(
+                (event) =>
+                    ([accountMenuID].contains(event.interaction.customId) &&
+                        event.interaction.userAuthor?.id == ctx.user.id))))
+          .stream
+          .timeout(Duration(minutes: 1))
+          .first;
 
-        await selected?.acknowledge();
+      await selected?.acknowledge();
 
-        if ((selected.interaction?.customId ?? "")
-            .toString()
-            .contains("cancel")) {
-          await msg.delete();
-          return;
-        } else if ((selected.interaction?.customId ?? "")
-            .toString()
-            .contains("new")) {
-          await msg.edit(
-            ComponentMessageBuilder()
-              ..embeds = [
-                authorizationCodeEmbed
-                  ..color = DiscordColor.fromHexString(user.color)
-                  ..description =
-                      "Click **Authorization Code** button to get an authorization code then do command `/login <code>` to login to your Epic account.",
-              ]
-              ..componentRows = []
-              ..addComponentRow(authorizationCodeRow),
-          );
-          return;
-        } else {
-          List<String> selections =
-              selected?.interaction?.values as List<String>;
-          await user.setActiveAccount(selections.first);
-
-          await msg.edit(
-            ComponentMessageBuilder()
-              ..embeds = [
-                EmbedBuilder()
-                  ..author = (EmbedAuthorBuilder()
-                    ..name = ctx.user.username
-                    ..iconUrl = ctx.user.avatarURL(format: "png"))
-                  ..color = DiscordColor.fromHexString(user.color)
-                  ..title = "Successfully switched active account!"
-                  ..thumbnailUrl = user.activeAccount.avatar
-                  ..description =
-                      "Switched to account **${user.activeAccount.displayName}**."
-                  ..addField(
-                    name: "Account ID",
-                    content: user.activeAccount.accountId,
-                    inline: true,
-                  )
-                  ..timestamp = DateTime.now()
-                  ..footer = (EmbedFooterBuilder()..text = client.footerText),
-              ]
-              ..componentRows = [],
-          );
-          return;
-        }
-      } catch (e) {
+      if ((selected.interaction?.customId ?? "")
+          .toString()
+          .contains("cancel")) {
         await msg.delete();
+        return;
+      } else if ((selected.interaction?.customId ?? "")
+          .toString()
+          .contains("new")) {
+        await msg.edit(
+          ComponentMessageBuilder()
+            ..embeds = [
+              authorizationCodeEmbed
+                ..color = DiscordColor.fromHexString(user.color)
+                ..description =
+                    "Click **Authorization Code** button to get an authorization code then do command `/login <code>` to login to your Epic account.",
+            ]
+            ..componentRows = []
+            ..addComponentRow(authorizationCodeRow),
+        );
+        return;
+      } else {
+        List<String> selections = selected?.interaction?.values as List<String>;
+        await user.setActiveAccount(selections.first);
+
+        await msg.edit(
+          ComponentMessageBuilder()
+            ..embeds = [
+              EmbedBuilder()
+                ..author = (EmbedAuthorBuilder()
+                  ..name = ctx.user.username
+                  ..iconUrl = ctx.user.avatarURL(format: "png"))
+                ..color = DiscordColor.fromHexString(user.color)
+                ..title = "Successfully switched active account!"
+                ..thumbnailUrl = user.activeAccount.avatar
+                ..description =
+                    "Switched to account **${user.activeAccount.displayName}**."
+                ..addField(
+                  name: "Account ID",
+                  content: user.activeAccount.accountId,
+                  inline: true,
+                )
+                ..timestamp = DateTime.now()
+                ..footer = (EmbedFooterBuilder()..text = client.footerText),
+            ]
+            ..componentRows = [],
+        );
         return;
       }
     },
