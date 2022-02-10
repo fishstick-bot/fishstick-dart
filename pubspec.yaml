@@ -3,7 +3,7 @@ description: A multipurpose fortnite bot coded in dart.
 version: 0.9.5
 
 environment:
-    sdk: ">=2.15.0 <3.0.0"
+    sdk: ">=2.16.0 <3.0.0"
 
 dependency_overrides:
     nyxx_commands:
