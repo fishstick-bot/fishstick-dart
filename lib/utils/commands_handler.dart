@@ -142,14 +142,14 @@ void handleCommandsCheckHandler(CommandsPlugin commands, int commandsCooldown) {
   commands.check(
     Check.any([
       Check.all([
-        Check.deny(premiumCheck),
+        premiumCheck,
         CooldownCheck(
           CooldownType.user,
           Duration(seconds: commandsCooldown),
         ),
       ]),
       Check.all([
-        premiumCheck,
+        Check.deny(premiumCheck),
         CooldownCheck(
           CooldownType.user,
           Duration(seconds: (commandsCooldown / 2).round()),
