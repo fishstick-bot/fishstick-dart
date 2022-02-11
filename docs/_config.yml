@@ -1,5 +1,53 @@
 theme: jekyll-theme-hacker
+
+author: Vanxh
+title: Fishstick Bot
 name: Fishstick Bot
+
+tagline: A multipurpose fortnite bot that makes your life easy.
 description: A multipurpose fortnite bot that makes your life easy.
+
 url: https://docs.fishstickbot.com/
+
 permalink: /404.html
+
+tags:
+    - Fishstick
+    - Fishstick Bot
+    - Fortnite
+    - STW
+    - Fortnite STW
+    - Skin Checker
+    - Discord Bot
+    - Locker image
+
+navbar-links:
+    Home: https://docs.fishstickbot.com
+    Discord: https://discord.gg/fishstick
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+avatar: "/assets/fishstick.jpg"
+round-avatar: true
+
+social-network-links:
+    email: "vanxh@fishstickbot.com"
+    rss: true
+    github: vanxh
+    twitter: Vanxhh
+    instagram: vanxh.69
+    discord: invite/fishstick
+    linkedin: Vanxhh
+
+rss-description: A multipurpose fortnite bot that makes your life easy.
+
+share-links-active:
+    twitter: true
+
+url-pretty: "Docs.FishstickBot.com"
+
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+post_search: true
