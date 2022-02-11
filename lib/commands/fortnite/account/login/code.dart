@@ -121,6 +121,15 @@ final ChatCommand loginCodeCommand = ChatCommand(
           );
         }
       } catch (e) {
+        if (e.toString().contains("Future not completed")) {
+          await ctx.channel.sendMessage(
+            MessageBuilder.content(
+              "<@${ctx.user.id}>, An error occurred while trying to link your account.\nDidn't received any response from the authorization code modal after 2 minutes.\n\n*Didn't saw any popup modal? Update/restart your discord app.*",
+            ),
+          );
+          return;
+        }
+
         await ctx.channel.sendMessage(
           MessageBuilder.content(
             "<@${ctx.user.id}>, An error occurred while trying to link your account.\n$e",
