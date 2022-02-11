@@ -39,7 +39,7 @@ final ChatCommand loginCodeCommand = ChatCommand(
         var selected = await ctx.commands.interactions.events.onModalEvent
             .firstWhere(
                 (e) => e.interaction.customId == "${ctx.user.id}-login-new")
-            .timeout(Duration(seconds: 1));
+            .timeout(Duration(minutes: 2));
 
         await selected.acknowledge(hidden: true).catchError((_) => null);
 
