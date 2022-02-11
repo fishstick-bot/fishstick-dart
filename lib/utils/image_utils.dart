@@ -1,10 +1,7 @@
-import "package:image_extensions/image_extensions.dart";
 import "package:dio/dio.dart";
 import "package:fortnite/fortnite.dart" hide Client;
 
 import "../extensions/fortnite_extensions.dart";
-
-Map<String, Image?> cache = {};
 
 int reduceBy = 4;
 
@@ -46,27 +43,6 @@ class ImageUtils {
 
 class Colors {
   static int get white => 0xFFFFFFFF;
-
-  /// background color for fortnite images
-  static int get background => getColor(19, 105, 199);
-
-  /// gradient color 1 for fortnite images
-  static int get bg1 => getColor(22, 134, 224);
-
-  /// gradient color 2 for fortnite images
-  static int get bg2 => getColor(14, 80, 153);
-
-  /// gradient color 1 background for fortnite card
-  static int get gradient1 => getColor(45, 150, 235);
-
-  /// gradient color 2 background for fortnite card
-  static int get gradient2 => getColor(14, 100, 194);
-
-  /// exclusive color 1 background for fortnite card
-  static int get exclusive1 => getColor(208, 142, 39);
-
-  /// exclusive color 2 background for fortnite card
-  static int get exclusive2 => getColor(252, 220, 84);
 
   /// colors for fortnite rarities
   static Map<String, List<int>> get overlayColors => {
