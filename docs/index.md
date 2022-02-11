@@ -2,9 +2,9 @@
 
 It is a multipurpose fortnite bot coded in dart.
 
-### How to login to a new epic account
+#
 
-Enter an authorization code to login to new epic accounts.
+### How to login to a new epic account?
 
 Steps:
 
@@ -15,6 +15,10 @@ Steps:
    or
 5. Do `/login new code:<code you copied>` command.
 
+#
+
 ### Support or Contact
 
 Join our [support server](https://discord.gg/fishstick).
+
+#
