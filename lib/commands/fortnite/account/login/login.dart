@@ -1,6 +1,7 @@
 import "package:nyxx_commands/nyxx_commands.dart";
 import "switch.dart";
 import "new.dart";
+import "code.dart";
 
 final ChatGroup loginCommand = ChatGroup(
   "login",
@@ -8,5 +9,6 @@ final ChatGroup loginCommand = ChatGroup(
   children: [
     loginSwitchCommand,
     loginNewCommand,
+    loginCodeCommand,
   ],
 );

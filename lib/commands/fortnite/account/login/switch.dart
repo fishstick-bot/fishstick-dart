@@ -71,7 +71,7 @@ final ChatCommand loginSwitchCommand = ChatCommand(
               authorizationCodeEmbed
                 ..color = DiscordColor.fromHexString(user.color)
                 ..description =
-                    "Click **Authorization Code** button to get an authorization code then do command `/login new` to login to your Epic account.",
+                    "Click **Authorization Code** button to get an authorization code then do command `/login code` to login to your Epic account.",
             ]
             ..addComponentRow(authorizationCodeRow),
         );
@@ -134,7 +134,7 @@ final ChatCommand loginSwitchCommand = ChatCommand(
               authorizationCodeEmbed
                 ..color = DiscordColor.fromHexString(user.color)
                 ..description =
-                    "Click **Authorization Code** button to get an authorization code then do command `/login new` to login to your Epic account.",
+                    "Click **Authorization Code** button to get an authorization code then do command `/login code` to login to your Epic account.",
             ]
             ..componentRows = []
             ..addComponentRow(authorizationCodeRow),
