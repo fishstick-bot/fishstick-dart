@@ -298,6 +298,10 @@ class DatabaseUser {
 
   /// get user's active account
   EpicAccount get activeAccount {
+    if (linkedAccounts.isEmpty) {
+      throw Exception(
+          "You don't have any epic accounts linked to your account.");
+    }
     return linkedAccounts.firstWhere((x) => x.accountId == selectedAccount);
   }
 
