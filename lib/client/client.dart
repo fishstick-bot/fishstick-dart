@@ -198,10 +198,15 @@ class Client {
     logger.info(
         "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
 
-    // _start = DateTime.now().millisecondsSinceEpoch;
-    // await telebot.connect();
-    // logger.info(
-    //     "Connected to telegram [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
+    if (shardIds.contains(0)) {
+      _start = DateTime.now().millisecondsSinceEpoch;
+      await telebot.connect();
+      logger.info(
+          "Connected to telegram [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
+    } else {
+      logger.info(
+          "Current process dont have shard 0, skipping telegram connection.");
+    }
 
     return;
   }
