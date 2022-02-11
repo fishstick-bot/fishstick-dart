@@ -21,16 +21,21 @@ tags:
     - Discord Bot
     - Locker image
 
-navbar-links:
-    Home: https://docs.fishstickbot.com
-    Discord: https://discord.gg/fishstick
+links:
+    - title: Home
+      url: /
+    - title: Discord
+      url: https://discord.gg/fishstick
 
 back_to_top: true
 back_to_top_text: "Back to top"
 
+logo: "assets/fishstick.jpg"
 avatar: "/assets/fishstick.jpg"
 round-avatar: true
 
+twitter_username: Vanxhh
+github_username: vanxh
 social-network-links:
     email: "vanxh@fishstickbot.com"
     rss: true
@@ -51,3 +56,5 @@ excerpt_length: 50
 feed_show_excerpt: true
 feed_show_tags: true
 post_search: true
+
+sitemap: true
