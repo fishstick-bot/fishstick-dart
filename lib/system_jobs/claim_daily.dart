@@ -76,8 +76,6 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
           description += message;
           description += "\n";
           description += "\n";
-
-          await Future.delayed(Duration(milliseconds: 500));
         }
 
         try {

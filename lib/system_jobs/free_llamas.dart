@@ -89,26 +89,31 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
           } on Exception catch (e) {
             message = "**${acc.displayName}** ${cross.emoji}\n$e";
           }
+
+          if (nClaimed == 0) {
+            continue;
+          }
+
           description += message;
           description += "\n";
           description += "\n";
-
-          await Future.delayed(Duration(milliseconds: 500));
         }
 
         try {
-          await discordUser.sendMessage(
-            MessageBuilder.embed(
-              EmbedBuilder()
-                ..author = (EmbedAuthorBuilder()
-                  ..name = discordUser.username
-                  ..iconUrl = discordUser.avatarURL(format: "png"))
-                ..title = "Auto Free Llama(s) | Save the World"
-                ..color = DiscordColor.fromHexString(user.color)
-                ..timestamp = DateTime.now()
-                ..description = description,
-            ),
-          );
+          if (description.isNotEmpty) {
+            await discordUser.sendMessage(
+              MessageBuilder.embed(
+                EmbedBuilder()
+                  ..author = (EmbedAuthorBuilder()
+                    ..name = discordUser.username
+                    ..iconUrl = discordUser.avatarURL(format: "png"))
+                  ..title = "Auto Free Llama(s) | Save the World"
+                  ..color = DiscordColor.fromHexString(user.color)
+                  ..timestamp = DateTime.now()
+                  ..description = description,
+              ),
+            );
+          }
         } on Exception catch (e) {
           /// ignore the [Exception] as bot is not able to send message to user.
           /// just to be sure log the error.
