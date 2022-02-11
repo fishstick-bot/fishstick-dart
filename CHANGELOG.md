@@ -95,3 +95,7 @@
 -   Update to nyxx_commands 4.0 beta.
 -   Made bot compilable.
 -   Added build script.
+
+## 1.0.0
+
+-   New login command with modal.

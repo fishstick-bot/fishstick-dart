@@ -51,14 +51,14 @@ extension Util on IContext {
     final ButtonBuilder confirmButton = ButtonBuilder(
       "Confirm",
       confirmButtonID,
-      ComponentStyle.success,
+      ButtonStyle.success,
       emoji: tick.toEmoji(),
     );
 
     final ButtonBuilder cancelButton = ButtonBuilder(
       "Cancel",
       cancelButtonID,
-      ComponentStyle.danger,
+      ButtonStyle.danger,
       emoji: cross.toEmoji(),
     );
 

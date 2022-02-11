@@ -27,7 +27,7 @@ import "../commands/general/settings.dart";
 import "../commands/premium/premium.dart";
 import "../commands/partner/partner.dart";
 import "../commands/blacklist/blacklist.dart";
-import "../commands/fortnite/account/login.dart";
+import "../commands/fortnite/account/login/login.dart";
 import "../commands/fortnite/account/logout.dart";
 import "../commands/fortnite/account/account.dart";
 import "../commands/fortnite/account/launch.dart";

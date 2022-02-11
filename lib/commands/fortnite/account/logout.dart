@@ -27,7 +27,7 @@ final ChatCommand logoutCommand = ChatCommand(
       final ButtonBuilder cancelButton = ButtonBuilder(
         "CANCEL",
         cancelButtonID,
-        ComponentStyle.danger,
+        ButtonStyle.danger,
       );
 
       final ComponentRowBuilder buttonsRow = ComponentRowBuilder()

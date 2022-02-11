@@ -39,8 +39,8 @@ final ChatCommand settingsCommand = ChatCommand(
             : "Enable Auto Daily",
         autoDailyButtonId,
         user.autoSubscriptions.dailyRewards
-            ? ComponentStyle.secondary
-            : ComponentStyle.primary,
+            ? ButtonStyle.secondary
+            : ButtonStyle.primary,
         emoji: user.autoSubscriptions.dailyRewards == true
             ? cross.toEmoji()
             : tick.toEmoji(),
@@ -54,8 +54,8 @@ final ChatCommand settingsCommand = ChatCommand(
             : "Purchase Premium to enable auto llamas",
         freeLlamasButtonId,
         user.autoSubscriptions.freeLlamas
-            ? ComponentStyle.secondary
-            : ComponentStyle.primary,
+            ? ButtonStyle.secondary
+            : ButtonStyle.primary,
         emoji: voucher_cardpack_bronze.toEmoji(),
         disabled: !user.isPremium,
       );
@@ -68,8 +68,8 @@ final ChatCommand settingsCommand = ChatCommand(
             : "Purchase Premium to enable auto research",
         collectResearchButtonId,
         user.autoSubscriptions.collectResearchPoints
-            ? ComponentStyle.secondary
-            : ComponentStyle.primary,
+            ? ButtonStyle.secondary
+            : ButtonStyle.primary,
         emoji: research.toEmoji(),
         disabled: !user.isPremium,
       );
@@ -79,9 +79,7 @@ final ChatCommand settingsCommand = ChatCommand(
             ? "Disable DM Notifications"
             : "Enable DM Notifications",
         dmNotisButtonId,
-        user.dmNotifications
-            ? ComponentStyle.secondary
-            : ComponentStyle.primary,
+        user.dmNotifications ? ButtonStyle.secondary : ButtonStyle.primary,
         emoji: UnicodeEmoji("🔔"),
       );
 
@@ -91,15 +89,15 @@ final ChatCommand settingsCommand = ChatCommand(
             : "Enable Mentions Privacy",
         privacyButtonId,
         user.privacyEnum == Privacy.private
-            ? ComponentStyle.secondary
-            : ComponentStyle.primary,
+            ? ButtonStyle.secondary
+            : ButtonStyle.primary,
         emoji: UnicodeEmoji("🔒"),
       );
 
       ButtonBuilder cancelButton = ButtonBuilder(
         "Cancel",
         cancelButtonId,
-        ComponentStyle.danger,
+        ButtonStyle.danger,
         emoji: cross.toEmoji(),
       );
 

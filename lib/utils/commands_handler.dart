@@ -158,7 +158,6 @@ void handleCommandsCheckHandler(CommandsPlugin commands, int commandsCooldown) {
     ]),
   );
 
-  /// make text commands only be useable on DMs.
   // commands.check(
   //   Check((context) => context.user.id.toString() == "727224012912197652",
   //       "development-mode"),

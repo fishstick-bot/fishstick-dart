@@ -1,6 +1,6 @@
 name: fishstick_dart
 description: A multipurpose fortnite bot coded in dart.
-version: 0.9.5
+version: 1.0.0
 
 environment:
     sdk: ">=2.16.0 <3.0.0"
@@ -10,6 +10,12 @@ dependency_overrides:
         git:
             url: https://github.com/nyxx-discord/nyxx_commands.git
             ref: feat/compile
+            # url: https://github.com/vanxh/nyxx_commands/
+            # ref: patch-3
+    nyxx_pagination:
+        git:
+            url: https://github.com/vanxh/nyxx_pagination.git
+            ref: patch-1
 
 dependencies:
     # logging
@@ -17,11 +23,11 @@ dependencies:
     # libraries for database
     mongo_dart: ^0.7.4
     # libraries for discord api
-    nyxx: ^3.2.3
-    nyxx_interactions: ^3.2.0
-    nyxx_commands: ^4.0.0-dev.1
+    nyxx: ^3.3.0-dev.0
+    nyxx_interactions: ^4.0.0-dev.0.1
+    nyxx_commands: ^4.0.0-dev.1.2
     nyxx_extensions: ^3.0.0
-    nyxx_pagination: ^2.1.0
+    # nyxx_pagination: ^2.1.0
     nyxx_sharding: ^1.0.0
     # libraries for telegram api
     teledart: ^0.3.2
