@@ -82,7 +82,7 @@ class Client {
   String prefix = ".";
 
   /// global commands cooldown
-  int commandsCooldown = 4;
+  int commandsCooldown = 3;
 
   Client() {
     /// setup logger
