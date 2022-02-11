@@ -64,7 +64,7 @@ final ChatCommand loginNewCommand = ChatCommand(
 
         await user.addAccount(account);
 
-        await ctx.respond(
+        await ctx.channel.sendMessage(
           MessageBuilder.embed(
             EmbedBuilder()
               ..author = (EmbedAuthorBuilder()
@@ -82,7 +82,7 @@ final ChatCommand loginNewCommand = ChatCommand(
               )
               ..timestamp = DateTime.now()
               ..footer = (EmbedFooterBuilder()..text = client.footerText),
-          ),
+          )..content = "<@${ctx.user.id}>",
         );
 
         return;
