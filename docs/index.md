@@ -2,6 +2,8 @@
 
 It is a multipurpose fortnite bot coded in dart.
 
+[![Discord Widget](https://discordapp.com/api/guilds/797736897941995540/widget.png?style=banner2)](https://discord.gg/fishstick)
+
 ### How to login to a new epic account?
 
 Steps:
