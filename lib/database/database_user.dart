@@ -302,7 +302,8 @@ class DatabaseUser {
       throw Exception(
           "You don't have any epic accounts linked to your account.");
     }
-    return linkedAccounts.firstWhere((x) => x.accountId == selectedAccount);
+    var found = linkedAccounts.where((x) => x.accountId == selectedAccount);
+    return found.isEmpty ? linkedAccounts.first : found.first;
   }
 
   /// get the user's fortnite client.
