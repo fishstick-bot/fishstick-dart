@@ -30,6 +30,8 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
       users.add(DatabaseUser.fromJson(client.database, u));
     }
 
+    users = users.where((u) => u.isPremium).toList();
+
     return users;
   }
 
