@@ -62,28 +62,34 @@ final ChatCommand loginNewCommand = ChatCommand(
           "savedSurvivorSquads": [],
         });
 
-        await user.addAccount(account);
+        try {
+          await user.addAccount(account);
 
-        await ctx.channel.sendMessage(
-          MessageBuilder.embed(
-            EmbedBuilder()
-              ..author = (EmbedAuthorBuilder()
-                ..name = ctx.user.username
-                ..iconUrl = ctx.user.avatarURL(format: "png"))
-              ..color = DiscordColor.fromHexString(user.color)
-              ..title = "👋 Welcome, ${account.displayName}"
-              ..thumbnailUrl = account.avatar
-              ..description =
-                  "Your epic account has been successfully linked to your discord account."
-              ..addField(
-                name: "Account ID",
-                content: account.accountId,
-                inline: true,
-              )
-              ..timestamp = DateTime.now()
-              ..footer = (EmbedFooterBuilder()..text = client.footerText),
-          )..content = "<@${ctx.user.id}>",
-        );
+          await ctx.respond(
+            MessageBuilder.embed(
+              EmbedBuilder()
+                ..author = (EmbedAuthorBuilder()
+                  ..name = ctx.user.username
+                  ..iconUrl = ctx.user.avatarURL(format: "png"))
+                ..color = DiscordColor.fromHexString(user.color)
+                ..title = "👋 Welcome, ${account.displayName}"
+                ..thumbnailUrl = account.avatar
+                ..description =
+                    "Your epic account has been successfully linked to your discord account."
+                ..addField(
+                  name: "Account ID",
+                  content: account.accountId,
+                  inline: true,
+                )
+                ..timestamp = DateTime.now()
+                ..footer = (EmbedFooterBuilder()..text = client.footerText),
+            )..content = "<@${ctx.user.id}>",
+          );
+        } on Exception catch (e) {
+          await ctx.channel.sendMessage(MessageBuilder()
+            ..content =
+                "<@${ctx.user.id}>, An error occurred while trying to link your account.\n$e");
+        }
 
         return;
       }
