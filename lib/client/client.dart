@@ -1,6 +1,5 @@
 import "dart:async";
 import "package:logging/logging.dart";
-import "package:tint/tint.dart";
 
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_sharding/nyxx_sharding.dart";
@@ -93,16 +92,6 @@ class Client {
     Logger.root.onRecord.listen((LogRecord rec) {
       String msg =
           "[${rec.time}] [${rec.level.name}] [${rec.loggerName}] ${rec.message}";
-
-      if (rec.level == Level.INFO) {
-        msg = msg.blue();
-      } else if (rec.level == Level.SEVERE) {
-        msg = msg.red();
-      } else if (rec.level == Level.WARNING) {
-        msg = msg.yellow();
-      } else if (rec.level == Level.SHOUT) {
-        msg = msg.red().bold().underline();
-      }
 
       // ignore: avoid_print
       print(msg);
