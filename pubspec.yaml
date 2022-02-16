@@ -12,10 +12,6 @@ dependency_overrides:
             ref: feat/compile
             # url: https://github.com/vanxh/nyxx_commands/
             # ref: patch-3
-    nyxx_pagination:
-        git:
-            url: https://github.com/vanxh/nyxx_pagination.git
-            ref: patch-1
 
 dependencies:
     # logging
@@ -27,7 +23,7 @@ dependencies:
     nyxx_interactions: ^4.0.0-dev.0.1
     nyxx_commands: ^4.0.0-dev.1.2
     # nyxx_extensions: ^3.0.0
-    # nyxx_pagination: ^2.1.0
+    nyxx_pagination: ^2.2.0-dev.0
     nyxx_sharding: ^1.0.0
     # libraries for telegram api
     teledart: ^0.3.2
