@@ -1,6 +1,7 @@
 import "dart:async";
-// import "package:numeral/numeral.dart";
 import "package:logging/logging.dart";
+import "package:tint/tint.dart";
+
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_sharding/nyxx_sharding.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
@@ -88,6 +89,25 @@ class Client {
     /// setup logger
     Logger.root.level = Level.INFO;
 
+    /// setup logging
+    Logger.root.onRecord.listen((LogRecord rec) {
+      String msg =
+          "[${rec.time}] [${rec.level.name}] [${rec.loggerName}] ${rec.message}";
+
+      if (rec.level == Level.INFO) {
+        msg = msg.blue();
+      } else if (rec.level == Level.SEVERE) {
+        msg = msg.red();
+      } else if (rec.level == Level.WARNING) {
+        msg = msg.yellow();
+      } else if (rec.level == Level.SHOUT) {
+        msg = msg.red().bold().underline();
+      }
+
+      // ignore: avoid_print
+      print(msg);
+    });
+
     /// setup system jobs manager
     systemJobs = SystemJobsPlugin(this);
 
@@ -172,7 +192,6 @@ class Client {
         ),
       ),
     )
-      ..registerPlugin(Logging())
       ..registerPlugin(CliIntegration())
       ..registerPlugin(IgnoreExceptions())
       ..registerPlugin(_commands)
