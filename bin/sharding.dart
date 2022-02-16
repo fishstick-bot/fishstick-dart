@@ -8,7 +8,7 @@ void main() async {
         : Executable("build/bot.exe"),
     token: Config().token,
     numProcesses: Config().developmentMode ? 1 : 5,
-    shardsPerProcess: Config().developmentMode ? 1 : 3,
+    shardsPerProcess: Config().developmentMode ? 1 : 2,
   );
   await shardManager.start();
 }
