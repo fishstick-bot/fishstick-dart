@@ -14,40 +14,23 @@ dependency_overrides:
             # ref: patch-3
 
 dependencies:
-    # logging
-    logging: ^1.0.2
-    # libraries for database
-    mongo_dart: ^0.7.4
-    # libraries for discord api
-    nyxx: ^3.3.0-dev.0
-    nyxx_interactions: ^4.0.0-dev.0.1
-    nyxx_commands: ^4.0.0-dev.1.2
-    # nyxx_extensions: ^3.0.0
-    nyxx_pagination: ^2.2.0-dev.0
-    nyxx_sharding: ^1.0.0
-    # libraries for telegram api
-    teledart: ^0.3.2
-    # libraries for fortnite
-    fortnite: ^1.2.0
-    # utils
-    async: ^2.8.2
-    time_ago_provider: ^4.1.2
-    # parse numerals
-    numeral: ^1.2.5
-    # encryption
-    encrypt: ^5.0.1
-    # get package info
-    pubspec_yaml: ^3.1.0
-    # http
-    dio: any
-    # http server
-    # shelf: ^1.2.0
-    # shelf_router: ^1.1.2
-    # image
-    # image: ^3.1.1
-    # image_extensions: ^0.2.0
-    # cron
-    cron: ^0.4.0
+    logging: ^1.0.2 # for logging.
+    mongo_dart: ^0.7.4 # to interact with mongo db database for bot.
+    nyxx: ^3.3.0-dev.0 # to interact with discord api.
+    nyxx_interactions: ^4.0.0-dev.0.1 # for handling interactions of discord bot.
+    nyxx_commands: ^4.0.0-dev.1.2 # a discord bot commands handler.
+    nyxx_pagination: ^2.2.0-dev.0 # for pagination support in discord bot.
+    nyxx_sharding: ^1.0.0 # for discord bot sharding.
+    teledart: ^0.3.2 # to interact with telegram api.
+    fortnite: ^1.2.0 # to interact with fortnite api.
+    async: ^2.8.2 # uhmmm.
+    time_ago_provider: ^4.1.2 # just for normal utility ig.
+    numeral: ^1.2.5 # to parse numerals.
+    encrypt: ^5.0.1 # for encryption of strings.
+    pubspec_yaml: ^3.1.0 # to get package info.
+    dio: any # for making httml requests.
+    cron: ^0.4.0 # cron for system jobs scheduling.
+    tint: ^2.0.0 # for console string tints.
 
 dev_dependencies:
     lints: ^1.0.0
