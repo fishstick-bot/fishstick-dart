@@ -58,10 +58,10 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
 
         for (final acc in accs) {
           String message = "";
-          var fnClient = user.fnClientSetup(acc.accountId);
 
           int nClaimed = 0;
           try {
+            var fnClient = user.fnClientSetup(acc.accountId);
             final String? availableFreeLlama =
                 await _getAvailableFreeLlama(fnClient);
             if (availableFreeLlama == null) {
@@ -102,7 +102,7 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
         }
 
         try {
-          if (description.isNotEmpty) {
+          if (description.isNotEmpty && user.dmNotifications) {
             await discordUser.sendMessage(
               MessageBuilder.embed(
                 EmbedBuilder()

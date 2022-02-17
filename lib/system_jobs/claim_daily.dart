@@ -54,8 +54,8 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
 
         for (final acc in accs) {
           String message = "";
-          var fnClient = user.fnClientSetup(acc.accountId);
           try {
+            var fnClient = user.fnClientSetup(acc.accountId);
             var claimed = await fnClient.campaign.claimDailyReward();
 
             message = "**${acc.displayName}** ${tick.emoji}\n";
@@ -79,18 +79,20 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
         }
 
         try {
-          await discordUser.sendMessage(
-            MessageBuilder.embed(
-              EmbedBuilder()
-                ..author = (EmbedAuthorBuilder()
-                  ..name = discordUser.username
-                  ..iconUrl = discordUser.avatarURL(format: "png"))
-                ..title = "Auto Daily Login Rewards | Save the World"
-                ..color = DiscordColor.fromHexString(user.color)
-                ..timestamp = DateTime.now()
-                ..description = description,
-            ),
-          );
+          if (user.dmNotifications) {
+            await discordUser.sendMessage(
+              MessageBuilder.embed(
+                EmbedBuilder()
+                  ..author = (EmbedAuthorBuilder()
+                    ..name = discordUser.username
+                    ..iconUrl = discordUser.avatarURL(format: "png"))
+                  ..title = "Auto Daily Login Rewards | Save the World"
+                  ..color = DiscordColor.fromHexString(user.color)
+                  ..timestamp = DateTime.now()
+                  ..description = description,
+              ),
+            );
+          }
         } on Exception catch (e) {
           /// ignore the [Exception] as bot is not able to send message to user.
           /// just to be sure log the error.
