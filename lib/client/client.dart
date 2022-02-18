@@ -1,5 +1,4 @@
 import "dart:async";
-import 'package:fishstick_dart/commands/fortnite/account/be_eac.dart';
 import "package:logging/logging.dart";
 
 import "package:nyxx/nyxx.dart";
@@ -32,7 +31,7 @@ import "../commands/fortnite/account/login/login.dart";
 import "../commands/fortnite/account/logout.dart";
 import "../commands/fortnite/account/account.dart";
 import "../commands/fortnite/account/launch.dart";
-export "../commands/fortnite/account/be_eac.dart";
+import "../commands/fortnite/account/be_eac.dart";
 import "../commands/fortnite/vbucks/vbucks.dart";
 import "../commands/fortnite/sac/sac.dart";
 import "../commands/fortnite/mfa/mfa.dart";
