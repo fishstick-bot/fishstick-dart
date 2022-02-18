@@ -16,8 +16,7 @@ final ChatCommand beeacCommand = ChatCommand(
       Map<String, bool> beeac = {};
 
       Future<void> doOnAcc(EpicAccount a) async {
-        user.fnClientSetup();
-        beeac[a.displayName] = await isEAC(user.fnClient);
+        beeac[a.displayName] = await isEAC(user.fnClientSetup(a.accountId));
       }
 
       await Future.wait(user.linkedAccounts.map(doOnAcc));
