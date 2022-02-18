@@ -99,3 +99,4 @@
 ## 1.0.0
 
 -   New login command with modal.
+-   Battle Eye / Anti Cheat command.

@@ -275,3 +275,28 @@ Future<dynamic> purchaseCatalogEntry(
     },
   ))?["notifications"]?[0];
 }
+
+Future<bool> isEAC(Client fn) async {
+  final String launcherToken = await (fn.auth.createOAuthToken(
+    grantType: "exchange_code",
+    grantData: "exchange_code=${await fn.auth.createExchangeCode()}",
+    authClient: AuthClients().launcherAppClient2,
+    tokenType: "bearer",
+  ));
+  final String xc = (await fn.get(
+    Endpoints().oauthExchange,
+    overrideToken: launcherToken,
+  ))["code"];
+  var res = await fn.send(
+    method: "POST",
+    url: Endpoints().calderaToken,
+    body: {
+      "account_id": fn.accountId,
+      "exchange_code": xc,
+      "test_mode": false,
+      "epic_app": "fortnite",
+      "nvidia": false,
+    },
+  );
+  return res["provider"] == "EasyAntiCheat";
+}
