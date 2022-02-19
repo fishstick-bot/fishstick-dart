@@ -20,7 +20,7 @@ class ImageUtils {
       data: {
         "items": cosmetics
             .map((cosmetic) => {
-                  "id": cosmetic.id,
+                  "id": cosmetic.templateId,
                   "name": cosmetic.name,
                   "type": cosmetic.type,
                   "rarity": cosmetic.rarity,
