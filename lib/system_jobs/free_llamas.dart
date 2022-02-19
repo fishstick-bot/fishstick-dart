@@ -65,6 +65,8 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
             final String? availableFreeLlama =
                 await _getAvailableFreeLlama(fnClient);
             if (availableFreeLlama == null) {
+              await Future.delayed(Duration(
+                  seconds: 2)); // ADD A DELAY OF 2s AS NO FREE LLAMAS AVAILABLE
               break;
             }
 
