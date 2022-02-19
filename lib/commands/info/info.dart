@@ -19,6 +19,20 @@ final ChatCommand infoCommand = ChatCommand(
 
       var user = await ctx.dbUser;
 
+      final int totalGuilds = (await client.shardingPlugin.getCachedGuilds())
+          .fold<int>(0, (a, b) => a + b);
+
+      final currentRss = ((await client.shardingPlugin.getCurrentRss())
+                  .fold<int>(0, (a, b) => a + b) /
+              1024 /
+              1024)
+          .toStringAsFixed(2);
+      final maxRss = ((await client.shardingPlugin.getMaxRss())
+                  .fold<int>(0, (a, b) => a + b) /
+              1024 /
+              1024)
+          .toStringAsFixed(2);
+
       await ctx.respond(
         ComponentMessageBuilder()
           ..addEmbed((embed) {
@@ -33,8 +47,9 @@ final ChatCommand infoCommand = ChatCommand(
                     "Fishstick dart ${pubspecYaml.version.toString().split("(")[1].replaceAll(")", "")} | Dart SDK $dartVersion")
               ..timestamp = DateTime.now()
               ..addField(
-                name: "Cached guilds (in current process)",
-                content: client.bot.guilds.length,
+                name: "Cached guilds",
+                content:
+                    "Current process - ${client.bot.guilds.length}\nAll processes - $totalGuilds",
                 inline: true,
               )
               ..addField(
@@ -68,8 +83,9 @@ final ChatCommand infoCommand = ChatCommand(
                 inline: true,
               )
               ..addField(
-                name: "Memory usage (current/RSS) (in current process)",
-                content: getMemoryUsageString(),
+                name: "Memory usage (current/RSS)",
+                content:
+                    "Current process - ${getMemoryUsageString()}\nAll processes - $currentRss/$maxRss MB",
               )
               ..addField(
                 name: "Uptime (of current process)",
