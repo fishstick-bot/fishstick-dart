@@ -75,13 +75,12 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
             try {
               final String? availableFreeLlama =
                   await _getAvailableFreeLlama(fnClient);
-              if (availableFreeLlama == null) {
-                return;
+              if (availableFreeLlama != null) {
+                await populatePrerolledOffers(fnClient);
+                await purchaseCatalogEntry(availableFreeLlama,
+                    client: fnClient);
+                nClaimed += 1;
               }
-
-              await populatePrerolledOffers(fnClient);
-              await purchaseCatalogEntry(availableFreeLlama, client: fnClient);
-              nClaimed += 1;
             } on Exception {
               nClaimed += 0;
             }
