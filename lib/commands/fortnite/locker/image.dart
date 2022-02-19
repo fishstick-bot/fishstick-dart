@@ -99,7 +99,7 @@ final ChatCommand lockerImageCommand = ChatCommand(
         img = base64Decode(
           await client.imageUtils.drawLocker(
             cosmetics: chunks[i],
-            epicname: (user ?? ctx.user).tag,
+            epicname: "${(user ?? ctx.user).tag} [${i + 1}/${chunks.length}]",
           ),
         );
 
