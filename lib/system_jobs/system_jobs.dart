@@ -11,6 +11,7 @@ import "update_cosmetics_cache.dart";
 import "premium_role_sync.dart";
 import "claim_daily.dart";
 import "free_llamas.dart";
+import "collect_research.dart";
 
 /// Handles all the system jobs
 class SystemJobsPlugin extends BasePlugin {
@@ -42,6 +43,12 @@ class SystemJobsPlugin extends BasePlugin {
 
   /// free llamas system job
   late final Timer _freeLlamasSystemJobTimer;
+
+  /// collect research system job
+  late final ClaimResearchPointsSystemJob collectResearchPointsSystemJob;
+
+  /// collect research system job
+  late final Timer _collectResearchPointsSystemJobTimer;
 
   /// Creates a new instance of [SystemJobsPlugin]
   SystemJobsPlugin(this._client);
@@ -96,6 +103,13 @@ class SystemJobsPlugin extends BasePlugin {
           Timer.periodic(Duration(minutes: 15), (_) async {
         await freeLlamasSystemJob.run();
       });
+
+      logger.info(
+          "Scheduling collect research points system job to run every 12 hours.");
+      _collectResearchPointsSystemJobTimer =
+          Timer.periodic(Duration(hours: 12), (_) async {
+        await collectResearchPointsSystemJob.run();
+      });
     } on Exception catch (e) {
       logger.severe("Failed to start system jobs", e);
     }
@@ -118,6 +132,8 @@ class SystemJobsPlugin extends BasePlugin {
       await _claimDailySystemJobTimer.cancel();
       logger.info("Unscheduling free llamas system job.");
       _freeLlamasSystemJobTimer.cancel();
+      logger.info("Unscheduling collect research points system job.");
+      _collectResearchPointsSystemJobTimer.cancel();
       logger.info("Closing cron manager.");
       await _cron.close();
     } on Exception catch (e) {
