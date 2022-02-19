@@ -125,6 +125,7 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
       }
     } catch (e) {
       client.logger.shout("[TASK:$name:${user.id}] Unhandled error: $e");
+      await notifyErrorEvent(source: "TASK:$name:${user.id}", error: "$e");
     }
 
     return;

@@ -5,6 +5,7 @@ import "abstract_system_job.dart";
 import "../client/client.dart";
 import "../database/database_user.dart";
 import "../resources/emojis.dart";
+import "../utils/utils.dart";
 
 class ClaimDailySystemJob extends AbstractUserSystemJob {
   /// Creates a new instance of the [ClaimDailySystemJob] class.
@@ -102,6 +103,7 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
       }
     } catch (e) {
       client.logger.shout("[TASK:$name:${user.id}] Unhandled error: $e");
+      await notifyErrorEvent(source: "TASK:$name:${user.id}", error: "$e");
     }
 
     return;
