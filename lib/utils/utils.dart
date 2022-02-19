@@ -12,7 +12,6 @@ import "../database/database_user.dart";
 
 import "../extensions/context_extensions.dart";
 import "../extensions/fortnite_extensions.dart";
-import "../extensions/string_extensions.dart";
 
 import "../fishstick_dart.dart";
 
@@ -152,21 +151,35 @@ Map<String, int> raritiesPriority = {
 };
 
 /// select menu builder for locker options
-MultiselectBuilder lockerOptionsBuilder(menuID) => MultiselectBuilder(
+MultiselectBuilder lockerOptionsBuilder(menuID, AthenaProfile athena) =>
+    MultiselectBuilder(
       menuID,
       [
-        "outfits",
-        "backblings",
-        "pickaxes",
-        "gliders",
-        "contrails",
-        "emotes",
-        "toys",
-        "sprays",
-        "wraps",
-        "music packs",
-        "loading screens",
-      ].map((o) => MultiselectOptionBuilder(o.upperCaseFirst(), o)),
+        MultiselectOptionBuilder("Outfits (${athena.skins.length})", "outfits"),
+        MultiselectOptionBuilder(
+            "Backblings (${athena.backpacks.length})", "backblings"),
+        MultiselectOptionBuilder(
+            "Pickaxes (${athena.pickaxes.length})", "pickaxes"),
+        MultiselectOptionBuilder(
+            "Gliders (${athena.gliders.length})", "gliders"),
+        MultiselectOptionBuilder(
+            "Contrails (${athena.skydiveContrails.length})", "contrails"),
+        MultiselectOptionBuilder(
+            "Emotes (${athena.dances.where((d) => d.templateId.startsWith("AthenaDance:eid_")).length})",
+            "emotes"),
+        MultiselectOptionBuilder(
+            "Toys (${athena.dances.where((d) => d.templateId.startsWith("AthenaDance:toy_")).length})",
+            "toys"),
+        MultiselectOptionBuilder(
+            "Sprays (${athena.dances.where((d) => d.templateId.startsWith("AthenaDance:spid_")).length})",
+            "toys"),
+        MultiselectOptionBuilder("Wraps (${athena.itemWraps.length})", "wraps"),
+        MultiselectOptionBuilder(
+            "Music Packs (${athena.musicPacks.length})", "music packs"),
+        MultiselectOptionBuilder(
+            "Loading Screens (${athena.loadingScreens.length})",
+            "loading screens"),
+      ],
     );
 
 /// filter and sort locker items

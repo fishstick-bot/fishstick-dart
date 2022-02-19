@@ -47,10 +47,15 @@ final ChatCommand lockerImageCommand = ChatCommand(
         }
       }
       dbUser.fnClientSetup();
+      await dbUser.fnClient.athena.init();
+      if (dbUser.fnClient.athena.cosmetics.isEmpty) {
+        throw Exception("This user has no cosmetics in their locker.");
+      }
 
       final menuID = randomString(30);
 
-      final MultiselectBuilder lockerOptions = lockerOptionsBuilder(menuID);
+      final MultiselectBuilder lockerOptions =
+          lockerOptionsBuilder(menuID, dbUser.fnClient.athena);
 
       IMessage msg = await ctx.respond(
         ComponentMessageBuilder()
@@ -65,8 +70,6 @@ final ChatCommand lockerImageCommand = ChatCommand(
           .first;
 
       await selected.acknowledge();
-
-      await dbUser.fnClient.athena.init();
 
       List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
         dbUser: dbUser,
@@ -88,7 +91,7 @@ final ChatCommand lockerImageCommand = ChatCommand(
           ..componentRows = [],
       );
 
-      List<List<AthenaCosmetic>> chunks = await cosmetics.chunk(250).toList();
+      List<List<AthenaCosmetic>> chunks = await cosmetics.chunk(350).toList();
 
       List<int> img;
       for (var i = 0; i < chunks.length; i++) {

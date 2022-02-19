@@ -31,10 +31,15 @@ final ChatCommand lockerTextCommand = ChatCommand(
 
       DatabaseUser dbUser = await ctx.dbUser;
       dbUser.fnClientSetup();
+      await dbUser.fnClient.athena.init();
+      if (dbUser.fnClient.athena.cosmetics.isEmpty) {
+        throw Exception("This user has no cosmetics in their locker.");
+      }
 
       final menuID = randomString(30);
 
-      final MultiselectBuilder lockerOptions = lockerOptionsBuilder(menuID);
+      final MultiselectBuilder lockerOptions =
+          lockerOptionsBuilder(menuID, dbUser.fnClient.athena);
 
       IMessage msg = await ctx.respond(
         ComponentMessageBuilder()
@@ -49,8 +54,6 @@ final ChatCommand lockerTextCommand = ChatCommand(
           .first;
 
       await selected.acknowledge();
-
-      await dbUser.fnClient.athena.init();
 
       List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
         dbUser: dbUser,
