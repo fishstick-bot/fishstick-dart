@@ -2,8 +2,8 @@ import "dart:async";
 import "package:logging/logging.dart";
 
 import "package:nyxx/nyxx.dart";
-import "package:nyxx_sharding/nyxx_sharding.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
+import "package:nyxx_sharding/nyxx_sharding.dart";
 
 /// telegram bot
 import "../telegram/telegram.dart";
@@ -75,6 +75,9 @@ class Client {
 
   /// System jobs manager
   late final SystemJobsPlugin systemJobs;
+
+  /// Sharding plugin
+  late final IShardingPlugin shardingPlugin;
 
   // Footer text
   String footerText = "discord.gg/fishstick";
@@ -161,6 +164,9 @@ class Client {
     /// handle commands post call
     handleCommandsPostCall(_commands);
 
+    /// setup sharding plugin
+    shardingPlugin = IShardingPlugin();
+
     /// setup database
     database = Database(config.mongoUri);
 
@@ -186,6 +192,7 @@ class Client {
       ..registerPlugin(CliIntegration())
       ..registerPlugin(IgnoreExceptions())
       ..registerPlugin(_commands)
+      ..registerPlugin(shardingPlugin)
       ..registerPlugin(systemJobs);
 
     telebot = TeleBotClient(this);
