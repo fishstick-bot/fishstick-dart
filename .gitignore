@@ -19,6 +19,7 @@ test.dart
 test.js
 test.png
 test.txt
+dupe.*
 
 # ide folders
 .vscode
