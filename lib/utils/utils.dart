@@ -172,7 +172,7 @@ MultiselectBuilder lockerOptionsBuilder(menuID, AthenaProfile athena) =>
             "toys"),
         MultiselectOptionBuilder(
             "Sprays (${athena.dances.where((d) => d.templateId.startsWith("AthenaDance:spid_")).length})",
-            "toys"),
+            "sprays"),
         MultiselectOptionBuilder("Wraps (${athena.itemWraps.length})", "wraps"),
         MultiselectOptionBuilder(
             "Music Packs (${athena.musicPacks.length})", "music packs"),
