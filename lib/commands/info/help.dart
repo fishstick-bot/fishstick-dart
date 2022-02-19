@@ -30,7 +30,9 @@ final ChatCommand helpCommand = ChatCommand(
             .walkCommands()
             .toList()
             .sublist(i, pageCommandsSize)
-            .cast<ChatCommand>();
+            .cast<ChatCommand>()
+            .where((c) => !["dupe"].contains(c.name))
+            .toList();
 
         EmbedBuilder page = EmbedBuilder()
           ..author = (EmbedAuthorBuilder()
