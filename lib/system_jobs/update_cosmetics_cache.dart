@@ -42,6 +42,7 @@ class UpdateCosmeticsCacheSystemJob {
             1;
         if (_exists) continue;
 
+        await client.database.cosmetics.insertMany([]);
         await client.database.cosmetics.insert({
           "id": c["id"].toString().toLowerCase(),
           "name": c["name"],
@@ -53,6 +54,8 @@ class UpdateCosmeticsCacheSystemJob {
           "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
           "displayAssetPath": c["displayAssetPath"] ?? "",
           "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
+          "isExclusive": false,
+          "isCrew": false,
         });
         client.logger
             .info("[TASK:$name] added cosmetic to database: ${c["name"]}");
