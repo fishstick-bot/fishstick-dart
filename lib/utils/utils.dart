@@ -147,7 +147,8 @@ Map<String, int> raritiesPriority = {
   "dark": 14,
   "frozen": 15,
   "mythic": 16,
-  "exclusive": 17,
+  "crew": 17,
+  "exclusive": 18,
 };
 
 /// select menu builder for locker options
@@ -255,6 +256,12 @@ List<AthenaCosmetic> filterAndSortCosmetics({
   }
 
   cosmetics.sort((a, b) => a.name.compareTo(b.name));
+  cosmetics.sort((a, b) {
+    String aRarity = a.isCrew ? "crew" : a.rarity.toLowerCase();
+    String bRarity = b.isCrew ? "crew" : b.rarity.toLowerCase();
+    return raritiesPriority.keys.toList().indexOf(bRarity) -
+        raritiesPriority.keys.toList().indexOf(aRarity);
+  });
   cosmetics.sort((a, b) {
     String aRarity = a.isExclusive ? "exclusive" : a.rarity.toLowerCase();
     String bRarity = b.isExclusive ? "exclusive" : b.rarity.toLowerCase();
