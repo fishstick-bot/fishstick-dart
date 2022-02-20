@@ -62,7 +62,7 @@ class Database {
           "collectResearchPoints": false,
           "research": "none",
         },
-        "dmNotifications": false,
+        "dmNotifications": true,
         "color": "#09b7d6",
         "privacy": 0,
         "blacklisted": {
