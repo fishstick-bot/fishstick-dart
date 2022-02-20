@@ -1,10 +1,11 @@
 import "package:fortnite/fortnite.dart";
 import "../fishstick_dart.dart";
-import "../resources/exclusives.dart";
 
 extension Extras on AthenaCosmetic {
-  Iterable<Map<String, dynamic>> get searched => client.cachedCosmetics.where(
-      (cosmetic) => cosmetic["id"] == templateId.split(":")[1].toLowerCase());
+  String get partialId => templateId.split(":")[1].toLowerCase();
+
+  Iterable<Map<String, dynamic>> get searched =>
+      client.cachedCosmetics.where((cosmetic) => cosmetic["id"] == partialId);
 
   String get name {
     if (searched.isEmpty) {
@@ -24,7 +25,7 @@ extension Extras on AthenaCosmetic {
 
   String get image {
     if (searched.isEmpty) {
-      return "";
+      return "unknown";
     }
 
     return searched.first["image"] ?? "";
@@ -35,12 +36,25 @@ extension Extras on AthenaCosmetic {
 
   String get rarity {
     if (searched.isEmpty) {
-      return "";
+      return "unknown";
     }
 
     return searched.first["rarity"] ?? "";
   }
 
-  bool get isExclusive =>
-      exclusives.contains(templateId.split(":")[1].toLowerCase());
+  bool get isExclusive {
+    if (searched.isEmpty) {
+      return false;
+    }
+
+    return searched.first["isExclusive"] ?? false;
+  }
+
+  bool get isCrew {
+    if (searched.isEmpty) {
+      return false;
+    }
+
+    return searched.first["isCrew"] ?? false;
+  }
 }

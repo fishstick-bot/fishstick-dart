@@ -17,27 +17,37 @@ void main() async {
     i++;
 
     if (c["isExclusive"] == null) {
-      c["isExclusive"] = false;
+      await cosmetics.updateOne(
+          where.eq("id", c["id"]), modify.set("isExclusive", false));
     }
     if (c["isCrew"] == null) {
-      c["isCrew"] = false;
+      await cosmetics.updateOne(
+          where.eq("id", c["id"]), modify.set("isCrew", false));
     }
 
-    if (exclusives.contains(c["id"].toString().toLowerCase())) {
+    if (exclusives.contains(c["id"].toString().toLowerCase()) &&
+        c["isExclusive"] == false) {
       c["isExclusive"] = true;
       await cosmetics.updateOne(
           where.eq("id", c["id"]), modify.set("isExclusive", true));
-    } else {
+    }
+
+    if (c["isExclusive"] == true &&
+        !exclusives.contains(c["id"].toString().toLowerCase())) {
       c["isExclusive"] = false;
       await cosmetics.updateOne(
           where.eq("id", c["id"]), modify.set("isExclusive", false));
     }
 
-    if (crew.contains(c["id"].toString().toLowerCase())) {
+    if (crew.contains(c["id"].toString().toLowerCase()) &&
+        c["isCrew"] == false) {
       c["isCrew"] = true;
       await cosmetics.updateOne(
           where.eq("id", c["id"]), modify.set("isCrew", true));
-    } else {
+    }
+
+    if (c["isCrew"] == true &&
+        !crew.contains(c["id"].toString().toLowerCase())) {
       c["isCrew"] = false;
       await cosmetics.updateOne(
           where.eq("id", c["id"]), modify.set("isCrew", false));
