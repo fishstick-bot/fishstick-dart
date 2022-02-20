@@ -26,6 +26,7 @@ class ImageUtils {
                   "rarity": cosmetic.rarity,
                   "image": cosmetic.image,
                   "isExclusive": cosmetic.isExclusive,
+                  "isCrew": cosmetic.isCrew,
                 })
             .toList(),
         "epicname": epicname,
