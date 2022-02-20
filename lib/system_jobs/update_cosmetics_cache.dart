@@ -1,5 +1,7 @@
 import "package:dio/dio.dart";
 import "../fishstick_dart.dart";
+import "../resources/exclusives.dart";
+import "../resources/crew.dart";
 
 class UpdateCosmeticsCacheSystemJob {
   final String name = "update_cosmetics_cache";
@@ -13,7 +15,9 @@ class UpdateCosmeticsCacheSystemJob {
       client.logger.info("[TASK:$name] starting...");
 
       final res = ((await Dio().get("https://fortnite-api.com/v2/cosmetics/br"))
-          .data["data"] as List);
+              .data["data"] as List)
+          .toSet()
+          .toList();
 
       client.cachedCosmetics = res
           .map((c) => {
@@ -27,8 +31,9 @@ class UpdateCosmeticsCacheSystemJob {
                 "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
                 "displayAssetPath": c["displayAssetPath"] ?? "",
                 "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
-                "isExclusive": false,
-                "isCrew": false,
+                "isExclusive":
+                    exclusives.contains(c["id"].toString().toLowerCase()),
+                "isCrew": crew.contains(c["id"].toString().toLowerCase()),
               })
           .toList();
 
@@ -37,26 +42,29 @@ class UpdateCosmeticsCacheSystemJob {
 
       for (final c in res) {
         bool _exists = cosmetics
-                .where((cosm) => cosm["id"] == c["id"].toString().toLowerCase())
-                .length ==
-            1;
+            .where((cosm) => cosm["id"] == c["id"].toString().toLowerCase())
+            .isNotEmpty;
         if (_exists) continue;
 
-        await client.database.cosmetics.insertMany([]);
-        await client.database.cosmetics.insert({
-          "id": c["id"].toString().toLowerCase(),
-          "name": c["name"],
-          "description": c["description"],
-          "type": c["type"]?["value"] ?? "unknown",
-          "rarity": c["rarity"]?["value"] ?? "unknown",
-          "series": c["series"]?["value"] ?? "unknown",
-          "set": c["set"]?["value"] ?? "unknown",
-          "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
-          "displayAssetPath": c["displayAssetPath"] ?? "",
-          "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
-          "isExclusive": false,
-          "isCrew": false,
-        });
+        try {
+          await client.database.cosmetics.insert({
+            "id": c["id"].toString().toLowerCase(),
+            "name": c["name"],
+            "description": c["description"],
+            "type": c["type"]?["value"] ?? "unknown",
+            "rarity": c["rarity"]?["value"] ?? "unknown",
+            "series": c["series"]?["value"] ?? "unknown",
+            "set": c["set"]?["value"] ?? "unknown",
+            "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
+            "displayAssetPath": c["displayAssetPath"] ?? "",
+            "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
+            "isExclusive":
+                exclusives.contains(c["id"].toString().toLowerCase()),
+            "isCrew": crew.contains(c["id"].toString().toLowerCase()),
+          });
+        } catch (e) {
+          // ignore
+        }
         client.logger
             .info("[TASK:$name] added cosmetic to database: ${c["name"]}");
       }

@@ -10,50 +10,21 @@ void main() async {
   await db.open();
 
   final DbCollection cosmetics = db.collection("cosmetics");
-  final cache = await cosmetics.find().toList();
+  var cache = await cosmetics.find().toList();
 
-  int i = 0;
   for (final c in cache) {
-    i++;
+    String id = c["id"];
 
-    if (c["isExclusive"] == null) {
+    if (exclusives.contains(id) && c["isExclusive"] == false) {
+      print("Adding $id to exclusives");
       await cosmetics.updateOne(
-          where.eq("id", c["id"]), modify.set("isExclusive", false));
-    }
-    if (c["isCrew"] == null) {
-      await cosmetics.updateOne(
-          where.eq("id", c["id"]), modify.set("isCrew", false));
+          where.eq("id", id), modify.set("isExclusive", true));
     }
 
-    if (exclusives.contains(c["id"].toString().toLowerCase()) &&
-        c["isExclusive"] == false) {
-      c["isExclusive"] = true;
-      await cosmetics.updateOne(
-          where.eq("id", c["id"]), modify.set("isExclusive", true));
+    if (crew.contains(id) && c["isCrew"] == false) {
+      print("Adding $id to crew");
+      await cosmetics.updateOne(where.eq("id", id), modify.set("isCrew", true));
     }
-
-    if (c["isExclusive"] == true &&
-        !exclusives.contains(c["id"].toString().toLowerCase())) {
-      c["isExclusive"] = false;
-      await cosmetics.updateOne(
-          where.eq("id", c["id"]), modify.set("isExclusive", false));
-    }
-
-    if (crew.contains(c["id"].toString().toLowerCase()) &&
-        c["isCrew"] == false) {
-      c["isCrew"] = true;
-      await cosmetics.updateOne(
-          where.eq("id", c["id"]), modify.set("isCrew", true));
-    }
-
-    if (c["isCrew"] == true &&
-        !crew.contains(c["id"].toString().toLowerCase())) {
-      c["isCrew"] = false;
-      await cosmetics.updateOne(
-          where.eq("id", c["id"]), modify.set("isCrew", false));
-    }
-
-    print("[$i/${cache.length}] ${c["id"]}");
   }
 
   await db.close();
