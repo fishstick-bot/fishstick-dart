@@ -71,7 +71,7 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
               message +=
                   "Day ${claimed.daysLoggedIn + 1} - **${claimed.rewardsByDay[1].amount}x ${claimed.rewardsByDay[1].name}**";
             }
-          } on Exception catch (e) {
+          } catch (e) {
             message = "**${acc.displayName}** ${cross.emoji}\n$e";
           }
           description += message;
