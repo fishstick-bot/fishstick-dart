@@ -27,6 +27,8 @@ class UpdateCosmeticsCacheSystemJob {
                 "image": c["images"]["icon"] ?? c["images"]["smallIcon"] ?? "",
                 "displayAssetPath": c["displayAssetPath"] ?? "",
                 "added": DateTime.tryParse(c["added"]) ?? DateTime.now(),
+                "isExclusive": false,
+                "isCrew": false,
               })
           .toList();
 
