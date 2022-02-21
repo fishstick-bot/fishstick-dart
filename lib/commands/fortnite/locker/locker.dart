@@ -2,6 +2,8 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "text.dart";
 import "image.dart";
 import "exclusives.dart";
+import "crew.dart";
+import "special.dart";
 
 final ChatGroup lockerCommand = ChatGroup(
   "locker",
@@ -10,6 +12,8 @@ final ChatGroup lockerCommand = ChatGroup(
     lockerTextCommand,
     lockerImageCommand,
     lockerExclusivesImageCommand,
+    lockerCrewImageCommand,
+    lockerSpecialImageCommand,
   ],
   checks: [],
 );

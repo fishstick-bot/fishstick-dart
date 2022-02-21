@@ -25,7 +25,7 @@ final ChatCommand lockerExclusivesImageCommand = ChatCommand(
     "locker_exclusives_command",
     (
       IContext ctx, [
-      @Description("User to get V-Bucks balance for") IUser? user,
+      @Description("User to view locker for") IUser? user,
     ]) async {
       if (client.cachedCosmetics.isEmpty) {
         throw Exception(
@@ -56,7 +56,7 @@ final ChatCommand lockerExclusivesImageCommand = ChatCommand(
       if (cosmetics.isEmpty) {
         return await ctx.respond(
           MessageBuilder.content(
-            "${(user ?? ctx.user).username} don't have any exclusives in your locker.",
+            "${(user ?? ctx.user).username} don't have any exclusives in their locker.",
           ),
         );
       }

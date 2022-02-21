@@ -6,8 +6,6 @@ import "package:nyxx_interactions/nyxx_interactions.dart";
 
 import "package:fortnite/fortnite.dart";
 
-import "package:random_string/random_string.dart";
-
 import "../../../fishstick_dart.dart";
 
 import "../../../database/database_user.dart";
@@ -20,11 +18,11 @@ import "../../../resources/emojis.dart";
 
 import "../../../utils/utils.dart";
 
-final ChatCommand lockerImageCommand = ChatCommand(
-  "image",
-  "View your locker in an image format.",
+final ChatCommand lockerSpecialImageCommand = ChatCommand(
+  "special",
+  "View your locker exclusive and crew items in an image format.",
   Id(
-    "locker_image_command",
+    "locker_special_command",
     (
       IContext ctx, [
       @Description("User to view locker for") IUser? user,
@@ -47,47 +45,26 @@ final ChatCommand lockerImageCommand = ChatCommand(
         }
       }
       dbUser.fnClientSetup();
+
       await dbUser.fnClient.athena.init();
-      if (dbUser.fnClient.athena.cosmetics.isEmpty) {
-        throw Exception("This user has no cosmetics in their locker.");
-      }
-
-      final menuID = randomString(30);
-
-      final MultiselectBuilder lockerOptions =
-          lockerOptionsBuilder(menuID, dbUser.fnClient.athena);
-
-      IMessage msg = await ctx.respond(
-        ComponentMessageBuilder()
-          ..content = "Choose the type of locker you want to view."
-          ..addComponentRow(ComponentRowBuilder()..addComponent(lockerOptions)),
-      );
-
-      var selected = await ctx.commands.interactions.events.onMultiselectEvent
-          .where((event) =>
-              (event.interaction.customId == menuID) &&
-              event.interaction.userAuthor?.id == ctx.user.id)
-          .first;
-
-      await selected.acknowledge();
 
       List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
         dbUser: dbUser,
-        type: selected.interaction.values.first,
+        type: "exclusives and crew",
       );
 
       if (cosmetics.isEmpty) {
-        return await msg.edit(
+        return await ctx.respond(
           MessageBuilder.content(
-            "${(user ?? ctx.user).username} don't have any ${selected.interaction.values.first} in their locker.",
+            "${(user ?? ctx.user).username} don't have any special items in their locker.",
           ),
         );
       }
 
-      await msg.edit(
+      IMessage msg = await ctx.respond(
         ComponentMessageBuilder()
           ..content =
-              "Rendering locker image for ${selected.interaction.values.first} ${loading.emoji}"
+              "Rendering locker image for special items ${loading.emoji}"
           ..componentRows = [],
       );
 
@@ -112,7 +89,7 @@ final ChatCommand lockerImageCommand = ChatCommand(
               ..description =
                   "Rendered locker image in ${((DateTime.now().millisecondsSinceEpoch - startTime) / 1000).toStringAsFixed(2)}s"
               ..color = DiscordColor.fromHexString(dbUser.color)
-              ..title = "${dbUser.activeAccount.displayName}'s Locker"
+              ..title = "${dbUser.activeAccount.displayName}'s Special Locker"
               ..timestamp = DateTime.now()
               ..footer = (EmbedFooterBuilder()..text = client.footerText)
               ..imageUrl = "attachment://locker-$i.png",
@@ -130,5 +107,5 @@ final ChatCommand lockerImageCommand = ChatCommand(
       await msg.delete();
     },
   ),
-  checks: [],
+  checks: [premiumCheck],
 );
