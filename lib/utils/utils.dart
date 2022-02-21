@@ -11,6 +11,7 @@ import "package:encrypt/encrypt.dart";
 import "../database/database_user.dart";
 
 import "../extensions/context_extensions.dart";
+import "../extensions/list_extensions.dart";
 import "../extensions/fortnite_extensions.dart";
 
 import "../fishstick_dart.dart";
@@ -184,10 +185,10 @@ MultiselectBuilder lockerOptionsBuilder(menuID, AthenaProfile athena) =>
     );
 
 /// filter and sort locker items
-List<AthenaCosmetic> filterAndSortCosmetics({
+Future<List<AthenaCosmetic>> filterAndSortCosmetics({
   required DatabaseUser dbUser,
   required String type,
-}) {
+}) async {
   List<AthenaCosmetic> cosmetics = [];
 
   switch (type) {
@@ -266,8 +267,7 @@ List<AthenaCosmetic> filterAndSortCosmetics({
       break;
   }
 
-  cosmetics.sort((a, b) => a.name.compareTo(b.name));
-  cosmetics.sort((a, b) {
+  await cosmetics.asyncSort((a, b) {
     String aRarity = a.isExclusive ? "exclusive" : a.rarity.toLowerCase();
     String bRarity = b.isExclusive ? "exclusive" : b.rarity.toLowerCase();
     if (a.isCrew) {

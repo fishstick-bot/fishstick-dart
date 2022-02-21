@@ -55,7 +55,7 @@ final ChatCommand lockerTextCommand = ChatCommand(
 
       await selected.acknowledge();
 
-      List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
+      List<AthenaCosmetic> cosmetics = await filterAndSortCosmetics(
         dbUser: dbUser,
         type: selected.interaction.values.first,
       );

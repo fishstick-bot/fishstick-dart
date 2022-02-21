@@ -54,7 +54,7 @@ final ChatCommand lockerCrewImageCommand = ChatCommand(
           ..componentRows = [],
       );
 
-      List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
+      List<AthenaCosmetic> cosmetics = await filterAndSortCosmetics(
         dbUser: dbUser,
         type: "crew",
       );
