@@ -48,25 +48,25 @@ final ChatCommand lockerSpecialImageCommand = ChatCommand(
 
       await dbUser.fnClient.athena.init();
 
-      List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
-        dbUser: dbUser,
-        type: "exclusives and crew",
-      );
-
-      if (cosmetics.isEmpty) {
-        return await ctx.respond(
-          MessageBuilder.content(
-            "${(user ?? ctx.user).username} don't have any special items in their locker.",
-          ),
-        );
-      }
-
       IMessage msg = await ctx.respond(
         ComponentMessageBuilder()
           ..content =
               "Rendering locker image for special items ${loading.emoji}"
           ..componentRows = [],
       );
+
+      List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
+        dbUser: dbUser,
+        type: "exclusives and crew",
+      );
+
+      if (cosmetics.isEmpty) {
+        return await msg.edit(
+          MessageBuilder.content(
+            "${(user ?? ctx.user).username} don't have any special items in their locker.",
+          ),
+        );
+      }
 
       List<List<AthenaCosmetic>> chunks = await cosmetics.chunk(350).toList();
 

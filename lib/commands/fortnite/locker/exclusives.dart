@@ -48,24 +48,24 @@ final ChatCommand lockerExclusivesImageCommand = ChatCommand(
 
       await dbUser.fnClient.athena.init();
 
+      IMessage msg = await ctx.respond(
+        ComponentMessageBuilder()
+          ..content = "Rendering locker image for exclusives ${loading.emoji}"
+          ..componentRows = [],
+      );
+
       List<AthenaCosmetic> cosmetics = filterAndSortCosmetics(
         dbUser: dbUser,
         type: "exclusives",
       );
 
       if (cosmetics.isEmpty) {
-        return await ctx.respond(
+        return await msg.edit(
           MessageBuilder.content(
             "${(user ?? ctx.user).username} don't have any exclusives in their locker.",
           ),
         );
       }
-
-      IMessage msg = await ctx.respond(
-        ComponentMessageBuilder()
-          ..content = "Rendering locker image for exclusives ${loading.emoji}"
-          ..componentRows = [],
-      );
 
       List<List<AthenaCosmetic>> chunks = await cosmetics.chunk(350).toList();
 
