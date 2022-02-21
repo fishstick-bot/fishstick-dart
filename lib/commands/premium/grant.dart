@@ -31,7 +31,8 @@ final ChatCommand premiumGrantCommand = ChatCommand(
       if (days > 3650 || days < 7) {
         return await respond(
           ctx,
-          MessageBuilder.content("Argument days should be between 7-365 days."),
+          MessageBuilder.content(
+              "Argument days should be between 7-3650 days."),
           hidden: true,
         );
       }
