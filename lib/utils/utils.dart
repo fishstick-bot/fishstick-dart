@@ -270,8 +270,13 @@ List<AthenaCosmetic> filterAndSortCosmetics({
   cosmetics.sort((a, b) {
     String aRarity = a.isExclusive ? "exclusive" : a.rarity.toLowerCase();
     String bRarity = b.isExclusive ? "exclusive" : b.rarity.toLowerCase();
-    aRarity = a.isCrew ? "crew" : a.rarity.toLowerCase();
-    bRarity = b.isCrew ? "crew" : b.rarity.toLowerCase();
+    if (a.isCrew) {
+      aRarity = "crew";
+    }
+    if (b.isCrew) {
+      bRarity = "crew";
+    }
+
     return raritiesPriority.keys.toList().indexOf(bRarity) -
         raritiesPriority.keys.toList().indexOf(aRarity);
   });
