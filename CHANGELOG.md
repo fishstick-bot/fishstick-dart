@@ -101,3 +101,4 @@
 -   New login command with modal.
 -   Battle Eye / Anti Cheat command.
 -   Auto collect research points system job.
+-   More variety of locker images.
