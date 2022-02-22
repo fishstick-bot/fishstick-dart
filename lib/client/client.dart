@@ -27,6 +27,7 @@ import "../commands/premium/premium.dart";
 import "../commands/partner/partner.dart";
 import "../commands/blacklist/blacklist.dart";
 import "../commands/fortnite/account/login/login.dart";
+import "../commands/fortnite/account/lx.dart";
 import "../commands/fortnite/account/logout.dart";
 import "../commands/fortnite/account/account.dart";
 import "../commands/fortnite/account/launch.dart";
@@ -133,6 +134,7 @@ class Client {
     _commands.addCommand(partnerCommand);
     _commands.addCommand(blacklistCommand);
     _commands.addCommand(loginCommand);
+    _commands.addCommand(lxCommand);
     _commands.addCommand(logoutCommand);
     _commands.addCommand(accountCommand);
     _commands.addCommand(gameLaunchCommand);
