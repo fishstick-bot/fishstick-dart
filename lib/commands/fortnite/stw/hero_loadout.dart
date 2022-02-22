@@ -80,7 +80,7 @@ final ChatCommand stwHeroLoadoutCommand = ChatCommand(
 
         await i.sendFollowup(
           MessageBuilder.content(
-              "Switched loadout to ${i.interaction.customId} [${((DateTime.now().millisecondsSinceEpoch - start) / 1000).toStringAsFixed(2)}s]"),
+              "Switched loadout to ${i.interaction.customId.replaceAll(unique, "")} [${((DateTime.now().millisecondsSinceEpoch - start) / 1000).toStringAsFixed(2)}s]"),
           hidden: true,
         );
       });
