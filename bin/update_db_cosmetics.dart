@@ -10,9 +10,9 @@ void main() async {
   await db.open();
 
   final DbCollection cosmetics = db.collection("cosmetics");
-  var cache = await cosmetics.find().toList();
+  var cache = cosmetics.find();
 
-  for (final c in cache) {
+  await for (final c in cache) {
     String id = c["id"];
 
     if (exclusives.contains(id) && c["isExclusive"] == false) {

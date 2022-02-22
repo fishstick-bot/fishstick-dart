@@ -49,11 +49,11 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
         return;
       }
 
-      var accChunks = await user.linkedAccounts.chunk(5).toList();
+      var accChunks = user.linkedAccounts.chunk(5);
 
       var discordUser = await client.bot.fetchUser(user.id.toSnowflake());
 
-      for (final accs in accChunks) {
+      await for (final accs in accChunks) {
         String description = "";
 
         for (final acc in accs) {
@@ -141,13 +141,10 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
               s["name"] == "CardPackStorePreroll" ||
               s["name"] == "CardPackStoreGameplay")
           .map((s) => s["catalogEntries"] as List<dynamic>)
-          .toList()
-          .fold<List<dynamic>>([], (a, b) => a + b)
-          .where((i) =>
+          .fold<List<dynamic>>([], (a, b) => a + b).where((i) =>
               (i["devName"] ?? "").toString().contains("RandomFree") ||
               (i["devName"] ?? "").toString().contains("FreePack") ||
-              (i["title"] ?? "").toString().contains("Seasonal Sale Freebie"))
-          .toList();
+              (i["title"] ?? "").toString().contains("Seasonal Sale Freebie"));
 
       if (storefronts.isEmpty) {
         return null;

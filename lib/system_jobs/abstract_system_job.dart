@@ -22,13 +22,6 @@ abstract class AbstractUserSystemJob {
   /// Constructor
   AbstractUserSystemJob(this.client, {required this.name, required this.delay});
 
-  /// toJson method
-  Map<String, dynamic> toJson() => {
-        "name": name,
-        "delay": delay.inMilliseconds,
-        "users": users.map((user) => user.id).toList(),
-      };
-
   /// is the task running
   bool get running => _isRunning;
 

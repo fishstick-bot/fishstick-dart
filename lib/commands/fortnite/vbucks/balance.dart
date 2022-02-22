@@ -43,7 +43,7 @@ final ChatCommand vbucksBalanceCommand = ChatCommand(
         ..title = "${dbUser.activeAccount.displayName}'s V-Bucks Balance"
         ..thumbnailUrl = dbUser.activeAccount.avatar
         ..description =
-            "Current V-Bucks Platform: **${dbUser.fnClient.commonCore.currentMtxPlatform}**\n\n**Overall - ${vbucks.emoji} ${Numeral(dbUser.fnClient.commonCore.totalVbucks).value()}**\n${dbUser.fnClient.commonCore.vbucksBreakdown.map((v) => "• **${Numeral(v.quantity).value()}** x ${v.platform} ${v.type}").toList().join("\n")}"
+            "Current V-Bucks Platform: **${dbUser.fnClient.commonCore.currentMtxPlatform}**\n\n**Overall - ${vbucks.emoji} ${Numeral(dbUser.fnClient.commonCore.totalVbucks).value()}**\n${dbUser.fnClient.commonCore.vbucksBreakdown.map((v) => "• **${Numeral(v.quantity).value()}** x ${v.platform} ${v.type}").join("\n")}"
         ..timestamp = DateTime.now()
         ..footer = (EmbedFooterBuilder()
           ..text =
@@ -58,7 +58,6 @@ final ChatCommand vbucksBalanceCommand = ChatCommand(
           ..description = dbUser.fnClient.commonCore.vbucksPurchased.keys
               .map((v) =>
                   "• **${dbUser.fnClient.commonCore.vbucksPurchased[v]}** x ${vbucks.emoji} ${Numeral(int.parse(v as String)).value()}")
-              .toList()
               .join("\n");
 
         await ctx.respond(MessageBuilder.embed(vBucksEmbed));

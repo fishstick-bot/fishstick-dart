@@ -33,7 +33,6 @@ final ChatCommand beeacCommand = ChatCommand(
                 .map((a) => beeac[a] == false
                     ? "• **$a** - Battle Eye"
                     : "• **$a** - Easy Anti Cheat")
-                .toList()
                 .join("\n")
             ..timestamp = DateTime.now(),
         ),

@@ -46,11 +46,11 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
         return;
       }
 
-      var accChunks = await user.linkedAccounts.chunk(5).toList();
+      var accChunks = user.linkedAccounts.chunk(5);
 
       var discordUser = await client.bot.fetchUser(user.id.toSnowflake());
 
-      for (final accs in accChunks) {
+      await for (final accs in accChunks) {
         String description = "";
 
         for (final acc in accs) {

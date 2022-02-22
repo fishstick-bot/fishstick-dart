@@ -20,8 +20,7 @@ final ChatCommand mfaSTWCommand = ChatCommand(
       ]);
 
       var campaignAccess = dbUser.fnClient.commonCore.items
-          .where((item) => item.templateId.contains("campaignaccess"))
-          .toList();
+          .where((item) => item.templateId.contains("campaignaccess"));
 
       if (campaignAccess.isEmpty) {
         throw Exception("You don't have access to Save the World gamemode.");
