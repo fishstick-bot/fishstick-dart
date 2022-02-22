@@ -190,6 +190,7 @@ List<AthenaCosmetic> filterAndSortCosmetics({
   required DatabaseUser dbUser,
   required String type,
 }) {
+  // int start = DateTime.now().millisecondsSinceEpoch;
   List<AthenaCosmetic> cosmetics = [];
 
   switch (type) {
@@ -267,7 +268,9 @@ List<AthenaCosmetic> filterAndSortCosmetics({
       cosmetics = dbUser.fnClient.athena.cosmetics;
       break;
   }
+  // print(DateTime.now().millisecondsSinceEpoch - start);
 
+  // start = DateTime.now().millisecondsSinceEpoch;
   cosmetics.sort((a, b) {
     String aRarity = a.isExclusive ? "exclusive" : a.rarity.toLowerCase();
     String bRarity = b.isExclusive ? "exclusive" : b.rarity.toLowerCase();
@@ -287,6 +290,7 @@ List<AthenaCosmetic> filterAndSortCosmetics({
 
     return bPriority - aPriority;
   });
+  // print(DateTime.now().millisecondsSinceEpoch - start);
 
   return cosmetics;
 }

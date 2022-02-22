@@ -94,7 +94,7 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
               ),
             );
           }
-        } on Exception catch (e) {
+        } catch (e) {
           /// ignore the [Exception] as bot is not able to send message to user.
           /// just to be sure log the error.
           client.logger.shout(

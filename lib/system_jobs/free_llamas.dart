@@ -151,7 +151,7 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
       }
 
       return storefronts.first["offerId"]?.toString();
-    } on Exception catch (e) {
+    } catch (e) {
       client.logger.shout(
           "[TASK:$name] Unhandled error while retreiving free llamas: $e");
       return null;
