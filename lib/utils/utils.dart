@@ -187,10 +187,10 @@ MultiselectBuilder lockerOptionsBuilder(menuID, AthenaProfile athena) =>
     );
 
 /// filter and sort locker items
-Future<List<AthenaCosmetic>> filterAndSortCosmetics({
+List<AthenaCosmetic> filterAndSortCosmetics({
   required DatabaseUser dbUser,
   required String type,
-}) async {
+}) {
   List<AthenaCosmetic> cosmetics = [];
 
   switch (type) {
@@ -269,7 +269,7 @@ Future<List<AthenaCosmetic>> filterAndSortCosmetics({
       break;
   }
 
-  await cosmetics.asyncSort((a, b) {
+  cosmetics.sort((a, b) {
     String aRarity = a.isExclusive ? "exclusive" : a.rarity.toLowerCase();
     String bRarity = b.isExclusive ? "exclusive" : b.rarity.toLowerCase();
     if (a.isCrew) {

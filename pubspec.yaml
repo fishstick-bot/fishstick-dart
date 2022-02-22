@@ -28,6 +28,7 @@ dependencies:
     numeral: ^1.2.5 # to parse numerals.
     encrypt: ^5.0.1 # for encryption of strings.
     pubspec_yaml: ^3.1.0 # to get package info.
+    http: ^0.13.4
     dio: any # for making httml requests.
     cron: ^0.4.0 # cron for system jobs scheduling.
 

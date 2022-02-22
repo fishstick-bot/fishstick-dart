@@ -1,4 +1,5 @@
-import "package:dio/dio.dart";
+import "dart:convert";
+import "package:http/http.dart";
 import "../fishstick_dart.dart";
 import "../resources/exclusives.dart";
 import "../resources/crew.dart";
@@ -14,10 +15,15 @@ class UpdateCosmeticsCacheSystemJob {
       int time = DateTime.now().millisecondsSinceEpoch;
       client.logger.info("[TASK:$name] starting...");
 
-      final res = ((await Dio().get("https://fortnite-api.com/v2/cosmetics/br"))
-              .data["data"] as List)
-          .toSet()
-          .toList();
+      var rawres =
+          await get(Uri.parse("https://fortnite-api.com/v2/cosmetics/br"));
+
+      List<dynamic> res;
+      if (rawres.statusCode >= 200 || rawres.statusCode < 300) {
+        res = jsonDecode(rawres.body)["data"] as List;
+      } else {
+        throw Exception(rawres.body);
+      }
 
       client.cachedCosmetics = res
           .map((c) => {
@@ -71,9 +77,9 @@ class UpdateCosmeticsCacheSystemJob {
 
       client.logger.info(
           "[TASK:$name] finished in ${DateTime.now().millisecondsSinceEpoch - time}ms");
-    } on DioError catch (e) {
+    } catch (e) {
       client.logger.shout(
-          "[TASK:$name] An unexpected error occured retrying in 30seconds: ${e.response?.data}");
+          "[TASK:$name] An unexpected error occured retrying in 30seconds: $e");
       await Future.delayed(Duration(seconds: 30), () async => await run());
     }
     return;
