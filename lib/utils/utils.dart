@@ -13,7 +13,6 @@ import "package:encrypt/encrypt.dart";
 import "../database/database_user.dart";
 
 import "../extensions/context_extensions.dart";
-import "../extensions/list_extensions.dart";
 import "../extensions/fortnite_extensions.dart";
 
 import "../fishstick_dart.dart";
