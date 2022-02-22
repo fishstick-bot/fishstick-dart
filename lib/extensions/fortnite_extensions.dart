@@ -1,5 +1,6 @@
 import "package:fortnite/fortnite.dart";
 import "../fishstick_dart.dart";
+import "../resources/items.dart";
 
 Map<String, String> nameCache = {};
 Map<String, String> descriptionCache = {};
@@ -8,7 +9,7 @@ Map<String, String> rarityCache = {};
 Map<String, bool> isExclusiveCache = {};
 Map<String, bool> isCrewCache = {};
 
-extension Extras on AthenaCosmetic {
+extension AthenaCosmeticExtensions on AthenaCosmetic {
   String get partialId => templateId.split(":")[1].toLowerCase();
 
   Iterable<Map<String, dynamic>> get searched =>
@@ -96,5 +97,26 @@ extension Extras on AthenaCosmetic {
     isCrewCache[partialId] = searched.first["isCrew"]!;
 
     return isCrewCache[partialId]!;
+  }
+}
+
+extension HeroExtensions on STWHero {
+  String get partialId => templateId.split(":")[1].toLowerCase();
+
+  Iterable<Item> get searched =>
+      allItems.where((i) => i.id.toLowerCase() == partialId.toLowerCase());
+
+  String get name {
+    if (nameCache[partialId] != null) {
+      return nameCache[partialId]!;
+    }
+
+    if (searched.isEmpty) {
+      return templateId.split(":")[1];
+    }
+
+    nameCache[partialId] = searched.first.name;
+
+    return nameCache[partialId]!;
   }
 }

@@ -102,3 +102,10 @@
 -   Battle Eye / Anti Cheat command.
 -   Auto collect research points system job.
 -   More variety of locker images.
+
+## 1.1.0
+
+-   Code optimizations.
+-   lx command to login using any grant data (eg. exchange_code).
+-   Change hero loadout command.
+-   STW Items data file.
