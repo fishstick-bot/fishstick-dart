@@ -26,6 +26,8 @@ final ChatCommand stwHeroLoadoutCommand = ChatCommand(
         throw Exception("No hero loadouts found.");
       }
 
+      String unique = DateTime.now().millisecondsSinceEpoch.toString();
+
       final EmbedBuilder embed = EmbedBuilder()
         ..author = (EmbedAuthorBuilder()
           ..name = ctx.user.username
@@ -44,9 +46,9 @@ final ChatCommand stwHeroLoadoutCommand = ChatCommand(
       for (final loadouts in chunks) {
         final ComponentRowBuilder row = ComponentRowBuilder();
         for (final l in loadouts) {
-          filter.add(l.id);
+          filter.add(l.id + unique);
           row.addComponent(
-            ButtonBuilder(l.commander.name, l.id, ButtonStyle.primary),
+            ButtonBuilder(l.commander.name, l.id + unique, ButtonStyle.primary),
           );
         }
         rows.add(row);
@@ -60,7 +62,7 @@ final ChatCommand stwHeroLoadoutCommand = ChatCommand(
 
       ctx.commands.interactions.events.onButtonEvent
           .where((event) => filter.contains(event.interaction.customId))
-          .timeout(Duration(seconds: 10))
+          .timeout(Duration(minutes: 30))
           .listen((i) async {
         await i.acknowledge(hidden: true);
 
@@ -72,7 +74,7 @@ final ChatCommand stwHeroLoadoutCommand = ChatCommand(
             accountId: dbUser.fnClient.accountId,
           ).SetActiveHeroLoadout,
           body: {
-            "selectedLoadout": i.interaction.customId,
+            "selectedLoadout": i.interaction.customId.replaceAll(unique, ""),
           },
         );
 
