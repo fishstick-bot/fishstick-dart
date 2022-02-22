@@ -10,7 +10,7 @@ void main() async {
     // maxGuildsPerProcess: 2000,
     // maxGuildsPerShard: 1000,
     numProcesses: Config().developmentMode ? 1 : 6,
-    shardsPerProcess: Config().developmentMode ? 1 : 3,
+    shardsPerProcess: Config().developmentMode ? 1 : 2,
   );
 
   /// START THE SHARD MANAGER
