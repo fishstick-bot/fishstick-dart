@@ -277,8 +277,14 @@ Future<List<AthenaCosmetic>> filterAndSortCosmetics({
       bRarity = "crew";
     }
 
-    return raritiesPriority.keys.toList().indexOf(bRarity) -
-        raritiesPriority.keys.toList().indexOf(aRarity);
+    int aPriority = raritiesPriority[aRarity] ?? 0;
+    int bPriority = raritiesPriority[bRarity] ?? 0;
+
+    if (bPriority - aPriority == 0) {
+      return a.name.compareTo(b.name);
+    }
+
+    return bPriority - aPriority;
   });
 
   return cosmetics;
