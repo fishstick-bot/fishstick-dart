@@ -1,5 +1,7 @@
 import "dart:io" show Platform, ProcessInfo;
 
+import "package:dio/dio.dart";
+
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_interactions/nyxx_interactions.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
@@ -288,6 +290,37 @@ Future<List<AthenaCosmetic>> filterAndSortCosmetics({
   });
 
   return cosmetics;
+}
+
+/// draw fortnite locker
+Future<String> drawLocker({
+  required List<AthenaCosmetic> cosmetics,
+  required String epicname,
+}) async {
+  var img = await Dio().post(
+    "https://fishstickbot.com/api/locker",
+    data: {
+      "items": cosmetics
+          .map((cosmetic) => {
+                "id": cosmetic.templateId,
+                "name": cosmetic.name,
+                "type": cosmetic.type,
+                "rarity": cosmetic.rarity,
+                "image": cosmetic.image,
+                "isExclusive": cosmetic.isExclusive,
+                "isCrew": cosmetic.isCrew,
+              })
+          .toList(),
+      "epicname": epicname,
+    },
+    options: Options(
+      headers: {
+        "Authorization": client.config.apiKey,
+      },
+    ),
+  );
+
+  return img.data;
 }
 
 /// Purchase an item from fortnite shop

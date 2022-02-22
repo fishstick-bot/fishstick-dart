@@ -12,7 +12,6 @@ import "../database/database.dart";
 import "../config.dart";
 
 import "../utils/utils.dart";
-import "../utils/image_utils.dart";
 import "../utils/commands_handler.dart";
 
 import "../system_jobs/system_jobs.dart";
@@ -67,9 +66,6 @@ class Client {
 
   /// The database for the bot
   late final Database database;
-
-  /// Image utils for the client
-  late final ImageUtils imageUtils;
 
   /// Cached cosmetics for the client
   List<Map<String, dynamic>> cachedCosmetics = [];
@@ -171,9 +167,6 @@ class Client {
 
     /// setup database
     database = Database(config.mongoUri);
-
-    /// setup image utils
-    imageUtils = ImageUtils(config.apiKey);
 
     /// setup discord client
     bot = NyxxFactory.createNyxxWebsocket(
