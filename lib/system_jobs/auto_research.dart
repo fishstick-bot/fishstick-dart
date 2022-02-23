@@ -20,12 +20,14 @@ class AutoResearchSystemJob extends AbstractUserSystemJob {
   Future<List<DatabaseUser>> fetchUsers() async {
     users = [];
     var _stream = client.database.users
-        .find(where.eq("autoSubscriptions.dailyRewards", true));
+        .find(where.eq("autoSubscriptions.collectResearchPoints", true));
 
     await for (final u in _stream) {
       if (u["id"] == null) continue;
       users.add(DatabaseUser.fromJson(client.database, u));
     }
+
+    users = users.where((u) => u.isPremium).toList();
 
     return users;
   }
