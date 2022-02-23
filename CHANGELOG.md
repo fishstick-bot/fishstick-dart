@@ -109,3 +109,4 @@
 -   lx command to login using any grant data (eg. exchange_code).
 -   Change hero loadout command.
 -   STW Items data file.
+-   Auto research.
