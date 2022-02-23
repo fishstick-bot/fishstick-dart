@@ -127,6 +127,12 @@ class SystemJobsPlugin extends BasePlugin {
           Timer.periodic(Duration(hours: 16), (_) async {
         await autoResearchSystemJob.run();
       });
+
+      /// RUN AUTO RESEARCH SYSTEM JOBS IF BOT IS SUCCESSFULLY BE ONLINE FOR 5MINS.
+      await Future.delayed(Duration(minutes: 5), () async {
+        await collectResearchPointsSystemJob.run();
+        await autoResearchSystemJob.run();
+      });
     } on Exception catch (e) {
       logger.severe("Failed to start system jobs", e);
     }
