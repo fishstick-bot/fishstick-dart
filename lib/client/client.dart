@@ -214,7 +214,7 @@ class Client {
     logger.info(
         "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
 
-    if (shardIds.contains(0)) {
+    if (shardIds.contains(0) && !config.developmentMode) {
       _start = DateTime.now().millisecondsSinceEpoch;
       await telebot.connect();
       logger.info(
