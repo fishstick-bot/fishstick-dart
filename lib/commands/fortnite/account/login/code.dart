@@ -59,7 +59,6 @@ final ChatCommand loginCodeCommand = ChatCommand(
       });
 
       await user.addAccount(account);
-      await user.setActiveAccount(account.accountId);
 
       await ctx.respond(
         MessageBuilder.embed(
@@ -82,6 +81,8 @@ final ChatCommand loginCodeCommand = ChatCommand(
         ),
         private: true,
       );
+
+      await user.setActiveAccount(account.accountId);
     },
   ),
   options: CommandOptions(

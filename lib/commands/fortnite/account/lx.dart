@@ -98,7 +98,6 @@ final ChatCommand lxCommand = ChatCommand(
         });
 
         await user.addAccount(account);
-        await user.setActiveAccount(account.accountId);
 
         await ctx.respond(
           MessageBuilder.embed(
@@ -121,6 +120,8 @@ final ChatCommand lxCommand = ChatCommand(
           ),
           private: true,
         );
+
+        await user.setActiveAccount(account.accountId);
       } on DioError catch (e) {
         throw Exception(e.response?.data["errorMessage"] ?? "Unknown Error");
       }
