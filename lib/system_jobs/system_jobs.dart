@@ -129,7 +129,7 @@ class SystemJobsPlugin extends BasePlugin {
       });
 
       /// RUN AUTO RESEARCH SYSTEM JOBS IF BOT IS SUCCESSFULLY BE ONLINE FOR 5MINS.
-      await Future.delayed(Duration(minutes: 5), () async {
+      Future.delayed(Duration(minutes: 5), () async {
         await collectResearchPointsSystemJob.run();
         await autoResearchSystemJob.run();
       });
