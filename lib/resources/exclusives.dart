@@ -23,6 +23,8 @@ List<String> exclusives = [
   "pickaxe_id_717_networkfemale",
   "pickaxe_id_189_streetopsstealth",
   "eid_kpopdance03",
+  "bid_004_blackknight",
+  "eid_floss",
   "cid_114_athena_commando_f_tacticalwoodland",
   "glider_id_090_celestial",
   "glider_warthog",
