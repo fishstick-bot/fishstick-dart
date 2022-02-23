@@ -12,6 +12,7 @@ import "premium_role_sync.dart";
 import "claim_daily.dart";
 import "free_llamas.dart";
 import "collect_research.dart";
+import "auto_research.dart";
 
 /// Handles all the system jobs
 class SystemJobsPlugin extends BasePlugin {
@@ -50,6 +51,12 @@ class SystemJobsPlugin extends BasePlugin {
   /// collect research system job
   late final Timer _collectResearchPointsSystemJobTimer;
 
+  /// auto research system job
+  late final AutoResearchSystemJob autoResearchSystemJob;
+
+  /// auto research system job
+  late final Timer _autoResearchSystemJobTimer;
+
   /// Creates a new instance of [SystemJobsPlugin]
   SystemJobsPlugin(this._client);
 
@@ -65,6 +72,10 @@ class SystemJobsPlugin extends BasePlugin {
     claimDailySystemJob = ClaimDailySystemJob(_client);
     logger.info("Registering free llamas system job");
     freeLlamasSystemJob = ClaimFreeLlamasSystemJob(_client);
+    logger.info("Registering collect research points system job");
+    collectResearchPointsSystemJob = ClaimResearchPointsSystemJob(_client);
+    logger.info("Registering auto research system job");
+    autoResearchSystemJob = AutoResearchSystemJob(_client);
   }
 
   /// Schedule all the system jobs
@@ -110,6 +121,12 @@ class SystemJobsPlugin extends BasePlugin {
           Timer.periodic(Duration(hours: 12), (_) async {
         await collectResearchPointsSystemJob.run();
       });
+
+      logger.info("Scheduling auto research system job to run every 16 hours.");
+      _autoResearchSystemJobTimer =
+          Timer.periodic(Duration(hours: 16), (_) async {
+        await autoResearchSystemJob.run();
+      });
     } on Exception catch (e) {
       logger.severe("Failed to start system jobs", e);
     }
@@ -134,6 +151,8 @@ class SystemJobsPlugin extends BasePlugin {
       _freeLlamasSystemJobTimer.cancel();
       logger.info("Unscheduling collect research points system job.");
       _collectResearchPointsSystemJobTimer.cancel();
+      logger.info("Unscheduling auto research system job.");
+      _autoResearchSystemJobTimer.cancel();
       logger.info("Closing cron manager.");
       await _cron.close();
     } on Exception catch (e) {

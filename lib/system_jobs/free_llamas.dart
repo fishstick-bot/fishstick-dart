@@ -56,6 +56,7 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
       await for (final accs in accChunks) {
         String description = "";
 
+        accLoop:
         for (final acc in accs) {
           String message = "";
 
@@ -67,7 +68,7 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
             if (availableFreeLlama == null) {
               await Future.delayed(Duration(
                   seconds: 2)); // ADD A DELAY OF 2s AS NO FREE LLAMAS AVAILABLE
-              break;
+              continue accLoop;
             }
 
             await populatePrerolledOffers(fnClient);
@@ -94,7 +95,7 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
           }
 
           if (nClaimed == 0) {
-            continue;
+            continue accLoop;
           }
 
           description += message;
