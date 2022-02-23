@@ -12,8 +12,13 @@ final ChatCommand lxCommand = ChatCommand(
   "Login to a new epic account using any grant type.",
   Id(
     "login_x_command",
-    // ignore: non_constant_identifier_names
-    (IContext ctx, String grant_type, String grant_data) async {
+    (
+      IContext ctx,
+      // ignore: non_constant_identifier_names
+      @Description("The grant type to use.") String grant_type,
+      // ignore: non_constant_identifier_names
+      @Description("The grant data to use.") String grant_data,
+    ) async {
       final DatabaseUser user = await ctx.dbUser;
 
       if (user.linkedAccounts.length >= user.accountsLimit) {
@@ -114,6 +119,7 @@ final ChatCommand lxCommand = ChatCommand(
               ..timestamp = DateTime.now()
               ..footer = (EmbedFooterBuilder()..text = client.footerText),
           ),
+          private: true,
         );
       } on DioError catch (e) {
         throw Exception(e.response?.data["errorMessage"] ?? "Unknown Error");

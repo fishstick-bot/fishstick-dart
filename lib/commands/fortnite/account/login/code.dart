@@ -11,7 +11,9 @@ final ChatCommand loginCodeCommand = ChatCommand(
   "Login to a new epic account.",
   Id(
     "login_code_command",
-    (IContext ctx, String code) async {
+    (IContext ctx,
+        @Description("The authorization code for your account. (Get it from /login new)")
+            String code) async {
       final DatabaseUser user = await ctx.dbUser;
 
       if (user.linkedAccounts.length >= user.accountsLimit) {
@@ -78,6 +80,7 @@ final ChatCommand loginCodeCommand = ChatCommand(
             ..timestamp = DateTime.now()
             ..footer = (EmbedFooterBuilder()..text = client.footerText),
         ),
+        private: true,
       );
     },
   ),
