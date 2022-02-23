@@ -22,7 +22,7 @@ dependencies:
     nyxx_pagination: ^2.2.0-dev.0 # for pagination support in discord bot.
     nyxx_sharding: ^2.0.0-dev.0.2 # for discord bot sharding.
     teledart: ^0.3.2 # to interact with telegram api.
-    fortnite: ^1.2.5 # to interact with fortnite api.
+    fortnite: ^1.2.6 # to interact with fortnite api.
     async: ^2.8.2 # uhmmm.
     time_ago_provider: ^4.1.2 # just for normal utility ig.
     numeral: ^1.2.5 # to parse numerals.

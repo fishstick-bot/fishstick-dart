@@ -1,5 +1,6 @@
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
+import "package:numeral/numeral.dart";
 import "../../../database/database_user.dart";
 import "../../../extensions/context_extensions.dart";
 import "../../../extensions/string_extensions.dart";
@@ -101,6 +102,11 @@ final ChatCommand overviewSTWCommand = ChatCommand(
                   "• $e - ${campaign.enduranceCompletions[e] != null ? "<t:${((campaign.enduranceCompletions[e]?.millisecondsSinceEpoch ?? 0) / 1000).round()}:d>" : "Not Completed".toBold()}")
               .join("\n"),
           inline: true,
+        )
+        ..addField(
+          name: "Battle Royale Accolade XP",
+          content:
+              "**${Numeral(campaign.sbx).value()} / ${Numeral(1056000).value()}** XP Claimed.",
         );
 
       await ctx.respond(MessageBuilder.embed(embed));

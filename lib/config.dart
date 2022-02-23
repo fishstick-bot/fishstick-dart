@@ -1,7 +1,7 @@
 import "private.dart";
 
 class Config {
-  static final bool _developmentMode = false;
+  static final bool _developmentMode = true;
 
   /// is the bot in development mode
   bool get developmentMode => _developmentMode;

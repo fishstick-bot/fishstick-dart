@@ -110,3 +110,4 @@
 -   Change hero loadout command.
 -   STW Items data file.
 -   Auto research.
+-   Add Battle royale accolae xp to STW overview.
