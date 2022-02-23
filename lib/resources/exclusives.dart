@@ -19,6 +19,7 @@ List<String> exclusives = [
   "trails_id_123_tacticalwoodlandblue",
   "bid_169_mathmale",
   "wrap_333_stealthwoodland",
+  "wrap_311_vangogh",
   "pickaxe_id_717_networkfemale",
   "pickaxe_id_189_streetopsstealth",
   "eid_kpopdance03",
