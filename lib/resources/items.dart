@@ -52831,6 +52831,19081 @@ final _athena_wadsitemdata = Item(
   ],
 );
 
+final _hid_constructor_basebig_sr_t03 = Item(
+  id: "HID_Constructor_BASEBig_SR_T03",
+  name: "MEGA B.A.S.E. Kyle",
+  description: "\"Only the biggest of BASEs.\" - Kyle",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-BASEBig-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MEGABASE"],
+);
+
+final _hid_constructor_010_vr_t01 = Item(
+  id: "HID_Constructor_010_VR_T01",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_035_birthday_constructor_sr_t01 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_SR_T01",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_011_vr_t03 = Item(
+  id: "HID_Constructor_011_VR_T03",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_030_radconstructor_vr_t05 = Item(
+  id: "HID_Constructor_030_RadConstructor_VR_T05",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_022_sr_t02 = Item(
+  id: "HID_Constructor_022_SR_T02",
+  name: "Conqueror Magnus",
+  description: "Conquer The Storm.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-164-Athena-Commando-M-Viking-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_028_retroscificonstructor_vr_t02 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_VR_T02",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_009_sr_t02 = Item(
+  id: "HID_Constructor_009_SR_T02",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_017_f_v1_vr_t04 = Item(
+  id: "HID_Constructor_017_F_V1_VR_T04",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_basehyper_vr_t03 = Item(
+  id: "HID_Constructor_BaseHyper_VR_T03",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyper-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_sr_t04 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_SR_T04",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_sr_t03 = Item(
+  id: "HID_Constructor_Sony_SR_T03",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammertank_r_t03 = Item(
+  id: "HID_Constructor_HammerTank_R_T03",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-HammerTank-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_plasmadamage_easter_sr_t02 = Item(
+  id: "HID_Constructor_PlasmaDamage_Easter_SR_T02",
+  name: "Miss Bunny Penny",
+  description: "Penny's been waiting to break out this outfit.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.PlasmaShield",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_008_foundersm_sr_t02 = Item(
+  id: "HID_Constructor_008_FoundersM_SR_T02",
+  name: "Power B.A.S.E. Kyle",
+  description: "\"Ok guys, this is my B.A.S.E.! Whaddya think?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-Founders-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_007_uc_t02 = Item(
+  id: "HID_Constructor_007_UC_T02",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_xbox_vr_t05 = Item(
+  id: "HID_Constructor_XBOX_VR_T05",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_sr_t02 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_SR_T02",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_013_vr_t01 = Item(
+  id: "HID_Constructor_013_VR_T01",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_029_radstoryconstructor_sr_t04 = Item(
+  id: "HID_Constructor_029_RadStoryConstructor_SR_T04",
+  name: "Dennis Jr.",
+  description: "Dennis Jr.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-204-Athena-Commando-M-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_sr_t05 = Item(
+  id: "HID_Constructor_Sony_SR_T05",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_040_lars_sr_t01 = Item(
+  id: "HID_Constructor_040_Lars_SR_T01",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_r_t02 = Item(
+  id: "HID_Constructor_008_R_T02",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_036_dino_constructor_sr_t03 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_SR_T03",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_013_vr_t03 = Item(
+  id: "HID_Constructor_013_VR_T03",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_028_retroscificonstructor_sr_t03 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_SR_T03",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_019_sr_t05 = Item(
+  id: "HID_Constructor_019_SR_T05",
+  name: "Sentry Gunner Airheart",
+  description: "Guns at the ready!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-224-Athena-Commando-F-Dieselpunk-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_009_sr_t03 = Item(
+  id: "HID_Constructor_009_SR_T03",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_011_sr_t02 = Item(
+  id: "HID_Constructor_011_SR_T02",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_014_f_sr_t03 = Item(
+  id: "HID_Constructor_014_F_SR_T03",
+  name: "Riot Control Izza",
+  description: "\"I got it under control.\" - Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_hammerplasma_4thjuly_sr_t03 = Item(
+  id: "HID_Constructor_HammerPlasma_4thJuly_SR_T03",
+  name: "Patriot Penny",
+  description: "\"For freedom!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-4thJuly-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_034_mechstructor_sr_t05 = Item(
+  id: "HID_Constructor_034_Mechstructor_SR_T05",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_sr_t02 = Item(
+  id: "HID_Constructor_Sony_SR_T02",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_009_r_t03 = Item(
+  id: "HID_Constructor_009_R_T03",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_rushbase_vr_t02 = Item(
+  id: "HID_Constructor_RushBASE_VR_T02",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_016_m_v1_sr_t01 = Item(
+  id: "HID_Constructor_016_M_V1_SR_T01",
+  name: "Saboteur Bull",
+  description: "\"Don't get too close.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_sony_r_t03 = Item(
+  id: "HID_Constructor_Sony_R_T03",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_rushbase_r_t04 = Item(
+  id: "HID_Constructor_RushBASE_R_T04",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-RushBASE-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_007hw_vr_t01 = Item(
+  id: "HID_Constructor_007HW_VR_T01",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_013_sr_t03 = Item(
+  id: "HID_Constructor_013_SR_T03",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_011_vr_t04 = Item(
+  id: "HID_Constructor_011_VR_T04",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_022_sr_t04 = Item(
+  id: "HID_Constructor_022_SR_T04",
+  name: "Conqueror Magnus",
+  description: "Conquer The Storm.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-164-Athena-Commando-M-Viking-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammerplasma_sr_t05 = Item(
+  id: "HID_Constructor_HammerPlasma_SR_T05",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_008_sr_t02 = Item(
+  id: "HID_Constructor_008_SR_T02",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_015_vr_t04 = Item(
+  id: "HID_Constructor_015_VR_T04",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-015-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_017_f_v1_r_t04 = Item(
+  id: "HID_Constructor_017_F_V1_R_T04",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_014_r_t01 = Item(
+  id: "HID_Constructor_014_R_T01",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_009_sr_t01 = Item(
+  id: "HID_Constructor_009_SR_T01",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_039_assemble_l_vr_t01 = Item(
+  id: "HID_Constructor_039_Assemble_L_VR_T01",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_r_t04 = Item(
+  id: "HID_Constructor_Sony_R_T04",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_010_sr_t03 = Item(
+  id: "HID_Constructor_010_SR_T03",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammertank_vr_t02 = Item(
+  id: "HID_Constructor_HammerTank_VR_T02",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerTank-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_033_villain_fleming_vr_t04 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_VR_T04",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_myth02_sr_t04 = Item(
+  id: "HID_Constructor_Myth02_SR_T04",
+  name: "Steel Wool Syd",
+  description: "\"One, Two... One, Two, Three, Four...\" - Syd",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-Myth02-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Male.Biker"
+  ],
+);
+
+final _hid_constructor_017_f_v1_vr_t02 = Item(
+  id: "HID_Constructor_017_F_V1_VR_T02",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_013_r_t02 = Item(
+  id: "HID_Constructor_013_R_T02",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_rushbase_sr_t04 = Item(
+  id: "HID_Constructor_RushBASE_SR_T04",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_040_lars_vr_t02 = Item(
+  id: "HID_Constructor_040_Lars_VR_T02",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_011_vr_t05 = Item(
+  id: "HID_Constructor_011_VR_T05",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_015_sr_t05 = Item(
+  id: "HID_Constructor_015_SR_T05",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-015-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_010_vr_t04 = Item(
+  id: "HID_Constructor_010_VR_T04",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_016_f_v1_sr_t05 = Item(
+  id: "HID_Constructor_016_F_V1_SR_T05",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_037_director_vr_t05 = Item(
+  id: "HID_Constructor_037_Director_VR_T05",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "epic",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_f_sr_t04 = Item(
+  id: "HID_Constructor_RushBASE_F_SR_T04",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_008_r_t04 = Item(
+  id: "HID_Constructor_008_R_T04",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_024_pirateconstructor_sr_t03 = Item(
+  id: "HID_Constructor_024_PirateConstructor_SR_T03",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_016_m_v1_blockbuster_sr_t02 = Item(
+  id: "HID_Constructor_016_M_V1_BlockBuster_SR_T02",
+  name: "8-Bit Demo",
+  description: "Wanna play a game?",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-Blockbuster-SR_T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Demolitionist",
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male.8Bit"
+  ],
+);
+
+final _hid_constructor_xbox_sr_t02 = Item(
+  id: "HID_Constructor_XBOX_SR_T02",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_014_sr_t05 = Item(
+  id: "HID_Constructor_014_SR_T05",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_039_assemble_l_vr_t04 = Item(
+  id: "HID_Constructor_039_Assemble_L_VR_T04",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_040_lars_vr_t04 = Item(
+  id: "HID_Constructor_040_Lars_VR_T04",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_r_t01 = Item(
+  id: "HID_Constructor_Sony_R_T01",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammerplasma_4thjuly_sr_t05 = Item(
+  id: "HID_Constructor_HammerPlasma_4thJuly_SR_T05",
+  name: "Patriot Penny",
+  description: "\"For freedom!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-4thJuly-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_016_m_v1_blockbuster_sr_t04 = Item(
+  id: "HID_Constructor_016_M_V1_BlockBuster_SR_T04",
+  name: "8-Bit Demo",
+  description: "Wanna play a game?",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-Blockbuster-SR_T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Demolitionist",
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male.8Bit"
+  ],
+);
+
+final _hid_constructor_hammertank_uc_t02 = Item(
+  id: "HID_Constructor_HammerTank_UC_T02",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-HammerTank-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_014_vr_t02 = Item(
+  id: "HID_Constructor_014_VR_T02",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_033_villain_fleming_vr_t01 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_VR_T01",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammerplasma_4thjuly_sr_t01 = Item(
+  id: "HID_Constructor_HammerPlasma_4thJuly_SR_T01",
+  name: "Patriot Penny",
+  description: "\"For freedom!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-4thJuly-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_009_vr_t04 = Item(
+  id: "HID_Constructor_009_VR_T04",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_rushbase_f_vr_t05 = Item(
+  id: "HID_Constructor_RushBASE_F_VR_T05",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_017_f_v1_sr_t03 = Item(
+  id: "HID_Constructor_017_F_V1_SR_T03",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_015_sr_t03 = Item(
+  id: "HID_Constructor_015_SR_T03",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-015-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_028_retroscificonstructor_vr_t01 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_VR_T01",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_myth02_sr_t01 = Item(
+  id: "HID_Constructor_Myth02_SR_T01",
+  name: "Steel Wool Syd",
+  description: "\"One, Two... One, Two, Three, Four...\" - Syd",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-Myth02-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Male.Biker"
+  ],
+);
+
+final _hid_constructor_018_sr_t04 = Item(
+  id: "HID_Constructor_018_SR_T04",
+  name: "Black Knight Garridan",
+  description: "Crusader for justice.",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-018-SR-BlackKnight-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "Homebase.Class.IsConstructor.BlackKnight"
+  ],
+);
+
+final _hid_constructor_026_bombsquadconstructor_vr_t02 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_VR_T02",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_036_dino_constructor_vr_t03 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_VR_T03",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_013_uc_t01 = Item(
+  id: "HID_Constructor_013_UC_T01",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-013-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_014_vr_t01 = Item(
+  id: "HID_Constructor_014_VR_T01",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_039_assemble_l_sr_t02 = Item(
+  id: "HID_Constructor_039_Assemble_L_SR_T02",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_foundersf_sr_t01 = Item(
+  id: "HID_Constructor_008_FoundersF_SR_T01",
+  name: "Power B.A.S.E. Penny",
+  description:
+      "\"I could really get behind this whole B.A.S.E. thing!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_017_f_v1_vr_t01 = Item(
+  id: "HID_Constructor_017_F_V1_VR_T01",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_040_lars_vr_t03 = Item(
+  id: "HID_Constructor_040_Lars_VR_T03",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_032_toyconstructor_vr_t03 = Item(
+  id: "HID_Constructor_032_ToyConstructor_VR_T03",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_018_sr_t03 = Item(
+  id: "HID_Constructor_018_SR_T03",
+  name: "Black Knight Garridan",
+  description: "Crusader for justice.",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-018-SR-BlackKnight-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "Homebase.Class.IsConstructor.BlackKnight"
+  ],
+);
+
+final _hid_constructor_024_pirateconstructor_sr_t01 = Item(
+  id: "HID_Constructor_024_PirateConstructor_SR_T01",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_024_pirateconstructor_sr_t02 = Item(
+  id: "HID_Constructor_024_PirateConstructor_SR_T02",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_017_f_v1_r_t02 = Item(
+  id: "HID_Constructor_017_F_V1_R_T02",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_009_sr_t05 = Item(
+  id: "HID_Constructor_009_SR_T05",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_039_assemble_l_vr_t03 = Item(
+  id: "HID_Constructor_039_Assemble_L_VR_T03",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Class.IsConstructor"],
+);
+
+final _hid_constructor_hammerplasma_vr_t05 = Item(
+  id: "HID_Constructor_HammerPlasma_VR_T05",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_007_vr_t03 = Item(
+  id: "HID_Constructor_007_VR_T03",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_rushbase_vr_t03 = Item(
+  id: "HID_Constructor_RushBASE_VR_T03",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_027_dinoconstructor_sr_t04 = Item(
+  id: "HID_Constructor_027_DinoConstructor_SR_T04",
+  name: "Prehistoric Izza",
+  description: "\"Unlike the Stegosaurus, I'm not a herbivore.\" -Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-027-DinoConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_035_birthday_constructor_sr_t05 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_SR_T05",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_vr_t02 = Item(
+  id: "HID_Constructor_008_VR_T02",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_031_halloweenconstructor_sr_t03 = Item(
+  id: "HID_Constructor_031_HalloweenConstructor_SR_T03",
+  name: "\"Arrlene\" Izza",
+  description: "\"That's a wrap.\" - \"Arrlene\" Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-031-HalloweenConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_sr_t02 = Item(
+  id: "HID_Constructor_RushBASE_SR_T02",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_basehyper_sr_t01 = Item(
+  id: "HID_Constructor_BaseHyper_SR_T01",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyper-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_007hw_vr_t03 = Item(
+  id: "HID_Constructor_007HW_VR_T03",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_016_f_v1_sr_t02 = Item(
+  id: "HID_Constructor_016_F_V1_SR_T02",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_010_vr_t02 = Item(
+  id: "HID_Constructor_010_VR_T02",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_basehyper_sr_t02 = Item(
+  id: "HID_Constructor_BaseHyper_SR_T02",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyper-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_008_foundersm_sr_t04 = Item(
+  id: "HID_Constructor_008_FoundersM_SR_T04",
+  name: "Power B.A.S.E. Kyle",
+  description: "\"Ok guys, this is my B.A.S.E.! Whaddya think?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-Founders-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_024_pirateconstructor_sr_t04 = Item(
+  id: "HID_Constructor_024_PirateConstructor_SR_T04",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammertank_r_t01 = Item(
+  id: "HID_Constructor_HammerTank_R_T01",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-HammerTank-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_027_dinoconstructor_sr_t03 = Item(
+  id: "HID_Constructor_027_DinoConstructor_SR_T03",
+  name: "Prehistoric Izza",
+  description: "\"Unlike the Stegosaurus, I'm not a herbivore.\" -Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-027-DinoConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_009_vr_t05 = Item(
+  id: "HID_Constructor_009_VR_T05",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_014_sr_t04 = Item(
+  id: "HID_Constructor_014_SR_T04",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_038_gumshoe_sr_t01 = Item(
+  id: "HID_Constructor_038_Gumshoe_SR_T01",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "legendary",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammertank_sr_t04 = Item(
+  id: "HID_Constructor_HammerTank_SR_T04",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerTank-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_031_halloweenconstructor_sr_t04 = Item(
+  id: "HID_Constructor_031_HalloweenConstructor_SR_T04",
+  name: "\"Arrlene\" Izza",
+  description: "\"That's a wrap.\" - \"Arrlene\" Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-031-HalloweenConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_f_vr_t02 = Item(
+  id: "HID_Constructor_RushBASE_F_VR_T02",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_028_retroscificonstructor_vr_t03 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_VR_T03",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyperhw_vr_t03 = Item(
+  id: "HID_Constructor_BaseHyperHW_VR_T03",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_hammertank_vr_t05 = Item(
+  id: "HID_Constructor_HammerTank_VR_T05",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerTank-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_014_f_sr_t04 = Item(
+  id: "HID_Constructor_014_F_SR_T04",
+  name: "Riot Control Izza",
+  description: "\"I got it under control.\" - Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_020_sr_t01 = Item(
+  id: "HID_Constructor_020_SR_T01",
+  name: "Sentry Gunner Krampus",
+  description: "\"Nah kid, you're thinking of that other guy.\" - Krampus",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-020-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_011_r_t03 = Item(
+  id: "HID_Constructor_011_R_T03",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_030_radconstructor_sr_t03 = Item(
+  id: "HID_Constructor_030_RadConstructor_SR_T03",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_030_radconstructor_sr_t02 = Item(
+  id: "HID_Constructor_030_RadConstructor_SR_T02",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_027_dinoconstructor_sr_t05 = Item(
+  id: "HID_Constructor_027_DinoConstructor_SR_T05",
+  name: "Prehistoric Izza",
+  description: "\"Unlike the Stegosaurus, I'm not a herbivore.\" -Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-027-DinoConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_038_gumshoe_vr_t01 = Item(
+  id: "HID_Constructor_038_Gumshoe_VR_T01",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "epic",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_024_pirateconstructor_vr_t03 = Item(
+  id: "HID_Constructor_024_PirateConstructor_VR_T03",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_039_assemble_l_vr_t02 = Item(
+  id: "HID_Constructor_039_Assemble_L_VR_T02",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_023_sr_t02 = Item(
+  id: "HID_Constructor_023_SR_T02",
+  name: "The Ice King",
+  description: "All hail the ruler of ice and snow.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-288-Athena-Commando-M-IceKing-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_013_sr_t01 = Item(
+  id: "HID_Constructor_013_SR_T01",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_021_sr_t02 = Item(
+  id: "HID_Constructor_021_SR_T02",
+  name: "Dark Vanguard Airheart",
+  description: "Exploring the outer limits.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-105-Athena-Commando-F-SpaceBlackFemale-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_030_radconstructor_vr_t01 = Item(
+  id: "HID_Constructor_030_RadConstructor_VR_T01",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_018_sr_t01 = Item(
+  id: "HID_Constructor_018_SR_T01",
+  name: "Black Knight Garridan",
+  description: "Crusader for justice.",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-018-SR-BlackKnight-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "Homebase.Class.IsConstructor.BlackKnight"
+  ],
+);
+
+final _hid_constructor_009_sr_t04 = Item(
+  id: "HID_Constructor_009_SR_T04",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_017_f_v1_sr_t02 = Item(
+  id: "HID_Constructor_017_F_V1_SR_T02",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_032_toyconstructor_sr_t02 = Item(
+  id: "HID_Constructor_032_ToyConstructor_SR_T02",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_039_assemble_l_sr_t03 = Item(
+  id: "HID_Constructor_039_Assemble_L_SR_T03",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_015_sr_t02 = Item(
+  id: "HID_Constructor_015_SR_T02",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-015-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_034_mechstructor_vr_t04 = Item(
+  id: "HID_Constructor_034_Mechstructor_VR_T04",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_038_gumshoe_sr_t05 = Item(
+  id: "HID_Constructor_038_Gumshoe_SR_T05",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "legendary",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_vr_t01 = Item(
+  id: "HID_Constructor_RushBASE_VR_T01",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_011_r_t04 = Item(
+  id: "HID_Constructor_011_R_T04",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_008_r_t01 = Item(
+  id: "HID_Constructor_008_R_T01",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_018_sr_t05 = Item(
+  id: "HID_Constructor_018_SR_T05",
+  name: "Black Knight Garridan",
+  description: "Crusader for justice.",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-018-SR-BlackKnight-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "Homebase.Class.IsConstructor.BlackKnight"
+  ],
+);
+
+final _hid_constructor_037_director_sr_t03 = Item(
+  id: "HID_Constructor_037_Director_SR_T03",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "legendary",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_009_r_t02 = Item(
+  id: "HID_Constructor_009_R_T02",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_xbox_vr_t02 = Item(
+  id: "HID_Constructor_XBOX_VR_T02",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_014_sr_t03 = Item(
+  id: "HID_Constructor_014_SR_T03",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_basehyperhw_vr_t05 = Item(
+  id: "HID_Constructor_BaseHyperHW_VR_T05",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_vr_t01 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_VR_T01",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammerplasma_sr_t02 = Item(
+  id: "HID_Constructor_HammerPlasma_SR_T02",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_sony_sr_t01 = Item(
+  id: "HID_Constructor_Sony_SR_T01",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammertank_vr_t04 = Item(
+  id: "HID_Constructor_HammerTank_VR_T04",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerTank-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_035_birthday_constructor_sr_t02 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_SR_T02",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_foundersf_sr_t05 = Item(
+  id: "HID_Constructor_008_FoundersF_SR_T05",
+  name: "Power B.A.S.E. Penny",
+  description:
+      "\"I could really get behind this whole B.A.S.E. thing!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_033_villain_fleming_sr_t03 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_SR_T03",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_036_dino_constructor_sr_t04 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_SR_T04",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_sr_t01 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_SR_T01",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_r_t02 = Item(
+  id: "HID_Constructor_Sony_R_T02",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_008_vr_t04 = Item(
+  id: "HID_Constructor_008_VR_T04",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_016_m_v1_sr_t03 = Item(
+  id: "HID_Constructor_016_M_V1_SR_T03",
+  name: "Saboteur Bull",
+  description: "\"Don't get too close.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_021_sr_t01 = Item(
+  id: "HID_Constructor_021_SR_T01",
+  name: "Dark Vanguard Airheart",
+  description: "Exploring the outer limits.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-105-Athena-Commando-F-SpaceBlackFemale-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_015_sr_t04 = Item(
+  id: "HID_Constructor_015_SR_T04",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-015-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_019_sr_t03 = Item(
+  id: "HID_Constructor_019_SR_T03",
+  name: "Sentry Gunner Airheart",
+  description: "Guns at the ready!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-224-Athena-Commando-F-Dieselpunk-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_014_vr_t03 = Item(
+  id: "HID_Constructor_014_VR_T03",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_hammertank_sr_t03 = Item(
+  id: "HID_Constructor_HammerTank_SR_T03",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerTank-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_rushbase_sr_t05 = Item(
+  id: "HID_Constructor_RushBASE_SR_T05",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_013_sr_t04 = Item(
+  id: "HID_Constructor_013_SR_T04",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_014_vr_t04 = Item(
+  id: "HID_Constructor_014_VR_T04",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_036_dino_constructor_vr_t05 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_VR_T05",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_032_toyconstructor_sr_t05 = Item(
+  id: "HID_Constructor_032_ToyConstructor_SR_T05",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_032_toyconstructor_vr_t04 = Item(
+  id: "HID_Constructor_032_ToyConstructor_VR_T04",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_007_sr_t04 = Item(
+  id: "HID_Constructor_007_SR_T04",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_035_birthday_constructor_vr_t03 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_VR_T03",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_plasmadamage_vr_t04 = Item(
+  id: "HID_Constructor_PlasmaDamage_VR_T04",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_basebig_sr_t01 = Item(
+  id: "HID_Constructor_BASEBig_SR_T01",
+  name: "MEGA B.A.S.E. Kyle",
+  description: "\"Only the biggest of BASEs.\" - Kyle",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-BASEBig-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MEGABASE"],
+);
+
+final _hid_constructor_016_f_v1_sr_t01 = Item(
+  id: "HID_Constructor_016_F_V1_SR_T01",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_020_sr_t05 = Item(
+  id: "HID_Constructor_020_SR_T05",
+  name: "Sentry Gunner Krampus",
+  description: "\"Nah kid, you're thinking of that other guy.\" - Krampus",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-020-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_034_mechstructor_sr_t02 = Item(
+  id: "HID_Constructor_034_Mechstructor_SR_T02",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_vr_t01 = Item(
+  id: "HID_Constructor_008_VR_T01",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_010_vr_t05 = Item(
+  id: "HID_Constructor_010_VR_T05",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_sr_t03 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_SR_T03",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_037_director_vr_t03 = Item(
+  id: "HID_Constructor_037_Director_VR_T03",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "epic",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_009_r_t04 = Item(
+  id: "HID_Constructor_009_R_T04",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_008_sr_t01 = Item(
+  id: "HID_Constructor_008_SR_T01",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_035_birthday_constructor_vr_t02 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_VR_T02",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammerplasma_4thjuly_sr_t04 = Item(
+  id: "HID_Constructor_HammerPlasma_4thJuly_SR_T04",
+  name: "Patriot Penny",
+  description: "\"For freedom!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-4thJuly-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_007_r_t04 = Item(
+  id: "HID_Constructor_007_R_T04",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_037_director_vr_t02 = Item(
+  id: "HID_Constructor_037_Director_VR_T02",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "epic",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyper_sr_t05 = Item(
+  id: "HID_Constructor_BaseHyper_SR_T05",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyper-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_myth02_sr_t02 = Item(
+  id: "HID_Constructor_Myth02_SR_T02",
+  name: "Steel Wool Syd",
+  description: "\"One, Two... One, Two, Three, Four...\" - Syd",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-Myth02-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Male.Biker"
+  ],
+);
+
+final _hid_constructor_sony_vr_t03 = Item(
+  id: "HID_Constructor_Sony_VR_T03",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_020_sr_t04 = Item(
+  id: "HID_Constructor_020_SR_T04",
+  name: "Sentry Gunner Krampus",
+  description: "\"Nah kid, you're thinking of that other guy.\" - Krampus",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-020-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_033_villain_fleming_vr_t03 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_VR_T03",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_036_dino_constructor_sr_t02 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_SR_T02",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_007hw_sr_t01 = Item(
+  id: "HID_Constructor_007HW_SR_T01",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_038_gumshoe_vr_t04 = Item(
+  id: "HID_Constructor_038_Gumshoe_VR_T04",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "epic",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_030_radconstructor_vr_t04 = Item(
+  id: "HID_Constructor_030_RadConstructor_VR_T04",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_foundersf_sr_t02 = Item(
+  id: "HID_Constructor_008_FoundersF_SR_T02",
+  name: "Power B.A.S.E. Penny",
+  description:
+      "\"I could really get behind this whole B.A.S.E. thing!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_027_dinoconstructor_sr_t01 = Item(
+  id: "HID_Constructor_027_DinoConstructor_SR_T01",
+  name: "Prehistoric Izza",
+  description: "\"Unlike the Stegosaurus, I'm not a herbivore.\" -Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-027-DinoConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_vr_t03 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_VR_T03",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_f_sr_t05 = Item(
+  id: "HID_Constructor_RushBASE_F_SR_T05",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_011_f_v1_roadtrip_sr_t05 = Item(
+  id: "HID_Constructor_011_F_V1_RoadTrip_SR_T05",
+  name: "Thunder Thora",
+  description: "Bringing the thunder to the ground.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-163-Athena-Commando-F-Viking-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female.Viking",
+    "Homebase.Class.IsConstructor.Trap"
+  ],
+);
+
+final _hid_constructor_basehyper_vr_t02 = Item(
+  id: "HID_Constructor_BaseHyper_VR_T02",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyper-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_028_retroscificonstructor_sr_t02 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_SR_T02",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammerplasma_sr_t03 = Item(
+  id: "HID_Constructor_HammerPlasma_SR_T03",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_009_vr_t01 = Item(
+  id: "HID_Constructor_009_VR_T01",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_xbox_sr_t03 = Item(
+  id: "HID_Constructor_XBOX_SR_T03",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_015_vr_t05 = Item(
+  id: "HID_Constructor_015_VR_T05",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-015-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_039_assemble_l_sr_t04 = Item(
+  id: "HID_Constructor_039_Assemble_L_SR_T04",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_sr_t01 = Item(
+  id: "HID_Constructor_RushBASE_SR_T01",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_034_mechstructor_vr_t05 = Item(
+  id: "HID_Constructor_034_Mechstructor_VR_T05",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_016_f_v1_vr_t05 = Item(
+  id: "HID_Constructor_016_F_V1_VR_T05",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_028_retroscificonstructor_vr_t04 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_VR_T04",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyperhw_sr_t02 = Item(
+  id: "HID_Constructor_BaseHyperHW_SR_T02",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_xbox_r_t02 = Item(
+  id: "HID_Constructor_XBOX_R_T02",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammertank_r_t02 = Item(
+  id: "HID_Constructor_HammerTank_R_T02",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-HammerTank-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_011_vr_t01 = Item(
+  id: "HID_Constructor_011_VR_T01",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_036_dino_constructor_vr_t04 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_VR_T04",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_plasmadamage_vr_t01 = Item(
+  id: "HID_Constructor_PlasmaDamage_VR_T01",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_014_sr_t01 = Item(
+  id: "HID_Constructor_014_SR_T01",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_030_radconstructor_vr_t03 = Item(
+  id: "HID_Constructor_030_RadConstructor_VR_T03",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_022_sr_t03 = Item(
+  id: "HID_Constructor_022_SR_T03",
+  name: "Conqueror Magnus",
+  description: "Conquer The Storm.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-164-Athena-Commando-M-Viking-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_sr_t05 = Item(
+  id: "HID_Constructor_008_SR_T05",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_031_halloweenconstructor_sr_t02 = Item(
+  id: "HID_Constructor_031_HalloweenConstructor_SR_T02",
+  name: "\"Arrlene\" Izza",
+  description: "\"That's a wrap.\" - \"Arrlene\" Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-031-HalloweenConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_plasmadamage_easter_sr_t03 = Item(
+  id: "HID_Constructor_PlasmaDamage_Easter_SR_T03",
+  name: "Miss Bunny Penny",
+  description: "Penny's been waiting to break out this outfit.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.PlasmaShield",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_021_sr_t03 = Item(
+  id: "HID_Constructor_021_SR_T03",
+  name: "Dark Vanguard Airheart",
+  description: "Exploring the outer limits.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-105-Athena-Commando-F-SpaceBlackFemale-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyperhw_vr_t01 = Item(
+  id: "HID_Constructor_BaseHyperHW_VR_T01",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_033_villain_fleming_vr_t02 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_VR_T02",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_myth02_sr_t03 = Item(
+  id: "HID_Constructor_Myth02_SR_T03",
+  name: "Steel Wool Syd",
+  description: "\"One, Two... One, Two, Three, Four...\" - Syd",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-Myth02-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Male.Biker"
+  ],
+);
+
+final _hid_constructor_016_f_v1_vr_t04 = Item(
+  id: "HID_Constructor_016_F_V1_VR_T04",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_007_r_t01 = Item(
+  id: "HID_Constructor_007_R_T01",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_hammerplasma_vr_t01 = Item(
+  id: "HID_Constructor_HammerPlasma_VR_T01",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_015_r_t03 = Item(
+  id: "HID_Constructor_015_R_T03",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-015-R-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_basehyper_r_t01 = Item(
+  id: "HID_Constructor_BaseHyper_R_T01",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-BaseHyper-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_028_retroscificonstructor_sr_t04 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_SR_T04",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_038_gumshoe_vr_t03 = Item(
+  id: "HID_Constructor_038_Gumshoe_VR_T03",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "epic",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_011_f_v1_roadtrip_sr_t03 = Item(
+  id: "HID_Constructor_011_F_V1_RoadTrip_SR_T03",
+  name: "Thunder Thora",
+  description: "Bringing the thunder to the ground.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-163-Athena-Commando-F-Viking-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female.Viking",
+    "Homebase.Class.IsConstructor.Trap"
+  ],
+);
+
+final _hid_constructor_034_mechstructor_sr_t04 = Item(
+  id: "HID_Constructor_034_Mechstructor_SR_T04",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_013_sr_t05 = Item(
+  id: "HID_Constructor_013_SR_T05",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_036_dino_constructor_sr_t05 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_SR_T05",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_xbox_sr_t05 = Item(
+  id: "HID_Constructor_XBOX_SR_T05",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_basebig_sr_t04 = Item(
+  id: "HID_Constructor_BASEBig_SR_T04",
+  name: "MEGA B.A.S.E. Kyle",
+  description: "\"Only the biggest of BASEs.\" - Kyle",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-BASEBig-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MEGABASE"],
+);
+
+final _hid_constructor_023_sr_t01 = Item(
+  id: "HID_Constructor_023_SR_T01",
+  name: "The Ice King",
+  description: "All hail the ruler of ice and snow.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-288-Athena-Commando-M-IceKing-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_sony_sr_t04 = Item(
+  id: "HID_Constructor_Sony_SR_T04",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_038_gumshoe_sr_t03 = Item(
+  id: "HID_Constructor_038_Gumshoe_SR_T03",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "legendary",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_032_toyconstructor_vr_t02 = Item(
+  id: "HID_Constructor_032_ToyConstructor_VR_T02",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_sr_t03 = Item(
+  id: "HID_Constructor_RushBASE_SR_T03",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_rushbase_f_sr_t01 = Item(
+  id: "HID_Constructor_RushBASE_F_SR_T01",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_hammertank_vr_t01 = Item(
+  id: "HID_Constructor_HammerTank_VR_T01",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerTank-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_034_mechstructor_vr_t03 = Item(
+  id: "HID_Constructor_034_Mechstructor_VR_T03",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_017_f_v1_sr_t05 = Item(
+  id: "HID_Constructor_017_F_V1_SR_T05",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_008_vr_t05 = Item(
+  id: "HID_Constructor_008_VR_T05",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_008_sr_t03 = Item(
+  id: "HID_Constructor_008_SR_T03",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_xbox_r_t01 = Item(
+  id: "HID_Constructor_XBOX_R_T01",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammerplasma_vr_t02 = Item(
+  id: "HID_Constructor_HammerPlasma_VR_T02",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_sr_t05 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_SR_T05",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_016_f_v1_sr_t04 = Item(
+  id: "HID_Constructor_016_F_V1_SR_T04",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_hammerplasma_vr_t03 = Item(
+  id: "HID_Constructor_HammerPlasma_VR_T03",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_plasmadamage_sr_t01 = Item(
+  id: "HID_Constructor_PlasmaDamage_SR_T01",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_plasmadamage_r_t02 = Item(
+  id: "HID_Constructor_PlasmaDamage_R_T02",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_rushbase_f_vr_t03 = Item(
+  id: "HID_Constructor_RushBASE_F_VR_T03",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_011_sr_t04 = Item(
+  id: "HID_Constructor_011_SR_T04",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_007_vr_t02 = Item(
+  id: "HID_Constructor_007_VR_T02",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_009_vr_t02 = Item(
+  id: "HID_Constructor_009_VR_T02",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_plasmadamage_vr_t03 = Item(
+  id: "HID_Constructor_PlasmaDamage_VR_T03",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_007_r_t02 = Item(
+  id: "HID_Constructor_007_R_T02",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_036_dino_constructor_sr_t01 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_SR_T01",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_007hw_sr_t04 = Item(
+  id: "HID_Constructor_007HW_SR_T04",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_007hw_vr_t02 = Item(
+  id: "HID_Constructor_007HW_VR_T02",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_011_sr_t05 = Item(
+  id: "HID_Constructor_011_SR_T05",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_016_f_v1_vr_t01 = Item(
+  id: "HID_Constructor_016_F_V1_VR_T01",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_007_vr_t04 = Item(
+  id: "HID_Constructor_007_VR_T04",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_019_sr_t01 = Item(
+  id: "HID_Constructor_019_SR_T01",
+  name: "Sentry Gunner Airheart",
+  description: "Guns at the ready!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-224-Athena-Commando-F-Dieselpunk-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_030_radconstructor_sr_t04 = Item(
+  id: "HID_Constructor_030_RadConstructor_SR_T04",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_022_sr_t05 = Item(
+  id: "HID_Constructor_022_SR_T05",
+  name: "Conqueror Magnus",
+  description: "Conquer The Storm.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-164-Athena-Commando-M-Viking-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_plasmadamage_vr_t02 = Item(
+  id: "HID_Constructor_PlasmaDamage_VR_T02",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_032_toyconstructor_vr_t01 = Item(
+  id: "HID_Constructor_032_ToyConstructor_VR_T01",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_014_f_sr_t01 = Item(
+  id: "HID_Constructor_014_F_SR_T01",
+  name: "Riot Control Izza",
+  description: "\"I got it under control.\" - Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_033_villain_fleming_sr_t05 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_SR_T05",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_008_foundersm_sr_t05 = Item(
+  id: "HID_Constructor_008_FoundersM_SR_T05",
+  name: "Power B.A.S.E. Kyle",
+  description: "\"Ok guys, this is my B.A.S.E.! Whaddya think?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-Founders-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_014_vr_t05 = Item(
+  id: "HID_Constructor_014_VR_T05",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_plasmadamage_sr_t03 = Item(
+  id: "HID_Constructor_PlasmaDamage_SR_T03",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_024_pirateconstructor_vr_t04 = Item(
+  id: "HID_Constructor_024_PirateConstructor_VR_T04",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_013_r_t04 = Item(
+  id: "HID_Constructor_013_R_T04",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_032_toyconstructor_sr_t01 = Item(
+  id: "HID_Constructor_032_ToyConstructor_SR_T01",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_032_toyconstructor_sr_t03 = Item(
+  id: "HID_Constructor_032_ToyConstructor_SR_T03",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_029_radstoryconstructor_sr_t02 = Item(
+  id: "HID_Constructor_029_RadStoryConstructor_SR_T02",
+  name: "Dennis Jr.",
+  description: "Dennis Jr.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-204-Athena-Commando-M-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_011_f_v1_roadtrip_sr_t04 = Item(
+  id: "HID_Constructor_011_F_V1_RoadTrip_SR_T04",
+  name: "Thunder Thora",
+  description: "Bringing the thunder to the ground.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-163-Athena-Commando-F-Viking-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female.Viking",
+    "Homebase.Class.IsConstructor.Trap"
+  ],
+);
+
+final _hid_constructor_007_sr_t05 = Item(
+  id: "HID_Constructor_007_SR_T05",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_023_sr_t03 = Item(
+  id: "HID_Constructor_023_SR_T03",
+  name: "The Ice King",
+  description: "All hail the ruler of ice and snow.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-288-Athena-Commando-M-IceKing-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_xbox_sr_t01 = Item(
+  id: "HID_Constructor_XBOX_SR_T01",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_008_vr_t03 = Item(
+  id: "HID_Constructor_008_VR_T03",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_basehyper_sr_t03 = Item(
+  id: "HID_Constructor_BaseHyper_SR_T03",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyper-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_033_villain_fleming_sr_t01 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_SR_T01",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_020_sr_t03 = Item(
+  id: "HID_Constructor_020_SR_T03",
+  name: "Sentry Gunner Krampus",
+  description: "\"Nah kid, you're thinking of that other guy.\" - Krampus",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-020-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_009_r_t01 = Item(
+  id: "HID_Constructor_009_R_T01",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_014_r_t02 = Item(
+  id: "HID_Constructor_014_R_T02",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_015_r_t01 = Item(
+  id: "HID_Constructor_015_R_T01",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-015-R-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_basehyperhw_sr_t05 = Item(
+  id: "HID_Constructor_BaseHyperHW_SR_T05",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_037_director_vr_t01 = Item(
+  id: "HID_Constructor_037_Director_VR_T01",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "epic",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_035_birthday_constructor_vr_t01 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_VR_T01",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_f_vr_t01 = Item(
+  id: "HID_Constructor_RushBASE_F_VR_T01",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_rushbase_f_vr_t04 = Item(
+  id: "HID_Constructor_RushBASE_F_VR_T04",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_rushbase_uc_t03 = Item(
+  id: "HID_Constructor_RushBASE_UC_T03",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-RushBASE-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_037_director_vr_t04 = Item(
+  id: "HID_Constructor_037_Director_VR_T04",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "epic",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammertank_uc_t03 = Item(
+  id: "HID_Constructor_HammerTank_UC_T03",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-HammerTank-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_016_m_v1_sr_t02 = Item(
+  id: "HID_Constructor_016_M_V1_SR_T02",
+  name: "Saboteur Bull",
+  description: "\"Don't get too close.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_010_vr_t03 = Item(
+  id: "HID_Constructor_010_VR_T03",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_013_uc_t03 = Item(
+  id: "HID_Constructor_013_UC_T03",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-013-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_024_pirateconstructor_vr_t01 = Item(
+  id: "HID_Constructor_024_PirateConstructor_VR_T01",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_007hw_vr_t05 = Item(
+  id: "HID_Constructor_007HW_VR_T05",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_013_vr_t05 = Item(
+  id: "HID_Constructor_013_VR_T05",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_008_foundersm_sr_t01 = Item(
+  id: "HID_Constructor_008_FoundersM_SR_T01",
+  name: "Power B.A.S.E. Kyle",
+  description: "\"Ok guys, this is my B.A.S.E.! Whaddya think?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-Founders-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_033_villain_fleming_sr_t02 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_SR_T02",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyper_r_t02 = Item(
+  id: "HID_Constructor_BaseHyper_R_T02",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-BaseHyper-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_xbox_vr_t04 = Item(
+  id: "HID_Constructor_XBOX_VR_T04",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_rushbase_f_sr_t03 = Item(
+  id: "HID_Constructor_RushBASE_F_SR_T03",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_007_uc_t03 = Item(
+  id: "HID_Constructor_007_UC_T03",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_013_vr_t02 = Item(
+  id: "HID_Constructor_013_VR_T02",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_010_sr_t01 = Item(
+  id: "HID_Constructor_010_SR_T01",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_plasmadamage_r_t04 = Item(
+  id: "HID_Constructor_PlasmaDamage_R_T04",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_xbox_r_t04 = Item(
+  id: "HID_Constructor_XBOX_R_T04",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammertank_vr_t03 = Item(
+  id: "HID_Constructor_HammerTank_VR_T03",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerTank-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_030_radconstructor_sr_t01 = Item(
+  id: "HID_Constructor_030_RadConstructor_SR_T01",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_034_mechstructor_vr_t02 = Item(
+  id: "HID_Constructor_034_Mechstructor_VR_T02",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_024_pirateconstructor_sr_t05 = Item(
+  id: "HID_Constructor_024_PirateConstructor_SR_T05",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_040_lars_vr_t05 = Item(
+  id: "HID_Constructor_040_Lars_VR_T05",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_013_uc_t02 = Item(
+  id: "HID_Constructor_013_UC_T02",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-013-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_hammertank_sr_t01 = Item(
+  id: "HID_Constructor_HammerTank_SR_T01",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerTank-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_plasmadamage_r_t01 = Item(
+  id: "HID_Constructor_PlasmaDamage_R_T01",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_016_m_v1_blockbuster_sr_t01 = Item(
+  id: "HID_Constructor_016_M_V1_BlockBuster_SR_T01",
+  name: "8-Bit Demo",
+  description: "Wanna play a game?",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-Blockbuster-SR_T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Demolitionist",
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male.8Bit"
+  ],
+);
+
+final _hid_constructor_plasmadamage_easter_sr_t01 = Item(
+  id: "HID_Constructor_PlasmaDamage_Easter_SR_T01",
+  name: "Miss Bunny Penny",
+  description: "Penny's been waiting to break out this outfit.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.PlasmaShield",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_036_dino_constructor_vr_t01 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_VR_T01",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammerplasma_sr_t01 = Item(
+  id: "HID_Constructor_HammerPlasma_SR_T01",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_xbox_r_t03 = Item(
+  id: "HID_Constructor_XBOX_R_T03",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_008_r_t03 = Item(
+  id: "HID_Constructor_008_R_T03",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_013_r_t03 = Item(
+  id: "HID_Constructor_013_R_T03",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_007_sr_t02 = Item(
+  id: "HID_Constructor_007_SR_T02",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_basehyperhw_vr_t02 = Item(
+  id: "HID_Constructor_BaseHyperHW_VR_T02",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_017_f_v1_r_t03 = Item(
+  id: "HID_Constructor_017_F_V1_R_T03",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_036_dino_constructor_vr_t02 = Item(
+  id: "HID_Constructor_036_Dino_Constructor_VR_T02",
+  name: "Ankylo Kyle",
+  description:
+      "\"Look at me! STOMP STOMP STOMP! I'm a dinosaur!\" - Ankylo Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-036-Dino-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_017_f_v1_sr_t01 = Item(
+  id: "HID_Constructor_017_F_V1_SR_T01",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_038_gumshoe_vr_t05 = Item(
+  id: "HID_Constructor_038_Gumshoe_VR_T05",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "epic",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_014_r_t04 = Item(
+  id: "HID_Constructor_014_R_T04",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_plasmadamage_vr_t05 = Item(
+  id: "HID_Constructor_PlasmaDamage_VR_T05",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_020_sr_t02 = Item(
+  id: "HID_Constructor_020_SR_T02",
+  name: "Sentry Gunner Krampus",
+  description: "\"Nah kid, you're thinking of that other guy.\" - Krampus",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-020-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_017_f_v1_sr_t04 = Item(
+  id: "HID_Constructor_017_F_V1_SR_T04",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_038_gumshoe_vr_t02 = Item(
+  id: "HID_Constructor_038_Gumshoe_VR_T02",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "epic",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyperhw_vr_t04 = Item(
+  id: "HID_Constructor_BaseHyperHW_VR_T04",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_007hw_sr_t03 = Item(
+  id: "HID_Constructor_007HW_SR_T03",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_027_dinoconstructor_sr_t02 = Item(
+  id: "HID_Constructor_027_DinoConstructor_SR_T02",
+  name: "Prehistoric Izza",
+  description: "\"Unlike the Stegosaurus, I'm not a herbivore.\" -Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-027-DinoConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyper_r_t03 = Item(
+  id: "HID_Constructor_BaseHyper_R_T03",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-BaseHyper-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_016_m_v1_blockbuster_sr_t05 = Item(
+  id: "HID_Constructor_016_M_V1_BlockBuster_SR_T05",
+  name: "8-Bit Demo",
+  description: "Wanna play a game?",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-Blockbuster-SR_T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Demolitionist",
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male.8Bit"
+  ],
+);
+
+final _hid_constructor_011_r_t02 = Item(
+  id: "HID_Constructor_011_R_T02",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_basebig_sr_t02 = Item(
+  id: "HID_Constructor_BASEBig_SR_T02",
+  name: "MEGA B.A.S.E. Kyle",
+  description: "\"Only the biggest of BASEs.\" - Kyle",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-BASEBig-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MEGABASE"],
+);
+
+final _hid_constructor_038_gumshoe_sr_t02 = Item(
+  id: "HID_Constructor_038_Gumshoe_SR_T02",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "legendary",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_015_r_t02 = Item(
+  id: "HID_Constructor_015_R_T02",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-015-R-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_myth02_sr_t05 = Item(
+  id: "HID_Constructor_Myth02_SR_T05",
+  name: "Steel Wool Syd",
+  description: "\"One, Two... One, Two, Three, Four...\" - Syd",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-Myth02-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Male.Biker"
+  ],
+);
+
+final _hid_constructor_007hw_sr_t02 = Item(
+  id: "HID_Constructor_007HW_SR_T02",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_hammertank_sr_t05 = Item(
+  id: "HID_Constructor_HammerTank_SR_T05",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerTank-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_019_sr_t04 = Item(
+  id: "HID_Constructor_019_SR_T04",
+  name: "Sentry Gunner Airheart",
+  description: "Guns at the ready!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-224-Athena-Commando-F-Dieselpunk-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_017_f_v1_r_t01 = Item(
+  id: "HID_Constructor_017_F_V1_R_T01",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_024_pirateconstructor_vr_t02 = Item(
+  id: "HID_Constructor_024_PirateConstructor_VR_T02",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_007_sr_t03 = Item(
+  id: "HID_Constructor_007_SR_T03",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_rushbase_vr_t05 = Item(
+  id: "HID_Constructor_RushBASE_VR_T05",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_plasmadamage_sr_t04 = Item(
+  id: "HID_Constructor_PlasmaDamage_SR_T04",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_basehyper_r_t04 = Item(
+  id: "HID_Constructor_BaseHyper_R_T04",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-BaseHyper-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_basehyperhw_sr_t04 = Item(
+  id: "HID_Constructor_BaseHyperHW_SR_T04",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_014_f_sr_t02 = Item(
+  id: "HID_Constructor_014_F_SR_T02",
+  name: "Riot Control Izza",
+  description: "\"I got it under control.\" - Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_016_f_v1_vr_t02 = Item(
+  id: "HID_Constructor_016_F_V1_VR_T02",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_sony_vr_t01 = Item(
+  id: "HID_Constructor_Sony_VR_T01",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_011_f_v1_roadtrip_sr_t01 = Item(
+  id: "HID_Constructor_011_F_V1_RoadTrip_SR_T01",
+  name: "Thunder Thora",
+  description: "Bringing the thunder to the ground.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-163-Athena-Commando-F-Viking-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female.Viking",
+    "Homebase.Class.IsConstructor.Trap"
+  ],
+);
+
+final _hid_constructor_016_f_v1_vr_t03 = Item(
+  id: "HID_Constructor_016_F_V1_VR_T03",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_037_director_sr_t05 = Item(
+  id: "HID_Constructor_037_Director_SR_T05",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "legendary",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_plasmadamage_r_t03 = Item(
+  id: "HID_Constructor_PlasmaDamage_R_T03",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_040_lars_sr_t02 = Item(
+  id: "HID_Constructor_040_Lars_SR_T02",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_plasmadamage_easter_sr_t04 = Item(
+  id: "HID_Constructor_PlasmaDamage_Easter_SR_T04",
+  name: "Miss Bunny Penny",
+  description: "Penny's been waiting to break out this outfit.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.PlasmaShield",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_016_f_v1_sr_t03 = Item(
+  id: "HID_Constructor_016_F_V1_SR_T03",
+  name: "Demolitionist Penny",
+  description: "\"Here comes the BOOM!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-F-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Female",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_018_sr_t02 = Item(
+  id: "HID_Constructor_018_SR_T02",
+  name: "Black Knight Garridan",
+  description: "Crusader for justice.",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-018-SR-BlackKnight-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Biker",
+    "Homebase.Class.IsConstructor.BlackKnight"
+  ],
+);
+
+final _hid_constructor_016_m_v1_sr_t04 = Item(
+  id: "HID_Constructor_016_M_V1_SR_T04",
+  name: "Saboteur Bull",
+  description: "\"Don't get too close.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_011_r_t01 = Item(
+  id: "HID_Constructor_011_R_T01",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_030_radconstructor_vr_t02 = Item(
+  id: "HID_Constructor_030_RadConstructor_VR_T02",
+  name: "Power Pop Penny",
+  description: "慔敫挠湥整⁲瑳条Ⅵጠ倠湥祮",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-030-RadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_034_mechstructor_vr_t01 = Item(
+  id: "HID_Constructor_034_Mechstructor_VR_T01",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_040_lars_sr_t03 = Item(
+  id: "HID_Constructor_040_Lars_SR_T03",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_040_lars_sr_t04 = Item(
+  id: "HID_Constructor_040_Lars_SR_T04",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_007_r_t03 = Item(
+  id: "HID_Constructor_007_R_T03",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_033_villain_fleming_sr_t04 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_SR_T04",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_011_vr_t02 = Item(
+  id: "HID_Constructor_011_VR_T02",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_basebig_sr_t05 = Item(
+  id: "HID_Constructor_BASEBig_SR_T05",
+  name: "MEGA B.A.S.E. Kyle",
+  description: "\"Only the biggest of BASEs.\" - Kyle",
+  rarity: "mythic",
+  image: "T-Constructor-HID-Constructor-BASEBig-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MEGABASE"],
+);
+
+final _hid_constructor_plasmadamage_easter_sr_t05 = Item(
+  id: "HID_Constructor_PlasmaDamage_Easter_SR_T05",
+  name: "Miss Bunny Penny",
+  description: "Penny's been waiting to break out this outfit.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.PlasmaShield",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_basehyper_vr_t04 = Item(
+  id: "HID_Constructor_BaseHyper_VR_T04",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyper-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_007hw_sr_t05 = Item(
+  id: "HID_Constructor_007HW_SR_T05",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_023_sr_t05 = Item(
+  id: "HID_Constructor_023_SR_T05",
+  name: "The Ice King",
+  description: "All hail the ruler of ice and snow.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-288-Athena-Commando-M-IceKing-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_010_sr_t04 = Item(
+  id: "HID_Constructor_010_SR_T04",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammertank_uc_t01 = Item(
+  id: "HID_Constructor_HammerTank_UC_T01",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-HammerTank-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_013_vr_t04 = Item(
+  id: "HID_Constructor_013_VR_T04",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_007_vr_t01 = Item(
+  id: "HID_Constructor_007_VR_T01",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_016_m_v1_blockbuster_sr_t03 = Item(
+  id: "HID_Constructor_016_M_V1_BlockBuster_SR_T03",
+  name: "8-Bit Demo",
+  description: "Wanna play a game?",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-Blockbuster-SR_T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.Demolitionist",
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male.8Bit"
+  ],
+);
+
+final _hid_constructor_hammerplasma_4thjuly_sr_t02 = Item(
+  id: "HID_Constructor_HammerPlasma_4thJuly_SR_T02",
+  name: "Patriot Penny",
+  description: "\"For freedom!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-4thJuly-SR-T02-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_014_r_t03 = Item(
+  id: "HID_Constructor_014_R_T03",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_032_toyconstructor_vr_t05 = Item(
+  id: "HID_Constructor_032_ToyConstructor_VR_T05",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_021_sr_t05 = Item(
+  id: "HID_Constructor_021_SR_T05",
+  name: "Dark Vanguard Airheart",
+  description: "Exploring the outer limits.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-105-Athena-Commando-F-SpaceBlackFemale-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_029_radstoryconstructor_sr_t03 = Item(
+  id: "HID_Constructor_029_RadStoryConstructor_SR_T03",
+  name: "Dennis Jr.",
+  description: "Dennis Jr.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-204-Athena-Commando-M-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_035_birthday_constructor_sr_t04 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_SR_T04",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_hammertank_sr_t02 = Item(
+  id: "HID_Constructor_HammerTank_SR_T02",
+  name: "Tank Penny",
+  description: "Feels like being hit by a truck... well maybe a tank.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerTank-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Tank"],
+);
+
+final _hid_constructor_xbox_sr_t04 = Item(
+  id: "HID_Constructor_XBOX_SR_T04",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_015_vr_t01 = Item(
+  id: "HID_Constructor_015_VR_T01",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-015-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_007_sr_t01 = Item(
+  id: "HID_Constructor_007_SR_T01",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_019_sr_t02 = Item(
+  id: "HID_Constructor_019_SR_T02",
+  name: "Sentry Gunner Airheart",
+  description: "Guns at the ready!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-224-Athena-Commando-F-Dieselpunk-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.MountedTurret"],
+);
+
+final _hid_constructor_028_retroscificonstructor_vr_t05 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_VR_T05",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_035_birthday_constructor_sr_t03 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_SR_T03",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_basehyper_vr_t01 = Item(
+  id: "HID_Constructor_BaseHyper_VR_T01",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-BaseHyper-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_037_director_sr_t02 = Item(
+  id: "HID_Constructor_037_Director_SR_T02",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "legendary",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_031_halloweenconstructor_sr_t05 = Item(
+  id: "HID_Constructor_031_HalloweenConstructor_SR_T05",
+  name: "\"Arrlene\" Izza",
+  description: "\"That's a wrap.\" - \"Arrlene\" Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-031-HalloweenConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_017_f_v1_vr_t05 = Item(
+  id: "HID_Constructor_017_F_V1_VR_T05",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_007_vr_t05 = Item(
+  id: "HID_Constructor_007_VR_T05",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_028_retroscificonstructor_sr_t01 = Item(
+  id: "HID_Constructor_028_RetroSciFiConstructor_SR_T01",
+  name: "ED-EE",
+  description: "\"Let's agree to disagree!\"  -ED-EE",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-028-RetroSciFiConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_014_f_sr_t05 = Item(
+  id: "HID_Constructor_014_F_SR_T05",
+  name: "Riot Control Izza",
+  description: "\"I got it under control.\" - Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_plasmadamage_sr_t02 = Item(
+  id: "HID_Constructor_PlasmaDamage_SR_T02",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_038_gumshoe_sr_t04 = Item(
+  id: "HID_Constructor_038_Gumshoe_SR_T04",
+  name: "Sleuth",
+  description: "\"This job calls for a detective.\" - Sleuth",
+  rarity: "legendary",
+  image: "T-Soldier-HID-154-Athena-Commando-M-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_vr_t04 = Item(
+  id: "HID_Constructor_RushBASE_VR_T04",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-RushBASE-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_rushbase_uc_t02 = Item(
+  id: "HID_Constructor_RushBASE_UC_T02",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-RushBASE-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_024_pirateconstructor_vr_t05 = Item(
+  id: "HID_Constructor_024_PirateConstructor_VR_T05",
+  name: "Privateer Hype",
+  description: "\"Avast, ye wanting to join me club?\" - Hype",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-024-PirateConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_007_uc_t01 = Item(
+  id: "HID_Constructor_007_UC_T01",
+  name: "Controller Harper",
+  description: "Always in control. ",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_040_lars_vr_t01 = Item(
+  id: "HID_Constructor_040_Lars_VR_T01",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_016_m_v1_sr_t05 = Item(
+  id: "HID_Constructor_016_M_V1_SR_T05",
+  name: "Saboteur Bull",
+  description: "\"Don't get too close.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.Demolitionist"
+  ],
+);
+
+final _hid_constructor_008_foundersf_sr_t04 = Item(
+  id: "HID_Constructor_008_FoundersF_SR_T04",
+  name: "Power B.A.S.E. Penny",
+  description:
+      "\"I could really get behind this whole B.A.S.E. thing!\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_022_sr_t01 = Item(
+  id: "HID_Constructor_022_SR_T01",
+  name: "Conqueror Magnus",
+  description: "Conquer The Storm.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-164-Athena-Commando-M-Viking-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_015_sr_t01 = Item(
+  id: "HID_Constructor_015_SR_T01",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-015-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_015_vr_t03 = Item(
+  id: "HID_Constructor_015_VR_T03",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-015-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_013_r_t01 = Item(
+  id: "HID_Constructor_013_R_T01",
+  name: "Warden Kyle",
+  description: "Distinguished.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Warden"],
+);
+
+final _hid_constructor_010_sr_t05 = Item(
+  id: "HID_Constructor_010_SR_T05",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_015_vr_t02 = Item(
+  id: "HID_Constructor_015_VR_T02",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-015-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_037_director_sr_t01 = Item(
+  id: "HID_Constructor_037_Director_SR_T01",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "legendary",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_039_assemble_l_sr_t05 = Item(
+  id: "HID_Constructor_039_Assemble_L_SR_T05",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_vr_t05 = Item(
+  id: "HID_Constructor_Sony_VR_T05",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_034_mechstructor_sr_t01 = Item(
+  id: "HID_Constructor_034_Mechstructor_SR_T01",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_039_assemble_l_sr_t01 = Item(
+  id: "HID_Constructor_039_Assemble_L_SR_T01",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_r_t02 = Item(
+  id: "HID_Constructor_RushBASE_R_T02",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-RushBASE-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_023_sr_t04 = Item(
+  id: "HID_Constructor_023_SR_T04",
+  name: "The Ice King",
+  description: "All hail the ruler of ice and snow.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-288-Athena-Commando-M-IceKing-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_007hw_vr_t04 = Item(
+  id: "HID_Constructor_007HW_VR_T04",
+  name: "Kyle the 13th",
+  description: "\"What day is it?\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Distractor"],
+);
+
+final _hid_constructor_015_r_t04 = Item(
+  id: "HID_Constructor_015_R_T04",
+  name: "Heavy B.A.S.E. Kyle",
+  description: "\"This isn't even that heavy.\" - Kyle",
+  rarity: "rare",
+  image: "T-Constructor-HID-Constructor-015-R-T02-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Constructor.Male",
+    "Homebase.Class.IsConstructor.HeavyBASE"
+  ],
+);
+
+final _hid_constructor_011_f_v1_roadtrip_sr_t02 = Item(
+  id: "HID_Constructor_011_F_V1_RoadTrip_SR_T02",
+  name: "Thunder Thora",
+  description: "Bringing the thunder to the ground.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-163-Athena-Commando-F-Viking-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female.Viking",
+    "Homebase.Class.IsConstructor.Trap"
+  ],
+);
+
+final _hid_constructor_rushbase_uc_t01 = Item(
+  id: "HID_Constructor_RushBASE_UC_T01",
+  name: "B.A.S.E. Kyle",
+  description: "Kyle is all about that B.A.S.E.",
+  rarity: "common",
+  image: "T-Constructor-HID-Constructor-RushBASE-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_021_sr_t04 = Item(
+  id: "HID_Constructor_021_SR_T04",
+  name: "Dark Vanguard Airheart",
+  description: "Exploring the outer limits.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-105-Athena-Commando-F-SpaceBlackFemale-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_010_sr_t02 = Item(
+  id: "HID_Constructor_010_SR_T02",
+  name: "Guardian Bull",
+  description: "\"Stay behind me.\" - Bull",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_hammerplasma_sr_t04 = Item(
+  id: "HID_Constructor_HammerPlasma_SR_T04",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_sony_vr_t02 = Item(
+  id: "HID_Constructor_Sony_VR_T02",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_037_director_sr_t04 = Item(
+  id: "HID_Constructor_037_Director_SR_T04",
+  name: "Director Riggs",
+  description: "\"I'm going to handle this one personally.\" - Director Riggs",
+  rarity: "legendary",
+  image: "T-Director",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_vr_t04 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_VR_T04",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_xbox_vr_t01 = Item(
+  id: "HID_Constructor_XBOX_VR_T01",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_009_vr_t03 = Item(
+  id: "HID_Constructor_009_VR_T03",
+  name: "Sentinel Hype",
+  description: "Always on watch.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaPack"],
+);
+
+final _hid_constructor_035_birthday_constructor_vr_t04 = Item(
+  id: "HID_Constructor_035_Birthday_Constructor_VR_T04",
+  name: "Birthday Brigade Penny",
+  description: "Happy 3rd Birthday!",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-035-Birthday-Constructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_039_assemble_l_vr_t05 = Item(
+  id: "HID_Constructor_039_Assemble_L_VR_T05",
+  name: "Lok-Bot",
+  description: "\"Yaaay!\" -Lok",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-102-Athena-Commando-M-AssembleL-L",
+  gameplayTags: ["Class.IsConstructor"],
+);
+
+final _hid_constructor_rushbase_f_sr_t02 = Item(
+  id: "HID_Constructor_RushBASE_F_SR_T02",
+  name: "Marathon Hype",
+  description: "Hype getting ready for a long run.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-RushBASE-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.BASE"],
+);
+
+final _hid_constructor_033_villain_fleming_vr_t05 = Item(
+  id: "HID_Constructor_033_Villain_Fleming_VR_T05",
+  name: "Gold Knox",
+  description: "\"This time, I'm in charge.\" - Gold Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-033-Villain-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_017_f_v1_vr_t03 = Item(
+  id: "HID_Constructor_017_F_V1_VR_T03",
+  name: "Vintage-Tech Penny",
+  description: "Rocking that old school Vinder-tech.",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsConstructor.VintageTech",
+    "SpecialEvent.2018.RoadTrip.Heroes.Constructor.Female"
+  ],
+);
+
+final _hid_constructor_008_sr_t04 = Item(
+  id: "HID_Constructor_008_SR_T04",
+  name: "Power B.A.S.E. Knox",
+  description:
+      "\"Your B.A.S.E. looks amazing, but I gotta say mine's even better!\" - Knox",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PowerBASE"],
+);
+
+final _hid_constructor_basehyper_sr_t04 = Item(
+  id: "HID_Constructor_BaseHyper_SR_T04",
+  name: "Hotfixer Hazard",
+  description: "\"I got a fix for that.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyper-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_034_mechstructor_sr_t03 = Item(
+  id: "HID_Constructor_034_Mechstructor_SR_T03",
+  name: "Machinist Mina",
+  description: "\"If I can't build it, it can't be built.\" - Machinist Mina",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-034-Mechstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_014_sr_t02 = Item(
+  id: "HID_Constructor_014_SR_T02",
+  name: "Riot Response Hazard",
+  description: "\"Right on time.\" - Hazard",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.RiotControl"],
+);
+
+final _hid_constructor_hammerplasma_vr_t04 = Item(
+  id: "HID_Constructor_HammerPlasma_VR_T04",
+  name: "Electro-pulse Penny",
+  description: "\"I've got my finger on the pulse.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-HammerPlasma-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Mixer"],
+);
+
+final _hid_constructor_plasmadamage_sr_t05 = Item(
+  id: "HID_Constructor_PlasmaDamage_SR_T05",
+  name: "Plasma Specialist Izza",
+  description: "\"Somebody called for an electrician?\"- Izza",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-PlasmaDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.PlasmaShield"],
+);
+
+final _hid_constructor_xbox_vr_t03 = Item(
+  id: "HID_Constructor_XBOX_VR_T03",
+  name: "Guardian Knox",
+  description:
+      "\"Blue doesn't reflect the real beauty of B.A.S.E. like a good green does.\" - Knox",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_basehyperhw_sr_t03 = Item(
+  id: "HID_Constructor_BaseHyperHW_SR_T03",
+  name: "Catstructor Penny",
+  description: "It's meow or never.",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-BaseHyperHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Hotfix"],
+);
+
+final _hid_constructor_011_sr_t01 = Item(
+  id: "HID_Constructor_011_SR_T01",
+  name: "Machinist Harper",
+  description: "\"Pass me the wrench.\" - Harper",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Trap"],
+);
+
+final _hid_constructor_026_bombsquadconstructor_vr_t05 = Item(
+  id: "HID_Constructor_026_BombSquadConstructor_VR_T05",
+  name: "BombSquad Kyle",
+  description: "\"This new set of armor is the bomb diggity!\" - Kyle",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-026-BombSquadConstructor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_032_toyconstructor_sr_t04 = Item(
+  id: "HID_Constructor_032_ToyConstructor_SR_T04",
+  name: "Sgt. Tank Gatling",
+  description: "\"I put the 'action' in 'action figure'!\" - Sgt. Tank Gatling",
+  rarity: "legendary",
+  image: "T-Constructor-HID-Constructor-032-ToyConstructor-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_constructor_sony_vr_t04 = Item(
+  id: "HID_Constructor_Sony_VR_T04",
+  name: "Guardian Penny",
+  description:
+      "\"Does this blue make my B.A.S.E. look good? I don't care really, just asking.\" - Penny",
+  rarity: "epic",
+  image: "T-Constructor-HID-Constructor-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsConstructor.Wrecker"],
+);
+
+final _hid_constructor_040_lars_sr_t05 = Item(
+  id: "HID_Constructor_040_Lars_SR_T05",
+  name: "Lars",
+  description: "\"I need to get back up in those clouds.\" -Lars",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-186-Athena-Commando-M-Lars-L",
+  gameplayTags: ["Homebase.Class.IsConstructor"],
+);
+
+final _hid_ninja_040_dennis_sr_t05 = Item(
+  id: "HID_Ninja_040_Dennis_SR_T05",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_xbox_sr_t05 = Item(
+  id: "HID_Ninja_XBOX_SR_T05",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_starsassassin_sr_t03 = Item(
+  id: "HID_Ninja_StarsAssassin_SR_T03",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_026_reddragonninja_sr_t03 = Item(
+  id: "HID_Ninja_026_RedDragonNinja_SR_T03",
+  name: "Hybrid",
+  description: "Become the dragon.",
+  rarity: "legendary",
+  image: "T-Variant-DragonNinja-V1-Green-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_034_toymonkey_vr_t05 = Item(
+  id: "HID_Ninja_034_ToyMonkey_VR_T05",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_swordmaster_sr_t01 = Item(
+  id: "HID_Ninja_Swordmaster_SR_T01",
+  name: "Swordmaster Ken",
+  description: "\"You've been Swordmastered.\" - Ken",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Swordmaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.LegendarySwordmaster"],
+);
+
+final _hid_ninja_xbox_vr_t01 = Item(
+  id: "HID_Ninja_XBOX_VR_T01",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_slashtail_sr_t05 = Item(
+  id: "HID_Ninja_SlashTail_SR_T05",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashTail-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_starsassassin_foundersm_sr_t02 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersM_SR_T02",
+  name: "Lotus Assassin Ken",
+  description: "Ken in his Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_042_assembler_sr_t02 = Item(
+  id: "HID_Ninja_042_AssembleR_SR_T02",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_015_f_v1_uc_t03 = Item(
+  id: "HID_Ninja_015_F_V1_UC_T03",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-015-F-V1-UC-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_029_dinoninja_sr_t01 = Item(
+  id: "HID_Ninja_029_DinoNinja_SR_T01",
+  name: "Paleo Luna",
+  description: "\"I have more backbone than a Spinosaurus.\" - Luna",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-029-DinoNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_sony_r_t04 = Item(
+  id: "HID_Ninja_Sony_R_T04",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_040_dennis_vr_t03 = Item(
+  id: "HID_Ninja_040_Dennis_VR_T03",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsassassin_r_t02 = Item(
+  id: "HID_Ninja_StarsAssassin_R_T02",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_040_dennis_sr_t03 = Item(
+  id: "HID_Ninja_040_Dennis_SR_T03",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_021_sr_t02 = Item(
+  id: "HID_Ninja_021_SR_T02",
+  name: "Forged Fate",
+  description: "Prepare to meet your Fate.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-143-Athena-Commando-F-DarkNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_035_f_cupid_sr_t05 = Item(
+  id: "HID_Ninja_035_F_Cupid_SR_T05",
+  name: "Stoneheart Farrah",
+  description: "\"Leave love to the professionals.\" - Stoneheart Farrah",
+  rarity: "legendary",
+  image: "T-Soldier-HID-523-Athena-Commando-F-Cupid-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_011_sr_t02 = Item(
+  id: "HID_Ninja_011_SR_T02",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_037_junk_samurai_sr_t03 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_SR_T03",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_028_razor_sr_t02 = Item(
+  id: "HID_Ninja_028_Razor_SR_T02",
+  name: "Razor",
+  description: "No Husk is safe from her daggers.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-028-Razor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_008_vr_t05 = Item(
+  id: "HID_Ninja_008_VR_T05",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_010_sr_t02 = Item(
+  id: "HID_Ninja_010_SR_T02",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_043_cranium_sr_t04 = Item(
+  id: "HID_Ninja_043_Cranium_SR_T04",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_vr_t05 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_VR_T05",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_xbox_sr_t04 = Item(
+  id: "HID_Ninja_XBOX_SR_T04",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_007_r_t03 = Item(
+  id: "HID_Ninja_007_R_T03",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_sr_t01 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_SR_T01",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_011_r_t04 = Item(
+  id: "HID_Ninja_011_R_T04",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_010_f_vr_t05 = Item(
+  id: "HID_Ninja_010_F_VR_T05",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_starsrainhw_sr_t05 = Item(
+  id: "HID_Ninja_StarsRainHW_SR_T05",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_015_f_v1_uc_t02 = Item(
+  id: "HID_Ninja_015_F_V1_UC_T02",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-015-F-V1-UC-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_014_f_sr_t01 = Item(
+  id: "HID_Ninja_014_F_SR_T01",
+  name: "Thunderstrike Mari",
+  description: "\"I will be like thunder.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_042_assembler_sr_t03 = Item(
+  id: "HID_Ninja_042_AssembleR_SR_T03",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_040_dennis_vr_t02 = Item(
+  id: "HID_Ninja_040_Dennis_VR_T02",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_008_sr_t01 = Item(
+  id: "HID_Ninja_008_SR_T01",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_smokedimmak_r_t04 = Item(
+  id: "HID_Ninja_SmokeDimMak_R_T04",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_009_r_t03 = Item(
+  id: "HID_Ninja_009_R_T03",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_slashbreath_r_t03 = Item(
+  id: "HID_Ninja_SlashBreath_R_T03",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SlashBreath-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_007_vr_t05 = Item(
+  id: "HID_Ninja_007_VR_T05",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_014_f_sr_t04 = Item(
+  id: "HID_Ninja_014_F_SR_T04",
+  name: "Thunderstrike Mari",
+  description: "\"I will be like thunder.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_031_radninja_sr_t02 = Item(
+  id: "HID_Ninja_031_RadNinja_SR_T02",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_029_dinoninja_sr_t05 = Item(
+  id: "HID_Ninja_029_DinoNinja_SR_T05",
+  name: "Paleo Luna",
+  description: "\"I have more backbone than a Spinosaurus.\" - Luna",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-029-DinoNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsrain_vr_t05 = Item(
+  id: "HID_Ninja_StarsRain_VR_T05",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRain-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_017_m_v1_vr_t05 = Item(
+  id: "HID_Ninja_017_M_V1_VR_T05",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-017-M-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_010_vr_t03 = Item(
+  id: "HID_Ninja_010_VR_T03",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_smokedimmak_sr_t03 = Item(
+  id: "HID_Ninja_SmokeDimMak_SR_T03",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_starsassassin_r_t03 = Item(
+  id: "HID_Ninja_StarsAssassin_R_T03",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_043_cranium_sr_t05 = Item(
+  id: "HID_Ninja_043_Cranium_SR_T05",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_sony_vr_t02 = Item(
+  id: "HID_Ninja_Sony_VR_T02",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_033_halloweenninja_sr_t04 = Item(
+  id: "HID_Ninja_033_HalloweenNinja_SR_T04",
+  name: "Mermonster Ken",
+  description: "\"Glub\" - Mermonster Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-033-HalloweenNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_007_sr_t02 = Item(
+  id: "HID_Ninja_007_SR_T02",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_022_sr_t02 = Item(
+  id: "HID_Ninja_022_SR_T02",
+  name: "Overtaker Hiro",
+  description: "Take over the competition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-190-Athena-Commando-M-StreetRacerWhite-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_021_sr_t03 = Item(
+  id: "HID_Ninja_021_SR_T03",
+  name: "Forged Fate",
+  description: "Prepare to meet your Fate.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-143-Athena-Commando-F-DarkNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_015_f_v1_vr_t01 = Item(
+  id: "HID_Ninja_015_F_V1_VR_T01",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_040_dennis_sr_t02 = Item(
+  id: "HID_Ninja_040_Dennis_SR_T02",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_swordmaster_sr_t04 = Item(
+  id: "HID_Ninja_Swordmaster_SR_T04",
+  name: "Swordmaster Ken",
+  description: "\"You've been Swordmastered.\" - Ken",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Swordmaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.LegendarySwordmaster"],
+);
+
+final _hid_ninja_xbox_vr_t05 = Item(
+  id: "HID_Ninja_XBOX_VR_T05",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_sony_sr_t04 = Item(
+  id: "HID_Ninja_Sony_SR_T04",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_016_f_v1_sr_t05 = Item(
+  id: "HID_Ninja_016_F_V1_SR_T05",
+  name: "Deadly Lotus Luna",
+  description: "A beautiful yet deadly flower.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.PiercingLotus",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_008_r_t02 = Item(
+  id: "HID_Ninja_008_R_T02",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_008_sr_t02 = Item(
+  id: "HID_Ninja_008_SR_T02",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_028_razor_sr_t04 = Item(
+  id: "HID_Ninja_028_Razor_SR_T04",
+  name: "Razor",
+  description: "No Husk is safe from her daggers.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-028-Razor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_sony_sr_t05 = Item(
+  id: "HID_Ninja_Sony_SR_T05",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_020_sr_t03 = Item(
+  id: "HID_Ninja_020_SR_T03",
+  name: "Cloaked Shadow",
+  description: "Not all Holiday Cheer is jolly.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-317-Athena-Commando-M-WinterGhoul-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_033_halloweenninja_sr_t05 = Item(
+  id: "HID_Ninja_033_HalloweenNinja_SR_T05",
+  name: "Mermonster Ken",
+  description: "\"Glub\" - Mermonster Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-033-HalloweenNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsassassin_sr_t04 = Item(
+  id: "HID_Ninja_StarsAssassin_SR_T04",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_037_junk_samurai_sr_t01 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_SR_T01",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_010_vr_t02 = Item(
+  id: "HID_Ninja_010_VR_T02",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_myth03_sr_t01 = Item(
+  id: "HID_Ninja_Myth03_SR_T01",
+  name: "Bladestorm Enforcer",
+  description: "Balance and order must be restored.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-200-Athena-Commando-M-DarkPaintballer-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Rogue",
+    "Homebase.Class.IsNinja.Rogue"
+  ],
+);
+
+final _hid_ninja_031_radninja_sr_t01 = Item(
+  id: "HID_Ninja_031_RadNinja_SR_T01",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_034_toymonkey_sr_t02 = Item(
+  id: "HID_Ninja_034_ToyMonkey_SR_T02",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashtail_sr_t03 = Item(
+  id: "HID_Ninja_SlashTail_SR_T03",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashTail-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_015_f_v1_vr_t05 = Item(
+  id: "HID_Ninja_015_F_V1_VR_T05",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_011_vr_t04 = Item(
+  id: "HID_Ninja_011_VR_T04",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_slashbreath_vr_t03 = Item(
+  id: "HID_Ninja_SlashBreath_VR_T03",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreath-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_009_sr_t01 = Item(
+  id: "HID_Ninja_009_SR_T01",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_014_r_t01 = Item(
+  id: "HID_Ninja_014_R_T01",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_010_f_vr_t04 = Item(
+  id: "HID_Ninja_010_F_VR_T04",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_xbox_r_t02 = Item(
+  id: "HID_Ninja_XBOX_R_T02",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_slashbreathhw_sr_t01 = Item(
+  id: "HID_Ninja_SlashBreathHW_SR_T01",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_015_f_v1_r_t04 = Item(
+  id: "HID_Ninja_015_F_V1_R_T04",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_slashbreath_vr_t02 = Item(
+  id: "HID_Ninja_SlashBreath_VR_T02",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreath-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_014_vr_t01 = Item(
+  id: "HID_Ninja_014_VR_T01",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_018_sr_t02 = Item(
+  id: "HID_Ninja_018_SR_T02",
+  name: "Plague Doctor Igor",
+  description: "\"The Doctor is in...\" - Igor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-241-Athena-Commando-M-Plague-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_033_halloweenninja_sr_t01 = Item(
+  id: "HID_Ninja_033_HalloweenNinja_SR_T01",
+  name: "Mermonster Ken",
+  description: "\"Glub\" - Mermonster Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-033-HalloweenNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsrain_vr_t03 = Item(
+  id: "HID_Ninja_StarsRain_VR_T03",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRain-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_slashbreath_sr_t03 = Item(
+  id: "HID_Ninja_SlashBreath_SR_T03",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_slashtail_r_t03 = Item(
+  id: "HID_Ninja_SlashTail_R_T03",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SlashTail-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_starsassassin_r_t04 = Item(
+  id: "HID_Ninja_StarsAssassin_R_T04",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_sony_r_t01 = Item(
+  id: "HID_Ninja_Sony_R_T01",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_starsrain_vr_t04 = Item(
+  id: "HID_Ninja_StarsRain_VR_T04",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRain-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_slashbreath_sr_t02 = Item(
+  id: "HID_Ninja_SlashBreath_SR_T02",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_030_retroscifininja_sr_t04 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_SR_T04",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_030_retroscifininja_sr_t01 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_SR_T01",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_r_t03 = Item(
+  id: "HID_Ninja_014_R_T03",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_014_r_t02 = Item(
+  id: "HID_Ninja_014_R_T02",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_starsassassin_vr_t04 = Item(
+  id: "HID_Ninja_StarsAssassin_VR_T04",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_swordmaster_sr_t03 = Item(
+  id: "HID_Ninja_Swordmaster_SR_T03",
+  name: "Swordmaster Ken",
+  description: "\"You've been Swordmastered.\" - Ken",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Swordmaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.LegendarySwordmaster"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_sr_t05 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_SR_T05",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_016_m_v1_sr_t05 = Item(
+  id: "HID_Ninja_016_M_V1_SR_T05",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_039_dino_ninja_sr_t02 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_SR_T02",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_019_sr_t03 = Item(
+  id: "HID_Ninja_019_SR_T03",
+  name: "Dire",
+  description: "Leader of the pack.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-019-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Werewolf"],
+);
+
+final _hid_ninja_007_sr_t01 = Item(
+  id: "HID_Ninja_007_SR_T01",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_017_m_v1_sr_t03 = Item(
+  id: "HID_Ninja_017_M_V1_SR_T03",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-017-M-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_smokedimmak_r_t02 = Item(
+  id: "HID_Ninja_SmokeDimMak_R_T02",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_013_sr_t02 = Item(
+  id: "HID_Ninja_013_SR_T02",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_015_f_v1_uc_t01 = Item(
+  id: "HID_Ninja_015_F_V1_UC_T01",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-015-F-V1-UC-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_sony_r_t03 = Item(
+  id: "HID_Ninja_Sony_R_T03",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_015_f_v1_vr_t02 = Item(
+  id: "HID_Ninja_015_F_V1_VR_T02",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_030_retroscifininja_sr_t03 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_SR_T03",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsrainhw_vr_t01 = Item(
+  id: "HID_Ninja_StarsRainHW_VR_T01",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_031_radninja_sr_t04 = Item(
+  id: "HID_Ninja_031_RadNinja_SR_T04",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_sr_t02 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_SR_T02",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_009_f_valentine_sr_t01 = Item(
+  id: "HID_Ninja_009_F_Valentine_SR_T01",
+  name: "Snuggle Specialist Sarah",
+  description: "Snuggle up to victory. ",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Skirmisher",
+    "SpecialEvent.Valentines.2018.CupidNinja"
+  ],
+);
+
+final _hid_ninja_034_toymonkey_sr_t01 = Item(
+  id: "HID_Ninja_034_ToyMonkey_SR_T01",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_009_vr_t05 = Item(
+  id: "HID_Ninja_009_VR_T05",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_043_cranium_sr_t02 = Item(
+  id: "HID_Ninja_043_Cranium_SR_T02",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsassassin_uc_t01 = Item(
+  id: "HID_Ninja_StarsAssassin_UC_T01",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_014_uc_t03 = Item(
+  id: "HID_Ninja_014_UC_T03",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-014-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_xbox_vr_t02 = Item(
+  id: "HID_Ninja_XBOX_VR_T02",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_slashtail_sr_t04 = Item(
+  id: "HID_Ninja_SlashTail_SR_T04",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashTail-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_023_sr_t01 = Item(
+  id: "HID_Ninja_023_SR_T01",
+  name: "Lynx Kassandra",
+  description: "Who needs nine lives when one is enough?",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-023-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_010_f_sr_t03 = Item(
+  id: "HID_Ninja_010_F_SR_T03",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_007_uc_t01 = Item(
+  id: "HID_Ninja_007_UC_T01",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_smokedimmak_r_t01 = Item(
+  id: "HID_Ninja_SmokeDimMak_R_T01",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_042_assembler_sr_t05 = Item(
+  id: "HID_Ninja_042_AssembleR_SR_T05",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_011_vr_t03 = Item(
+  id: "HID_Ninja_011_VR_T03",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_028_razor_sr_t01 = Item(
+  id: "HID_Ninja_028_Razor_SR_T01",
+  name: "Razor",
+  description: "No Husk is safe from her daggers.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-028-Razor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_sr_t05 = Item(
+  id: "HID_Ninja_014_SR_T05",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_022_sr_t04 = Item(
+  id: "HID_Ninja_022_SR_T04",
+  name: "Overtaker Hiro",
+  description: "Take over the competition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-190-Athena-Commando-M-StreetRacerWhite-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_013_sr_t03 = Item(
+  id: "HID_Ninja_013_SR_T03",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_sony_sr_t02 = Item(
+  id: "HID_Ninja_Sony_SR_T02",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_013_sr_t01 = Item(
+  id: "HID_Ninja_013_SR_T01",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_slashbreath_r_t02 = Item(
+  id: "HID_Ninja_SlashBreath_R_T02",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SlashBreath-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_025_pirateninja_vr_t02 = Item(
+  id: "HID_Ninja_025_PirateNinja_VR_T02",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_017_m_v1_r_t04 = Item(
+  id: "HID_Ninja_017_M_V1_R_T04",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-017-M-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_010_f_sr_t05 = Item(
+  id: "HID_Ninja_010_F_SR_T05",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_myth02_sr_t01 = Item(
+  id: "HID_Ninja_Myth02_SR_T01",
+  name: "The Cloaked Star",
+  description: "Cloaked in mystery.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Myth02-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ShadowStar",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male.ShadowStar"
+  ],
+);
+
+final _hid_ninja_008_sr_t05 = Item(
+  id: "HID_Ninja_008_SR_T05",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_017_m_v1_sr_t05 = Item(
+  id: "HID_Ninja_017_M_V1_SR_T05",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-017-M-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_014_uc_t01 = Item(
+  id: "HID_Ninja_014_UC_T01",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-014-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_smokedimmak_vr_t03 = Item(
+  id: "HID_Ninja_SmokeDimMak_VR_T03",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_010_f_sr_t04 = Item(
+  id: "HID_Ninja_010_F_SR_T04",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_015_f_v1_r_t03 = Item(
+  id: "HID_Ninja_015_F_V1_R_T03",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_008_vr_t03 = Item(
+  id: "HID_Ninja_008_VR_T03",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_010_f_sr_t02 = Item(
+  id: "HID_Ninja_010_F_SR_T02",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_007_vr_t04 = Item(
+  id: "HID_Ninja_007_VR_T04",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_008_vr_t01 = Item(
+  id: "HID_Ninja_008_VR_T01",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_025_pirateninja_vr_t04 = Item(
+  id: "HID_Ninja_025_PirateNinja_VR_T04",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashbreath_sr_t04 = Item(
+  id: "HID_Ninja_SlashBreath_SR_T04",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_021_sr_t01 = Item(
+  id: "HID_Ninja_021_SR_T01",
+  name: "Forged Fate",
+  description: "Prepare to meet your Fate.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-143-Athena-Commando-F-DarkNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_037_junk_samurai_vr_t01 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_VR_T01",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_025_pirateninja_vr_t05 = Item(
+  id: "HID_Ninja_025_PirateNinja_VR_T05",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_015_f_v1_roadtrip_sr_t02 = Item(
+  id: "HID_Ninja_015_F_V1_RoadTrip_SR_T02",
+  name: "Whiteout Fiona",
+  description: "Break away from the pack.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Female",
+    "Homebase.Class.IsNinja.Reaper"
+  ],
+);
+
+final _hid_ninja_024_sr_t01 = Item(
+  id: "HID_Ninja_024_SR_T01",
+  name: "Anti-Cuddle Sarah",
+  description: "\"Keep your cooties to yourself!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-024-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ExplosiveAssassin"],
+);
+
+final _hid_ninja_starsrain_sr_t04 = Item(
+  id: "HID_Ninja_StarsRain_SR_T04",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRain-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_022_sr_t01 = Item(
+  id: "HID_Ninja_022_SR_T01",
+  name: "Overtaker Hiro",
+  description: "Take over the competition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-190-Athena-Commando-M-StreetRacerWhite-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashbreathhw_vr_t02 = Item(
+  id: "HID_Ninja_SlashBreathHW_VR_T02",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_025_pirateninja_sr_t03 = Item(
+  id: "HID_Ninja_025_PirateNinja_SR_T03",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_037_junk_samurai_vr_t02 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_VR_T02",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_009_sr_t04 = Item(
+  id: "HID_Ninja_009_SR_T04",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_019_sr_t04 = Item(
+  id: "HID_Ninja_019_SR_T04",
+  name: "Dire",
+  description: "Leader of the pack.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-019-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Werewolf"],
+);
+
+final _hid_ninja_026_reddragonninja_sr_t02 = Item(
+  id: "HID_Ninja_026_RedDragonNinja_SR_T02",
+  name: "Hybrid",
+  description: "Become the dragon.",
+  rarity: "legendary",
+  image: "T-Variant-DragonNinja-V1-Green-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_033_halloweenninja_sr_t03 = Item(
+  id: "HID_Ninja_033_HalloweenNinja_SR_T03",
+  name: "Mermonster Ken",
+  description: "\"Glub\" - Mermonster Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-033-HalloweenNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_016_m_v1_vr_t05 = Item(
+  id: "HID_Ninja_016_M_V1_VR_T05",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_043_cranium_vr_t04 = Item(
+  id: "HID_Ninja_043_Cranium_VR_T04",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_043_cranium_vr_t05 = Item(
+  id: "HID_Ninja_043_Cranium_VR_T05",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_010_f_vr_t01 = Item(
+  id: "HID_Ninja_010_F_VR_T01",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_013_sr_t05 = Item(
+  id: "HID_Ninja_013_SR_T05",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_smokedimmak_r_t03 = Item(
+  id: "HID_Ninja_SmokeDimMak_R_T03",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_043_cranium_vr_t03 = Item(
+  id: "HID_Ninja_043_Cranium_VR_T03",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsassassin_foundersm_sr_t03 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersM_SR_T03",
+  name: "Lotus Assassin Ken",
+  description: "Ken in his Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_031_radninja_vr_t05 = Item(
+  id: "HID_Ninja_031_RadNinja_VR_T05",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_015_f_v1_roadtrip_sr_t03 = Item(
+  id: "HID_Ninja_015_F_V1_RoadTrip_SR_T03",
+  name: "Whiteout Fiona",
+  description: "Break away from the pack.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Female",
+    "Homebase.Class.IsNinja.Reaper"
+  ],
+);
+
+final _hid_ninja_009_vr_t04 = Item(
+  id: "HID_Ninja_009_VR_T04",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_slashbreathhw_sr_t04 = Item(
+  id: "HID_Ninja_SlashBreathHW_SR_T04",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_008_vr_t04 = Item(
+  id: "HID_Ninja_008_VR_T04",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_025_pirateninja_vr_t01 = Item(
+  id: "HID_Ninja_025_PirateNinja_VR_T01",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_009_f_valentine_sr_t03 = Item(
+  id: "HID_Ninja_009_F_Valentine_SR_T03",
+  name: "Snuggle Specialist Sarah",
+  description: "Snuggle up to victory. ",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Skirmisher",
+    "SpecialEvent.Valentines.2018.CupidNinja"
+  ],
+);
+
+final _hid_ninja_016_m_v1_vr_t04 = Item(
+  id: "HID_Ninja_016_M_V1_VR_T04",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_017_m_v1_r_t03 = Item(
+  id: "HID_Ninja_017_M_V1_R_T03",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-017-M-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_023_sr_t03 = Item(
+  id: "HID_Ninja_023_SR_T03",
+  name: "Lynx Kassandra",
+  description: "Who needs nine lives when one is enough?",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-023-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_041_deco_sr_t04 = Item(
+  id: "HID_Ninja_041_Deco_SR_T04",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "legendary",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_vr_t04 = Item(
+  id: "HID_Ninja_014_VR_T04",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_starsrain_sr_t02 = Item(
+  id: "HID_Ninja_StarsRain_SR_T02",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRain-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_starsassassin_foundersf_sr_t02 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersF_SR_T02",
+  name: "Lotus Assassin Sarah",
+  description: "Sarah in her Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_041_deco_vr_t01 = Item(
+  id: "HID_Ninja_041_Deco_VR_T01",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "epic",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_026_reddragonninja_sr_t05 = Item(
+  id: "HID_Ninja_026_RedDragonNinja_SR_T05",
+  name: "Hybrid",
+  description: "Become the dragon.",
+  rarity: "legendary",
+  image: "T-Variant-DragonNinja-V1-Green-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_018_sr_t03 = Item(
+  id: "HID_Ninja_018_SR_T03",
+  name: "Plague Doctor Igor",
+  description: "\"The Doctor is in...\" - Igor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-241-Athena-Commando-M-Plague-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_slashtail_vr_t02 = Item(
+  id: "HID_Ninja_SlashTail_VR_T02",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashTail-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_034_toymonkey_vr_t01 = Item(
+  id: "HID_Ninja_034_ToyMonkey_VR_T01",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_041_deco_sr_t05 = Item(
+  id: "HID_Ninja_041_Deco_SR_T05",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "legendary",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_010_f_sr_t01 = Item(
+  id: "HID_Ninja_010_F_SR_T01",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_030_retroscifininja_vr_t02 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_VR_T02",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_024_sr_t04 = Item(
+  id: "HID_Ninja_024_SR_T04",
+  name: "Anti-Cuddle Sarah",
+  description: "\"Keep your cooties to yourself!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-024-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ExplosiveAssassin"],
+);
+
+final _hid_ninja_015_f_v1_roadtrip_sr_t05 = Item(
+  id: "HID_Ninja_015_F_V1_RoadTrip_SR_T05",
+  name: "Whiteout Fiona",
+  description: "Break away from the pack.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Female",
+    "Homebase.Class.IsNinja.Reaper"
+  ],
+);
+
+final _hid_ninja_030_retroscifininja_vr_t03 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_VR_T03",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsrainhw_sr_t04 = Item(
+  id: "HID_Ninja_StarsRainHW_SR_T04",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_009_f_valentine_sr_t05 = Item(
+  id: "HID_Ninja_009_F_Valentine_SR_T05",
+  name: "Snuggle Specialist Sarah",
+  description: "Snuggle up to victory. ",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Skirmisher",
+    "SpecialEvent.Valentines.2018.CupidNinja"
+  ],
+);
+
+final _hid_ninja_040_dennis_vr_t01 = Item(
+  id: "HID_Ninja_040_Dennis_VR_T01",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_023_sr_t04 = Item(
+  id: "HID_Ninja_023_SR_T04",
+  name: "Lynx Kassandra",
+  description: "Who needs nine lives when one is enough?",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-023-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_043_cranium_vr_t02 = Item(
+  id: "HID_Ninja_043_Cranium_VR_T02",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_007_sr_t05 = Item(
+  id: "HID_Ninja_007_SR_T05",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_013_vr_t05 = Item(
+  id: "HID_Ninja_013_VR_T05",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_vr_t02 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_VR_T02",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_007_r_t01 = Item(
+  id: "HID_Ninja_007_R_T01",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_039_dino_ninja_sr_t01 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_SR_T01",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_018_sr_t04 = Item(
+  id: "HID_Ninja_018_SR_T04",
+  name: "Plague Doctor Igor",
+  description: "\"The Doctor is in...\" - Igor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-241-Athena-Commando-M-Plague-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_041_deco_sr_t01 = Item(
+  id: "HID_Ninja_041_Deco_SR_T01",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "legendary",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_030_retroscifininja_vr_t05 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_VR_T05",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_026_reddragonninja_sr_t04 = Item(
+  id: "HID_Ninja_026_RedDragonNinja_SR_T04",
+  name: "Hybrid",
+  description: "Become the dragon.",
+  rarity: "legendary",
+  image: "T-Variant-DragonNinja-V1-Green-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_015_f_v1_roadtrip_sr_t01 = Item(
+  id: "HID_Ninja_015_F_V1_RoadTrip_SR_T01",
+  name: "Whiteout Fiona",
+  description: "Break away from the pack.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Female",
+    "Homebase.Class.IsNinja.Reaper"
+  ],
+);
+
+final _hid_ninja_007_r_t02 = Item(
+  id: "HID_Ninja_007_R_T02",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_009_f_valentine_sr_t02 = Item(
+  id: "HID_Ninja_009_F_Valentine_SR_T02",
+  name: "Snuggle Specialist Sarah",
+  description: "Snuggle up to victory. ",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Skirmisher",
+    "SpecialEvent.Valentines.2018.CupidNinja"
+  ],
+);
+
+final _hid_ninja_028_razor_sr_t03 = Item(
+  id: "HID_Ninja_028_Razor_SR_T03",
+  name: "Razor",
+  description: "No Husk is safe from her daggers.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-028-Razor-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_009_sr_t02 = Item(
+  id: "HID_Ninja_009_SR_T02",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_025_pirateninja_sr_t05 = Item(
+  id: "HID_Ninja_025_PirateNinja_SR_T05",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_017_m_v1_sr_t01 = Item(
+  id: "HID_Ninja_017_M_V1_SR_T01",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-017-M-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_017_m_v1_r_t02 = Item(
+  id: "HID_Ninja_017_M_V1_R_T02",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-017-M-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_026_reddragonninja_sr_t01 = Item(
+  id: "HID_Ninja_026_RedDragonNinja_SR_T01",
+  name: "Hybrid",
+  description: "Become the dragon.",
+  rarity: "legendary",
+  image: "T-Variant-DragonNinja-V1-Green-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_myth03_sr_t03 = Item(
+  id: "HID_Ninja_Myth03_SR_T03",
+  name: "Bladestorm Enforcer",
+  description: "Balance and order must be restored.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-200-Athena-Commando-M-DarkPaintballer-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Rogue",
+    "Homebase.Class.IsNinja.Rogue"
+  ],
+);
+
+final _hid_ninja_009_sr_t03 = Item(
+  id: "HID_Ninja_009_SR_T03",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_starsrain_sr_t01 = Item(
+  id: "HID_Ninja_StarsRain_SR_T01",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRain-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_xbox_vr_t04 = Item(
+  id: "HID_Ninja_XBOX_VR_T04",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_031_radninja_vr_t04 = Item(
+  id: "HID_Ninja_031_RadNinja_VR_T04",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_vr_t05 = Item(
+  id: "HID_Ninja_014_VR_T05",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_033_halloweenninja_sr_t02 = Item(
+  id: "HID_Ninja_033_HalloweenNinja_SR_T02",
+  name: "Mermonster Ken",
+  description: "\"Glub\" - Mermonster Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-033-HalloweenNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_035_f_cupid_sr_t01 = Item(
+  id: "HID_Ninja_035_F_Cupid_SR_T01",
+  name: "Stoneheart Farrah",
+  description: "\"Leave love to the professionals.\" - Stoneheart Farrah",
+  rarity: "legendary",
+  image: "T-Soldier-HID-523-Athena-Commando-F-Cupid-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_f_sr_t03 = Item(
+  id: "HID_Ninja_014_F_SR_T03",
+  name: "Thunderstrike Mari",
+  description: "\"I will be like thunder.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_035_f_cupid_sr_t04 = Item(
+  id: "HID_Ninja_035_F_Cupid_SR_T04",
+  name: "Stoneheart Farrah",
+  description: "\"Leave love to the professionals.\" - Stoneheart Farrah",
+  rarity: "legendary",
+  image: "T-Soldier-HID-523-Athena-Commando-F-Cupid-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_013_vr_t01 = Item(
+  id: "HID_Ninja_013_VR_T01",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_swordmaster_sr_t02 = Item(
+  id: "HID_Ninja_Swordmaster_SR_T02",
+  name: "Swordmaster Ken",
+  description: "\"You've been Swordmastered.\" - Ken",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Swordmaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.LegendarySwordmaster"],
+);
+
+final _hid_ninja_starsrainhw_vr_t03 = Item(
+  id: "HID_Ninja_StarsRainHW_VR_T03",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_017_m_v1_vr_t03 = Item(
+  id: "HID_Ninja_017_M_V1_VR_T03",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-017-M-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_020_sr_t01 = Item(
+  id: "HID_Ninja_020_SR_T01",
+  name: "Cloaked Shadow",
+  description: "Not all Holiday Cheer is jolly.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-317-Athena-Commando-M-WinterGhoul-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_024_sr_t05 = Item(
+  id: "HID_Ninja_024_SR_T05",
+  name: "Anti-Cuddle Sarah",
+  description: "\"Keep your cooties to yourself!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-024-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ExplosiveAssassin"],
+);
+
+final _hid_ninja_014_sr_t03 = Item(
+  id: "HID_Ninja_014_SR_T03",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_040_dennis_sr_t04 = Item(
+  id: "HID_Ninja_040_Dennis_SR_T04",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_016_f_v1_sr_t02 = Item(
+  id: "HID_Ninja_016_F_V1_SR_T02",
+  name: "Deadly Lotus Luna",
+  description: "A beautiful yet deadly flower.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.PiercingLotus",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_slashbreath_vr_t01 = Item(
+  id: "HID_Ninja_SlashBreath_VR_T01",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreath-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_009_r_t04 = Item(
+  id: "HID_Ninja_009_R_T04",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_016_f_v1_sr_t03 = Item(
+  id: "HID_Ninja_016_F_V1_SR_T03",
+  name: "Deadly Lotus Luna",
+  description: "A beautiful yet deadly flower.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.PiercingLotus",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_041_deco_sr_t03 = Item(
+  id: "HID_Ninja_041_Deco_SR_T03",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "legendary",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_sr_t02 = Item(
+  id: "HID_Ninja_014_SR_T02",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_039_dino_ninja_vr_t04 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_VR_T04",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_013_vr_t02 = Item(
+  id: "HID_Ninja_013_VR_T02",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_starsassassin_sr_t05 = Item(
+  id: "HID_Ninja_StarsAssassin_SR_T05",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_starsrain_vr_t02 = Item(
+  id: "HID_Ninja_StarsRain_VR_T02",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRain-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_034_toymonkey_sr_t04 = Item(
+  id: "HID_Ninja_034_ToyMonkey_SR_T04",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_022_sr_t03 = Item(
+  id: "HID_Ninja_022_SR_T03",
+  name: "Overtaker Hiro",
+  description: "Take over the competition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-190-Athena-Commando-M-StreetRacerWhite-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_013_vr_t03 = Item(
+  id: "HID_Ninja_013_VR_T03",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_041_deco_vr_t04 = Item(
+  id: "HID_Ninja_041_Deco_VR_T04",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "epic",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_011_sr_t04 = Item(
+  id: "HID_Ninja_011_SR_T04",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_030_retroscifininja_vr_t01 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_VR_T01",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_sony_sr_t03 = Item(
+  id: "HID_Ninja_Sony_SR_T03",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_027_bunnyninja_sr_t04 = Item(
+  id: "HID_Ninja_027_BunnyNinja_SR_T04",
+  name: "Dashing Hare Ken",
+  description:
+      "\"It's time for these husks to meet the Eggs-terminator.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-027-BunnyNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsassassin_vr_t05 = Item(
+  id: "HID_Ninja_StarsAssassin_VR_T05",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_014_sr_t04 = Item(
+  id: "HID_Ninja_014_SR_T04",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_015_f_v1_roadtrip_sr_t04 = Item(
+  id: "HID_Ninja_015_F_V1_RoadTrip_SR_T04",
+  name: "Whiteout Fiona",
+  description: "Break away from the pack.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-188-Athena-Commando-F-StreetRacerWhite-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Female",
+    "Homebase.Class.IsNinja.Reaper"
+  ],
+);
+
+final _hid_ninja_starsrainhw_sr_t02 = Item(
+  id: "HID_Ninja_StarsRainHW_SR_T02",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_starsassassin_sr_t01 = Item(
+  id: "HID_Ninja_StarsAssassin_SR_T01",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_010_sr_t01 = Item(
+  id: "HID_Ninja_010_SR_T01",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_starsrain_vr_t01 = Item(
+  id: "HID_Ninja_StarsRain_VR_T01",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRain-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_037_junk_samurai_vr_t04 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_VR_T04",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashbreath_sr_t05 = Item(
+  id: "HID_Ninja_SlashBreath_SR_T05",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_011_sr_t05 = Item(
+  id: "HID_Ninja_011_SR_T05",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_031_radninja_vr_t02 = Item(
+  id: "HID_Ninja_031_RadNinja_VR_T02",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_f_sr_t05 = Item(
+  id: "HID_Ninja_014_F_SR_T05",
+  name: "Thunderstrike Mari",
+  description: "\"I will be like thunder.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_042_assembler_vr_t01 = Item(
+  id: "HID_Ninja_042_AssembleR_VR_T01",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashtail_uc_t03 = Item(
+  id: "HID_Ninja_SlashTail_UC_T03",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-SlashTail-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_slashtail_r_t01 = Item(
+  id: "HID_Ninja_SlashTail_R_T01",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SlashTail-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_039_dino_ninja_sr_t04 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_SR_T04",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_027_bunnyninja_sr_t05 = Item(
+  id: "HID_Ninja_027_BunnyNinja_SR_T05",
+  name: "Dashing Hare Ken",
+  description:
+      "\"It's time for these husks to meet the Eggs-terminator.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-027-BunnyNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_007_uc_t02 = Item(
+  id: "HID_Ninja_007_UC_T02",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_slashbreath_vr_t05 = Item(
+  id: "HID_Ninja_SlashBreath_VR_T05",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreath-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_042_assembler_vr_t05 = Item(
+  id: "HID_Ninja_042_AssembleR_VR_T05",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_042_assembler_vr_t02 = Item(
+  id: "HID_Ninja_042_AssembleR_VR_T02",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_041_deco_sr_t02 = Item(
+  id: "HID_Ninja_041_Deco_SR_T02",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "legendary",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_016_m_v1_sr_t02 = Item(
+  id: "HID_Ninja_016_M_V1_SR_T02",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_016_f_v1_sr_t04 = Item(
+  id: "HID_Ninja_016_F_V1_SR_T04",
+  name: "Deadly Lotus Luna",
+  description: "A beautiful yet deadly flower.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.PiercingLotus",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_023_sr_t05 = Item(
+  id: "HID_Ninja_023_SR_T05",
+  name: "Lynx Kassandra",
+  description: "Who needs nine lives when one is enough?",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-023-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_009_vr_t02 = Item(
+  id: "HID_Ninja_009_VR_T02",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_016_m_v1_sr_t03 = Item(
+  id: "HID_Ninja_016_M_V1_SR_T03",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_013_vr_t04 = Item(
+  id: "HID_Ninja_013_VR_T04",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_030_retroscifininja_vr_t04 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_VR_T04",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_007_vr_t01 = Item(
+  id: "HID_Ninja_007_VR_T01",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_034_toymonkey_vr_t02 = Item(
+  id: "HID_Ninja_034_ToyMonkey_VR_T02",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsrainhw_vr_t02 = Item(
+  id: "HID_Ninja_StarsRainHW_VR_T02",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_039_dino_ninja_vr_t05 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_VR_T05",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_016_m_v1_sr_t01 = Item(
+  id: "HID_Ninja_016_M_V1_SR_T01",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_017_m_v1_sr_t04 = Item(
+  id: "HID_Ninja_017_M_V1_SR_T04",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-017-M-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_019_sr_t02 = Item(
+  id: "HID_Ninja_019_SR_T02",
+  name: "Dire",
+  description: "Leader of the pack.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-019-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Werewolf"],
+);
+
+final _hid_ninja_011_vr_t02 = Item(
+  id: "HID_Ninja_011_VR_T02",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_037_junk_samurai_vr_t03 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_VR_T03",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_f_sr_t02 = Item(
+  id: "HID_Ninja_014_F_SR_T02",
+  name: "Thunderstrike Mari",
+  description: "\"I will be like thunder.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-F-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_slashtail_vr_t03 = Item(
+  id: "HID_Ninja_SlashTail_VR_T03",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashTail-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_018_sr_t01 = Item(
+  id: "HID_Ninja_018_SR_T01",
+  name: "Plague Doctor Igor",
+  description: "\"The Doctor is in...\" - Igor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-241-Athena-Commando-M-Plague-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_starsassassin_foundersf_sr_t01 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersF_SR_T01",
+  name: "Lotus Assassin Sarah",
+  description: "Sarah in her Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_slashbreathhw_vr_t05 = Item(
+  id: "HID_Ninja_SlashBreathHW_VR_T05",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_031_radninja_sr_t03 = Item(
+  id: "HID_Ninja_031_RadNinja_SR_T03",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_008_r_t04 = Item(
+  id: "HID_Ninja_008_R_T04",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_024_sr_t02 = Item(
+  id: "HID_Ninja_024_SR_T02",
+  name: "Anti-Cuddle Sarah",
+  description: "\"Keep your cooties to yourself!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-024-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ExplosiveAssassin"],
+);
+
+final _hid_ninja_014_uc_t02 = Item(
+  id: "HID_Ninja_014_UC_T02",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-014-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_042_assembler_vr_t03 = Item(
+  id: "HID_Ninja_042_AssembleR_VR_T03",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_009_vr_t01 = Item(
+  id: "HID_Ninja_009_VR_T01",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_027_bunnyninja_sr_t03 = Item(
+  id: "HID_Ninja_027_BunnyNinja_SR_T03",
+  name: "Dashing Hare Ken",
+  description:
+      "\"It's time for these husks to meet the Eggs-terminator.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-027-BunnyNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_011_r_t03 = Item(
+  id: "HID_Ninja_011_R_T03",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_025_pirateninja_vr_t03 = Item(
+  id: "HID_Ninja_025_PirateNinja_VR_T03",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_017_m_v1_sr_t02 = Item(
+  id: "HID_Ninja_017_M_V1_SR_T02",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-017-M-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_042_assembler_vr_t04 = Item(
+  id: "HID_Ninja_042_AssembleR_VR_T04",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_037_junk_samurai_sr_t04 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_SR_T04",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_037_junk_samurai_sr_t05 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_SR_T05",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_015_f_v1_r_t01 = Item(
+  id: "HID_Ninja_015_F_V1_R_T01",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_slashbreath_r_t01 = Item(
+  id: "HID_Ninja_SlashBreath_R_T01",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SlashBreath-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_xbox_vr_t03 = Item(
+  id: "HID_Ninja_XBOX_VR_T03",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_008_r_t01 = Item(
+  id: "HID_Ninja_008_R_T01",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_smokedimmak_sr_t01 = Item(
+  id: "HID_Ninja_SmokeDimMak_SR_T01",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_myth03_sr_t05 = Item(
+  id: "HID_Ninja_Myth03_SR_T05",
+  name: "Bladestorm Enforcer",
+  description: "Balance and order must be restored.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-200-Athena-Commando-M-DarkPaintballer-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Rogue",
+    "Homebase.Class.IsNinja.Rogue"
+  ],
+);
+
+final _hid_ninja_007_vr_t03 = Item(
+  id: "HID_Ninja_007_VR_T03",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_011_r_t02 = Item(
+  id: "HID_Ninja_011_R_T02",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_slashbreathhw_sr_t02 = Item(
+  id: "HID_Ninja_SlashBreathHW_SR_T02",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_slashbreath_sr_t01 = Item(
+  id: "HID_Ninja_SlashBreath_SR_T01",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_016_m_v1_vr_t03 = Item(
+  id: "HID_Ninja_016_M_V1_VR_T03",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_009_r_t02 = Item(
+  id: "HID_Ninja_009_R_T02",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_040_dennis_vr_t04 = Item(
+  id: "HID_Ninja_040_Dennis_VR_T04",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_myth02_sr_t05 = Item(
+  id: "HID_Ninja_Myth02_SR_T05",
+  name: "The Cloaked Star",
+  description: "Cloaked in mystery.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Myth02-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ShadowStar",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male.ShadowStar"
+  ],
+);
+
+final _hid_ninja_starsrain_sr_t03 = Item(
+  id: "HID_Ninja_StarsRain_SR_T03",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRain-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_vr_t03 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_VR_T03",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_xbox_sr_t03 = Item(
+  id: "HID_Ninja_XBOX_SR_T03",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_015_f_v1_r_t02 = Item(
+  id: "HID_Ninja_015_F_V1_R_T02",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_starsassassin_vr_t02 = Item(
+  id: "HID_Ninja_StarsAssassin_VR_T02",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_015_f_v1_sr_t05 = Item(
+  id: "HID_Ninja_015_F_V1_SR_T05",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_042_assembler_sr_t01 = Item(
+  id: "HID_Ninja_042_AssembleR_SR_T01",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashbreathhw_vr_t04 = Item(
+  id: "HID_Ninja_SlashBreathHW_VR_T04",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_011_r_t01 = Item(
+  id: "HID_Ninja_011_R_T01",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_slashtail_vr_t05 = Item(
+  id: "HID_Ninja_SlashTail_VR_T05",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashTail-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_013_r_t03 = Item(
+  id: "HID_Ninja_013_R_T03",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_009_vr_t03 = Item(
+  id: "HID_Ninja_009_VR_T03",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_043_cranium_vr_t01 = Item(
+  id: "HID_Ninja_043_Cranium_VR_T01",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_xbox_r_t04 = Item(
+  id: "HID_Ninja_XBOX_R_T04",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_034_toymonkey_vr_t04 = Item(
+  id: "HID_Ninja_034_ToyMonkey_VR_T04",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_007_sr_t03 = Item(
+  id: "HID_Ninja_007_SR_T03",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_016_m_v1_vr_t01 = Item(
+  id: "HID_Ninja_016_M_V1_VR_T01",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_slashbreathhw_sr_t05 = Item(
+  id: "HID_Ninja_SlashBreathHW_SR_T05",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_024_sr_t03 = Item(
+  id: "HID_Ninja_024_SR_T03",
+  name: "Anti-Cuddle Sarah",
+  description: "\"Keep your cooties to yourself!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-024-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ExplosiveAssassin"],
+);
+
+final _hid_ninja_042_assembler_sr_t04 = Item(
+  id: "HID_Ninja_042_AssembleR_SR_T04",
+  name: "Robo-Ray",
+  description:
+      "\"When I'm outside Homebase I malf... I work wrong.\" - Robo-Ray",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-046-Athena-Commando-F-AssembleR-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsrainhw_vr_t05 = Item(
+  id: "HID_Ninja_StarsRainHW_VR_T05",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_014_r_t04 = Item(
+  id: "HID_Ninja_014_R_T04",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_037_junk_samurai_sr_t02 = Item(
+  id: "HID_Ninja_037_Junk_Samurai_SR_T02",
+  name: "Samurai Scrapper",
+  description: "A true warrior can make a weapon from whatever's at hand.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-037-Junk-Samurai-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_031_radninja_vr_t03 = Item(
+  id: "HID_Ninja_031_RadNinja_VR_T03",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashtail_vr_t04 = Item(
+  id: "HID_Ninja_SlashTail_VR_T04",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashTail-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_014_vr_t02 = Item(
+  id: "HID_Ninja_014_VR_T02",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_029_dinoninja_sr_t02 = Item(
+  id: "HID_Ninja_029_DinoNinja_SR_T02",
+  name: "Paleo Luna",
+  description: "\"I have more backbone than a Spinosaurus.\" - Luna",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-029-DinoNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_vr_t01 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_VR_T01",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_010_f_vr_t02 = Item(
+  id: "HID_Ninja_010_F_VR_T02",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_slashtail_vr_t01 = Item(
+  id: "HID_Ninja_SlashTail_VR_T01",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashTail-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_015_f_v1_sr_t02 = Item(
+  id: "HID_Ninja_015_F_V1_SR_T02",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_027_bunnyninja_sr_t01 = Item(
+  id: "HID_Ninja_027_BunnyNinja_SR_T01",
+  name: "Dashing Hare Ken",
+  description:
+      "\"It's time for these husks to meet the Eggs-terminator.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-027-BunnyNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_022_sr_t05 = Item(
+  id: "HID_Ninja_022_SR_T05",
+  name: "Overtaker Hiro",
+  description: "Take over the competition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-190-Athena-Commando-M-StreetRacerWhite-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_029_dinoninja_sr_t04 = Item(
+  id: "HID_Ninja_029_DinoNinja_SR_T04",
+  name: "Paleo Luna",
+  description: "\"I have more backbone than a Spinosaurus.\" - Luna",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-029-DinoNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_039_dino_ninja_vr_t02 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_VR_T02",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashbreathhw_vr_t03 = Item(
+  id: "HID_Ninja_SlashBreathHW_VR_T03",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_030_retroscifininja_sr_t02 = Item(
+  id: "HID_Ninja_030_RetroSciFiNinja_SR_T02",
+  name: "Intergalactic Ken",
+  description: "The VSS Gallant's finest space ninja.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-030-RetroSciFiNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_011_vr_t01 = Item(
+  id: "HID_Ninja_011_VR_T01",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_slashbreathhw_sr_t03 = Item(
+  id: "HID_Ninja_SlashBreathHW_SR_T03",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_018_sr_t05 = Item(
+  id: "HID_Ninja_018_SR_T05",
+  name: "Plague Doctor Igor",
+  description: "\"The Doctor is in...\" - Igor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-241-Athena-Commando-M-Plague-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_015_f_v1_sr_t03 = Item(
+  id: "HID_Ninja_015_F_V1_SR_T03",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_015_f_v1_vr_t03 = Item(
+  id: "HID_Ninja_015_F_V1_VR_T03",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_starsrain_sr_t05 = Item(
+  id: "HID_Ninja_StarsRain_SR_T05",
+  name: "Shuriken Master Sarah",
+  description: "Master to the stars.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRain-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_009_r_t01 = Item(
+  id: "HID_Ninja_009_R_T01",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_xbox_sr_t02 = Item(
+  id: "HID_Ninja_XBOX_SR_T02",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_034_toymonkey_sr_t03 = Item(
+  id: "HID_Ninja_034_ToyMonkey_SR_T03",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_sony_sr_t01 = Item(
+  id: "HID_Ninja_Sony_SR_T01",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_slashtail_uc_t02 = Item(
+  id: "HID_Ninja_SlashTail_UC_T02",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-SlashTail-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_007_uc_t03 = Item(
+  id: "HID_Ninja_007_UC_T03",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_043_cranium_sr_t01 = Item(
+  id: "HID_Ninja_043_Cranium_SR_T01",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_040_dennis_sr_t01 = Item(
+  id: "HID_Ninja_040_Dennis_SR_T01",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashtail_r_t04 = Item(
+  id: "HID_Ninja_SlashTail_R_T04",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SlashTail-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_041_deco_vr_t03 = Item(
+  id: "HID_Ninja_041_Deco_VR_T03",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "epic",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_008_sr_t03 = Item(
+  id: "HID_Ninja_008_SR_T03",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_010_sr_t04 = Item(
+  id: "HID_Ninja_010_SR_T04",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_029_dinoninja_sr_t03 = Item(
+  id: "HID_Ninja_029_DinoNinja_SR_T03",
+  name: "Paleo Luna",
+  description: "\"I have more backbone than a Spinosaurus.\" - Luna",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-029-DinoNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_039_dino_ninja_vr_t01 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_VR_T01",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_myth02_sr_t04 = Item(
+  id: "HID_Ninja_Myth02_SR_T04",
+  name: "The Cloaked Star",
+  description: "Cloaked in mystery.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Myth02-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ShadowStar",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male.ShadowStar"
+  ],
+);
+
+final _hid_ninja_013_r_t04 = Item(
+  id: "HID_Ninja_013_R_T04",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_025_pirateninja_sr_t04 = Item(
+  id: "HID_Ninja_025_PirateNinja_SR_T04",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashtail_uc_t01 = Item(
+  id: "HID_Ninja_SlashTail_UC_T01",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-SlashTail-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_043_cranium_sr_t03 = Item(
+  id: "HID_Ninja_043_Cranium_SR_T03",
+  name: "Deimos",
+  description: "\"Travelers beware on the road to the next world.\" - Deimos",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-071-Athena-Commando-M-Cranium-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsassassin_foundersm_sr_t01 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersM_SR_T01",
+  name: "Lotus Assassin Ken",
+  description: "Ken in his Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_021_sr_t05 = Item(
+  id: "HID_Ninja_021_SR_T05",
+  name: "Forged Fate",
+  description: "Prepare to meet your Fate.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-143-Athena-Commando-F-DarkNinja-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_010_vr_t05 = Item(
+  id: "HID_Ninja_010_VR_T05",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_016_m_v1_vr_t02 = Item(
+  id: "HID_Ninja_016_M_V1_VR_T02",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_smokedimmak_sr_t02 = Item(
+  id: "HID_Ninja_SmokeDimMak_SR_T02",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_smokedimmak_sr_t05 = Item(
+  id: "HID_Ninja_SmokeDimMak_SR_T05",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_starsassassin_vr_t03 = Item(
+  id: "HID_Ninja_StarsAssassin_VR_T03",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_016_f_v1_sr_t01 = Item(
+  id: "HID_Ninja_016_F_V1_SR_T01",
+  name: "Deadly Lotus Luna",
+  description: "A beautiful yet deadly flower.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.PiercingLotus",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_020_sr_t04 = Item(
+  id: "HID_Ninja_020_SR_T04",
+  name: "Cloaked Shadow",
+  description: "Not all Holiday Cheer is jolly.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-317-Athena-Commando-M-WinterGhoul-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_007_sr_t04 = Item(
+  id: "HID_Ninja_007_SR_T04",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_039_dino_ninja_sr_t05 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_SR_T05",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashtail_r_t02 = Item(
+  id: "HID_Ninja_SlashTail_R_T02",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-SlashTail-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_starsassassin_foundersm_sr_t04 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersM_SR_T04",
+  name: "Lotus Assassin Ken",
+  description: "Ken in his Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_myth02_sr_t02 = Item(
+  id: "HID_Ninja_Myth02_SR_T02",
+  name: "The Cloaked Star",
+  description: "Cloaked in mystery.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Myth02-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ShadowStar",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male.ShadowStar"
+  ],
+);
+
+final _hid_ninja_starsassassin_r_t01 = Item(
+  id: "HID_Ninja_StarsAssassin_R_T01",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_sony_vr_t05 = Item(
+  id: "HID_Ninja_Sony_VR_T05",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_034_toymonkey_vr_t03 = Item(
+  id: "HID_Ninja_034_ToyMonkey_VR_T03",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_027_bunnyninja_sr_t02 = Item(
+  id: "HID_Ninja_027_BunnyNinja_SR_T02",
+  name: "Dashing Hare Ken",
+  description:
+      "\"It's time for these husks to meet the Eggs-terminator.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-027-BunnyNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_025_pirateninja_sr_t01 = Item(
+  id: "HID_Ninja_025_PirateNinja_SR_T01",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_025_pirateninja_sr_t02 = Item(
+  id: "HID_Ninja_025_PirateNinja_SR_T02",
+  name: "Swashbuckler Keelhaul",
+  description: "\"Walk the Plank!\" - Keelhaul",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-025-PirateNinja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_myth03_sr_t02 = Item(
+  id: "HID_Ninja_Myth03_SR_T02",
+  name: "Bladestorm Enforcer",
+  description: "Balance and order must be restored.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-200-Athena-Commando-M-DarkPaintballer-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Rogue",
+    "Homebase.Class.IsNinja.Rogue"
+  ],
+);
+
+final _hid_ninja_019_sr_t05 = Item(
+  id: "HID_Ninja_019_SR_T05",
+  name: "Dire",
+  description: "Leader of the pack.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-019-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Werewolf"],
+);
+
+final _hid_ninja_slashbreath_vr_t04 = Item(
+  id: "HID_Ninja_SlashBreath_VR_T04",
+  name: "Dragon Scorch",
+  description: "Don't get burnt by this dragon.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreath-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Dragon"],
+);
+
+final _hid_ninja_010_sr_t03 = Item(
+  id: "HID_Ninja_010_SR_T03",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_031_radninja_vr_t01 = Item(
+  id: "HID_Ninja_031_RadNinja_VR_T01",
+  name: "Varsity Hiro",
+  description: "\"Keep your head in the game.\" - Hiro",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-031-RadNinja-SR-T01",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_015_f_v1_sr_t01 = Item(
+  id: "HID_Ninja_015_F_V1_SR_T01",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_013_r_t02 = Item(
+  id: "HID_Ninja_013_R_T02",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_sr_t03 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_SR_T03",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_017_m_v1_vr_t01 = Item(
+  id: "HID_Ninja_017_M_V1_VR_T01",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-017-M-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_swordmaster_sr_t05 = Item(
+  id: "HID_Ninja_Swordmaster_SR_T05",
+  name: "Swordmaster Ken",
+  description: "\"You've been Swordmastered.\" - Ken",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Swordmaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.LegendarySwordmaster"],
+);
+
+final _hid_ninja_041_deco_vr_t05 = Item(
+  id: "HID_Ninja_041_Deco_VR_T05",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "epic",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_041_deco_vr_t02 = Item(
+  id: "HID_Ninja_041_Deco_VR_T02",
+  name: "Venturion",
+  description: "\"Let us venture forth!\" - Venturion",
+  rarity: "epic",
+  image: "T-Soldier-HID-129-Athena-Commando-M-Deco-Retouch-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_011_vr_t05 = Item(
+  id: "HID_Ninja_011_VR_T05",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_010_vr_t04 = Item(
+  id: "HID_Ninja_010_VR_T04",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_010_sr_t05 = Item(
+  id: "HID_Ninja_010_SR_T05",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_016_m_v1_sr_t04 = Item(
+  id: "HID_Ninja_016_M_V1_SR_T04",
+  name: "Piercing Lotus Edge",
+  description: "Watch out for his thorns.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-016-M-V1-VR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male",
+    "Homebase.Class.IsNinja.PiercingLotus"
+  ],
+);
+
+final _hid_ninja_040_dennis_vr_t05 = Item(
+  id: "HID_Ninja_040_Dennis_VR_T05",
+  name: "Dennis",
+  description: "\"Who ordered the Dennis?\" - Dennis",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-040-Dennis-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_vr_t03 = Item(
+  id: "HID_Ninja_014_VR_T03",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_035_f_cupid_sr_t02 = Item(
+  id: "HID_Ninja_035_F_Cupid_SR_T02",
+  name: "Stoneheart Farrah",
+  description: "\"Leave love to the professionals.\" - Stoneheart Farrah",
+  rarity: "legendary",
+  image: "T-Soldier-HID-523-Athena-Commando-F-Cupid-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_xbox_sr_t01 = Item(
+  id: "HID_Ninja_XBOX_SR_T01",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_myth02_sr_t03 = Item(
+  id: "HID_Ninja_Myth02_SR_T03",
+  name: "The Cloaked Star",
+  description: "Cloaked in mystery.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-Myth02-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ShadowStar",
+    "SpecialEvent.2018.Blockbuster.Heroes.Ninja.Male.ShadowStar"
+  ],
+);
+
+final _hid_ninja_008_vr_t02 = Item(
+  id: "HID_Ninja_008_VR_T02",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_xbox_r_t03 = Item(
+  id: "HID_Ninja_XBOX_R_T03",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_starsassassin_vr_t01 = Item(
+  id: "HID_Ninja_StarsAssassin_VR_T01",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_sony_vr_t04 = Item(
+  id: "HID_Ninja_Sony_VR_T04",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_010_vr_t01 = Item(
+  id: "HID_Ninja_010_VR_T01",
+  name: "Deadly Star Scorpion",
+  description: "Watch for the sting.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_starsassassin_foundersm_sr_t05 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersM_SR_T05",
+  name: "Lotus Assassin Ken",
+  description: "Ken in his Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_010_f_vr_t03 = Item(
+  id: "HID_Ninja_010_F_VR_T03",
+  name: "Deadly Blade Crash",
+  description: "\"Just one cut.\" - Crash",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-010-F-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Poisoner"],
+);
+
+final _hid_ninja_017_m_v1_vr_t02 = Item(
+  id: "HID_Ninja_017_M_V1_VR_T02",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-017-M-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_009_f_valentine_sr_t04 = Item(
+  id: "HID_Ninja_009_F_Valentine_SR_T04",
+  name: "Snuggle Specialist Sarah",
+  description: "Snuggle up to victory. ",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-F-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Skirmisher",
+    "SpecialEvent.Valentines.2018.CupidNinja"
+  ],
+);
+
+final _hid_ninja_007_r_t04 = Item(
+  id: "HID_Ninja_007_R_T04",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_020_sr_t05 = Item(
+  id: "HID_Ninja_020_SR_T05",
+  name: "Cloaked Shadow",
+  description: "Not all Holiday Cheer is jolly.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-317-Athena-Commando-M-WinterGhoul-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_sr_t04 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_SR_T04",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_014_sr_t01 = Item(
+  id: "HID_Ninja_014_SR_T01",
+  name: "Whirlwind Scorch",
+  description: "\"Watchout, I can't stop.\" - Scorch",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.ThunderStrike"],
+);
+
+final _hid_ninja_slashbreathhw_vr_t01 = Item(
+  id: "HID_Ninja_SlashBreathHW_VR_T01",
+  name: "Sarah Hotep",
+  description: "\"Wrap it up.\" - Sarah Hotep",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SlashBreathHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Dragon",
+    "SpecialEvent.Halloween.MummyNinja"
+  ],
+);
+
+final _hid_ninja_starsassassin_uc_t02 = Item(
+  id: "HID_Ninja_StarsAssassin_UC_T02",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_039_dino_ninja_sr_t03 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_SR_T03",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_starsrainhw_vr_t04 = Item(
+  id: "HID_Ninja_StarsRainHW_VR_T04",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_015_f_v1_vr_t04 = Item(
+  id: "HID_Ninja_015_F_V1_VR_T04",
+  name: "Harvester Sarah",
+  description: "\"It's gonna be a good harvest.\" - Sarah",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.Reaper",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Ninja.Female"
+  ],
+);
+
+final _hid_ninja_023_sr_t02 = Item(
+  id: "HID_Ninja_023_SR_T02",
+  name: "Lynx Kassandra",
+  description: "Who needs nine lives when one is enough?",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-023-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_017_m_v1_vr_t04 = Item(
+  id: "HID_Ninja_017_M_V1_VR_T04",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-017-M-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_019_sr_t01 = Item(
+  id: "HID_Ninja_019_SR_T01",
+  name: "Dire",
+  description: "Leader of the pack.",
+  rarity: "mythic",
+  image: "T-Ninja-HID-Ninja-019-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Werewolf"],
+);
+
+final _hid_ninja_myth03_sr_t04 = Item(
+  id: "HID_Ninja_Myth03_SR_T04",
+  name: "Bladestorm Enforcer",
+  description: "Balance and order must be restored.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-200-Athena-Commando-M-DarkPaintballer-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Rogue",
+    "Homebase.Class.IsNinja.Rogue"
+  ],
+);
+
+final _hid_ninja_008_sr_t04 = Item(
+  id: "HID_Ninja_008_SR_T04",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_011_sr_t01 = Item(
+  id: "HID_Ninja_011_SR_T01",
+  name: "Energy Thief Mari",
+  description: "\"It's not stealing! I'm taking what's mine.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.EnergyThief"],
+);
+
+final _hid_ninja_017_m_v1_r_t01 = Item(
+  id: "HID_Ninja_017_M_V1_R_T01",
+  name: "Infiltrator Ken",
+  description: "Sneak in undetected.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-017-M-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsNinja.ExplosiveAssassin",
+    "SpecialEvent.2018.RoadTrip.Heroes.Ninja.Male"
+  ],
+);
+
+final _hid_ninja_starsassassin_sr_t02 = Item(
+  id: "HID_Ninja_StarsAssassin_SR_T02",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_020_sr_t02 = Item(
+  id: "HID_Ninja_020_SR_T02",
+  name: "Cloaked Shadow",
+  description: "Not all Holiday Cheer is jolly.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-317-Athena-Commando-M-WinterGhoul-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_013_r_t01 = Item(
+  id: "HID_Ninja_013_R_T01",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_013_sr_t04 = Item(
+  id: "HID_Ninja_013_SR_T04",
+  name: "Alchemist Sarah",
+  description: "Sarah getting a bit festive.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Alchemist"],
+);
+
+final _hid_ninja_008_r_t03 = Item(
+  id: "HID_Ninja_008_R_T03",
+  name: "Stonefoot Crash",
+  description: "Those are some heavy kicks.",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.StonefootNinja"],
+);
+
+final _hid_ninja_starsrainhw_sr_t03 = Item(
+  id: "HID_Ninja_StarsRainHW_SR_T03",
+  name: "Swift Shuriken Llamurai",
+  description:
+      "The only thing more fearsome than the samurai, is the Llamurai.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-StarsRainHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Shuriken"],
+);
+
+final _hid_ninja_smokedimmak_vr_t04 = Item(
+  id: "HID_Ninja_SmokeDimMak_VR_T04",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_038_male_ninja_pirate_vr_t04 = Item(
+  id: "HID_Ninja_038_Male_Ninja_Pirate_VR_T04",
+  name: "Freebooter Ken",
+  description:
+      "\"I'll be taking all your gold--and crafting materials.\" - Freebooter Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-038-Male-Pirate-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_slashtail_sr_t01 = Item(
+  id: "HID_Ninja_SlashTail_SR_T01",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashTail-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_starsassassin_uc_t03 = Item(
+  id: "HID_Ninja_StarsAssassin_UC_T03",
+  name: "Assassin Sarah",
+  description: "\"I'll take 'em out.\" - Sarah",
+  rarity: "common",
+  image: "T-Ninja-HID-Ninja-StarsAssassin-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_starsassassin_foundersf_sr_t04 = Item(
+  id: "HID_Ninja_StarsAssassin_FoundersF_SR_T04",
+  name: "Lotus Assassin Sarah",
+  description: "Sarah in her Lotus assassination garb.",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashBreath-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_smokedimmak_sr_t04 = Item(
+  id: "HID_Ninja_SmokeDimMak_SR_T04",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_034_toymonkey_sr_t05 = Item(
+  id: "HID_Ninja_034_ToyMonkey_SR_T05",
+  name: "Monks",
+  description: "*Excited shrieking* - Monks",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-034-ToyMonkey-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_xbox_r_t01 = Item(
+  id: "HID_Ninja_XBOX_R_T01",
+  name: "Jade Assassin Sarah",
+  description: "\"Green life - Only life!\" - Sarah",
+  rarity: "rare",
+  image: "T-Ninja-HID-Ninja-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_sony_vr_t03 = Item(
+  id: "HID_Ninja_Sony_VR_T03",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_007_vr_t02 = Item(
+  id: "HID_Ninja_007_VR_T02",
+  name: "Brawler Luna",
+  description: "Careful, this one's looking for a scrap.",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Brawler"],
+);
+
+final _hid_ninja_sony_vr_t01 = Item(
+  id: "HID_Ninja_Sony_VR_T01",
+  name: "Bluestreak Ken",
+  description: "\"Blue life - Best life!\" - Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Assassin"],
+);
+
+final _hid_ninja_slashtail_sr_t02 = Item(
+  id: "HID_Ninja_SlashTail_SR_T02",
+  name: "Fleetfoot Ken",
+  description: "\"One foot, two foot.\" - Ken",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-SlashTail-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Fleetfoot"],
+);
+
+final _hid_ninja_smokedimmak_vr_t02 = Item(
+  id: "HID_Ninja_SmokeDimMak_VR_T02",
+  name: "Dim Mak Mari",
+  description: "\"Now you see me, now you don't.\" - Mari",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-SmokeDimMak-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.DimMak"],
+);
+
+final _hid_ninja_009_sr_t05 = Item(
+  id: "HID_Ninja_009_SR_T05",
+  name: "Skirmisher Edge",
+  description: "\"You wanna fight?\" - Edge",
+  rarity: "legendary",
+  image: "T-Ninja-HID-Ninja-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja.Skirmisher"],
+);
+
+final _hid_ninja_035_f_cupid_sr_t03 = Item(
+  id: "HID_Ninja_035_F_Cupid_SR_T03",
+  name: "Stoneheart Farrah",
+  description: "\"Leave love to the professionals.\" - Stoneheart Farrah",
+  rarity: "legendary",
+  image: "T-Soldier-HID-523-Athena-Commando-F-Cupid-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_ninja_039_dino_ninja_vr_t03 = Item(
+  id: "HID_Ninja_039_Dino_Ninja_VR_T03",
+  name: "Jurassic Ken",
+  description: "\"My moves are Jurass-SICK!\" - Jurassic Ken",
+  rarity: "epic",
+  image: "T-Ninja-HID-Ninja-039-Dino-Ninja-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsNinja"],
+);
+
+final _hid_commando_045_chaos_agent_sr_t04 = Item(
+  id: "HID_Commando_045_Chaos_Agent_SR_T04",
+  name: "Chaos Agent",
+  description: "\"Sowing the seeds of chaos...\" -Chaos Agent",
+  rarity: "legendary",
+  image: "T-Soldier-HID-598-Athena-Commando-M-Mastermind-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_007_vr_t04 = Item(
+  id: "HID_Commando_007_VR_T04",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_grenadegun_uc_t03 = Item(
+  id: "HID_Commando_GrenadeGun_UC_T03",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-GrenadeGun-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_gunheadshot_starter_m_sr_t04 = Item(
+  id: "HID_Commando_GunHeadShot_Starter_M_SR_T04",
+  name: "Rogue Agent Jonesy",
+  description:
+      "Rifle-focused soldier who gets bonuses for successful headshots.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadShot-Starter-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.Starter.2018.Rogue.Commando.Male"
+  ],
+);
+
+final _hid_commando_grenadegun_sr_t01 = Item(
+  id: "HID_Commando_GrenadeGun_SR_T01",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GrenadeGun-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_041_pirate_02_br_sr_t02 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_SR_T02",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "legendary",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_023_vr_t04 = Item(
+  id: "HID_Commando_023_VR_T04",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "epic",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_038_shock_wave_sr_t01 = Item(
+  id: "HID_Commando_038_Shock_Wave_SR_T01",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_029_dinosoldier_sr_t02 = Item(
+  id: "HID_Commando_029_DinoSoldier_SR_T02",
+  name: "Rex Jonesy",
+  description: "Hunting the competition to extinction.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-093-Athena-Commando-M-Dinosaur-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_007hw_vr_t04 = Item(
+  id: "HID_Commando_007HW_VR_T04",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_032_halloweensoldier_sr_t04 = Item(
+  id: "HID_Commando_032_HalloweenSoldier_SR_T04",
+  name: "JONESEE-BOT",
+  description: "\"QUIET PLEASE. I AM FIGHTING.\" - JONESEE-BOT",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Soldier-Seebot-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_myth03_sr_t03 = Item(
+  id: "HID_Commando_Myth03_SR_T03",
+  name: "Carbide",
+  description: "Heed the call to action.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Cobalt",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Carbide"
+  ],
+);
+
+final _hid_commando_013_stpatricks_m_sr_t04 = Item(
+  id: "HID_Commando_013_StPatricks_M_SR_T04",
+  name: "Battle Hound Jonesy",
+  description: "Release the hound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-100-Athena-Commando-M-CuChulainn-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Male"
+  ],
+);
+
+final _hid_commando_024_vr_t04 = Item(
+  id: "HID_Commando_024_VR_T04",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "epic",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_016_m_v1_sr_t01 = Item(
+  id: "HID_Commando_016_M_V1_SR_T01",
+  name: "Undercover Vaughn",
+  description: "Strike from within.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_017_f_v1_sr_t04 = Item(
+  id: "HID_Commando_017_F_V1_SR_T04",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_guntough_vr_t01 = Item(
+  id: "HID_Commando_GunTough_VR_T01",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunTough-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_sony_sr_t05 = Item(
+  id: "HID_Commando_Sony_SR_T05",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_009_m_sr_t04 = Item(
+  id: "HID_Commando_009_M_SR_T04",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_041_pirate_02_br_vr_t05 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_VR_T05",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "epic",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_034_toytinkerer_vr_t03 = Item(
+  id: "HID_Commando_034_ToyTinkerer_VR_T03",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_vr_t02 = Item(
+  id: "HID_Commando_GunTough_VR_T02",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunTough-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_016_f_v1_vr_t05 = Item(
+  id: "HID_Commando_016_F_V1_VR_T05",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_039_pajama_party_vr_t04 = Item(
+  id: "HID_Commando_039_Pajama_Party_VR_T04",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_014_m_sr_t04 = Item(
+  id: "HID_Commando_014_M_SR_T04",
+  name: "Berserker Renegade",
+  description: "\"They won't stop me.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_010_bday_sr_t02 = Item(
+  id: "HID_Commando_010_Bday_SR_T02",
+  name: "Birthday Brigade Ramirez",
+  description: "Happy 1st Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-Bday-SR-T01-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Birthday.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.LeadStorm"
+  ],
+);
+
+final _hid_commando_007_r_t01 = Item(
+  id: "HID_Commando_007_R_T01",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_sony_r_t03 = Item(
+  id: "HID_Commando_Sony_R_T03",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_myth02_sr_t03 = Item(
+  id: "HID_Commando_Myth02_SR_T03",
+  name: "Raven",
+  description: "Brooding master of dark skies.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-102-Athena-Commando-M-Raven-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raven",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Raven"
+  ],
+);
+
+final _hid_commando_009_r_t04 = Item(
+  id: "HID_Commando_009_R_T04",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_014_wukong_sr_t03 = Item(
+  id: "HID_Commando_014_Wukong_SR_T03",
+  name: "Wukong",
+  description: "It's good to be king.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-014-Wukong-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando.Male.Wukong"
+  ],
+);
+
+final _hid_commando_guntough_vr_t05 = Item(
+  id: "HID_Commando_GunTough_VR_T05",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunTough-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_027_piratesoldier_vr_t05 = Item(
+  id: "HID_Commando_027_PirateSoldier_VR_T05",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_stpatricks_m_sr_t01 = Item(
+  id: "HID_Commando_013_StPatricks_M_SR_T01",
+  name: "Battle Hound Jonesy",
+  description: "Release the hound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-100-Athena-Commando-M-CuChulainn-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Male"
+  ],
+);
+
+final _hid_commando_grenadegun_m_t_sr_t01 = Item(
+  id: "HID_Commando_GrenadeGun_M_T_SR_T01",
+  name: "Rescue Trooper Havoc",
+  description: "Striking fear into the opposition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-089-Athena-Commando-M-RetroGrey-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Infantryman",
+    "SpecialEvent.Twitch.2018.GunGrenadeCommando"
+  ],
+);
+
+final _hid_commando_guntough_m_4thjuly_sr_t04 = Item(
+  id: "HID_Commando_GunTough_M_4thJuly_SR_T04",
+  name: "Stars and Stripes Jonesy",
+  description: "Salute your stripes.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-M-4thJuly-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_guntough_rs01_sr_t02 = Item(
+  id: "HID_Commando_GunTough_RS01_SR_T02",
+  name: "Birthday Brigade Jonesy",
+  description: "Happy 2nd Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_044_gumshoe_dark_vr_t02 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_VR_T02",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "epic",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gunheadshot_vr_t03 = Item(
+  id: "HID_Commando_GunHeadshot_VR_T03",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshot-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_gcgrenade_t_vr_t04 = Item(
+  id: "HID_Commando_GCGrenade_T_VR_T04",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "epic",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_041_pirate_02_br_vr_t01 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_VR_T01",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "epic",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_m_easter_sr_t04 = Item(
+  id: "HID_Commando_011_M_Easter_SR_T04",
+  name: "Rabbit Raider Jonesy",
+  description: "These eggs don't have candy in them... or do they?",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Commando.Male"
+  ],
+);
+
+final _hid_commando_011_f_v1_roadtrip_sr_t05 = Item(
+  id: "HID_Commando_011_F_V1_RoadTrip_SR_T05",
+  name: "Redline Ramirez",
+  description: "Revving beyond the limit.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-162-Athena-Commando-F-StreetRacer-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female.StreetRacer"
+  ],
+);
+
+final _hid_commando_008_foundersf_sr_t05 = Item(
+  id: "HID_Commando_008_FoundersF_SR_T05",
+  name: "Special Forces Ramirez",
+  description: "\"Husks, dead ahead!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_010_vr_t04 = Item(
+  id: "HID_Commando_010_VR_T04",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_011_uc_t01 = Item(
+  id: "HID_Commando_011_UC_T01",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-011-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_gcgrenade_vr_t02 = Item(
+  id: "HID_Commando_GCGrenade_VR_T02",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GCGrenade-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_027_piratesoldier_vr_t04 = Item(
+  id: "HID_Commando_027_PirateSoldier_VR_T04",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_sony_vr_t01 = Item(
+  id: "HID_Commando_Sony_VR_T01",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_031_radsoldier_sr_t02 = Item(
+  id: "HID_Commando_031_RadSoldier_SR_T02",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_015_m_v1_sr_t04 = Item(
+  id: "HID_Commando_015_M_V1_SR_T04",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_016_f_v1_sr_t03 = Item(
+  id: "HID_Commando_016_F_V1_SR_T03",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_013_r_t03 = Item(
+  id: "HID_Commando_013_R_T03",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_011_m_sr_t02 = Item(
+  id: "HID_Commando_011_M_SR_T02",
+  name: "Buckshot Raptor",
+  description: "\"Pumped and ready to go.\" - Raptor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_031_radsoldier_vr_t01 = Item(
+  id: "HID_Commando_031_RadSoldier_VR_T01",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "epic",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_vr_t01 = Item(
+  id: "HID_Commando_013_VR_T01",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_007hw_vr_t02 = Item(
+  id: "HID_Commando_007HW_VR_T02",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_007hw_sr_t02 = Item(
+  id: "HID_Commando_007HW_SR_T02",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_sony_vr_t02 = Item(
+  id: "HID_Commando_Sony_VR_T02",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_guntough_r_t04 = Item(
+  id: "HID_Commando_GunTough_R_T04",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GunTough-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_032_halloweensoldier_sr_t01 = Item(
+  id: "HID_Commando_032_HalloweenSoldier_SR_T01",
+  name: "JONESEE-BOT",
+  description: "\"QUIET PLEASE. I AM FIGHTING.\" - JONESEE-BOT",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Soldier-Seebot-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_030_retroscifisoldier_sr_t04 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_SR_T04",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_008_sr_t01 = Item(
+  id: "HID_Commando_008_SR_T01",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_011_sr_t04 = Item(
+  id: "HID_Commando_011_SR_T04",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_guntough_rs01_sr_t03 = Item(
+  id: "HID_Commando_GunTough_RS01_SR_T03",
+  name: "Birthday Brigade Jonesy",
+  description: "Happy 2nd Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_xbox_vr_t03 = Item(
+  id: "HID_Commando_XBOX_VR_T03",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_015_m_v1_vr_t05 = Item(
+  id: "HID_Commando_015_M_V1_VR_T05",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_016_f_v1_vr_t01 = Item(
+  id: "HID_Commando_016_F_V1_VR_T01",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_023_vr_t03 = Item(
+  id: "HID_Commando_023_VR_T03",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "epic",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_045_chaos_agent_sr_t01 = Item(
+  id: "HID_Commando_045_Chaos_Agent_SR_T01",
+  name: "Chaos Agent",
+  description: "\"Sowing the seeds of chaos...\" -Chaos Agent",
+  rarity: "legendary",
+  image: "T-Soldier-HID-598-Athena-Commando-M-Mastermind-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_stpatricks_f_v2_sr_t03 = Item(
+  id: "HID_Commando_013_StPatricks_F_V2_SR_T03",
+  name: "Highland Warrior Wildcat",
+  description: "\"I have the high ground.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-099-Athena-Commando-F-Scathach-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Female"
+  ],
+);
+
+final _hid_commando_031_radsoldier_vr_t03 = Item(
+  id: "HID_Commando_031_RadSoldier_VR_T03",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "epic",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_008_foundersm_sr_t04 = Item(
+  id: "HID_Commando_008_FoundersM_SR_T04",
+  name: "Special Forces Jonesy",
+  description: "\"Stop gawking and start shooting!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_008_foundersf_sr_t02 = Item(
+  id: "HID_Commando_008_FoundersF_SR_T02",
+  name: "Special Forces Ramirez",
+  description: "\"Husks, dead ahead!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_039_pajama_party_sr_t01 = Item(
+  id: "HID_Commando_039_Pajama_Party_SR_T01",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_038_shock_wave_vr_t01 = Item(
+  id: "HID_Commando_038_Shock_Wave_VR_T01",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_042_major_vr_t03 = Item(
+  id: "HID_Commando_042_Major_VR_T03",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_008_r_t03 = Item(
+  id: "HID_Commando_008_R_T03",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_guntough_f_4thjuly_sr_t03 = Item(
+  id: "HID_Commando_GunTough_F_4thJuly_SR_T03",
+  name: "Star-Spangled Headhunter",
+  description: "Make 'em see stars.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_009_m_vr_t04 = Item(
+  id: "HID_Commando_009_M_VR_T04",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_042_major_sr_t03 = Item(
+  id: "HID_Commando_042_Major_SR_T03",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_041_pirate_02_br_sr_t03 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_SR_T03",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "legendary",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_014_sr_t02 = Item(
+  id: "HID_Commando_014_SR_T02",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_013_stpatricks_f_v2_sr_t02 = Item(
+  id: "HID_Commando_013_StPatricks_F_V2_SR_T02",
+  name: "Highland Warrior Wildcat",
+  description: "\"I have the high ground.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-099-Athena-Commando-F-Scathach-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Female"
+  ],
+);
+
+final _hid_commando_011_m_sr_t05 = Item(
+  id: "HID_Commando_011_M_SR_T05",
+  name: "Buckshot Raptor",
+  description: "\"Pumped and ready to go.\" - Raptor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_007hw_rs01_sr_t05 = Item(
+  id: "HID_Commando_007HW_RS01_SR_T05",
+  name: "Brainiac Jonesy",
+  description: "Victory takes braaaains.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-254-Athena-Commando-M-Zombie-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_011_vr_t05 = Item(
+  id: "HID_Commando_011_VR_T05",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_034_toytinkerer_sr_t02 = Item(
+  id: "HID_Commando_034_ToyTinkerer_SR_T02",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_grenadegun_sr_t02 = Item(
+  id: "HID_Commando_GrenadeGun_SR_T02",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GrenadeGun-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_044_gumshoe_dark_sr_t04 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_SR_T04",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "legendary",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_035_caped_valentine_sr_t01 = Item(
+  id: "HID_Commando_035_Caped_Valentine_SR_T01",
+  name: "Dashing Hawk",
+  description: "\"Follow your heart... to Hawk.\" - Dashing Hawk",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-035-CapedValentine-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.CapedValentine"],
+);
+
+final _hid_commando_xbox_r_t03 = Item(
+  id: "HID_Commando_XBOX_R_T03",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_026_sr_t02 = Item(
+  id: "HID_Commando_026_SR_T02",
+  name: "Fallen Love Ranger Jonesy",
+  description: "Love hurts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-343-Athena-Commando-M-CupidDark-L",
+  gameplayTags: ["Class.IsCommando", "Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_008_foundersm_sr_t05 = Item(
+  id: "HID_Commando_008_FoundersM_SR_T05",
+  name: "Special Forces Jonesy",
+  description: "\"Stop gawking and start shooting!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_015_m_v1_blockbuster_sr_t02 = Item(
+  id: "HID_Commando_015_M_V1_BlockBuster_SR_T02",
+  name: "Diecast Jonesy",
+  description: "The die has been cast.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-122-Athena-Commando-M-Metal-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.BulletStorm"
+  ],
+);
+
+final _hid_commando_034_toytinkerer_sr_t05 = Item(
+  id: "HID_Commando_034_ToyTinkerer_SR_T05",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_008_vr_t02 = Item(
+  id: "HID_Commando_008_VR_T02",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_gunheadshothw_sr_t01 = Item(
+  id: "HID_Commando_GunHeadshotHW_SR_T01",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_021_sr_t01 = Item(
+  id: "HID_Commando_021_SR_T01",
+  name: "Liteshow Spitfire",
+  description: "Light it up!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-126-Athena-Commando-M-AuroraGlow-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_017_f_v1_vr_t04 = Item(
+  id: "HID_Commando_017_F_V1_VR_T04",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_guntough_valentine_sr_t02 = Item(
+  id: "HID_Commando_GunTough_Valentine_SR_T02",
+  name: "Love Ranger Jonesy",
+  description: "Aim for the heart.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.Valentines.2018.CupidCommando"
+  ],
+);
+
+final _hid_commando_009_m_r_t03 = Item(
+  id: "HID_Commando_009_M_R_T03",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-M-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_007_vr_t01 = Item(
+  id: "HID_Commando_007_VR_T01",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_009_m_vr_t01 = Item(
+  id: "HID_Commando_009_M_VR_T01",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_009_m_r_t02 = Item(
+  id: "HID_Commando_009_M_R_T02",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-M-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_023_sr_t02 = Item(
+  id: "HID_Commando_023_SR_T02",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_013_sr_t02 = Item(
+  id: "HID_Commando_013_SR_T02",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_024_sr_t05 = Item(
+  id: "HID_Commando_024_SR_T05",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_guntough_valentine_sr_t01 = Item(
+  id: "HID_Commando_GunTough_Valentine_SR_T01",
+  name: "Love Ranger Jonesy",
+  description: "Aim for the heart.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.Valentines.2018.CupidCommando"
+  ],
+);
+
+final _hid_commando_040_pirate_br_vr_t02 = Item(
+  id: "HID_Commando_040_Pirate_BR_VR_T02",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_f_v1_roadtrip_sr_t03 = Item(
+  id: "HID_Commando_011_F_V1_RoadTrip_SR_T03",
+  name: "Redline Ramirez",
+  description: "Revving beyond the limit.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-162-Athena-Commando-F-StreetRacer-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female.StreetRacer"
+  ],
+);
+
+final _hid_commando_040_pirate_br_vr_t04 = Item(
+  id: "HID_Commando_040_Pirate_BR_VR_T04",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_033_halloweenquestsoldier_sr_t03 = Item(
+  id: "HID_Commando_033_HalloweenQuestSoldier_SR_T03",
+  name: "Swamp Knight",
+  description: "\"Seen any vampires lately? You're welcome.\" - Swamp Knight",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-033-HalloweenQuestSoldier-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_r_t04 = Item(
+  id: "HID_Commando_011_R_T04",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_028_bunnybrawler_sr_t02 = Item(
+  id: "HID_Commando_028_BunnyBrawler_SR_T02",
+  name: "Bunny Brawler Luna",
+  description: "Hop into action.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-104-Athena-Commando-F-Bunny-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_034_toytinkerer_vr_t05 = Item(
+  id: "HID_Commando_034_ToyTinkerer_VR_T05",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_014_vr_t03 = Item(
+  id: "HID_Commando_014_VR_T03",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-014-VR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_007hw_rs01_sr_t01 = Item(
+  id: "HID_Commando_007HW_RS01_SR_T01",
+  name: "Brainiac Jonesy",
+  description: "Victory takes braaaains.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-254-Athena-Commando-M-Zombie-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_021_sr_t02 = Item(
+  id: "HID_Commando_021_SR_T02",
+  name: "Liteshow Spitfire",
+  description: "Light it up!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-126-Athena-Commando-M-AuroraGlow-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_rs01_sr_t04 = Item(
+  id: "HID_Commando_GunTough_RS01_SR_T04",
+  name: "Birthday Brigade Jonesy",
+  description: "Happy 2nd Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_myth02_sr_t05 = Item(
+  id: "HID_Commando_Myth02_SR_T05",
+  name: "Raven",
+  description: "Brooding master of dark skies.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-102-Athena-Commando-M-Raven-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raven",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Raven"
+  ],
+);
+
+final _hid_commando_011_f_v1_roadtrip_sr_t01 = Item(
+  id: "HID_Commando_011_F_V1_RoadTrip_SR_T01",
+  name: "Redline Ramirez",
+  description: "Revving beyond the limit.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-162-Athena-Commando-F-StreetRacer-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female.StreetRacer"
+  ],
+);
+
+final _hid_commando_guntough_sr_t04 = Item(
+  id: "HID_Commando_GunTough_SR_T04",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_025_sr_t05 = Item(
+  id: "HID_Commando_025_SR_T05",
+  name: "Crackshot",
+  description: "Get out there and... crack some nuts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_013_r_t02 = Item(
+  id: "HID_Commando_013_R_T02",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_gunheadshothw_sr_t03 = Item(
+  id: "HID_Commando_GunHeadshotHW_SR_T03",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_042_major_vr_t02 = Item(
+  id: "HID_Commando_042_Major_VR_T02",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_008_vr_t04 = Item(
+  id: "HID_Commando_008_VR_T04",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_027_piratesoldier_sr_t04 = Item(
+  id: "HID_Commando_027_PirateSoldier_SR_T04",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_sony_sr_t03 = Item(
+  id: "HID_Commando_Sony_SR_T03",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_022_sr_t05 = Item(
+  id: "HID_Commando_022_SR_T05",
+  name: "Archetype Havoc",
+  description: "Engineered for combat performance.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-182-Athena-Commando-M-ModernMilitary-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_015_m_v1_vr_t02 = Item(
+  id: "HID_Commando_015_M_V1_VR_T02",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_030_retroscifisoldier_vr_t04 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_VR_T04",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_f_4thjuly_sr_t04 = Item(
+  id: "HID_Commando_GunTough_F_4thJuly_SR_T04",
+  name: "Star-Spangled Headhunter",
+  description: "Make 'em see stars.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_014_wukong_sr_t02 = Item(
+  id: "HID_Commando_014_Wukong_SR_T02",
+  name: "Wukong",
+  description: "It's good to be king.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-014-Wukong-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando.Male.Wukong"
+  ],
+);
+
+final _hid_commando_032_halloweensoldier_sr_t03 = Item(
+  id: "HID_Commando_032_HalloweenSoldier_SR_T03",
+  name: "JONESEE-BOT",
+  description: "\"QUIET PLEASE. I AM FIGHTING.\" - JONESEE-BOT",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Soldier-Seebot-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_038_shock_wave_vr_t05 = Item(
+  id: "HID_Commando_038_Shock_Wave_VR_T05",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_041_pirate_02_br_sr_t05 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_SR_T05",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "legendary",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_014_m_sr_t03 = Item(
+  id: "HID_Commando_014_M_SR_T03",
+  name: "Berserker Renegade",
+  description: "\"They won't stop me.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_gunheadshot_vr_t01 = Item(
+  id: "HID_Commando_GunHeadshot_VR_T01",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshot-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_011_m_sr_t01 = Item(
+  id: "HID_Commando_011_M_SR_T01",
+  name: "Buckshot Raptor",
+  description: "\"Pumped and ready to go.\" - Raptor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_016_f_v1_vr_t03 = Item(
+  id: "HID_Commando_016_F_V1_VR_T03",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_009_r_t02 = Item(
+  id: "HID_Commando_009_R_T02",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_009_m_sr_t03 = Item(
+  id: "HID_Commando_009_M_SR_T03",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_034_toytinkerer_vr_t02 = Item(
+  id: "HID_Commando_034_ToyTinkerer_VR_T02",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_r_t01 = Item(
+  id: "HID_Commando_011_R_T01",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_035_caped_valentine_sr_t02 = Item(
+  id: "HID_Commando_035_Caped_Valentine_SR_T02",
+  name: "Dashing Hawk",
+  description: "\"Follow your heart... to Hawk.\" - Dashing Hawk",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-035-CapedValentine-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.CapedValentine"],
+);
+
+final _hid_commando_grenadegun_r_t04 = Item(
+  id: "HID_Commando_GrenadeGun_R_T04",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GrenadeGun-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_019_sr_t04 = Item(
+  id: "HID_Commando_019_SR_T04",
+  name: "Steel Wool Carlos",
+  description: "Number one with a bullet.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-131-Athena-Commando-M-WarPaint-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_gunheadshothw_vr_t05 = Item(
+  id: "HID_Commando_GunHeadshotHW_VR_T05",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_010_sr_t03 = Item(
+  id: "HID_Commando_010_SR_T03",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_gunheadshothw_vr_t04 = Item(
+  id: "HID_Commando_GunHeadshotHW_VR_T04",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_023_sr_t04 = Item(
+  id: "HID_Commando_023_SR_T04",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_015_m_v1_sr_t02 = Item(
+  id: "HID_Commando_015_M_V1_SR_T02",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_gunheadshot_sr_t03 = Item(
+  id: "HID_Commando_GunHeadshot_SR_T03",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshot-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_007_sr_t03 = Item(
+  id: "HID_Commando_007_SR_T03",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_033_halloweenquestsoldier_sr_t04 = Item(
+  id: "HID_Commando_033_HalloweenQuestSoldier_SR_T04",
+  name: "Swamp Knight",
+  description: "\"Seen any vampires lately? You're welcome.\" - Swamp Knight",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-033-HalloweenQuestSoldier-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_024_sr_t03 = Item(
+  id: "HID_Commando_024_SR_T03",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_023_sr_t05 = Item(
+  id: "HID_Commando_023_SR_T05",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_042_major_vr_t05 = Item(
+  id: "HID_Commando_042_Major_VR_T05",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_014_m_sr_t01 = Item(
+  id: "HID_Commando_014_M_SR_T01",
+  name: "Berserker Renegade",
+  description: "\"They won't stop me.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_015_m_v1_blockbuster_sr_t05 = Item(
+  id: "HID_Commando_015_M_V1_BlockBuster_SR_T05",
+  name: "Diecast Jonesy",
+  description: "The die has been cast.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-122-Athena-Commando-M-Metal-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.BulletStorm"
+  ],
+);
+
+final _hid_commando_013_stpatricks_f_v1_sr_t03 = Item(
+  id: "HID_Commando_013_StPatricks_F_V1_SR_T03",
+  name: "Four Leaf Wildcat",
+  description: "\"It's my lucky day.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-098-Athena-Commando-F-StPatty-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Shamrock.Commando.Female"
+  ],
+);
+
+final _hid_commando_grenadegun_vr_t02 = Item(
+  id: "HID_Commando_GrenadeGun_VR_T02",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GrenadeGun-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_myth02_sr_t02 = Item(
+  id: "HID_Commando_Myth02_SR_T02",
+  name: "Raven",
+  description: "Brooding master of dark skies.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-102-Athena-Commando-M-Raven-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raven",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Raven"
+  ],
+);
+
+final _hid_commando_033_halloweenquestsoldier_sr_t02 = Item(
+  id: "HID_Commando_033_HalloweenQuestSoldier_SR_T02",
+  name: "Swamp Knight",
+  description: "\"Seen any vampires lately? You're welcome.\" - Swamp Knight",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-033-HalloweenQuestSoldier-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_007hw_vr_t03 = Item(
+  id: "HID_Commando_007HW_VR_T03",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_gcgrenade_r_t03 = Item(
+  id: "HID_Commando_GCGrenade_R_T03",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GCGrenade-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_022_sr_t01 = Item(
+  id: "HID_Commando_022_SR_T01",
+  name: "Archetype Havoc",
+  description: "Engineered for combat performance.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-182-Athena-Commando-M-ModernMilitary-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_uc_t01 = Item(
+  id: "HID_Commando_GunTough_UC_T01",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-GunTough-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_024_vr_t01 = Item(
+  id: "HID_Commando_024_VR_T01",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "epic",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_030_retroscifisoldier_sr_t01 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_SR_T01",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_031_radsoldier_sr_t03 = Item(
+  id: "HID_Commando_031_RadSoldier_SR_T03",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_myth03_sr_t01 = Item(
+  id: "HID_Commando_Myth03_SR_T01",
+  name: "Carbide",
+  description: "Heed the call to action.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Cobalt",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Carbide"
+  ],
+);
+
+final _hid_commando_017_f_v1_vr_t03 = Item(
+  id: "HID_Commando_017_F_V1_VR_T03",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_gcgrenade_vr_t04 = Item(
+  id: "HID_Commando_GCGrenade_VR_T04",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GCGrenade-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_gcgrenade_sr_t01 = Item(
+  id: "HID_Commando_GCGrenade_SR_T01",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GCGrenade-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_gcgrenade_sr_t04 = Item(
+  id: "HID_Commando_GCGrenade_SR_T04",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GCGrenade-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_014_sr_t01 = Item(
+  id: "HID_Commando_014_SR_T01",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_guntough_r_t02 = Item(
+  id: "HID_Commando_GunTough_R_T02",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GunTough-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_sony_vr_t05 = Item(
+  id: "HID_Commando_Sony_VR_T05",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_013_sr_t04 = Item(
+  id: "HID_Commando_013_SR_T04",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_010_sr_t01 = Item(
+  id: "HID_Commando_010_SR_T01",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_009_m_vr_t05 = Item(
+  id: "HID_Commando_009_M_VR_T05",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_xbox_sr_t05 = Item(
+  id: "HID_Commando_XBOX_SR_T05",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_015_m_v1_sr_t05 = Item(
+  id: "HID_Commando_015_M_V1_SR_T05",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_grenadegun_sr_t05 = Item(
+  id: "HID_Commando_GrenadeGun_SR_T05",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GrenadeGun-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_040_pirate_br_sr_t05 = Item(
+  id: "HID_Commando_040_Pirate_BR_SR_T05",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_015_m_v1_vr_t01 = Item(
+  id: "HID_Commando_015_M_V1_VR_T01",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_041_pirate_02_br_sr_t04 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_SR_T04",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "legendary",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_030_retroscifisoldier_vr_t01 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_VR_T01",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_m_vr_t03 = Item(
+  id: "HID_Commando_009_M_VR_T03",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_009_vr_t02 = Item(
+  id: "HID_Commando_009_VR_T02",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_021_sr_t04 = Item(
+  id: "HID_Commando_021_SR_T04",
+  name: "Liteshow Spitfire",
+  description: "Light it up!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-126-Athena-Commando-M-AuroraGlow-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_rs01_sr_t05 = Item(
+  id: "HID_Commando_GunTough_RS01_SR_T05",
+  name: "Birthday Brigade Jonesy",
+  description: "Happy 2nd Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_stpatricks_f_v1_sr_t01 = Item(
+  id: "HID_Commando_013_StPatricks_F_V1_SR_T01",
+  name: "Four Leaf Wildcat",
+  description: "\"It's my lucky day.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-098-Athena-Commando-F-StPatty-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Shamrock.Commando.Female"
+  ],
+);
+
+final _hid_commando_grenadegun_uc_t02 = Item(
+  id: "HID_Commando_GrenadeGun_UC_T02",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-GrenadeGun-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_011_r_t03 = Item(
+  id: "HID_Commando_011_R_T03",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_015_m_v1_blockbuster_sr_t03 = Item(
+  id: "HID_Commando_015_M_V1_BlockBuster_SR_T03",
+  name: "Diecast Jonesy",
+  description: "The die has been cast.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-122-Athena-Commando-M-Metal-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.BulletStorm"
+  ],
+);
+
+final _hid_commando_gcgrenade_sr_t02 = Item(
+  id: "HID_Commando_GCGrenade_SR_T02",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GCGrenade-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_033_halloweenquestsoldier_sr_t01 = Item(
+  id: "HID_Commando_033_HalloweenQuestSoldier_SR_T01",
+  name: "Swamp Knight",
+  description: "\"Seen any vampires lately? You're welcome.\" - Swamp Knight",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-033-HalloweenQuestSoldier-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_m_easter_sr_t02 = Item(
+  id: "HID_Commando_011_M_Easter_SR_T02",
+  name: "Rabbit Raider Jonesy",
+  description: "These eggs don't have candy in them... or do they?",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Commando.Male"
+  ],
+);
+
+final _hid_commando_015_m_v1_sr_t03 = Item(
+  id: "HID_Commando_015_M_V1_SR_T03",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_gunheadshothw_sr_t02 = Item(
+  id: "HID_Commando_GunHeadshotHW_SR_T02",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_042_major_sr_t04 = Item(
+  id: "HID_Commando_042_Major_SR_T04",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_016_m_v1_sr_t04 = Item(
+  id: "HID_Commando_016_M_V1_SR_T04",
+  name: "Undercover Vaughn",
+  description: "Strike from within.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_011_m_sr_t04 = Item(
+  id: "HID_Commando_011_M_SR_T04",
+  name: "Buckshot Raptor",
+  description: "\"Pumped and ready to go.\" - Raptor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_008_sr_t04 = Item(
+  id: "HID_Commando_008_SR_T04",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_xbox_r_t01 = Item(
+  id: "HID_Commando_XBOX_R_T01",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_guntough_m_4thjuly_sr_t01 = Item(
+  id: "HID_Commando_GunTough_M_4thJuly_SR_T01",
+  name: "Stars and Stripes Jonesy",
+  description: "Salute your stripes.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-M-4thJuly-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_014_sr_t05 = Item(
+  id: "HID_Commando_014_SR_T05",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_024_vr_t02 = Item(
+  id: "HID_Commando_024_VR_T02",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "epic",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_011_sr_t05 = Item(
+  id: "HID_Commando_011_SR_T05",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_myth03_sr_t04 = Item(
+  id: "HID_Commando_Myth03_SR_T04",
+  name: "Carbide",
+  description: "Heed the call to action.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Cobalt",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Carbide"
+  ],
+);
+
+final _hid_commando_009_r_t01 = Item(
+  id: "HID_Commando_009_R_T01",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_007_r_t02 = Item(
+  id: "HID_Commando_007_R_T02",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_gunheadshot_starter_m_sr_t05 = Item(
+  id: "HID_Commando_GunHeadShot_Starter_M_SR_T05",
+  name: "Rogue Agent Jonesy",
+  description:
+      "Rifle-focused soldier who gets bonuses for successful headshots.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadShot-Starter-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.Starter.2018.Rogue.Commando.Male"
+  ],
+);
+
+final _hid_commando_xbox_sr_t02 = Item(
+  id: "HID_Commando_XBOX_SR_T02",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_xbox_vr_t05 = Item(
+  id: "HID_Commando_XBOX_VR_T05",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_040_pirate_br_vr_t03 = Item(
+  id: "HID_Commando_040_Pirate_BR_VR_T03",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_028_bunnybrawler_sr_t05 = Item(
+  id: "HID_Commando_028_BunnyBrawler_SR_T05",
+  name: "Bunny Brawler Luna",
+  description: "Hop into action.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-104-Athena-Commando-F-Bunny-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_017_f_v1_r_t01 = Item(
+  id: "HID_Commando_017_F_V1_R_T01",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_guntough_m_4thjuly_sr_t02 = Item(
+  id: "HID_Commando_GunTough_M_4thJuly_SR_T02",
+  name: "Stars and Stripes Jonesy",
+  description: "Salute your stripes.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-M-4thJuly-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_010_sr_t05 = Item(
+  id: "HID_Commando_010_SR_T05",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_025_sr_t04 = Item(
+  id: "HID_Commando_025_SR_T04",
+  name: "Crackshot",
+  description: "Get out there and... crack some nuts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_gunheadshothw_vr_t02 = Item(
+  id: "HID_Commando_GunHeadshotHW_VR_T02",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_011_sr_t02 = Item(
+  id: "HID_Commando_011_SR_T02",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_033_halloweenquestsoldier_sr_t05 = Item(
+  id: "HID_Commando_033_HalloweenQuestSoldier_SR_T05",
+  name: "Swamp Knight",
+  description: "\"Seen any vampires lately? You're welcome.\" - Swamp Knight",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-033-HalloweenQuestSoldier-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_grenadegun_sr_t04 = Item(
+  id: "HID_Commando_GrenadeGun_SR_T04",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GrenadeGun-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_029_dinosoldier_sr_t05 = Item(
+  id: "HID_Commando_029_DinoSoldier_SR_T05",
+  name: "Rex Jonesy",
+  description: "Hunting the competition to extinction.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-093-Athena-Commando-M-Dinosaur-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_016_f_v1_vr_t04 = Item(
+  id: "HID_Commando_016_F_V1_VR_T04",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_009_sr_t02 = Item(
+  id: "HID_Commando_009_SR_T02",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_018_sr_t05 = Item(
+  id: "HID_Commando_018_SR_T05",
+  name: "Quickdraw Calamity",
+  description: "Fastest draw in the west.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-018-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Drifter"],
+);
+
+final _hid_commando_guntough_rs01_sr_t01 = Item(
+  id: "HID_Commando_GunTough_RS01_SR_T01",
+  name: "Birthday Brigade Jonesy",
+  description: "Happy 2nd Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_shockdamage_sr_t03 = Item(
+  id: "HID_Commando_ShockDamage_SR_T03",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-ShockDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_023_sr_t01 = Item(
+  id: "HID_Commando_023_SR_T01",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_015_f_v1_blockbuster_sr_t02 = Item(
+  id: "HID_Commando_015_F_V1_BlockBuster_SR_T02",
+  name: "Chromium Ramirez",
+  description: "Solid to the core.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-015-F-V1-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_030_retroscifisoldier_sr_t05 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_SR_T05",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_f_v1_roadtrip_sr_t02 = Item(
+  id: "HID_Commando_011_F_V1_RoadTrip_SR_T02",
+  name: "Redline Ramirez",
+  description: "Revving beyond the limit.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-162-Athena-Commando-F-StreetRacer-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female.StreetRacer"
+  ],
+);
+
+final _hid_commando_019_sr_t03 = Item(
+  id: "HID_Commando_019_SR_T03",
+  name: "Steel Wool Carlos",
+  description: "Number one with a bullet.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-131-Athena-Commando-M-WarPaint-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_011_vr_t04 = Item(
+  id: "HID_Commando_011_VR_T04",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_guntough_sr_t03 = Item(
+  id: "HID_Commando_GunTough_SR_T03",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_031_radsoldier_sr_t04 = Item(
+  id: "HID_Commando_031_RadSoldier_SR_T04",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_010_bday_sr_t05 = Item(
+  id: "HID_Commando_010_Bday_SR_T05",
+  name: "Birthday Brigade Ramirez",
+  description: "Happy 1st Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-Bday-SR-T01-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Birthday.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.LeadStorm"
+  ],
+);
+
+final _hid_commando_gunheadshot_m_v1_roadtrip_sr_t05 = Item(
+  id: "HID_Commando_GunHeadshot_M_V1_RoadTrip_SR_T05",
+  name: "Tactical Assault Sledgehammer",
+  description: "\"Breach in 3, 2, 1...\" - Sledgehammer",
+  rarity: "legendary",
+  image: "T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Male.Tactical"
+  ],
+);
+
+final _hid_commando_shockdamage_sr_t02 = Item(
+  id: "HID_Commando_ShockDamage_SR_T02",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-ShockDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_038_shock_wave_vr_t03 = Item(
+  id: "HID_Commando_038_Shock_Wave_VR_T03",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_f_4thjuly_sr_t05 = Item(
+  id: "HID_Commando_GunTough_F_4thJuly_SR_T05",
+  name: "Star-Spangled Headhunter",
+  description: "Make 'em see stars.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_030_retroscifisoldier_vr_t02 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_VR_T02",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_010_vr_t05 = Item(
+  id: "HID_Commando_010_VR_T05",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_015_m_v1_vr_t04 = Item(
+  id: "HID_Commando_015_M_V1_VR_T04",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_gcgrenade_t_sr_t01 = Item(
+  id: "HID_Commando_GCGrenade_T_SR_T01",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_grenademaster_sr_t03 = Item(
+  id: "HID_Commando_GrenadeMaster_SR_T03",
+  name: "Master Grenadier Ramirez",
+  description: "\"Explosives are a girl's best friend.\" - Ramirez",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.MasterGrenadier"],
+);
+
+final _hid_commando_shockdamage_vr_t02 = Item(
+  id: "HID_Commando_ShockDamage_VR_T02",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-ShockDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_gcgrenade_t_vr_t03 = Item(
+  id: "HID_Commando_GCGrenade_T_VR_T03",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "epic",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_016_m_v1_sr_t05 = Item(
+  id: "HID_Commando_016_M_V1_SR_T05",
+  name: "Undercover Vaughn",
+  description: "Strike from within.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_007hw_vr_t05 = Item(
+  id: "HID_Commando_007HW_VR_T05",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_014_wukong_sr_t05 = Item(
+  id: "HID_Commando_014_Wukong_SR_T05",
+  name: "Wukong",
+  description: "It's good to be king.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-014-Wukong-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando.Male.Wukong"
+  ],
+);
+
+final _hid_commando_grenadegun_m_t_sr_t05 = Item(
+  id: "HID_Commando_GrenadeGun_M_T_SR_T05",
+  name: "Rescue Trooper Havoc",
+  description: "Striking fear into the opposition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-089-Athena-Commando-M-RetroGrey-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Infantryman",
+    "SpecialEvent.Twitch.2018.GunGrenadeCommando"
+  ],
+);
+
+final _hid_commando_041_pirate_02_br_vr_t03 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_VR_T03",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "epic",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_031_radsoldier_vr_t02 = Item(
+  id: "HID_Commando_031_RadSoldier_VR_T02",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "epic",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_038_shock_wave_sr_t02 = Item(
+  id: "HID_Commando_038_Shock_Wave_SR_T02",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_008_vr_t01 = Item(
+  id: "HID_Commando_008_VR_T01",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_007_sr_t02 = Item(
+  id: "HID_Commando_007_SR_T02",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_gcgrenade_vr_t05 = Item(
+  id: "HID_Commando_GCGrenade_VR_T05",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GCGrenade-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_010_bday_sr_t04 = Item(
+  id: "HID_Commando_010_Bday_SR_T04",
+  name: "Birthday Brigade Ramirez",
+  description: "Happy 1st Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-Bday-SR-T01-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Birthday.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.LeadStorm"
+  ],
+);
+
+final _hid_commando_016_f_v1_sr_t05 = Item(
+  id: "HID_Commando_016_F_V1_SR_T05",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_013_stpatricks_m_sr_t05 = Item(
+  id: "HID_Commando_013_StPatricks_M_SR_T05",
+  name: "Battle Hound Jonesy",
+  description: "Release the hound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-100-Athena-Commando-M-CuChulainn-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Male"
+  ],
+);
+
+final _hid_commando_017_f_v1_vr_t05 = Item(
+  id: "HID_Commando_017_F_V1_VR_T05",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_gcgrenade_r_t04 = Item(
+  id: "HID_Commando_GCGrenade_R_T04",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GCGrenade-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_017_f_v1_vr_t02 = Item(
+  id: "HID_Commando_017_F_V1_VR_T02",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_007_r_t04 = Item(
+  id: "HID_Commando_007_R_T04",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_guntough_sr_t05 = Item(
+  id: "HID_Commando_GunTough_SR_T05",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_grenadegun_vr_t03 = Item(
+  id: "HID_Commando_GrenadeGun_VR_T03",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GrenadeGun-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_gunheadshothw_vr_t01 = Item(
+  id: "HID_Commando_GunHeadshotHW_VR_T01",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_sony_r_t04 = Item(
+  id: "HID_Commando_Sony_R_T04",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_008_foundersm_sr_t01 = Item(
+  id: "HID_Commando_008_FoundersM_SR_T01",
+  name: "Special Forces Jonesy",
+  description: "\"Stop gawking and start shooting!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_009_r_t03 = Item(
+  id: "HID_Commando_009_R_T03",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_007_uc_t02 = Item(
+  id: "HID_Commando_007_UC_T02",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_grenademaster_sr_t05 = Item(
+  id: "HID_Commando_GrenadeMaster_SR_T05",
+  name: "Master Grenadier Ramirez",
+  description: "\"Explosives are a girl's best friend.\" - Ramirez",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.MasterGrenadier"],
+);
+
+final _hid_commando_039_pajama_party_vr_t01 = Item(
+  id: "HID_Commando_039_Pajama_Party_VR_T01",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_023_vr_t01 = Item(
+  id: "HID_Commando_023_VR_T01",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "epic",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_008_r_t04 = Item(
+  id: "HID_Commando_008_R_T04",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_017_f_v1_r_t03 = Item(
+  id: "HID_Commando_017_F_V1_R_T03",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_gunheadshot_vr_t04 = Item(
+  id: "HID_Commando_GunHeadshot_VR_T04",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshot-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_009_vr_t01 = Item(
+  id: "HID_Commando_009_VR_T01",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_030_retroscifisoldier_vr_t03 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_VR_T03",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_uc_t02 = Item(
+  id: "HID_Commando_GunTough_UC_T02",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-GunTough-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_015_f_v1_blockbuster_sr_t05 = Item(
+  id: "HID_Commando_015_F_V1_BlockBuster_SR_T05",
+  name: "Chromium Ramirez",
+  description: "Solid to the core.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-015-F-V1-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_016_f_v1_sr_t02 = Item(
+  id: "HID_Commando_016_F_V1_SR_T02",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_grenademaster_sr_t02 = Item(
+  id: "HID_Commando_GrenadeMaster_SR_T02",
+  name: "Master Grenadier Ramirez",
+  description: "\"Explosives are a girl's best friend.\" - Ramirez",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.MasterGrenadier"],
+);
+
+final _hid_commando_024_sr_t04 = Item(
+  id: "HID_Commando_024_SR_T04",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_038_shock_wave_vr_t02 = Item(
+  id: "HID_Commando_038_Shock_Wave_VR_T02",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_xbox_vr_t04 = Item(
+  id: "HID_Commando_XBOX_VR_T04",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_guntough_f_4thjuly_sr_t01 = Item(
+  id: "HID_Commando_GunTough_F_4thJuly_SR_T01",
+  name: "Star-Spangled Headhunter",
+  description: "Make 'em see stars.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_027_piratesoldier_vr_t02 = Item(
+  id: "HID_Commando_027_PirateSoldier_VR_T02",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_022_sr_t03 = Item(
+  id: "HID_Commando_022_SR_T03",
+  name: "Archetype Havoc",
+  description: "Engineered for combat performance.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-182-Athena-Commando-M-ModernMilitary-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gunheadshot_m_v1_roadtrip_sr_t04 = Item(
+  id: "HID_Commando_GunHeadshot_M_V1_RoadTrip_SR_T04",
+  name: "Tactical Assault Sledgehammer",
+  description: "\"Breach in 3, 2, 1...\" - Sledgehammer",
+  rarity: "legendary",
+  image: "T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Male.Tactical"
+  ],
+);
+
+final _hid_commando_015_m_v1_blockbuster_sr_t01 = Item(
+  id: "HID_Commando_015_M_V1_BlockBuster_SR_T01",
+  name: "Diecast Jonesy",
+  description: "The die has been cast.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-122-Athena-Commando-M-Metal-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.BulletStorm"
+  ],
+);
+
+final _hid_commando_045_chaos_agent_sr_t05 = Item(
+  id: "HID_Commando_045_Chaos_Agent_SR_T05",
+  name: "Chaos Agent",
+  description: "\"Sowing the seeds of chaos...\" -Chaos Agent",
+  rarity: "legendary",
+  image: "T-Soldier-HID-598-Athena-Commando-M-Mastermind-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_044_gumshoe_dark_vr_t04 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_VR_T04",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "epic",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gunheadshot_sr_t02 = Item(
+  id: "HID_Commando_GunHeadshot_SR_T02",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshot-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_007hw_vr_t01 = Item(
+  id: "HID_Commando_007HW_VR_T01",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_018_sr_t03 = Item(
+  id: "HID_Commando_018_SR_T03",
+  name: "Quickdraw Calamity",
+  description: "Fastest draw in the west.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-018-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Drifter"],
+);
+
+final _hid_commando_017_f_v1_sr_t05 = Item(
+  id: "HID_Commando_017_F_V1_SR_T05",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_gunheadshot_m_v1_roadtrip_sr_t02 = Item(
+  id: "HID_Commando_GunHeadshot_M_V1_RoadTrip_SR_T02",
+  name: "Tactical Assault Sledgehammer",
+  description: "\"Breach in 3, 2, 1...\" - Sledgehammer",
+  rarity: "legendary",
+  image: "T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Male.Tactical"
+  ],
+);
+
+final _hid_commando_sony_sr_t04 = Item(
+  id: "HID_Commando_Sony_SR_T04",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_gcgrenade_r_t02 = Item(
+  id: "HID_Commando_GCGrenade_R_T02",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GCGrenade-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_008_vr_t05 = Item(
+  id: "HID_Commando_008_VR_T05",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_019_sr_t05 = Item(
+  id: "HID_Commando_019_SR_T05",
+  name: "Steel Wool Carlos",
+  description: "Number one with a bullet.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-131-Athena-Commando-M-WarPaint-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_010_sr_t04 = Item(
+  id: "HID_Commando_010_SR_T04",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_guntough_valentine_sr_t05 = Item(
+  id: "HID_Commando_GunTough_Valentine_SR_T05",
+  name: "Love Ranger Jonesy",
+  description: "Aim for the heart.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.Valentines.2018.CupidCommando"
+  ],
+);
+
+final _hid_commando_gunheadshot_sr_t04 = Item(
+  id: "HID_Commando_GunHeadshot_SR_T04",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshot-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_021_sr_t03 = Item(
+  id: "HID_Commando_021_SR_T03",
+  name: "Liteshow Spitfire",
+  description: "Light it up!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-126-Athena-Commando-M-AuroraGlow-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gcgrenade_sr_t03 = Item(
+  id: "HID_Commando_GCGrenade_SR_T03",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GCGrenade-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_011_m_sr_t03 = Item(
+  id: "HID_Commando_011_M_SR_T03",
+  name: "Buckshot Raptor",
+  description: "\"Pumped and ready to go.\" - Raptor",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_xbox_sr_t01 = Item(
+  id: "HID_Commando_XBOX_SR_T01",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_shockdamage_r_t03 = Item(
+  id: "HID_Commando_ShockDamage_R_T03",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-ShockDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_009_sr_t03 = Item(
+  id: "HID_Commando_009_SR_T03",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_sony_sr_t01 = Item(
+  id: "HID_Commando_Sony_SR_T01",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_grenadegun_r_t02 = Item(
+  id: "HID_Commando_GrenadeGun_R_T02",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GrenadeGun-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_013_sr_t01 = Item(
+  id: "HID_Commando_013_SR_T01",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_014_vr_t01 = Item(
+  id: "HID_Commando_014_VR_T01",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-014-VR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_045_chaos_agent_sr_t02 = Item(
+  id: "HID_Commando_045_Chaos_Agent_SR_T02",
+  name: "Chaos Agent",
+  description: "\"Sowing the seeds of chaos...\" -Chaos Agent",
+  rarity: "legendary",
+  image: "T-Soldier-HID-598-Athena-Commando-M-Mastermind-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_039_pajama_party_sr_t03 = Item(
+  id: "HID_Commando_039_Pajama_Party_SR_T03",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_stpatricks_f_v1_sr_t05 = Item(
+  id: "HID_Commando_013_StPatricks_F_V1_SR_T05",
+  name: "Four Leaf Wildcat",
+  description: "\"It's my lucky day.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-098-Athena-Commando-F-StPatty-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Shamrock.Commando.Female"
+  ],
+);
+
+final _hid_commando_044_gumshoe_dark_vr_t03 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_VR_T03",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "epic",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_031_radsoldier_vr_t05 = Item(
+  id: "HID_Commando_031_RadSoldier_VR_T05",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "epic",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_008_foundersf_sr_t01 = Item(
+  id: "HID_Commando_008_FoundersF_SR_T01",
+  name: "Special Forces Ramirez",
+  description: "\"Husks, dead ahead!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_010_vr_t03 = Item(
+  id: "HID_Commando_010_VR_T03",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_grenadegun_m_t_sr_t02 = Item(
+  id: "HID_Commando_GrenadeGun_M_T_SR_T02",
+  name: "Rescue Trooper Havoc",
+  description: "Striking fear into the opposition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-089-Athena-Commando-M-RetroGrey-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Infantryman",
+    "SpecialEvent.Twitch.2018.GunGrenadeCommando"
+  ],
+);
+
+final _hid_commando_xbox_r_t02 = Item(
+  id: "HID_Commando_XBOX_R_T02",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_014_vr_t04 = Item(
+  id: "HID_Commando_014_VR_T04",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-014-VR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_016_f_v1_sr_t04 = Item(
+  id: "HID_Commando_016_F_V1_SR_T04",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_013_vr_t04 = Item(
+  id: "HID_Commando_013_VR_T04",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_grenadegun_sr_t03 = Item(
+  id: "HID_Commando_GrenadeGun_SR_T03",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GrenadeGun-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_042_major_sr_t01 = Item(
+  id: "HID_Commando_042_Major_SR_T01",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_gcgrenade_sr_t05 = Item(
+  id: "HID_Commando_GCGrenade_SR_T05",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GCGrenade-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_039_pajama_party_vr_t05 = Item(
+  id: "HID_Commando_039_Pajama_Party_VR_T05",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_024_vr_t03 = Item(
+  id: "HID_Commando_024_VR_T03",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "epic",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_grenadegun_m_t_sr_t04 = Item(
+  id: "HID_Commando_GrenadeGun_M_T_SR_T04",
+  name: "Rescue Trooper Havoc",
+  description: "Striking fear into the opposition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-089-Athena-Commando-M-RetroGrey-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Infantryman",
+    "SpecialEvent.Twitch.2018.GunGrenadeCommando"
+  ],
+);
+
+final _hid_commando_007_uc_t03 = Item(
+  id: "HID_Commando_007_UC_T03",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_013_stpatricks_m_sr_t02 = Item(
+  id: "HID_Commando_013_StPatricks_M_SR_T02",
+  name: "Battle Hound Jonesy",
+  description: "Release the hound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-100-Athena-Commando-M-CuChulainn-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Male"
+  ],
+);
+
+final _hid_commando_011_f_v1_roadtrip_sr_t04 = Item(
+  id: "HID_Commando_011_F_V1_RoadTrip_SR_T04",
+  name: "Redline Ramirez",
+  description: "Revving beyond the limit.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-162-Athena-Commando-F-StreetRacer-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female.StreetRacer"
+  ],
+);
+
+final _hid_commando_032_halloweensoldier_sr_t02 = Item(
+  id: "HID_Commando_032_HalloweenSoldier_SR_T02",
+  name: "JONESEE-BOT",
+  description: "\"QUIET PLEASE. I AM FIGHTING.\" - JONESEE-BOT",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Soldier-Seebot-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_040_pirate_br_vr_t05 = Item(
+  id: "HID_Commando_040_Pirate_BR_VR_T05",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_014_sr_t04 = Item(
+  id: "HID_Commando_014_SR_T04",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_myth03_sr_t02 = Item(
+  id: "HID_Commando_Myth03_SR_T02",
+  name: "Carbide",
+  description: "Heed the call to action.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Cobalt",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Carbide"
+  ],
+);
+
+final _hid_commando_gunheadshot_vr_t05 = Item(
+  id: "HID_Commando_GunHeadshot_VR_T05",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshot-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_017_f_v1_sr_t01 = Item(
+  id: "HID_Commando_017_F_V1_SR_T01",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_013_stpatricks_f_v1_sr_t04 = Item(
+  id: "HID_Commando_013_StPatricks_F_V1_SR_T04",
+  name: "Four Leaf Wildcat",
+  description: "\"It's my lucky day.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-098-Athena-Commando-F-StPatty-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Shamrock.Commando.Female"
+  ],
+);
+
+final _hid_commando_gcgrenade_t_sr_t05 = Item(
+  id: "HID_Commando_GCGrenade_T_SR_T05",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_013_stpatricks_f_v2_sr_t05 = Item(
+  id: "HID_Commando_013_StPatricks_F_V2_SR_T05",
+  name: "Highland Warrior Wildcat",
+  description: "\"I have the high ground.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-099-Athena-Commando-F-Scathach-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Female"
+  ],
+);
+
+final _hid_commando_029_dinosoldier_sr_t01 = Item(
+  id: "HID_Commando_029_DinoSoldier_SR_T01",
+  name: "Rex Jonesy",
+  description: "Hunting the competition to extinction.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-093-Athena-Commando-M-Dinosaur-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_shockdamage_sr_t05 = Item(
+  id: "HID_Commando_ShockDamage_SR_T05",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-ShockDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_040_pirate_br_sr_t04 = Item(
+  id: "HID_Commando_040_Pirate_BR_SR_T04",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gunheadshot_starter_m_sr_t03 = Item(
+  id: "HID_Commando_GunHeadShot_Starter_M_SR_T03",
+  name: "Rogue Agent Jonesy",
+  description:
+      "Rifle-focused soldier who gets bonuses for successful headshots.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadShot-Starter-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.Starter.2018.Rogue.Commando.Male"
+  ],
+);
+
+final _hid_commando_gunheadshot_m_v1_roadtrip_sr_t03 = Item(
+  id: "HID_Commando_GunHeadshot_M_V1_RoadTrip_SR_T03",
+  name: "Tactical Assault Sledgehammer",
+  description: "\"Breach in 3, 2, 1...\" - Sledgehammer",
+  rarity: "legendary",
+  image: "T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Male.Tactical"
+  ],
+);
+
+final _hid_commando_044_gumshoe_dark_sr_t03 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_SR_T03",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "legendary",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_044_gumshoe_dark_vr_t05 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_VR_T05",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "epic",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_sr_t05 = Item(
+  id: "HID_Commando_013_SR_T05",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_009_vr_t05 = Item(
+  id: "HID_Commando_009_VR_T05",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_007_sr_t05 = Item(
+  id: "HID_Commando_007_SR_T05",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_017_f_v1_vr_t01 = Item(
+  id: "HID_Commando_017_F_V1_VR_T01",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-017-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_027_piratesoldier_sr_t05 = Item(
+  id: "HID_Commando_027_PirateSoldier_SR_T05",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_m_4thjuly_sr_t05 = Item(
+  id: "HID_Commando_GunTough_M_4thJuly_SR_T05",
+  name: "Stars and Stripes Jonesy",
+  description: "Salute your stripes.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-M-4thJuly-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_035_caped_valentine_sr_t04 = Item(
+  id: "HID_Commando_035_Caped_Valentine_SR_T04",
+  name: "Dashing Hawk",
+  description: "\"Follow your heart... to Hawk.\" - Dashing Hawk",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-035-CapedValentine-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.CapedValentine"],
+);
+
+final _hid_commando_039_pajama_party_vr_t03 = Item(
+  id: "HID_Commando_039_Pajama_Party_VR_T03",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_042_major_sr_t05 = Item(
+  id: "HID_Commando_042_Major_SR_T05",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_011_vr_t02 = Item(
+  id: "HID_Commando_011_VR_T02",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_021_sr_t05 = Item(
+  id: "HID_Commando_021_SR_T05",
+  name: "Liteshow Spitfire",
+  description: "Light it up!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-126-Athena-Commando-M-AuroraGlow-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_xbox_sr_t03 = Item(
+  id: "HID_Commando_XBOX_SR_T03",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_008_sr_t02 = Item(
+  id: "HID_Commando_008_SR_T02",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_guntough_valentine_sr_t03 = Item(
+  id: "HID_Commando_GunTough_Valentine_SR_T03",
+  name: "Love Ranger Jonesy",
+  description: "Aim for the heart.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.Valentines.2018.CupidCommando"
+  ],
+);
+
+final _hid_commando_019_sr_t02 = Item(
+  id: "HID_Commando_019_SR_T02",
+  name: "Steel Wool Carlos",
+  description: "Number one with a bullet.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-131-Athena-Commando-M-WarPaint-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_028_bunnybrawler_sr_t04 = Item(
+  id: "HID_Commando_028_BunnyBrawler_SR_T04",
+  name: "Bunny Brawler Luna",
+  description: "Hop into action.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-104-Athena-Commando-F-Bunny-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_041_pirate_02_br_vr_t02 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_VR_T02",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "epic",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_035_caped_valentine_sr_t05 = Item(
+  id: "HID_Commando_035_Caped_Valentine_SR_T05",
+  name: "Dashing Hawk",
+  description: "\"Follow your heart... to Hawk.\" - Dashing Hawk",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-035-CapedValentine-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.CapedValentine"],
+);
+
+final _hid_commando_gcgrenade_vr_t03 = Item(
+  id: "HID_Commando_GCGrenade_VR_T03",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GCGrenade-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_009_m_vr_t02 = Item(
+  id: "HID_Commando_009_M_VR_T02",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_shockdamage_sr_t04 = Item(
+  id: "HID_Commando_ShockDamage_SR_T04",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-ShockDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_026_sr_t04 = Item(
+  id: "HID_Commando_026_SR_T04",
+  name: "Fallen Love Ranger Jonesy",
+  description: "Love hurts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-343-Athena-Commando-M-CupidDark-L",
+  gameplayTags: ["Class.IsCommando", "Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gunheadshot_m_v1_roadtrip_sr_t01 = Item(
+  id: "HID_Commando_GunHeadshot_M_V1_RoadTrip_SR_T01",
+  name: "Tactical Assault Sledgehammer",
+  description: "\"Breach in 3, 2, 1...\" - Sledgehammer",
+  rarity: "legendary",
+  image: "T-Soldier-HID-167-Athena-Commando-M-TacticalBadass-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Male.Tactical"
+  ],
+);
+
+final _hid_commando_011_m_easter_sr_t05 = Item(
+  id: "HID_Commando_011_M_Easter_SR_T05",
+  name: "Rabbit Raider Jonesy",
+  description: "These eggs don't have candy in them... or do they?",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-Easter-SR-T01-L",
+  gameplayTags: [
+    "SpecialEvent.Spring.Easter.2018.Bunny.Commando.Male",
+    "Homebase.Class.IsCommando.Raider"
+  ],
+);
+
+final _hid_commando_015_f_v1_blockbuster_sr_t01 = Item(
+  id: "HID_Commando_015_F_V1_BlockBuster_SR_T01",
+  name: "Chromium Ramirez",
+  description: "Solid to the core.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-015-F-V1-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_guntough_vr_t04 = Item(
+  id: "HID_Commando_GunTough_VR_T04",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunTough-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_016_f_v1_vr_t02 = Item(
+  id: "HID_Commando_016_F_V1_VR_T02",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_007_sr_t01 = Item(
+  id: "HID_Commando_007_SR_T01",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_044_gumshoe_dark_sr_t05 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_SR_T05",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "legendary",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_015_m_v1_sr_t01 = Item(
+  id: "HID_Commando_015_M_V1_SR_T01",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_024_sr_t01 = Item(
+  id: "HID_Commando_024_SR_T01",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.LeadStorm",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_042_major_sr_t02 = Item(
+  id: "HID_Commando_042_Major_SR_T02",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_009_m_r_t04 = Item(
+  id: "HID_Commando_009_M_R_T04",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-M-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_034_toytinkerer_sr_t04 = Item(
+  id: "HID_Commando_034_ToyTinkerer_SR_T04",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_014_vr_t02 = Item(
+  id: "HID_Commando_014_VR_T02",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-014-VR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_008_sr_t03 = Item(
+  id: "HID_Commando_008_SR_T03",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_024_sr_t02 = Item(
+  id: "HID_Commando_024_SR_T02",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_guntough_r_t01 = Item(
+  id: "HID_Commando_GunTough_R_T01",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GunTough-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_gcgrenade_vr_t01 = Item(
+  id: "HID_Commando_GCGrenade_VR_T01",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GCGrenade-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_044_gumshoe_dark_sr_t02 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_SR_T02",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "legendary",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_sr_t01 = Item(
+  id: "HID_Commando_009_SR_T01",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_044_gumshoe_dark_vr_t01 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_VR_T01",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "epic",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_017_f_v1_r_t02 = Item(
+  id: "HID_Commando_017_F_V1_R_T02",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_grenadegun_m_t_sr_t03 = Item(
+  id: "HID_Commando_GrenadeGun_M_T_SR_T03",
+  name: "Rescue Trooper Havoc",
+  description: "Striking fear into the opposition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-089-Athena-Commando-M-RetroGrey-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Infantryman",
+    "SpecialEvent.Twitch.2018.GunGrenadeCommando"
+  ],
+);
+
+final _hid_commando_030_retroscifisoldier_sr_t03 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_SR_T03",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_vr_t05 = Item(
+  id: "HID_Commando_013_VR_T05",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_009_vr_t04 = Item(
+  id: "HID_Commando_009_VR_T04",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_015_f_v1_blockbuster_sr_t03 = Item(
+  id: "HID_Commando_015_F_V1_BlockBuster_SR_T03",
+  name: "Chromium Ramirez",
+  description: "Solid to the core.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-015-F-V1-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_gcgrenade_t_vr_t05 = Item(
+  id: "HID_Commando_GCGrenade_T_VR_T05",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "epic",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_014_wukong_sr_t04 = Item(
+  id: "HID_Commando_014_Wukong_SR_T04",
+  name: "Wukong",
+  description: "It's good to be king.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-014-Wukong-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando.Male.Wukong"
+  ],
+);
+
+final _hid_commando_022_sr_t02 = Item(
+  id: "HID_Commando_022_SR_T02",
+  name: "Archetype Havoc",
+  description: "Engineered for combat performance.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-182-Athena-Commando-M-ModernMilitary-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_vr_t03 = Item(
+  id: "HID_Commando_011_VR_T03",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_gunheadshot_starter_m_sr_t01 = Item(
+  id: "HID_Commando_GunHeadShot_Starter_M_SR_T01",
+  name: "Rogue Agent Jonesy",
+  description:
+      "Rifle-focused soldier who gets bonuses for successful headshots.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadShot-Starter-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.Starter.2018.Rogue.Commando.Male"
+  ],
+);
+
+final _hid_commando_007_r_t03 = Item(
+  id: "HID_Commando_007_R_T03",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_035_caped_valentine_sr_t03 = Item(
+  id: "HID_Commando_035_Caped_Valentine_SR_T03",
+  name: "Dashing Hawk",
+  description: "\"Follow your heart... to Hawk.\" - Dashing Hawk",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-035-CapedValentine-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.CapedValentine"],
+);
+
+final _hid_commando_myth02_sr_t04 = Item(
+  id: "HID_Commando_Myth02_SR_T04",
+  name: "Raven",
+  description: "Brooding master of dark skies.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-102-Athena-Commando-M-Raven-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raven",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Raven"
+  ],
+);
+
+final _hid_commando_gcgrenade_t_sr_t04 = Item(
+  id: "HID_Commando_GCGrenade_T_SR_T04",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_011_vr_t01 = Item(
+  id: "HID_Commando_011_VR_T01",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_shockdamage_sr_t01 = Item(
+  id: "HID_Commando_ShockDamage_SR_T01",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-ShockDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_027_piratesoldier_sr_t01 = Item(
+  id: "HID_Commando_027_PirateSoldier_SR_T01",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_029_dinosoldier_sr_t03 = Item(
+  id: "HID_Commando_029_DinoSoldier_SR_T03",
+  name: "Rex Jonesy",
+  description: "Hunting the competition to extinction.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-093-Athena-Commando-M-Dinosaur-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_007hw_sr_t04 = Item(
+  id: "HID_Commando_007HW_SR_T04",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_guntough_vr_t03 = Item(
+  id: "HID_Commando_GunTough_VR_T03",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunTough-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_shockdamage_r_t01 = Item(
+  id: "HID_Commando_ShockDamage_R_T01",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-ShockDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_040_pirate_br_sr_t01 = Item(
+  id: "HID_Commando_040_Pirate_BR_SR_T01",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_028_bunnybrawler_sr_t03 = Item(
+  id: "HID_Commando_028_BunnyBrawler_SR_T03",
+  name: "Bunny Brawler Luna",
+  description: "Hop into action.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-104-Athena-Commando-F-Bunny-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_sony_r_t02 = Item(
+  id: "HID_Commando_Sony_R_T02",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_007_sr_t04 = Item(
+  id: "HID_Commando_007_SR_T04",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_011_uc_t03 = Item(
+  id: "HID_Commando_011_UC_T03",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-011-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_014_vr_t05 = Item(
+  id: "HID_Commando_014_VR_T05",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-014-VR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_042_major_vr_t01 = Item(
+  id: "HID_Commando_042_Major_VR_T01",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_grenadegun_vr_t04 = Item(
+  id: "HID_Commando_GrenadeGun_VR_T04",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GrenadeGun-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_gunheadshot_sr_t01 = Item(
+  id: "HID_Commando_GunHeadshot_SR_T01",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshot-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_guntough_r_t03 = Item(
+  id: "HID_Commando_GunTough_R_T03",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GunTough-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_023_vr_t05 = Item(
+  id: "HID_Commando_023_VR_T05",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "epic",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_008_r_t01 = Item(
+  id: "HID_Commando_008_R_T01",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_027_piratesoldier_vr_t03 = Item(
+  id: "HID_Commando_027_PirateSoldier_VR_T03",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_sr_t05 = Item(
+  id: "HID_Commando_009_SR_T05",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_026_sr_t05 = Item(
+  id: "HID_Commando_026_SR_T05",
+  name: "Fallen Love Ranger Jonesy",
+  description: "Love hurts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-343-Athena-Commando-M-CupidDark-L",
+  gameplayTags: ["Class.IsCommando", "Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_m_easter_sr_t03 = Item(
+  id: "HID_Commando_011_M_Easter_SR_T03",
+  name: "Rabbit Raider Jonesy",
+  description: "These eggs don't have candy in them... or do they?",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Commando.Male"
+  ],
+);
+
+final _hid_commando_xbox_vr_t02 = Item(
+  id: "HID_Commando_XBOX_VR_T02",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_011_r_t02 = Item(
+  id: "HID_Commando_011_R_T02",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-011-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_007hw_rs01_sr_t03 = Item(
+  id: "HID_Commando_007HW_RS01_SR_T03",
+  name: "Brainiac Jonesy",
+  description: "Victory takes braaaains.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-254-Athena-Commando-M-Zombie-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_039_pajama_party_vr_t02 = Item(
+  id: "HID_Commando_039_Pajama_Party_VR_T02",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_f_4thjuly_sr_t02 = Item(
+  id: "HID_Commando_GunTough_F_4thJuly_SR_T02",
+  name: "Star-Spangled Headhunter",
+  description: "Make 'em see stars.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-F-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_sony_r_t01 = Item(
+  id: "HID_Commando_Sony_R_T01",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_038_shock_wave_sr_t05 = Item(
+  id: "HID_Commando_038_Shock_Wave_SR_T05",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_038_shock_wave_vr_t04 = Item(
+  id: "HID_Commando_038_Shock_Wave_VR_T04",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_017_f_v1_r_t04 = Item(
+  id: "HID_Commando_017_F_V1_R_T04",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-017-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_018_sr_t02 = Item(
+  id: "HID_Commando_018_SR_T02",
+  name: "Quickdraw Calamity",
+  description: "Fastest draw in the west.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-018-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Drifter"],
+);
+
+final _hid_commando_sony_vr_t04 = Item(
+  id: "HID_Commando_Sony_VR_T04",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_008_vr_t03 = Item(
+  id: "HID_Commando_008_VR_T03",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_024_vr_t05 = Item(
+  id: "HID_Commando_024_VR_T05",
+  name: "Sgt. Winter",
+  description: "You don't want to be on his list.",
+  rarity: "epic",
+  image: "T-Soldier-HID-279-Athena-Commando-M-TacticalSanta-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_010_bday_sr_t01 = Item(
+  id: "HID_Commando_010_Bday_SR_T01",
+  name: "Birthday Brigade Ramirez",
+  description: "Happy 1st Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-Bday-SR-T01-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Birthday.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.LeadStorm"
+  ],
+);
+
+final _hid_commando_041_pirate_02_br_vr_t04 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_VR_T04",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "epic",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_008_r_t02 = Item(
+  id: "HID_Commando_008_R_T02",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_shockdamage_vr_t03 = Item(
+  id: "HID_Commando_ShockDamage_VR_T03",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-ShockDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_gunheadshothw_sr_t05 = Item(
+  id: "HID_Commando_GunHeadshotHW_SR_T05",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_grenademaster_sr_t01 = Item(
+  id: "HID_Commando_GrenadeMaster_SR_T01",
+  name: "Master Grenadier Ramirez",
+  description: "\"Explosives are a girl's best friend.\" - Ramirez",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.MasterGrenadier"],
+);
+
+final _hid_commando_014_wukong_sr_t01 = Item(
+  id: "HID_Commando_014_Wukong_SR_T01",
+  name: "Wukong",
+  description: "It's good to be king.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-014-Wukong-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando.Male.Wukong"
+  ],
+);
+
+final _hid_commando_shockdamage_r_t02 = Item(
+  id: "HID_Commando_ShockDamage_R_T02",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-ShockDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_gunheadshothw_vr_t03 = Item(
+  id: "HID_Commando_GunHeadshotHW_VR_T03",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_007hw_rs01_sr_t02 = Item(
+  id: "HID_Commando_007HW_RS01_SR_T02",
+  name: "Brainiac Jonesy",
+  description: "Victory takes braaaains.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-254-Athena-Commando-M-Zombie-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_016_m_v1_sr_t02 = Item(
+  id: "HID_Commando_016_M_V1_SR_T02",
+  name: "Undercover Vaughn",
+  description: "Strike from within.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_013_vr_t02 = Item(
+  id: "HID_Commando_013_VR_T02",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_027_piratesoldier_sr_t03 = Item(
+  id: "HID_Commando_027_PirateSoldier_SR_T03",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_grenadegun_vr_t05 = Item(
+  id: "HID_Commando_GrenadeGun_VR_T05",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GrenadeGun-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_032_halloweensoldier_sr_t05 = Item(
+  id: "HID_Commando_032_HalloweenSoldier_SR_T05",
+  name: "JONESEE-BOT",
+  description: "\"QUIET PLEASE. I AM FIGHTING.\" - JONESEE-BOT",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Soldier-Seebot-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_sr_t04 = Item(
+  id: "HID_Commando_009_SR_T04",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_007_vr_t02 = Item(
+  id: "HID_Commando_007_VR_T02",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_034_toytinkerer_sr_t01 = Item(
+  id: "HID_Commando_034_ToyTinkerer_SR_T01",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_019_sr_t01 = Item(
+  id: "HID_Commando_019_SR_T01",
+  name: "Steel Wool Carlos",
+  description: "Number one with a bullet.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-131-Athena-Commando-M-WarPaint-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_040_pirate_br_vr_t01 = Item(
+  id: "HID_Commando_040_Pirate_BR_VR_T01",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_026_sr_t01 = Item(
+  id: "HID_Commando_026_SR_T01",
+  name: "Fallen Love Ranger Jonesy",
+  description: "Love hurts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-343-Athena-Commando-M-CupidDark-L",
+  gameplayTags: ["Class.IsCommando", "Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_031_radsoldier_vr_t04 = Item(
+  id: "HID_Commando_031_RadSoldier_VR_T04",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "epic",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_011_m_easter_sr_t01 = Item(
+  id: "HID_Commando_011_M_Easter_SR_T01",
+  name: "Rabbit Raider Jonesy",
+  description: "These eggs don't have candy in them... or do they?",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-M-Easter-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raider",
+    "SpecialEvent.Spring.Easter.2018.Bunny.Commando.Male"
+  ],
+);
+
+final _hid_commando_gunheadshot_vr_t02 = Item(
+  id: "HID_Commando_GunHeadshot_VR_T02",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GunHeadshot-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_010_bday_sr_t03 = Item(
+  id: "HID_Commando_010_Bday_SR_T03",
+  name: "Birthday Brigade Ramirez",
+  description: "Happy 1st Birthday!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-Bday-SR-T01-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Birthday.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.LeadStorm"
+  ],
+);
+
+final _hid_commando_guntough_m_4thjuly_sr_t03 = Item(
+  id: "HID_Commando_GunTough_M_4thJuly_SR_T03",
+  name: "Stars and Stripes Jonesy",
+  description: "Salute your stripes.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-M-4thJuly-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.2018.4thJuly.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_007hw_rs01_sr_t04 = Item(
+  id: "HID_Commando_007HW_RS01_SR_T04",
+  name: "Brainiac Jonesy",
+  description: "Victory takes braaaains.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-254-Athena-Commando-M-Zombie-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_042_major_vr_t04 = Item(
+  id: "HID_Commando_042_Major_VR_T04",
+  name: "Major Oswald",
+  description: "\"You need a MAJOR attitude adjustment.\" - Major Oswald",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-042-Major",
+  gameplayTags: [
+    "Homebase.Class.IsCommando",
+    "Cosmetics.FrontEndPose.DontCrossArms"
+  ],
+);
+
+final _hid_commando_013_stpatricks_f_v2_sr_t01 = Item(
+  id: "HID_Commando_013_StPatricks_F_V2_SR_T01",
+  name: "Highland Warrior Wildcat",
+  description: "\"I have the high ground.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-099-Athena-Commando-F-Scathach-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Female"
+  ],
+);
+
+final _hid_commando_007_vr_t03 = Item(
+  id: "HID_Commando_007_VR_T03",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_030_retroscifisoldier_vr_t05 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_VR_T05",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_029_dinosoldier_sr_t04 = Item(
+  id: "HID_Commando_029_DinoSoldier_SR_T04",
+  name: "Rex Jonesy",
+  description: "Hunting the competition to extinction.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-093-Athena-Commando-M-Dinosaur-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_010_sr_t02 = Item(
+  id: "HID_Commando_010_SR_T02",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_040_pirate_br_sr_t02 = Item(
+  id: "HID_Commando_040_Pirate_BR_SR_T02",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_m_sr_t01 = Item(
+  id: "HID_Commando_009_M_SR_T01",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_gcgrenade_t_sr_t02 = Item(
+  id: "HID_Commando_GCGrenade_T_SR_T02",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_013_r_t04 = Item(
+  id: "HID_Commando_013_R_T04",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_026_sr_t03 = Item(
+  id: "HID_Commando_026_SR_T03",
+  name: "Fallen Love Ranger Jonesy",
+  description: "Love hurts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-343-Athena-Commando-M-CupidDark-L",
+  gameplayTags: ["Class.IsCommando", "Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_015_m_v1_blockbuster_sr_t04 = Item(
+  id: "HID_Commando_015_M_V1_BlockBuster_SR_T04",
+  name: "Diecast Jonesy",
+  description: "The die has been cast.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-122-Athena-Commando-M-Metal-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.BulletStorm"
+  ],
+);
+
+final _hid_commando_027_piratesoldier_vr_t01 = Item(
+  id: "HID_Commando_027_PirateSoldier_VR_T01",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_vr_t03 = Item(
+  id: "HID_Commando_009_VR_T03",
+  name: "Colonel Wildcat",
+  description: "Ready to lead the way!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_shockdamage_vr_t05 = Item(
+  id: "HID_Commando_ShockDamage_VR_T05",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-ShockDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_guntough_valentine_sr_t04 = Item(
+  id: "HID_Commando_GunTough_Valentine_SR_T04",
+  name: "Love Ranger Jonesy",
+  description: "Aim for the heart.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Valentine-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Survivalist",
+    "SpecialEvent.Valentines.2018.CupidCommando"
+  ],
+);
+
+final _hid_commando_gunheadshothw_sr_t04 = Item(
+  id: "HID_Commando_GunHeadshotHW_SR_T04",
+  name: "Skull Trooper Jonesy",
+  description: "Calcium fortified for maximum combat effectiveness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshotHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_013_r_t01 = Item(
+  id: "HID_Commando_013_R_T01",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-013-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_guntough_sr_t01 = Item(
+  id: "HID_Commando_GunTough_SR_T01",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_008_sr_t05 = Item(
+  id: "HID_Commando_008_SR_T05",
+  name: "Special Forces Banshee",
+  description: "\"Husks? I hate husks!\" - Banshee",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_008_foundersf_sr_t04 = Item(
+  id: "HID_Commando_008_FoundersF_SR_T04",
+  name: "Special Forces Ramirez",
+  description: "\"Husks, dead ahead!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_xbox_vr_t01 = Item(
+  id: "HID_Commando_XBOX_VR_T01",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_013_stpatricks_f_v2_sr_t04 = Item(
+  id: "HID_Commando_013_StPatricks_F_V2_SR_T04",
+  name: "Highland Warrior Wildcat",
+  description: "\"I have the high ground.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-099-Athena-Commando-F-Scathach-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Female"
+  ],
+);
+
+final _hid_commando_014_m_sr_t05 = Item(
+  id: "HID_Commando_014_M_SR_T05",
+  name: "Berserker Renegade",
+  description: "\"They won't stop me.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_007_uc_t01 = Item(
+  id: "HID_Commando_007_UC_T01",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_014_sr_t03 = Item(
+  id: "HID_Commando_014_SR_T03",
+  name: "Onslaught Headhunter",
+  description: "\"I'll take them all out.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_023_vr_t02 = Item(
+  id: "HID_Commando_023_VR_T02",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "epic",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_017_f_v1_sr_t03 = Item(
+  id: "HID_Commando_017_F_V1_SR_T03",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_038_shock_wave_sr_t03 = Item(
+  id: "HID_Commando_038_Shock_Wave_SR_T03",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_013_stpatricks_f_v1_sr_t02 = Item(
+  id: "HID_Commando_013_StPatricks_F_V1_SR_T02",
+  name: "Four Leaf Wildcat",
+  description: "\"It's my lucky day.\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-098-Athena-Commando-F-StPatty-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Shamrock.Commando.Female"
+  ],
+);
+
+final _hid_commando_gunheadshot_starter_m_sr_t02 = Item(
+  id: "HID_Commando_GunHeadShot_Starter_M_SR_T02",
+  name: "Rogue Agent Jonesy",
+  description:
+      "Rifle-focused soldier who gets bonuses for successful headshots.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadShot-Starter-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Headshot",
+    "SpecialEvent.Starter.2018.Rogue.Commando.Male"
+  ],
+);
+
+final _hid_commando_014_m_sr_t02 = Item(
+  id: "HID_Commando_014_M_SR_T02",
+  name: "Berserker Renegade",
+  description: "\"They won't stop me.\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-014-M-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Reckless",
+    "SpecialEvent.Spring.Lunar.Heroes.Commando"
+  ],
+);
+
+final _hid_commando_028_bunnybrawler_sr_t01 = Item(
+  id: "HID_Commando_028_BunnyBrawler_SR_T01",
+  name: "Bunny Brawler Luna",
+  description: "Hop into action.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-104-Athena-Commando-F-Bunny-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_shockdamage_r_t04 = Item(
+  id: "HID_Commando_ShockDamage_R_T04",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-ShockDamage-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_myth02_sr_t01 = Item(
+  id: "HID_Commando_Myth02_SR_T01",
+  name: "Raven",
+  description: "Brooding master of dark skies.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-102-Athena-Commando-M-Raven-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Raven",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Raven"
+  ],
+);
+
+final _hid_commando_sony_vr_t03 = Item(
+  id: "HID_Commando_Sony_VR_T03",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_007hw_sr_t03 = Item(
+  id: "HID_Commando_007HW_SR_T03",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_gcgrenade_t_sr_t03 = Item(
+  id: "HID_Commando_GCGrenade_T_SR_T03",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_008_foundersm_sr_t02 = Item(
+  id: "HID_Commando_008_FoundersM_SR_T02",
+  name: "Special Forces Jonesy",
+  description: "\"Stop gawking and start shooting!\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Gunner"],
+);
+
+final _hid_commando_gunheadshot_sr_t05 = Item(
+  id: "HID_Commando_GunHeadshot_SR_T05",
+  name: "Urban Assault Headhunter",
+  description: "\"Aim for the head.\" - Headhunter",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunHeadshot-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Headshot"],
+);
+
+final _hid_commando_011_sr_t01 = Item(
+  id: "HID_Commando_011_SR_T01",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_034_toytinkerer_vr_t01 = Item(
+  id: "HID_Commando_034_ToyTinkerer_VR_T01",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_034_toytinkerer_vr_t04 = Item(
+  id: "HID_Commando_034_ToyTinkerer_VR_T04",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_m_sr_t05 = Item(
+  id: "HID_Commando_009_M_SR_T05",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_shockdamage_vr_t01 = Item(
+  id: "HID_Commando_ShockDamage_VR_T01",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-ShockDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_022_sr_t04 = Item(
+  id: "HID_Commando_022_SR_T04",
+  name: "Archetype Havoc",
+  description: "Engineered for combat performance.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-182-Athena-Commando-M-ModernMilitary-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_grenadegun_r_t03 = Item(
+  id: "HID_Commando_GrenadeGun_R_T03",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GrenadeGun-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_023_sr_t03 = Item(
+  id: "HID_Commando_023_SR_T03",
+  name: "Jolly Headhunter",
+  description: "Spreading the holiday cheer... with bullets.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-316-Athena-Commando-F-WinterHoliday-L",
+  gameplayTags: ["Homebase.Class.IsCommando.DoubleTrouble"],
+);
+
+final _hid_commando_010_vr_t01 = Item(
+  id: "HID_Commando_010_VR_T01",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_025_sr_t03 = Item(
+  id: "HID_Commando_025_SR_T03",
+  name: "Crackshot",
+  description: "Get out there and... crack some nuts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_016_m_v1_sr_t03 = Item(
+  id: "HID_Commando_016_M_V1_SR_T03",
+  name: "Undercover Vaughn",
+  description: "Strike from within.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_045_chaos_agent_sr_t03 = Item(
+  id: "HID_Commando_045_Chaos_Agent_SR_T03",
+  name: "Chaos Agent",
+  description: "\"Sowing the seeds of chaos...\" -Chaos Agent",
+  rarity: "legendary",
+  image: "T-Soldier-HID-598-Athena-Commando-M-Mastermind-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gcgrenade_t_vr_t02 = Item(
+  id: "HID_Commando_GCGrenade_T_VR_T02",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "epic",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_gcgrenade_t_vr_t01 = Item(
+  id: "HID_Commando_GCGrenade_T_VR_T01",
+  name: "Sub Commando Jonesy",
+  description: "Show 'em how it's done.",
+  rarity: "epic",
+  image: "T-Soldier-HID-085-Athena-Commando-M-Twitch-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Commando",
+    "SpecialEvent.Twitch.2018.GCGrenadeCommando"
+  ],
+);
+
+final _hid_commando_015_m_v1_vr_t03 = Item(
+  id: "HID_Commando_015_M_V1_VR_T03",
+  name: "Bullet Storm Jonesy",
+  description: "\"The forecast calls...for bullets!\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-042-Athena-Commando-M-Cyberpunk-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Commando.Male"
+  ],
+);
+
+final _hid_commando_025_sr_t01 = Item(
+  id: "HID_Commando_025_SR_T01",
+  name: "Crackshot",
+  description: "Get out there and... crack some nuts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_010_vr_t02 = Item(
+  id: "HID_Commando_010_VR_T02",
+  name: "Sergeant Jonesy",
+  description: "\"Left... left... left, right, left.\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.LeadStorm"],
+);
+
+final _hid_commando_013_vr_t03 = Item(
+  id: "HID_Commando_013_VR_T03",
+  name: "Demolisher Jonesy",
+  description: "\"What's better than one explosion?\" - Jonesy",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Demolisher"],
+);
+
+final _hid_commando_shockdamage_vr_t04 = Item(
+  id: "HID_Commando_ShockDamage_VR_T04",
+  name: "Shock Trooper Renegade",
+  description: "\"Renegades don't provide flavor text.\" - Renegade",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-ShockDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.ShockTrooper"],
+);
+
+final _hid_commando_018_sr_t04 = Item(
+  id: "HID_Commando_018_SR_T04",
+  name: "Quickdraw Calamity",
+  description: "Fastest draw in the west.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-018-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Drifter"],
+);
+
+final _hid_commando_007_vr_t05 = Item(
+  id: "HID_Commando_007_VR_T05",
+  name: "Support Specialist Hawk",
+  description: "Support inbound!",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_commando_039_pajama_party_sr_t02 = Item(
+  id: "HID_Commando_039_Pajama_Party_SR_T02",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_guntough_sr_t02 = Item(
+  id: "HID_Commando_GunTough_SR_T02",
+  name: "Survivalist Jonesy",
+  description: "\"We'll make it through this.\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-GunTough-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Survivalist"],
+);
+
+final _hid_commando_034_toytinkerer_sr_t03 = Item(
+  id: "HID_Commando_034_ToyTinkerer_SR_T03",
+  name: "Ted",
+  description: "\"I love toying with the enemy.\" - Ted",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-034-ToyTinkerer-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_016_f_v1_sr_t01 = Item(
+  id: "HID_Commando_016_F_V1_SR_T01",
+  name: "Double Agent Evelynn",
+  description: "You didn't see a thing.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female",
+    "Homebase.Class.IsCommando.DoubleTrouble"
+  ],
+);
+
+final _hid_commando_030_retroscifisoldier_sr_t02 = Item(
+  id: "HID_Commando_030_RetroSciFiSoldier_SR_T02",
+  name: "Extraterrestrial Rio",
+  description: "\"This makeup comes off... right?\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-030-RetroSciFiSoldier-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_025_sr_t02 = Item(
+  id: "HID_Commando_025_SR_T02",
+  name: "Crackshot",
+  description: "Get out there and... crack some nuts.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-050-Athena-Commando-M-HolidayNutcracker-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_041_pirate_02_br_sr_t01 = Item(
+  id: "HID_Commando_041_Pirate_02_BR_SR_T01",
+  name: "Sea Wolf Jonesy",
+  description: "\"I'm on the hunt for treasure--and husks.\" - Sea Wolf Jonesy",
+  rarity: "legendary",
+  image: "T-Variant-M-Pirate-01-V2",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_031_radsoldier_sr_t05 = Item(
+  id: "HID_Commando_031_RadSoldier_SR_T05",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_039_pajama_party_sr_t05 = Item(
+  id: "HID_Commando_039_Pajama_Party_SR_T05",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_015_f_v1_blockbuster_sr_t04 = Item(
+  id: "HID_Commando_015_F_V1_BlockBuster_SR_T04",
+  name: "Chromium Ramirez",
+  description: "Solid to the core.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-015-F-V1-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.BulletStorm",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_044_gumshoe_dark_sr_t01 = Item(
+  id: "HID_Commando_044_Gumshoe_Dark_SR_T01",
+  name: "Noir",
+  description: "\"It was a dark and stormy night. My favorite.\" - Noir",
+  rarity: "legendary",
+  image: "T-Soldier-HID-159-Athena-Commando-M-GumshoeDark-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_038_shock_wave_sr_t04 = Item(
+  id: "HID_Commando_038_Shock_Wave_SR_T04",
+  name: "Powerhouse",
+  description: "\"This may come as a shock to you.\" - Powerhouse",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-038-Shock-Wave-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_grenadegun_vr_t01 = Item(
+  id: "HID_Commando_GrenadeGun_VR_T01",
+  name: "Rescue Trooper Ramirez",
+  description: "\"Evac incoming.\" - Ramirez",
+  rarity: "epic",
+  image: "T-Soldier-HID-Commando-GrenadeGun-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Infantryman"],
+);
+
+final _hid_commando_myth03_sr_t05 = Item(
+  id: "HID_Commando_Myth03_SR_T05",
+  name: "Carbide",
+  description: "Heed the call to action.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-115-Athena-Commando-M-CarbideBlue-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Cobalt",
+    "SpecialEvent.2018.Blockbuster.Heroes.Commando.Male.Carbide"
+  ],
+);
+
+final _hid_commando_009_m_sr_t02 = Item(
+  id: "HID_Commando_009_M_SR_T02",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-009-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_040_pirate_br_sr_t03 = Item(
+  id: "HID_Commando_040_Pirate_BR_SR_T03",
+  name: "Buccaneer Ramirez",
+  description: "\"Let's swab the deck with these husks.\" - Buccaneer Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-372-Athena-Commando-F-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_xbox_sr_t04 = Item(
+  id: "HID_Commando_XBOX_SR_T04",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_013_stpatricks_m_sr_t03 = Item(
+  id: "HID_Commando_013_StPatricks_M_SR_T03",
+  name: "Battle Hound Jonesy",
+  description: "Release the hound!",
+  rarity: "legendary",
+  image: "T-Soldier-HID-100-Athena-Commando-M-CuChulainn-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.Demolisher",
+    "SpecialEvent.StPatricks.2018.Warrior.Commando.Male"
+  ],
+);
+
+final _hid_commando_018_sr_t01 = Item(
+  id: "HID_Commando_018_SR_T01",
+  name: "Quickdraw Calamity",
+  description: "Fastest draw in the west.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-018-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Drifter"],
+);
+
+final _hid_commando_027_piratesoldier_sr_t02 = Item(
+  id: "HID_Commando_027_PirateSoldier_SR_T02",
+  name: "Buccaneer Jonesy",
+  description:
+      "\"I don't know Sarah, are you sure this is a good look for me?\" - Jonesy",
+  rarity: "legendary",
+  image: "T-Soldier-HID-373-Athena-Commando-M-Pirate01-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_gcgrenade_r_t01 = Item(
+  id: "HID_Commando_GCGrenade_R_T01",
+  name: "Commando Spitfire",
+  description: "When only the best will do.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-GCGrenade-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_011_uc_t02 = Item(
+  id: "HID_Commando_011_UC_T02",
+  name: "Shrapnel Headhunter",
+  description: "One woman's trash is another woman's improvised ammunition.",
+  rarity: "common",
+  image: "T-Soldier-HID-Commando-011-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Raider"],
+);
+
+final _hid_commando_xbox_r_t04 = Item(
+  id: "HID_Commando_XBOX_R_T04",
+  name: "Commando Renegade",
+  description:
+      "\"Real Commandos wear green. It's always been this way!\" - Renegade",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_031_radsoldier_sr_t01 = Item(
+  id: "HID_Commando_031_RadSoldier_SR_T01",
+  name: "Breakbeat Wildcat",
+  description: "\"One, two. One, two, three, four!\" - Wildcat",
+  rarity: "legendary",
+  image: "T-Soldier-HID-205-Athena-Commando-F-GarageBand-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_017_f_v1_sr_t02 = Item(
+  id: "HID_Commando_017_F_V1_SR_T02",
+  name: "First Shot Rio",
+  description: "\"But, I only need one!\" - Rio",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-017-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsCommando.OneShot",
+    "SpecialEvent.2018.RoadTrip.Heroes.Commando.Female"
+  ],
+);
+
+final _hid_commando_sony_sr_t02 = Item(
+  id: "HID_Commando_Sony_SR_T02",
+  name: "Commando Ramirez",
+  description: "\"Real Commandos wear blue. Everyone knows this\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.Commando"],
+);
+
+final _hid_commando_039_pajama_party_sr_t04 = Item(
+  id: "HID_Commando_039_Pajama_Party_SR_T04",
+  name: "Tricera Ops Ramirez",
+  description: "\"Rrrrooooar!\" - Tricera Ops Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-107-Athena-Commando-F-PajamaParty-L",
+  gameplayTags: ["Homebase.Class.IsCommando"],
+);
+
+final _hid_commando_009_m_r_t01 = Item(
+  id: "HID_Commando_009_M_R_T01",
+  name: "Centurion Hawk",
+  description: "\"Follow my lead.\" - Hawk.",
+  rarity: "rare",
+  image: "T-Soldier-HID-Commando-009-M-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.SupportSoldier"],
+);
+
+final _hid_commando_grenademaster_sr_t04 = Item(
+  id: "HID_Commando_GrenadeMaster_SR_T04",
+  name: "Master Grenadier Ramirez",
+  description: "\"Explosives are a girl's best friend.\" - Ramirez",
+  rarity: "mythic",
+  image: "T-Soldier-HID-Commando-GrenadeMaster-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.MasterGrenadier"],
+);
+
+final _hid_commando_007hw_sr_t05 = Item(
+  id: "HID_Commando_007HW_SR_T05",
+  name: "Ghoul Trooper Ramirez",
+  description: "\"For the last time, I am not a husk!\" - Ramirez",
+  rarity: "legendary",
+  image: "T-Soldier-HID-Commando-007HW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsCommando.StaffSergeant"],
+);
+
+final _hid_outlander_punchdamage_sr_t05 = Item(
+  id: "HID_Outlander_PunchDamage_SR_T05",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_025_pirateoutlander_vr_t01 = Item(
+  id: "HID_Outlander_025_PirateOutlander_VR_T01",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_vr_t05 = Item(
+  id: "HID_Outlander_014_VR_T05",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_013_sr_t05 = Item(
+  id: "HID_Outlander_013_SR_T05",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_vr_t03 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_VR_T03",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_034_period_fleming_sr_t05 = Item(
+  id: "HID_Outlander_034_Period_Fleming_SR_T05",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_sony_vr_t04 = Item(
+  id: "HID_Outlander_Sony_VR_T04",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistol_sr_t03 = Item(
+  id: "HID_Outlander_ZonePistol_SR_T03",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistol-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_010_m_vr_t02 = Item(
+  id: "HID_Outlander_010_M_VR_T02",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_sr_t02 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_SR_T02",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_vr_t02 = Item(
+  id: "HID_Outlander_014_VR_T02",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_038_clip_sr_t04 = Item(
+  id: "HID_Outlander_038_Clip_SR_T04",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zonefragment_sr_t03 = Item(
+  id: "HID_Outlander_ZoneFragment_SR_T03",
+  name: "Phase Scout Jess",
+  description: "\"I'll scout ahead.\" - Jess",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-ZoneFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.ZoneMaster"],
+);
+
+final _hid_outlander_zoneharvest_vr_t03 = Item(
+  id: "HID_Outlander_ZoneHarvest_VR_T03",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_013_stpatricks_sr_t02 = Item(
+  id: "HID_Outlander_013_StPatricks_SR_T02",
+  name: "Staredown Southie",
+  description: "\"Man green looks good on me.\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-StPatricks-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Reclaimer",
+    "SpecialEvent.StPatricks.2018.Shamrock.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_011_sr_t05 = Item(
+  id: "HID_Outlander_011_SR_T05",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_038_clip_vr_t05 = Item(
+  id: "HID_Outlander_038_Clip_VR_T05",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_m_sr_t04 = Item(
+  id: "HID_Outlander_014_M_SR_T04",
+  name: "Flash A.C.",
+  description: "\"Eat your heart out, Edison.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_008_foundersm_sr_t01 = Item(
+  id: "HID_Outlander_008_FoundersM_SR_T01",
+  name: "Recon Scout A.C.",
+  description: "\"I'll get there ASAP - that Fragment's mine!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_013_vr_t04 = Item(
+  id: "HID_Outlander_013_VR_T04",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_sony_vr_t02 = Item(
+  id: "HID_Outlander_Sony_VR_T02",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zoneharvest_blockbuster_sr_t04 = Item(
+  id: "HID_Outlander_ZoneHarvest_BlockBuster_SR_T04",
+  name: "Archaeolo-Jess",
+  description: "Suit up, dig down, dust off.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female.Explorer"
+  ],
+);
+
+final _hid_outlander_034_period_fleming_sr_t03 = Item(
+  id: "HID_Outlander_034_Period_Fleming_SR_T03",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_sr_t02 = Item(
+  id: "HID_Outlander_010_SR_T02",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_014_vr_t04 = Item(
+  id: "HID_Outlander_014_VR_T04",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_punchphase_r_t03 = Item(
+  id: "HID_Outlander_PunchPhase_R_T03",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-PunchPhase-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_010_m_vr_t03 = Item(
+  id: "HID_Outlander_010_M_VR_T03",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_008_vr_t05 = Item(
+  id: "HID_Outlander_008_VR_T05",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_013_stpatricks_sr_t03 = Item(
+  id: "HID_Outlander_013_StPatricks_SR_T03",
+  name: "Staredown Southie",
+  description: "\"Man green looks good on me.\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-StPatricks-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Reclaimer",
+    "SpecialEvent.StPatricks.2018.Shamrock.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_020_sr_t05 = Item(
+  id: "HID_Outlander_020_SR_T05",
+  name: "Valkyrie Rio",
+  description: "A chilling revelation.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-222-Athena-Commando-F-DarkViking-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchphase_uc_t01 = Item(
+  id: "HID_Outlander_PunchPhase_UC_T01",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-PunchPhase-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_016_f_v1_sr_t04 = Item(
+  id: "HID_Outlander_016_F_V1_SR_T04",
+  name: "Ambush Buzz",
+  description: "Strike hard, strike fast.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_007_vr_t05 = Item(
+  id: "HID_Outlander_007_VR_T05",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_sony_r_t02 = Item(
+  id: "HID_Outlander_Sony_R_T02",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistolhw_sr_t03 = Item(
+  id: "HID_Outlander_ZonePistolHW_SR_T03",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_040_assemblek_sr_t04 = Item(
+  id: "HID_Outlander_040_AssembleK_SR_T04",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_016_f_v1_sr_t01 = Item(
+  id: "HID_Outlander_016_F_V1_SR_T01",
+  name: "Ambush Buzz",
+  description: "Strike hard, strike fast.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_007_rs01_sr_t02 = Item(
+  id: "HID_Outlander_007_RS01_SR_T02",
+  name: "Jingle Jess",
+  description: "Nobody is too cool for Christmas, not even Jess.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_sr_t04 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_SR_T04",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_015_f_v1_sr_t02 = Item(
+  id: "HID_Outlander_015_F_V1_SR_T02",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_034_period_fleming_vr_t03 = Item(
+  id: "HID_Outlander_034_Period_Fleming_VR_T03",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_008_r_t03 = Item(
+  id: "HID_Outlander_008_R_T03",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_040_assemblek_vr_t04 = Item(
+  id: "HID_Outlander_040_AssembleK_VR_T04",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_rs01_sr_t01 = Item(
+  id: "HID_Outlander_007_RS01_SR_T01",
+  name: "Jingle Jess",
+  description: "Nobody is too cool for Christmas, not even Jess.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_034_period_fleming_vr_t02 = Item(
+  id: "HID_Outlander_034_Period_Fleming_VR_T02",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchphase_vr_t01 = Item(
+  id: "HID_Outlander_PunchPhase_VR_T01",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchPhase-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_010_m_4thjuly_sr_t03 = Item(
+  id: "HID_Outlander_010_M_4thJuly_SR_T03",
+  name: "Old Glory A.C.",
+  description: "These stars aren't just for show.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Lockdown",
+    "SpecialEvent.2018.4thJuly.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_017_m_v1_vr_t03 = Item(
+  id: "HID_Outlander_017_M_V1_VR_T03",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_zoneharvest_r_t03 = Item(
+  id: "HID_Outlander_ZoneHarvest_R_T03",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_zoneharvest_r_t01 = Item(
+  id: "HID_Outlander_ZoneHarvest_R_T01",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_zoneharvest_sr_t04 = Item(
+  id: "HID_Outlander_ZoneHarvest_SR_T04",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_017_m_v1_sr_t04 = Item(
+  id: "HID_Outlander_017_M_V1_SR_T04",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_011_vr_t05 = Item(
+  id: "HID_Outlander_011_VR_T05",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-011-VR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Shocking",
+    "Homebase.Class.IsOutlander.Gunblazer"
+  ],
+);
+
+final _hid_outlander_sony_r_t03 = Item(
+  id: "HID_Outlander_Sony_R_T03",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_009_vr_t03 = Item(
+  id: "HID_Outlander_009_VR_T03",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_007_sr_t01 = Item(
+  id: "HID_Outlander_007_SR_T01",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_sony_vr_t03 = Item(
+  id: "HID_Outlander_Sony_VR_T03",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_038_clip_vr_t01 = Item(
+  id: "HID_Outlander_038_Clip_VR_T01",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_021_sr_t04 = Item(
+  id: "HID_Outlander_021_SR_T04",
+  name: "Ventura Ramirez",
+  description: "Destined for greatness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-133-Athena-Commando-F-Deco-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_vr_t01 = Item(
+  id: "HID_Outlander_010_VR_T01",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_039_female_gumshoe_vr_t03 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_VR_T03",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "epic",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_sr_t01 = Item(
+  id: "HID_Outlander_SphereFragment_SR_T01",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-SphereFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_031_halloweenoutlander_sr_t03 = Item(
+  id: "HID_Outlander_031_HalloweenOutlander_SR_T03",
+  name: "Willow",
+  description: "\"I want your soul... and your candy!\" - Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-031-HalloweenOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_023_sr_t04 = Item(
+  id: "HID_Outlander_023_SR_T04",
+  name: "The Ice Queen",
+  description: "Long live the queen.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-330-Athena-Commando-F-IceQueen-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_026_bunnyoutlander_sr_t05 = Item(
+  id: "HID_Outlander_026_BunnyOutlander_SR_T05",
+  name: "Cottontail Eagle Eye",
+  description: "Bounce into battle.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-026-BunnyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_016_m_v1_sr_t02 = Item(
+  id: "HID_Outlander_016_M_V1_SR_T02",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_013_sr_t04 = Item(
+  id: "HID_Outlander_013_SR_T04",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_010_sr_t05 = Item(
+  id: "HID_Outlander_010_SR_T05",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_024_sr_t04 = Item(
+  id: "HID_Outlander_024_SR_T04",
+  name: "Steel Wool Anthony",
+  description: "Dropping sick beats and husk beatdowns.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_sony_sr_t01 = Item(
+  id: "HID_Outlander_Sony_SR_T01",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_034_period_fleming_vr_t05 = Item(
+  id: "HID_Outlander_034_Period_Fleming_VR_T05",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_036_dino_outlander_sr_t01 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_SR_T01",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_015_f_v1_vr_t04 = Item(
+  id: "HID_Outlander_015_F_V1_VR_T04",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_030_radoutlander_vr_t03 = Item(
+  id: "HID_Outlander_030_RadOutlander_VR_T03",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_sr_t02 = Item(
+  id: "HID_Outlander_007_SR_T02",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_013_stpatricks_sr_t05 = Item(
+  id: "HID_Outlander_013_StPatricks_SR_T05",
+  name: "Staredown Southie",
+  description: "\"Man green looks good on me.\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-StPatricks-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Reclaimer",
+    "SpecialEvent.StPatricks.2018.Shamrock.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_023_sr_t03 = Item(
+  id: "HID_Outlander_023_SR_T03",
+  name: "The Ice Queen",
+  description: "Long live the queen.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-330-Athena-Commando-F-IceQueen-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_025_pirateoutlander_sr_t03 = Item(
+  id: "HID_Outlander_025_PirateOutlander_SR_T03",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_032_toyoutlander_sr_t02 = Item(
+  id: "HID_Outlander_032_ToyOutlander_SR_T02",
+  name: "Jilly Teacup",
+  description: "\"It's time to tea party!\" - Jilly Teacup",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-032-ToyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_017_m_v1_vr_t01 = Item(
+  id: "HID_Outlander_017_M_V1_VR_T01",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_011_sr_t02 = Item(
+  id: "HID_Outlander_011_SR_T02",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_016_m_v1_vr_t03 = Item(
+  id: "HID_Outlander_016_M_V1_VR_T03",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_vr_t02 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_VR_T02",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_009_sr_t01 = Item(
+  id: "HID_Outlander_009_SR_T01",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_038_clip_sr_t02 = Item(
+  id: "HID_Outlander_038_Clip_SR_T02",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_sr_t05 = Item(
+  id: "HID_Outlander_SphereFragment_SR_T05",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-SphereFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_017_m_v1_vr_t02 = Item(
+  id: "HID_Outlander_017_M_V1_VR_T02",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_031_halloweenoutlander_sr_t01 = Item(
+  id: "HID_Outlander_031_HalloweenOutlander_SR_T01",
+  name: "Willow",
+  description: "\"I want your soul... and your candy!\" - Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-031-HalloweenOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_032_toyoutlander_sr_t04 = Item(
+  id: "HID_Outlander_032_ToyOutlander_SR_T04",
+  name: "Jilly Teacup",
+  description: "\"It's time to tea party!\" - Jilly Teacup",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-032-ToyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_021_sr_t05 = Item(
+  id: "HID_Outlander_021_SR_T05",
+  name: "Ventura Ramirez",
+  description: "Destined for greatness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-133-Athena-Commando-F-Deco-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_016_m_v1_sr_t04 = Item(
+  id: "HID_Outlander_016_M_V1_SR_T04",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_009_r_t02 = Item(
+  id: "HID_Outlander_009_R_T02",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_040_assemblek_vr_t02 = Item(
+  id: "HID_Outlander_040_AssembleK_VR_T02",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchphase_vr_t05 = Item(
+  id: "HID_Outlander_PunchPhase_VR_T05",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchPhase-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_sr_t03 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_SR_T03",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_040_assemblek_sr_t02 = Item(
+  id: "HID_Outlander_040_AssembleK_SR_T02",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_rs01_sr_t04 = Item(
+  id: "HID_Outlander_007_RS01_SR_T04",
+  name: "Jingle Jess",
+  description: "Nobody is too cool for Christmas, not even Jess.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_022_sr_t02 = Item(
+  id: "HID_Outlander_022_SR_T02",
+  name: "Subzero Zenith",
+  description: "Peak performance at any elevation.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-022-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.TEDDShot"],
+);
+
+final _hid_outlander_039_female_gumshoe_vr_t04 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_VR_T04",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "epic",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchdamage_vr_t03 = Item(
+  id: "HID_Outlander_PunchDamage_VR_T03",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_029_retroscifioutlander_vr_t02 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_VR_T02",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_m_4thjuly_sr_t02 = Item(
+  id: "HID_Outlander_010_M_4thJuly_SR_T02",
+  name: "Old Glory A.C.",
+  description: "These stars aren't just for show.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Lockdown",
+    "SpecialEvent.2018.4thJuly.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_015_f_v1_sr_t01 = Item(
+  id: "HID_Outlander_015_F_V1_SR_T01",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_008_r_t01 = Item(
+  id: "HID_Outlander_008_R_T01",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_007_uc_t02 = Item(
+  id: "HID_Outlander_007_UC_T02",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_zonepistolhw_vr_t04 = Item(
+  id: "HID_Outlander_ZonePistolHW_VR_T04",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_008_sr_t04 = Item(
+  id: "HID_Outlander_008_SR_T04",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_032_toyoutlander_sr_t03 = Item(
+  id: "HID_Outlander_032_ToyOutlander_SR_T03",
+  name: "Jilly Teacup",
+  description: "\"It's time to tea party!\" - Jilly Teacup",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-032-ToyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_020_sr_t04 = Item(
+  id: "HID_Outlander_020_SR_T04",
+  name: "Valkyrie Rio",
+  description: "A chilling revelation.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-222-Athena-Commando-F-DarkViking-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_xbox_r_t03 = Item(
+  id: "HID_Outlander_XBOX_R_T03",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_031_halloweenoutlander_sr_t02 = Item(
+  id: "HID_Outlander_031_HalloweenOutlander_SR_T02",
+  name: "Willow",
+  description: "\"I want your soul... and your candy!\" - Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-031-HalloweenOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_sr_t01 = Item(
+  id: "HID_Outlander_014_SR_T01",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_010_m_4thjuly_sr_t04 = Item(
+  id: "HID_Outlander_010_M_4thJuly_SR_T04",
+  name: "Old Glory A.C.",
+  description: "These stars aren't just for show.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Lockdown",
+    "SpecialEvent.2018.4thJuly.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_zoneharvest_sr_t02 = Item(
+  id: "HID_Outlander_ZoneHarvest_SR_T02",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_xbox_sr_t03 = Item(
+  id: "HID_Outlander_XBOX_SR_T03",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_008_foundersf_sr_t04 = Item(
+  id: "HID_Outlander_008_FoundersF_SR_T04",
+  name: "Recon Scout Jess",
+  description: "\"Status report! Check in, Recon Scouts!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_vr_t04 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_VR_T04",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zonepistolhw_sr_t01 = Item(
+  id: "HID_Outlander_ZonePistolHW_SR_T01",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_040_assemblek_sr_t05 = Item(
+  id: "HID_Outlander_040_AssembleK_SR_T05",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchdamage_vr_t02 = Item(
+  id: "HID_Outlander_PunchDamage_VR_T02",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_009_vr_t04 = Item(
+  id: "HID_Outlander_009_VR_T04",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_031_halloweenoutlander_sr_t04 = Item(
+  id: "HID_Outlander_031_HalloweenOutlander_SR_T04",
+  name: "Willow",
+  description: "\"I want your soul... and your candy!\" - Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-031-HalloweenOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zonepistol_vr_t02 = Item(
+  id: "HID_Outlander_ZonePistol_VR_T02",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistol-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_036_dino_outlander_sr_t05 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_SR_T05",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_xbox_sr_t05 = Item(
+  id: "HID_Outlander_XBOX_SR_T05",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_010_vr_t05 = Item(
+  id: "HID_Outlander_010_VR_T05",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_015_f_v1_r_t04 = Item(
+  id: "HID_Outlander_015_F_V1_R_T04",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_zonepistolhw_vr_t02 = Item(
+  id: "HID_Outlander_ZonePistolHW_VR_T02",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_033_kurohomura_sr_t03 = Item(
+  id: "HID_Outlander_033_Kurohomura_SR_T03",
+  name: "Kurohomura",
+  description: "No husk is safe from his Seismic Smash.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-544-Athena-Commando-M-Kurohomura",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_029_retroscifioutlander_vr_t04 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_VR_T04",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchphase_vr_t04 = Item(
+  id: "HID_Outlander_PunchPhase_VR_T04",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchPhase-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_030_radoutlander_sr_t03 = Item(
+  id: "HID_Outlander_030_RadOutlander_SR_T03",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_sr_t05 = Item(
+  id: "HID_Outlander_007_SR_T05",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_zonefragment_sr_t02 = Item(
+  id: "HID_Outlander_ZoneFragment_SR_T02",
+  name: "Phase Scout Jess",
+  description: "\"I'll scout ahead.\" - Jess",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-ZoneFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.ZoneMaster"],
+);
+
+final _hid_outlander_xbox_sr_t04 = Item(
+  id: "HID_Outlander_XBOX_SR_T04",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_sony_vr_t05 = Item(
+  id: "HID_Outlander_Sony_VR_T05",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_myth02_sr_t03 = Item(
+  id: "HID_Outlander_Myth02_SR_T03",
+  name: "Ragnarok",
+  description: "The cold harbinger of fate.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-Myth02-SR-T05-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Oulander.Male.DarkViking",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.DarkViking"
+  ],
+);
+
+final _hid_outlander_016_m_v1_sr_t05 = Item(
+  id: "HID_Outlander_016_M_V1_SR_T05",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_007_sr_t04 = Item(
+  id: "HID_Outlander_007_SR_T04",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_zoneharvest_blockbuster_sr_t02 = Item(
+  id: "HID_Outlander_ZoneHarvest_BlockBuster_SR_T02",
+  name: "Archaeolo-Jess",
+  description: "Suit up, dig down, dust off.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female.Explorer"
+  ],
+);
+
+final _hid_outlander_010_m_vr_t01 = Item(
+  id: "HID_Outlander_010_M_VR_T01",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_zonepistol_r_t02 = Item(
+  id: "HID_Outlander_ZonePistol_R_T02",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZonePistol-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_008_r_t02 = Item(
+  id: "HID_Outlander_008_R_T02",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_vr_t02 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_VR_T02",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_032_toyoutlander_sr_t01 = Item(
+  id: "HID_Outlander_032_ToyOutlander_SR_T01",
+  name: "Jilly Teacup",
+  description: "\"It's time to tea party!\" - Jilly Teacup",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-032-ToyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_sr_t04 = Item(
+  id: "HID_Outlander_SphereFragment_SR_T04",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-SphereFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_015_f_v1_sr_t04 = Item(
+  id: "HID_Outlander_015_F_V1_SR_T04",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_029_retroscifioutlander_sr_t02 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_SR_T02",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_008_foundersf_sr_t01 = Item(
+  id: "HID_Outlander_008_FoundersF_SR_T01",
+  name: "Recon Scout Jess",
+  description: "\"Status report! Check in, Recon Scouts!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_029_retroscifioutlander_vr_t05 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_VR_T05",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_032_toyoutlander_sr_t05 = Item(
+  id: "HID_Outlander_032_ToyOutlander_SR_T05",
+  name: "Jilly Teacup",
+  description: "\"It's time to tea party!\" - Jilly Teacup",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-032-ToyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_036_dino_outlander_vr_t04 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_VR_T04",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_013_sr_t02 = Item(
+  id: "HID_Outlander_013_SR_T02",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_xbox_r_t02 = Item(
+  id: "HID_Outlander_XBOX_R_T02",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_sony_sr_t05 = Item(
+  id: "HID_Outlander_Sony_SR_T05",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistol_r_t01 = Item(
+  id: "HID_Outlander_ZonePistol_R_T01",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZonePistol-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_025_pirateoutlander_sr_t04 = Item(
+  id: "HID_Outlander_025_PirateOutlander_SR_T04",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_008_vr_t02 = Item(
+  id: "HID_Outlander_008_VR_T02",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_008_foundersf_sr_t05 = Item(
+  id: "HID_Outlander_008_FoundersF_SR_T05",
+  name: "Recon Scout Jess",
+  description: "\"Status report! Check in, Recon Scouts!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_009_sr_t05 = Item(
+  id: "HID_Outlander_009_SR_T05",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_033_kurohomura_sr_t05 = Item(
+  id: "HID_Outlander_033_Kurohomura_SR_T05",
+  name: "Kurohomura",
+  description: "No husk is safe from his Seismic Smash.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-544-Athena-Commando-M-Kurohomura",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_022_sr_t05 = Item(
+  id: "HID_Outlander_022_SR_T05",
+  name: "Subzero Zenith",
+  description: "Peak performance at any elevation.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-022-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.TEDDShot"],
+);
+
+final _hid_outlander_011_vr_t03 = Item(
+  id: "HID_Outlander_011_VR_T03",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_myth03_sr_t01 = Item(
+  id: "HID_Outlander_Myth03_SR_T01",
+  name: "Field Agent Rio",
+  description: "Promoted from desk jockey to field agent.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-173-Athena-Commando-F-StarfishUniform-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Female.Uniform",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.Uniform"
+  ],
+);
+
+final _hid_outlander_008_foundersm_sr_t05 = Item(
+  id: "HID_Outlander_008_FoundersM_SR_T05",
+  name: "Recon Scout A.C.",
+  description: "\"I'll get there ASAP - that Fragment's mine!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_xbox_sr_t02 = Item(
+  id: "HID_Outlander_XBOX_SR_T02",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_029_retroscifioutlander_vr_t01 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_VR_T01",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_vr_t02 = Item(
+  id: "HID_Outlander_SphereFragment_VR_T02",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-SphereFragment-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_016_f_v1_sr_t02 = Item(
+  id: "HID_Outlander_016_F_V1_SR_T02",
+  name: "Ambush Buzz",
+  description: "Strike hard, strike fast.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_018_sr_t04 = Item(
+  id: "HID_Outlander_018_SR_T04",
+  name: "Sanguine Dusk",
+  description: "Creatures of the night pack a dangerous bite.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-227-Athena-Commando-F-Vampire-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Vamp"],
+);
+
+final _hid_outlander_040_assemblek_vr_t01 = Item(
+  id: "HID_Outlander_040_AssembleK_VR_T01",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchphase_uc_t03 = Item(
+  id: "HID_Outlander_PunchPhase_UC_T03",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-PunchPhase-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_punchdamage_vr_t01 = Item(
+  id: "HID_Outlander_PunchDamage_VR_T01",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_spherefragment_vr_t03 = Item(
+  id: "HID_Outlander_SphereFragment_VR_T03",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-SphereFragment-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistol_sr_t01 = Item(
+  id: "HID_Outlander_ZonePistol_SR_T01",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistol-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_025_pirateoutlander_vr_t05 = Item(
+  id: "HID_Outlander_025_PirateOutlander_VR_T05",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_016_f_v1_sr_t03 = Item(
+  id: "HID_Outlander_016_F_V1_SR_T03",
+  name: "Ambush Buzz",
+  description: "Strike hard, strike fast.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_011_vr_t02 = Item(
+  id: "HID_Outlander_011_VR_T02",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_014_r_t02 = Item(
+  id: "HID_Outlander_014_R_T02",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_014_m_sr_t05 = Item(
+  id: "HID_Outlander_014_M_SR_T05",
+  name: "Flash A.C.",
+  description: "\"Eat your heart out, Edison.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_007_sr_t03 = Item(
+  id: "HID_Outlander_007_SR_T03",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_010_sr_t04 = Item(
+  id: "HID_Outlander_010_SR_T04",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_036_dino_outlander_vr_t01 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_VR_T01",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_r_t03 = Item(
+  id: "HID_Outlander_007_R_T03",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_014_vr_t03 = Item(
+  id: "HID_Outlander_014_VR_T03",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_028_retroscifistoryoutlander_sr_t01 = Item(
+  id: "HID_Outlander_028_RetroSciFiStoryOutlander_SR_T01",
+  name: "Azalea Clark",
+  description: "The fearless Cap'n of the VSS Gallant.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-028-RetroSciFiStoryOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zoneharvest_blockbuster_sr_t01 = Item(
+  id: "HID_Outlander_ZoneHarvest_BlockBuster_SR_T01",
+  name: "Archaeolo-Jess",
+  description: "Suit up, dig down, dust off.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female.Explorer"
+  ],
+);
+
+final _hid_outlander_021_sr_t02 = Item(
+  id: "HID_Outlander_021_SR_T02",
+  name: "Ventura Ramirez",
+  description: "Destined for greatness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-133-Athena-Commando-F-Deco-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_009_r_t03 = Item(
+  id: "HID_Outlander_009_R_T03",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_008_sr_t05 = Item(
+  id: "HID_Outlander_008_SR_T05",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_025_pirateoutlander_vr_t03 = Item(
+  id: "HID_Outlander_025_PirateOutlander_VR_T03",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_038_clip_sr_t05 = Item(
+  id: "HID_Outlander_038_Clip_SR_T05",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_r_t03 = Item(
+  id: "HID_Outlander_SphereFragment_R_T03",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-SphereFragment-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistol_r_t04 = Item(
+  id: "HID_Outlander_ZonePistol_R_T04",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZonePistol-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_vr_t03 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_VR_T03",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_myth02_sr_t02 = Item(
+  id: "HID_Outlander_Myth02_SR_T02",
+  name: "Ragnarok",
+  description: "The cold harbinger of fate.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-Myth02-SR-T05-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Oulander.Male.DarkViking",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.DarkViking"
+  ],
+);
+
+final _hid_outlander_013_vr_t02 = Item(
+  id: "HID_Outlander_013_VR_T02",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_016_m_v1_vr_t05 = Item(
+  id: "HID_Outlander_016_M_V1_VR_T05",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_008_foundersm_sr_t04 = Item(
+  id: "HID_Outlander_008_FoundersM_SR_T04",
+  name: "Recon Scout A.C.",
+  description: "\"I'll get there ASAP - that Fragment's mine!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_punchdamage_sr_t01 = Item(
+  id: "HID_Outlander_PunchDamage_SR_T01",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_spherefragment_sr_t03 = Item(
+  id: "HID_Outlander_SphereFragment_SR_T03",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-SphereFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_022_sr_t04 = Item(
+  id: "HID_Outlander_022_SR_T04",
+  name: "Subzero Zenith",
+  description: "Peak performance at any elevation.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-022-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.TEDDShot"],
+);
+
+final _hid_outlander_036_dino_outlander_vr_t05 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_VR_T05",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_vr_t03 = Item(
+  id: "HID_Outlander_010_VR_T03",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_zoneharvest_uc_t01 = Item(
+  id: "HID_Outlander_ZoneHarvest_UC_T01",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_zoneharvesthw_sr_t03 = Item(
+  id: "HID_Outlander_ZoneHarvestHW_SR_T03",
+  name: "Bloodfinder A.C.",
+  description: "\"Invite me in!\" - Bloodfinder A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvestHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.Halloween.Vampire.Outlander"
+  ],
+);
+
+final _hid_outlander_009_r_t04 = Item(
+  id: "HID_Outlander_009_R_T04",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_myth03_sr_t03 = Item(
+  id: "HID_Outlander_Myth03_SR_T03",
+  name: "Field Agent Rio",
+  description: "Promoted from desk jockey to field agent.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-173-Athena-Commando-F-StarfishUniform-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Female.Uniform",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.Uniform"
+  ],
+);
+
+final _hid_outlander_016_f_v1_sr_t05 = Item(
+  id: "HID_Outlander_016_F_V1_SR_T05",
+  name: "Ambush Buzz",
+  description: "Strike hard, strike fast.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-F-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_sr_t01 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_SR_T01",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_008_sr_t02 = Item(
+  id: "HID_Outlander_008_SR_T02",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_010_m_sr_t04 = Item(
+  id: "HID_Outlander_010_M_SR_T04",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_039_female_gumshoe_vr_t01 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_VR_T01",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "epic",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_023_sr_t02 = Item(
+  id: "HID_Outlander_023_SR_T02",
+  name: "The Ice Queen",
+  description: "Long live the queen.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-330-Athena-Commando-F-IceQueen-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_015_f_v1_r_t02 = Item(
+  id: "HID_Outlander_015_F_V1_R_T02",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_015_f_v1_vr_t01 = Item(
+  id: "HID_Outlander_015_F_V1_VR_T01",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_027_dinooutlander_sr_t05 = Item(
+  id: "HID_Outlander_027_DinoOutlander_SR_T05",
+  name: "Fossil Southie",
+  description:
+      "\"I'll bet this bacon you can't spell Pachycephalosaurus\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-027-DinoOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_017_m_v1_vr_t04 = Item(
+  id: "HID_Outlander_017_M_V1_VR_T04",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_007_uc_t01 = Item(
+  id: "HID_Outlander_007_UC_T01",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_vr_t05 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_VR_T05",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_sr_t05 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_SR_T05",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_017_m_v1_sr_t02 = Item(
+  id: "HID_Outlander_017_M_V1_SR_T02",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_zonepistolhw_vr_t01 = Item(
+  id: "HID_Outlander_ZonePistolHW_VR_T01",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_040_assemblek_sr_t03 = Item(
+  id: "HID_Outlander_040_AssembleK_SR_T03",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_r_t04 = Item(
+  id: "HID_Outlander_014_R_T04",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_034_period_fleming_sr_t04 = Item(
+  id: "HID_Outlander_034_Period_Fleming_SR_T04",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_uc_t03 = Item(
+  id: "HID_Outlander_007_UC_T03",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-007-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_038_clip_sr_t03 = Item(
+  id: "HID_Outlander_038_Clip_SR_T03",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_016_m_v1_sr_t03 = Item(
+  id: "HID_Outlander_016_M_V1_SR_T03",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_xbox_r_t01 = Item(
+  id: "HID_Outlander_XBOX_R_T01",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zoneharvest_vr_t04 = Item(
+  id: "HID_Outlander_ZoneHarvest_VR_T04",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_027_dinooutlander_sr_t03 = Item(
+  id: "HID_Outlander_027_DinoOutlander_SR_T03",
+  name: "Fossil Southie",
+  description:
+      "\"I'll bet this bacon you can't spell Pachycephalosaurus\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-027-DinoOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_033_kurohomura_sr_t02 = Item(
+  id: "HID_Outlander_033_Kurohomura_SR_T02",
+  name: "Kurohomura",
+  description: "No husk is safe from his Seismic Smash.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-544-Athena-Commando-M-Kurohomura",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_015_f_v1_r_t01 = Item(
+  id: "HID_Outlander_015_F_V1_R_T01",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_zoneharvest_uc_t02 = Item(
+  id: "HID_Outlander_ZoneHarvest_UC_T02",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_zoneharvest_sr_t03 = Item(
+  id: "HID_Outlander_ZoneHarvest_SR_T03",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_010_m_sr_t02 = Item(
+  id: "HID_Outlander_010_M_SR_T02",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_011_vr_t04 = Item(
+  id: "HID_Outlander_011_VR_T04",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_sony_sr_t02 = Item(
+  id: "HID_Outlander_Sony_SR_T02",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_038_clip_sr_t01 = Item(
+  id: "HID_Outlander_038_Clip_SR_T01",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_008_vr_t03 = Item(
+  id: "HID_Outlander_008_VR_T03",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_008_sr_t03 = Item(
+  id: "HID_Outlander_008_SR_T03",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_sr_t03 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_SR_T03",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_vr_t02 = Item(
+  id: "HID_Outlander_007_VR_T02",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_033_kurohomura_sr_t01 = Item(
+  id: "HID_Outlander_033_Kurohomura_SR_T01",
+  name: "Kurohomura",
+  description: "No husk is safe from his Seismic Smash.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-544-Athena-Commando-M-Kurohomura",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_028_retroscifistoryoutlander_sr_t04 = Item(
+  id: "HID_Outlander_028_RetroSciFiStoryOutlander_SR_T04",
+  name: "Azalea Clark",
+  description: "The fearless Cap'n of the VSS Gallant.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-028-RetroSciFiStoryOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_038_clip_vr_t03 = Item(
+  id: "HID_Outlander_038_Clip_VR_T03",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_sr_t02 = Item(
+  id: "HID_Outlander_014_SR_T02",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_zonefragment_sr_t04 = Item(
+  id: "HID_Outlander_ZoneFragment_SR_T04",
+  name: "Phase Scout Jess",
+  description: "\"I'll scout ahead.\" - Jess",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-ZoneFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.ZoneMaster"],
+);
+
+final _hid_outlander_zonefragment_sr_t05 = Item(
+  id: "HID_Outlander_ZoneFragment_SR_T05",
+  name: "Phase Scout Jess",
+  description: "\"I'll scout ahead.\" - Jess",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-ZoneFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.ZoneMaster"],
+);
+
+final _hid_outlander_038_clip_vr_t04 = Item(
+  id: "HID_Outlander_038_Clip_VR_T04",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_xbox_vr_t03 = Item(
+  id: "HID_Outlander_XBOX_VR_T03",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_015_f_v1_vr_t03 = Item(
+  id: "HID_Outlander_015_F_V1_VR_T03",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_sony_vr_t01 = Item(
+  id: "HID_Outlander_Sony_VR_T01",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_007_r_t04 = Item(
+  id: "HID_Outlander_007_R_T04",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_027_dinooutlander_sr_t04 = Item(
+  id: "HID_Outlander_027_DinoOutlander_SR_T04",
+  name: "Fossil Southie",
+  description:
+      "\"I'll bet this bacon you can't spell Pachycephalosaurus\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-027-DinoOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_026_bunnyoutlander_sr_t02 = Item(
+  id: "HID_Outlander_026_BunnyOutlander_SR_T02",
+  name: "Cottontail Eagle Eye",
+  description: "Bounce into battle.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-026-BunnyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_039_female_gumshoe_sr_t04 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_SR_T04",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "legendary",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_011_vr_t01 = Item(
+  id: "HID_Outlander_011_VR_T01",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-011-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_030_radoutlander_sr_t04 = Item(
+  id: "HID_Outlander_030_RadOutlander_SR_T04",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zonepistol_vr_t03 = Item(
+  id: "HID_Outlander_ZonePistol_VR_T03",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistol-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_029_retroscifioutlander_sr_t01 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_SR_T01",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchphase_sr_t03 = Item(
+  id: "HID_Outlander_PunchPhase_SR_T03",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchPhase-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_spherefragment_uc_t02 = Item(
+  id: "HID_Outlander_SphereFragment_UC_T02",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-SphereFragment-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_myth02_sr_t05 = Item(
+  id: "HID_Outlander_Myth02_SR_T05",
+  name: "Ragnarok",
+  description: "The cold harbinger of fate.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-Myth02-SR-T05-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Oulander.Male.DarkViking",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.DarkViking"
+  ],
+);
+
+final _hid_outlander_zoneharvest_blockbuster_sr_t03 = Item(
+  id: "HID_Outlander_ZoneHarvest_BlockBuster_SR_T03",
+  name: "Archaeolo-Jess",
+  description: "Suit up, dig down, dust off.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female.Explorer"
+  ],
+);
+
+final _hid_outlander_xbox_sr_t01 = Item(
+  id: "HID_Outlander_XBOX_SR_T01",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistol_vr_t05 = Item(
+  id: "HID_Outlander_ZonePistol_VR_T05",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistol-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_013_stpatricks_sr_t04 = Item(
+  id: "HID_Outlander_013_StPatricks_SR_T04",
+  name: "Staredown Southie",
+  description: "\"Man green looks good on me.\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-StPatricks-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Reclaimer",
+    "SpecialEvent.StPatricks.2018.Shamrock.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_punchphase_r_t02 = Item(
+  id: "HID_Outlander_PunchPhase_R_T02",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-PunchPhase-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_018_sr_t05 = Item(
+  id: "HID_Outlander_018_SR_T05",
+  name: "Sanguine Dusk",
+  description: "Creatures of the night pack a dangerous bite.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-227-Athena-Commando-F-Vampire-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Vamp"],
+);
+
+final _hid_outlander_zoneharvest_uc_t03 = Item(
+  id: "HID_Outlander_ZoneHarvest_UC_T03",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_010_m_sr_t03 = Item(
+  id: "HID_Outlander_010_M_SR_T03",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_025_pirateoutlander_vr_t04 = Item(
+  id: "HID_Outlander_025_PirateOutlander_VR_T04",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_030_radoutlander_sr_t01 = Item(
+  id: "HID_Outlander_030_RadOutlander_SR_T01",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_m_sr_t03 = Item(
+  id: "HID_Outlander_014_M_SR_T03",
+  name: "Flash A.C.",
+  description: "\"Eat your heart out, Edison.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_010_vr_t04 = Item(
+  id: "HID_Outlander_010_VR_T04",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_036_dino_outlander_sr_t04 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_SR_T04",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_025_pirateoutlander_sr_t05 = Item(
+  id: "HID_Outlander_025_PirateOutlander_SR_T05",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_021_sr_t01 = Item(
+  id: "HID_Outlander_021_SR_T01",
+  name: "Ventura Ramirez",
+  description: "Destined for greatness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-133-Athena-Commando-F-Deco-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_007_rs01_sr_t05 = Item(
+  id: "HID_Outlander_007_RS01_SR_T05",
+  name: "Jingle Jess",
+  description: "Nobody is too cool for Christmas, not even Jess.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_022_sr_t03 = Item(
+  id: "HID_Outlander_022_SR_T03",
+  name: "Subzero Zenith",
+  description: "Peak performance at any elevation.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-022-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.TEDDShot"],
+);
+
+final _hid_outlander_026_bunnyoutlander_sr_t01 = Item(
+  id: "HID_Outlander_026_BunnyOutlander_SR_T01",
+  name: "Cottontail Eagle Eye",
+  description: "Bounce into battle.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-026-BunnyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_009_sr_t02 = Item(
+  id: "HID_Outlander_009_SR_T02",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_sr_t05 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_SR_T05",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_m_4thjuly_sr_t01 = Item(
+  id: "HID_Outlander_010_M_4thJuly_SR_T01",
+  name: "Old Glory A.C.",
+  description: "These stars aren't just for show.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Lockdown",
+    "SpecialEvent.2018.4thJuly.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_007_rs01_sr_t03 = Item(
+  id: "HID_Outlander_007_RS01_SR_T03",
+  name: "Jingle Jess",
+  description: "Nobody is too cool for Christmas, not even Jess.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-007-RS01-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_punchphase_r_t04 = Item(
+  id: "HID_Outlander_PunchPhase_R_T04",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-PunchPhase-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_018_sr_t01 = Item(
+  id: "HID_Outlander_018_SR_T01",
+  name: "Sanguine Dusk",
+  description: "Creatures of the night pack a dangerous bite.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-227-Athena-Commando-F-Vampire-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Vamp"],
+);
+
+final _hid_outlander_zoneharvest_r_t02 = Item(
+  id: "HID_Outlander_ZoneHarvest_R_T02",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_014_sr_t04 = Item(
+  id: "HID_Outlander_014_SR_T04",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_013_sr_t01 = Item(
+  id: "HID_Outlander_013_SR_T01",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_punchphase_uc_t02 = Item(
+  id: "HID_Outlander_PunchPhase_UC_T02",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-PunchPhase-UC-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_008_vr_t01 = Item(
+  id: "HID_Outlander_008_VR_T01",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_030_radoutlander_vr_t05 = Item(
+  id: "HID_Outlander_030_RadOutlander_VR_T05",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_036_dino_outlander_vr_t03 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_VR_T03",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_030_radoutlander_vr_t04 = Item(
+  id: "HID_Outlander_030_RadOutlander_VR_T04",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_039_female_gumshoe_sr_t01 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_SR_T01",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "legendary",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_vr_t02 = Item(
+  id: "HID_Outlander_010_VR_T02",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_015_f_v1_r_t03 = Item(
+  id: "HID_Outlander_015_F_V1_R_T03",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-015-F-V1-R-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_punchdamage_sr_t02 = Item(
+  id: "HID_Outlander_PunchDamage_SR_T02",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_spherefragment_r_t04 = Item(
+  id: "HID_Outlander_SphereFragment_R_T04",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-SphereFragment-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_010_m_sr_t05 = Item(
+  id: "HID_Outlander_010_M_SR_T05",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_008_r_t04 = Item(
+  id: "HID_Outlander_008_R_T04",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-008-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_010_m_sr_t01 = Item(
+  id: "HID_Outlander_010_M_SR_T01",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_zonepistolhw_sr_t04 = Item(
+  id: "HID_Outlander_ZonePistolHW_SR_T04",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_016_m_v1_vr_t01 = Item(
+  id: "HID_Outlander_016_M_V1_VR_T01",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_zonepistol_r_t03 = Item(
+  id: "HID_Outlander_ZonePistol_R_T03",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZonePistol-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_027_dinooutlander_sr_t01 = Item(
+  id: "HID_Outlander_027_DinoOutlander_SR_T01",
+  name: "Fossil Southie",
+  description:
+      "\"I'll bet this bacon you can't spell Pachycephalosaurus\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-027-DinoOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_uc_t01 = Item(
+  id: "HID_Outlander_SphereFragment_UC_T01",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-SphereFragment-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_025_pirateoutlander_vr_t02 = Item(
+  id: "HID_Outlander_025_PirateOutlander_VR_T02",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_vr_t04 = Item(
+  id: "HID_Outlander_SphereFragment_VR_T04",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-SphereFragment-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_vr_t01 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_VR_T01",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_030_radoutlander_vr_t01 = Item(
+  id: "HID_Outlander_030_RadOutlander_VR_T01",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_sr_t03 = Item(
+  id: "HID_Outlander_010_SR_T03",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_033_kurohomura_sr_t04 = Item(
+  id: "HID_Outlander_033_Kurohomura_SR_T04",
+  name: "Kurohomura",
+  description: "No husk is safe from his Seismic Smash.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-544-Athena-Commando-M-Kurohomura",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_024_sr_t02 = Item(
+  id: "HID_Outlander_024_SR_T02",
+  name: "Steel Wool Anthony",
+  description: "Dropping sick beats and husk beatdowns.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_spherefragment_uc_t03 = Item(
+  id: "HID_Outlander_SphereFragment_UC_T03",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "common",
+  image: "T-Outlander-HID-Outlander-SphereFragment-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_xbox_vr_t02 = Item(
+  id: "HID_Outlander_XBOX_VR_T02",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_punchphase_sr_t05 = Item(
+  id: "HID_Outlander_PunchPhase_SR_T05",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchPhase-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_039_female_gumshoe_sr_t03 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_SR_T03",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "legendary",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_r_t03 = Item(
+  id: "HID_Outlander_014_R_T03",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_040_assemblek_vr_t03 = Item(
+  id: "HID_Outlander_040_AssembleK_VR_T03",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_008_sr_t01 = Item(
+  id: "HID_Outlander_008_SR_T01",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_023_sr_t01 = Item(
+  id: "HID_Outlander_023_SR_T01",
+  name: "The Ice Queen",
+  description: "Long live the queen.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-330-Athena-Commando-F-IceQueen-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_014_sr_t05 = Item(
+  id: "HID_Outlander_014_SR_T05",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_039_female_gumshoe_vr_t05 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_VR_T05",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "epic",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_039_female_gumshoe_vr_t02 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_VR_T02",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "epic",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zonepistol_vr_t04 = Item(
+  id: "HID_Outlander_ZonePistol_VR_T04",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistol-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_016_m_v1_sr_t01 = Item(
+  id: "HID_Outlander_016_M_V1_SR_T01",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_008_foundersf_sr_t02 = Item(
+  id: "HID_Outlander_008_FoundersF_SR_T02",
+  name: "Recon Scout Jess",
+  description: "\"Status report! Check in, Recon Scouts!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_030_radoutlander_vr_t02 = Item(
+  id: "HID_Outlander_030_RadOutlander_VR_T02",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zoneharvest_vr_t01 = Item(
+  id: "HID_Outlander_ZoneHarvest_VR_T01",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_punchdamage_vr_t04 = Item(
+  id: "HID_Outlander_PunchDamage_VR_T04",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchDamage-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_sr_t04 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_SR_T04",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_027_dinooutlander_sr_t02 = Item(
+  id: "HID_Outlander_027_DinoOutlander_SR_T02",
+  name: "Fossil Southie",
+  description:
+      "\"I'll bet this bacon you can't spell Pachycephalosaurus\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-027-DinoOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_myth03_sr_t04 = Item(
+  id: "HID_Outlander_Myth03_SR_T04",
+  name: "Field Agent Rio",
+  description: "Promoted from desk jockey to field agent.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-173-Athena-Commando-F-StarfishUniform-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Female.Uniform",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.Uniform"
+  ],
+);
+
+final _hid_outlander_007_vr_t01 = Item(
+  id: "HID_Outlander_007_VR_T01",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_011_sr_t04 = Item(
+  id: "HID_Outlander_011_SR_T04",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_zonepistol_vr_t01 = Item(
+  id: "HID_Outlander_ZonePistol_VR_T01",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistol-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_xbox_vr_t01 = Item(
+  id: "HID_Outlander_XBOX_VR_T01",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_018_sr_t02 = Item(
+  id: "HID_Outlander_018_SR_T02",
+  name: "Sanguine Dusk",
+  description: "Creatures of the night pack a dangerous bite.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-227-Athena-Commando-F-Vampire-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Vamp"],
+);
+
+final _hid_outlander_punchphase_sr_t04 = Item(
+  id: "HID_Outlander_PunchPhase_SR_T04",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchPhase-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_010_sr_t01 = Item(
+  id: "HID_Outlander_010_SR_T01",
+  name: "Shockblaster Buzz",
+  description: "Buzz or Shock?",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_myth02_sr_t04 = Item(
+  id: "HID_Outlander_Myth02_SR_T04",
+  name: "Ragnarok",
+  description: "The cold harbinger of fate.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-Myth02-SR-T05-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Oulander.Male.DarkViking",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.DarkViking"
+  ],
+);
+
+final _hid_outlander_018_sr_t03 = Item(
+  id: "HID_Outlander_018_SR_T03",
+  name: "Sanguine Dusk",
+  description: "Creatures of the night pack a dangerous bite.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-227-Athena-Commando-F-Vampire-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Vamp"],
+);
+
+final _hid_outlander_015_f_v1_vr_t02 = Item(
+  id: "HID_Outlander_015_F_V1_VR_T02",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_008_foundersm_sr_t02 = Item(
+  id: "HID_Outlander_008_FoundersM_SR_T02",
+  name: "Recon Scout A.C.",
+  description: "\"I'll get there ASAP - that Fragment's mine!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_036_dino_outlander_sr_t03 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_SR_T03",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zoneharvesthw_sr_t05 = Item(
+  id: "HID_Outlander_ZoneHarvestHW_SR_T05",
+  name: "Bloodfinder A.C.",
+  description: "\"Invite me in!\" - Bloodfinder A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvestHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.Halloween.Vampire.Outlander"
+  ],
+);
+
+final _hid_outlander_punchphase_sr_t02 = Item(
+  id: "HID_Outlander_PunchPhase_SR_T02",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchPhase-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_022_sr_t01 = Item(
+  id: "HID_Outlander_022_SR_T01",
+  name: "Subzero Zenith",
+  description: "Peak performance at any elevation.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-022-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.TEDDShot"],
+);
+
+final _hid_outlander_myth03_sr_t05 = Item(
+  id: "HID_Outlander_Myth03_SR_T05",
+  name: "Field Agent Rio",
+  description: "Promoted from desk jockey to field agent.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-173-Athena-Commando-F-StarfishUniform-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Female.Uniform",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.Uniform"
+  ],
+);
+
+final _hid_outlander_punchdamage_sr_t03 = Item(
+  id: "HID_Outlander_PunchDamage_SR_T03",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_017_m_v1_vr_t05 = Item(
+  id: "HID_Outlander_017_M_V1_VR_T05",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_zoneharvesthw_sr_t04 = Item(
+  id: "HID_Outlander_ZoneHarvestHW_SR_T04",
+  name: "Bloodfinder A.C.",
+  description: "\"Invite me in!\" - Bloodfinder A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvestHW-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.Halloween.Vampire.Outlander"
+  ],
+);
+
+final _hid_outlander_029_retroscifioutlander_sr_t03 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_SR_T03",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_036_dino_outlander_vr_t02 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_VR_T02",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_009_sr_t04 = Item(
+  id: "HID_Outlander_009_SR_T04",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_020_sr_t01 = Item(
+  id: "HID_Outlander_020_SR_T01",
+  name: "Valkyrie Rio",
+  description: "A chilling revelation.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-222-Athena-Commando-F-DarkViking-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_sony_sr_t03 = Item(
+  id: "HID_Outlander_Sony_SR_T03",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_023_sr_t05 = Item(
+  id: "HID_Outlander_023_SR_T05",
+  name: "The Ice Queen",
+  description: "Long live the queen.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-330-Athena-Commando-F-IceQueen-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_xbox_r_t04 = Item(
+  id: "HID_Outlander_XBOX_R_T04",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistol_sr_t02 = Item(
+  id: "HID_Outlander_ZonePistol_SR_T02",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistol-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_007_r_t02 = Item(
+  id: "HID_Outlander_007_R_T02",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_spherefragment_r_t01 = Item(
+  id: "HID_Outlander_SphereFragment_R_T01",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-SphereFragment-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_007_r_t01 = Item(
+  id: "HID_Outlander_007_R_T01",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-007-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_009_vr_t05 = Item(
+  id: "HID_Outlander_009_VR_T05",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_009_r_t01 = Item(
+  id: "HID_Outlander_009_R_T01",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-009-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_026_bunnyoutlander_sr_t04 = Item(
+  id: "HID_Outlander_026_BunnyOutlander_SR_T04",
+  name: "Cottontail Eagle Eye",
+  description: "Bounce into battle.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-026-BunnyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zoneharvest_sr_t01 = Item(
+  id: "HID_Outlander_ZoneHarvest_SR_T01",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_punchphase_sr_t01 = Item(
+  id: "HID_Outlander_PunchPhase_SR_T01",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchPhase-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_024_sr_t03 = Item(
+  id: "HID_Outlander_024_SR_T03",
+  name: "Steel Wool Anthony",
+  description: "Dropping sick beats and husk beatdowns.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_014_r_t01 = Item(
+  id: "HID_Outlander_014_R_T01",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-014-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_014_m_sr_t01 = Item(
+  id: "HID_Outlander_014_M_SR_T01",
+  name: "Flash A.C.",
+  description: "\"Eat your heart out, Edison.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_017_m_v1_sr_t03 = Item(
+  id: "HID_Outlander_017_M_V1_SR_T03",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_013_stpatricks_sr_t01 = Item(
+  id: "HID_Outlander_013_StPatricks_SR_T01",
+  name: "Staredown Southie",
+  description: "\"Man green looks good on me.\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-013-StPatricks-SR-T01-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Reclaimer",
+    "SpecialEvent.StPatricks.2018.Shamrock.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_zoneharvest_r_t04 = Item(
+  id: "HID_Outlander_ZoneHarvest_R_T04",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_zoneharvest_blockbuster_sr_t05 = Item(
+  id: "HID_Outlander_ZoneHarvest_BlockBuster_SR_T05",
+  name: "Archaeolo-Jess",
+  description: "Suit up, dig down, dust off.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-BlockBuster-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Harvesting",
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Female.Explorer"
+  ],
+);
+
+final _hid_outlander_014_m_sr_t02 = Item(
+  id: "HID_Outlander_014_M_SR_T02",
+  name: "Flash A.C.",
+  description: "\"Eat your heart out, Edison.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-M-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_punchphase_r_t01 = Item(
+  id: "HID_Outlander_PunchPhase_R_T01",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-PunchPhase-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_myth02_sr_t01 = Item(
+  id: "HID_Outlander_Myth02_SR_T01",
+  name: "Ragnarok",
+  description: "The cold harbinger of fate.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-Myth02-SR-T05-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Oulander.Male.DarkViking",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.DarkViking"
+  ],
+);
+
+final _hid_outlander_024_sr_t01 = Item(
+  id: "HID_Outlander_024_SR_T01",
+  name: "Steel Wool Anthony",
+  description: "Dropping sick beats and husk beatdowns.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_xbox_vr_t05 = Item(
+  id: "HID_Outlander_XBOX_VR_T05",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_039_female_gumshoe_sr_t02 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_SR_T02",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "legendary",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_010_m_vr_t05 = Item(
+  id: "HID_Outlander_010_M_VR_T05",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_vr_t04 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_VR_T04",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_017_m_v1_sr_t05 = Item(
+  id: "HID_Outlander_017_M_V1_SR_T05",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_013_vr_t01 = Item(
+  id: "HID_Outlander_013_VR_T01",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_028_retroscifistoryoutlander_sr_t02 = Item(
+  id: "HID_Outlander_028_RetroSciFiStoryOutlander_SR_T02",
+  name: "Azalea Clark",
+  description: "The fearless Cap'n of the VSS Gallant.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-028-RetroSciFiStoryOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_020_sr_t02 = Item(
+  id: "HID_Outlander_020_SR_T02",
+  name: "Valkyrie Rio",
+  description: "A chilling revelation.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-222-Athena-Commando-F-DarkViking-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_r_t02 = Item(
+  id: "HID_Outlander_SphereFragment_R_T02",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-SphereFragment-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_013_vr_t03 = Item(
+  id: "HID_Outlander_013_VR_T03",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_xbox_vr_t04 = Item(
+  id: "HID_Outlander_XBOX_VR_T04",
+  name: "Trailblazer Jess",
+  description: "\"I'm already gone!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-XBOX-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_013_vr_t05 = Item(
+  id: "HID_Outlander_013_VR_T05",
+  name: "Fragment Flurry Jess",
+  description: "\"Look, it's raining fragments.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-013-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Reclaimer"],
+);
+
+final _hid_outlander_015_f_v1_vr_t05 = Item(
+  id: "HID_Outlander_015_F_V1_VR_T05",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-015-F-V1-VR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_008_foundersm_sr_t03 = Item(
+  id: "HID_Outlander_008_FoundersM_SR_T03",
+  name: "Recon Scout A.C.",
+  description: "\"I'll get there ASAP - that Fragment's mine!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-008-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_009_vr_t01 = Item(
+  id: "HID_Outlander_009_VR_T01",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_007_vr_t04 = Item(
+  id: "HID_Outlander_007_VR_T04",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_020_sr_t03 = Item(
+  id: "HID_Outlander_020_SR_T03",
+  name: "Valkyrie Rio",
+  description: "A chilling revelation.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-222-Athena-Commando-F-DarkViking-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_vr_t01 = Item(
+  id: "HID_Outlander_SphereFragment_VR_T01",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-SphereFragment-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_034_period_fleming_sr_t02 = Item(
+  id: "HID_Outlander_034_Period_Fleming_SR_T02",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_025_pirateoutlander_sr_t01 = Item(
+  id: "HID_Outlander_025_PirateOutlander_SR_T01",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_039_female_gumshoe_sr_t05 = Item(
+  id: "HID_Outlander_039_Female_Gumshoe_SR_T05",
+  name: "Gumshoe",
+  description: "\"Let's beat feet and take care of business.\" - Gumshoe",
+  rarity: "legendary",
+  image: "T-Soldier-HID-155-Athena-Commando-F-Gumshoe-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_014_vr_t01 = Item(
+  id: "HID_Outlander_014_VR_T01",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-014-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_016_m_v1_vr_t02 = Item(
+  id: "HID_Outlander_016_M_V1_VR_T02",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_034_period_fleming_sr_t01 = Item(
+  id: "HID_Outlander_034_Period_Fleming_SR_T01",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_026_bunnyoutlander_sr_t03 = Item(
+  id: "HID_Outlander_026_BunnyOutlander_SR_T03",
+  name: "Cottontail Eagle Eye",
+  description: "Bounce into battle.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-026-BunnyOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_031_halloweenoutlander_sr_t05 = Item(
+  id: "HID_Outlander_031_HalloweenOutlander_SR_T05",
+  name: "Willow",
+  description: "\"I want your soul... and your candy!\" - Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-031-HalloweenOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_038_clip_vr_t02 = Item(
+  id: "HID_Outlander_038_Clip_VR_T02",
+  name: "Cassie \"Clip\" Lipman",
+  description: "\"Let's take things to the next level.\" - Clip",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-038-Clip",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_punchdamage_sr_t04 = Item(
+  id: "HID_Outlander_PunchDamage_SR_T04",
+  name: "Striker A.C.",
+  description: "\"Show me the money.\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-PunchDamage-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.AntiMaterialBlaster"],
+);
+
+final _hid_outlander_sony_r_t04 = Item(
+  id: "HID_Outlander_Sony_R_T04",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "rare",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistolhw_sr_t05 = Item(
+  id: "HID_Outlander_ZonePistolHW_SR_T05",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_sr_t02 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_SR_T02",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_sr_t02 = Item(
+  id: "HID_Outlander_SphereFragment_SR_T02",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-SphereFragment-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_punchphase_vr_t03 = Item(
+  id: "HID_Outlander_PunchPhase_VR_T03",
+  name: "Shock Specialist A.C.",
+  description: "\"Shocking, isn't it?\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-PunchPhase-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Shocking"],
+);
+
+final _hid_outlander_035_palespooky_outlander_holiday_vr_t01 = Item(
+  id: "HID_Outlander_035_Palespooky_Outlander_Holiday_VR_T01",
+  name: "Red Willow",
+  description: "\"Have a very scary holiday!\" - Red Willow",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-035-Palespooky-Outlander-Holiday-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zonepistol_sr_t04 = Item(
+  id: "HID_Outlander_ZonePistol_SR_T04",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistol-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_025_pirateoutlander_sr_t02 = Item(
+  id: "HID_Outlander_025_PirateOutlander_SR_T02",
+  name: "Crossbones Barret",
+  description: "\"I could really use a Coconut.\" - Barret",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-025-PirateOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_040_assemblek_vr_t05 = Item(
+  id: "HID_Outlander_040_AssembleK_VR_T05",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "epic",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_myth03_sr_t02 = Item(
+  id: "HID_Outlander_Myth03_SR_T02",
+  name: "Field Agent Rio",
+  description: "Promoted from desk jockey to field agent.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-173-Athena-Commando-F-StarfishUniform-L",
+  gameplayTags: [
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Female.Uniform",
+    "Class.BodySize.Medium",
+    "Homebase.Class.IsOutlander.Uniform"
+  ],
+);
+
+final _hid_outlander_008_vr_t04 = Item(
+  id: "HID_Outlander_008_VR_T04",
+  name: "Recon Scout Eagle Eye",
+  description: "\"Do you see that Fragment over there?\" - Eagle Eye",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-008-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_011_sr_t01 = Item(
+  id: "HID_Outlander_011_SR_T01",
+  name: "Gunblazer Southie",
+  description: "\"You think you can take me?\" - Southie",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-011-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Gunblazer"],
+);
+
+final _hid_outlander_010_m_vr_t04 = Item(
+  id: "HID_Outlander_010_M_VR_T04",
+  name: "Trailblaster A.C.",
+  description: "\"Why find a trail when you can make one.\" - A.C.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-010-M-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Lockdown"],
+);
+
+final _hid_outlander_024_sr_t05 = Item(
+  id: "HID_Outlander_024_SR_T05",
+  name: "Steel Wool Anthony",
+  description: "Dropping sick beats and husk beatdowns.",
+  rarity: "mythic",
+  image: "T-Soldier-HID-177-Athena-Commando-M-StreetRacerCobra-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_034_period_fleming_vr_t04 = Item(
+  id: "HID_Outlander_034_Period_Fleming_VR_T04",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_028_retroscifistoryoutlander_sr_t03 = Item(
+  id: "HID_Outlander_028_RetroSciFiStoryOutlander_SR_T03",
+  name: "Azalea Clark",
+  description: "The fearless Cap'n of the VSS Gallant.",
+  rarity: "mythic",
+  image: "T-Outlander-HID-Outlander-028-RetroSciFiStoryOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_034_period_fleming_vr_t01 = Item(
+  id: "HID_Outlander_034_Period_Fleming_VR_T01",
+  name: "Undercover Buzz",
+  description: "\"The secret is to not get caught.\" - Undercover Buzz",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-034-Period-Fleming-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zonepistolhw_sr_t02 = Item(
+  id: "HID_Outlander_ZonePistolHW_SR_T02",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_029_retroscifioutlander_sr_t04 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_SR_T04",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_spherefragment_vr_t05 = Item(
+  id: "HID_Outlander_SphereFragment_VR_T05",
+  name: "Trailblazer Quinn",
+  description: "\"Eat my dust!\" - Quinn",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-SphereFragment-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_zonepistol_sr_t05 = Item(
+  id: "HID_Outlander_ZonePistol_SR_T05",
+  name: "Ranger Deadeye",
+  description: "\"Don't try to draw on me.\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZonePistol-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_036_dino_outlander_sr_t02 = Item(
+  id: "HID_Outlander_036_Dino_Outlander_SR_T02",
+  name: "Parasaur Jess",
+  description: "\"I can outrun any meteor.\" - Parasaur Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-036-Dino-Outlander-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_zoneharvest_vr_t02 = Item(
+  id: "HID_Outlander_ZoneHarvest_VR_T02",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_015_f_v1_sr_t03 = Item(
+  id: "HID_Outlander_015_F_V1_SR_T03",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_021_sr_t03 = Item(
+  id: "HID_Outlander_021_SR_T03",
+  name: "Ventura Ramirez",
+  description: "Destined for greatness.",
+  rarity: "legendary",
+  image: "T-Soldier-HID-133-Athena-Commando-F-Deco-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_015_f_v1_sr_t05 = Item(
+  id: "HID_Outlander_015_F_V1_SR_T05",
+  name: "T.E.D.D. Shot Jess",
+  description: "\"Target's in my sights.\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-015-F-V1-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.TEDDShot",
+    "SpecialEvent.Spring.IntoTheStorm.2018.Heroes.Outlander.Female"
+  ],
+);
+
+final _hid_outlander_zonepistolhw_vr_t05 = Item(
+  id: "HID_Outlander_ZonePistolHW_VR_T05",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_017_m_v1_sr_t01 = Item(
+  id: "HID_Outlander_017_M_V1_SR_T01",
+  name: "Wild Fragment Deadeye",
+  description: "\"You should see my parties!\" - Deadeye",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-017-M-V1-SR-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.WildFragment",
+    "SpecialEvent.2018.RoadTrip.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_009_vr_t02 = Item(
+  id: "HID_Outlander_009_VR_T02",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-009-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_007_vr_t03 = Item(
+  id: "HID_Outlander_007_VR_T03",
+  name: "Enforcer Grizzly",
+  description:
+      "\"No, seriously - I swear! It totally looks like a bear.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-007-VR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Ursine"],
+);
+
+final _hid_outlander_037_fuzzy_bear_teddy_sr_t01 = Item(
+  id: "HID_Outlander_037_Fuzzy_Bear_Teddy_SR_T01",
+  name: "Metal Team Leader",
+  description: "\"There's no time to cuddle.\" - Metal Team Leader",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-037-Fuzzy-Bear-Teddy-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_009_sr_t03 = Item(
+  id: "HID_Outlander_009_SR_T03",
+  name: "Vanguard Southie",
+  description: "Heading to the Front line.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.PhasePuncher"],
+);
+
+final _hid_outlander_zonepistolhw_vr_t03 = Item(
+  id: "HID_Outlander_ZonePistolHW_VR_T03",
+  name: "Beetlejess",
+  description: "\"What do you think of my costume?\" - Jess",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-ZonePistolHW-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Deadeye"],
+);
+
+final _hid_outlander_010_m_4thjuly_sr_t05 = Item(
+  id: "HID_Outlander_010_M_4thJuly_SR_T05",
+  name: "Old Glory A.C.",
+  description: "These stars aren't just for show.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-010-M-4thJuly-SR-T02-L",
+  gameplayTags: [
+    "Homebase.Class.IsOutlander.Lockdown",
+    "SpecialEvent.2018.4thJuly.Heroes.Outlander.Male"
+  ],
+);
+
+final _hid_outlander_029_retroscifioutlander_vr_t03 = Item(
+  id: "HID_Outlander_029_RetroSciFiOutlander_VR_T03",
+  name: "Cyberclops",
+  description:
+      "\"My purpose is to defend humanity. Or something!\" - Cyberclops",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-029-RetroSciFiOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_016_m_v1_vr_t04 = Item(
+  id: "HID_Outlander_016_M_V1_VR_T04",
+  name: "Shockgunner Grizzly",
+  description: "\"They won't stand a chance.\" - Grizzly",
+  rarity: "epic",
+  image: "T-Outlander-HID-Outlander-016-M-V1-SR-T02-L",
+  gameplayTags: [
+    "SpecialEvent.2018.Blockbuster.Heroes.Outlander.Male",
+    "Homebase.Class.IsOutlander.ShockGunner"
+  ],
+);
+
+final _hid_outlander_zoneharvest_sr_t05 = Item(
+  id: "HID_Outlander_ZoneHarvest_SR_T05",
+  name: "Pathfinder Jess",
+  description: "\"Finders, keepers!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-ZoneHarvest-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Harvesting"],
+);
+
+final _hid_outlander_040_assemblek_sr_t01 = Item(
+  id: "HID_Outlander_040_AssembleK_SR_T01",
+  name: "Robo-Kevin",
+  description: " \"I HAVE BEEN UPGRADED\" - Kevin",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-268-Athena-Commando-M-AssembleK-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_sony_sr_t04 = Item(
+  id: "HID_Outlander_Sony_SR_T04",
+  name: "Trailblazer A.C.",
+  description: "\"Come on guys, catch up!\" - A.C.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-Sony-R-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.FragmentHunter"],
+);
+
+final _hid_outlander_014_sr_t03 = Item(
+  id: "HID_Outlander_014_SR_T03",
+  name: "Fireflower Eagle Eye",
+  description: "What's a celebration without some fireworks.",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-014-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.HeavyHitter"],
+);
+
+final _hid_outlander_030_radoutlander_sr_t02 = Item(
+  id: "HID_Outlander_030_RadOutlander_SR_T02",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
 final allItems = [
   _ingredient_rare_mechanism,
   _ingredient_rare_powercell,
@@ -56925,5 +76000,1983 @@ final allItems = [
   _athena_metalitemdata,
   _athena_wooditemdata,
   _survivoritemdata,
-  _athena_wadsitemdata
+  _athena_wadsitemdata,
+  _hid_constructor_basebig_sr_t03,
+  _hid_constructor_010_vr_t01,
+  _hid_constructor_035_birthday_constructor_sr_t01,
+  _hid_constructor_011_vr_t03,
+  _hid_constructor_030_radconstructor_vr_t05,
+  _hid_constructor_022_sr_t02,
+  _hid_constructor_028_retroscificonstructor_vr_t02,
+  _hid_constructor_009_sr_t02,
+  _hid_constructor_017_f_v1_vr_t04,
+  _hid_constructor_basehyper_vr_t03,
+  _hid_constructor_026_bombsquadconstructor_sr_t04,
+  _hid_constructor_sony_sr_t03,
+  _hid_constructor_hammertank_r_t03,
+  _hid_constructor_plasmadamage_easter_sr_t02,
+  _hid_constructor_008_foundersm_sr_t02,
+  _hid_constructor_007_uc_t02,
+  _hid_constructor_xbox_vr_t05,
+  _hid_constructor_026_bombsquadconstructor_sr_t02,
+  _hid_constructor_013_vr_t01,
+  _hid_constructor_029_radstoryconstructor_sr_t04,
+  _hid_constructor_sony_sr_t05,
+  _hid_constructor_040_lars_sr_t01,
+  _hid_constructor_008_r_t02,
+  _hid_constructor_036_dino_constructor_sr_t03,
+  _hid_constructor_013_vr_t03,
+  _hid_constructor_028_retroscificonstructor_sr_t03,
+  _hid_constructor_019_sr_t05,
+  _hid_constructor_009_sr_t03,
+  _hid_constructor_011_sr_t02,
+  _hid_constructor_014_f_sr_t03,
+  _hid_constructor_hammerplasma_4thjuly_sr_t03,
+  _hid_constructor_034_mechstructor_sr_t05,
+  _hid_constructor_sony_sr_t02,
+  _hid_constructor_009_r_t03,
+  _hid_constructor_rushbase_vr_t02,
+  _hid_constructor_016_m_v1_sr_t01,
+  _hid_constructor_sony_r_t03,
+  _hid_constructor_rushbase_r_t04,
+  _hid_constructor_007hw_vr_t01,
+  _hid_constructor_013_sr_t03,
+  _hid_constructor_011_vr_t04,
+  _hid_constructor_022_sr_t04,
+  _hid_constructor_hammerplasma_sr_t05,
+  _hid_constructor_008_sr_t02,
+  _hid_constructor_015_vr_t04,
+  _hid_constructor_017_f_v1_r_t04,
+  _hid_constructor_014_r_t01,
+  _hid_constructor_009_sr_t01,
+  _hid_constructor_039_assemble_l_vr_t01,
+  _hid_constructor_sony_r_t04,
+  _hid_constructor_010_sr_t03,
+  _hid_constructor_hammertank_vr_t02,
+  _hid_constructor_033_villain_fleming_vr_t04,
+  _hid_constructor_myth02_sr_t04,
+  _hid_constructor_017_f_v1_vr_t02,
+  _hid_constructor_013_r_t02,
+  _hid_constructor_rushbase_sr_t04,
+  _hid_constructor_040_lars_vr_t02,
+  _hid_constructor_011_vr_t05,
+  _hid_constructor_015_sr_t05,
+  _hid_constructor_010_vr_t04,
+  _hid_constructor_016_f_v1_sr_t05,
+  _hid_constructor_037_director_vr_t05,
+  _hid_constructor_rushbase_f_sr_t04,
+  _hid_constructor_008_r_t04,
+  _hid_constructor_024_pirateconstructor_sr_t03,
+  _hid_constructor_016_m_v1_blockbuster_sr_t02,
+  _hid_constructor_xbox_sr_t02,
+  _hid_constructor_014_sr_t05,
+  _hid_constructor_039_assemble_l_vr_t04,
+  _hid_constructor_040_lars_vr_t04,
+  _hid_constructor_sony_r_t01,
+  _hid_constructor_hammerplasma_4thjuly_sr_t05,
+  _hid_constructor_016_m_v1_blockbuster_sr_t04,
+  _hid_constructor_hammertank_uc_t02,
+  _hid_constructor_014_vr_t02,
+  _hid_constructor_033_villain_fleming_vr_t01,
+  _hid_constructor_hammerplasma_4thjuly_sr_t01,
+  _hid_constructor_009_vr_t04,
+  _hid_constructor_rushbase_f_vr_t05,
+  _hid_constructor_017_f_v1_sr_t03,
+  _hid_constructor_015_sr_t03,
+  _hid_constructor_028_retroscificonstructor_vr_t01,
+  _hid_constructor_myth02_sr_t01,
+  _hid_constructor_018_sr_t04,
+  _hid_constructor_026_bombsquadconstructor_vr_t02,
+  _hid_constructor_036_dino_constructor_vr_t03,
+  _hid_constructor_013_uc_t01,
+  _hid_constructor_014_vr_t01,
+  _hid_constructor_039_assemble_l_sr_t02,
+  _hid_constructor_008_foundersf_sr_t01,
+  _hid_constructor_017_f_v1_vr_t01,
+  _hid_constructor_040_lars_vr_t03,
+  _hid_constructor_032_toyconstructor_vr_t03,
+  _hid_constructor_018_sr_t03,
+  _hid_constructor_024_pirateconstructor_sr_t01,
+  _hid_constructor_024_pirateconstructor_sr_t02,
+  _hid_constructor_017_f_v1_r_t02,
+  _hid_constructor_009_sr_t05,
+  _hid_constructor_039_assemble_l_vr_t03,
+  _hid_constructor_hammerplasma_vr_t05,
+  _hid_constructor_007_vr_t03,
+  _hid_constructor_rushbase_vr_t03,
+  _hid_constructor_027_dinoconstructor_sr_t04,
+  _hid_constructor_035_birthday_constructor_sr_t05,
+  _hid_constructor_008_vr_t02,
+  _hid_constructor_031_halloweenconstructor_sr_t03,
+  _hid_constructor_rushbase_sr_t02,
+  _hid_constructor_basehyper_sr_t01,
+  _hid_constructor_007hw_vr_t03,
+  _hid_constructor_016_f_v1_sr_t02,
+  _hid_constructor_010_vr_t02,
+  _hid_constructor_basehyper_sr_t02,
+  _hid_constructor_008_foundersm_sr_t04,
+  _hid_constructor_024_pirateconstructor_sr_t04,
+  _hid_constructor_hammertank_r_t01,
+  _hid_constructor_027_dinoconstructor_sr_t03,
+  _hid_constructor_009_vr_t05,
+  _hid_constructor_014_sr_t04,
+  _hid_constructor_038_gumshoe_sr_t01,
+  _hid_constructor_hammertank_sr_t04,
+  _hid_constructor_031_halloweenconstructor_sr_t04,
+  _hid_constructor_rushbase_f_vr_t02,
+  _hid_constructor_028_retroscificonstructor_vr_t03,
+  _hid_constructor_basehyperhw_vr_t03,
+  _hid_constructor_hammertank_vr_t05,
+  _hid_constructor_014_f_sr_t04,
+  _hid_constructor_020_sr_t01,
+  _hid_constructor_011_r_t03,
+  _hid_constructor_030_radconstructor_sr_t03,
+  _hid_constructor_030_radconstructor_sr_t02,
+  _hid_constructor_027_dinoconstructor_sr_t05,
+  _hid_constructor_038_gumshoe_vr_t01,
+  _hid_constructor_024_pirateconstructor_vr_t03,
+  _hid_constructor_039_assemble_l_vr_t02,
+  _hid_constructor_023_sr_t02,
+  _hid_constructor_013_sr_t01,
+  _hid_constructor_021_sr_t02,
+  _hid_constructor_030_radconstructor_vr_t01,
+  _hid_constructor_018_sr_t01,
+  _hid_constructor_009_sr_t04,
+  _hid_constructor_017_f_v1_sr_t02,
+  _hid_constructor_032_toyconstructor_sr_t02,
+  _hid_constructor_039_assemble_l_sr_t03,
+  _hid_constructor_015_sr_t02,
+  _hid_constructor_034_mechstructor_vr_t04,
+  _hid_constructor_038_gumshoe_sr_t05,
+  _hid_constructor_rushbase_vr_t01,
+  _hid_constructor_011_r_t04,
+  _hid_constructor_008_r_t01,
+  _hid_constructor_018_sr_t05,
+  _hid_constructor_037_director_sr_t03,
+  _hid_constructor_009_r_t02,
+  _hid_constructor_xbox_vr_t02,
+  _hid_constructor_014_sr_t03,
+  _hid_constructor_basehyperhw_vr_t05,
+  _hid_constructor_026_bombsquadconstructor_vr_t01,
+  _hid_constructor_hammerplasma_sr_t02,
+  _hid_constructor_sony_sr_t01,
+  _hid_constructor_hammertank_vr_t04,
+  _hid_constructor_035_birthday_constructor_sr_t02,
+  _hid_constructor_008_foundersf_sr_t05,
+  _hid_constructor_033_villain_fleming_sr_t03,
+  _hid_constructor_036_dino_constructor_sr_t04,
+  _hid_constructor_026_bombsquadconstructor_sr_t01,
+  _hid_constructor_sony_r_t02,
+  _hid_constructor_008_vr_t04,
+  _hid_constructor_016_m_v1_sr_t03,
+  _hid_constructor_021_sr_t01,
+  _hid_constructor_015_sr_t04,
+  _hid_constructor_019_sr_t03,
+  _hid_constructor_014_vr_t03,
+  _hid_constructor_hammertank_sr_t03,
+  _hid_constructor_rushbase_sr_t05,
+  _hid_constructor_013_sr_t04,
+  _hid_constructor_014_vr_t04,
+  _hid_constructor_036_dino_constructor_vr_t05,
+  _hid_constructor_032_toyconstructor_sr_t05,
+  _hid_constructor_032_toyconstructor_vr_t04,
+  _hid_constructor_007_sr_t04,
+  _hid_constructor_035_birthday_constructor_vr_t03,
+  _hid_constructor_plasmadamage_vr_t04,
+  _hid_constructor_basebig_sr_t01,
+  _hid_constructor_016_f_v1_sr_t01,
+  _hid_constructor_020_sr_t05,
+  _hid_constructor_034_mechstructor_sr_t02,
+  _hid_constructor_008_vr_t01,
+  _hid_constructor_010_vr_t05,
+  _hid_constructor_026_bombsquadconstructor_sr_t03,
+  _hid_constructor_037_director_vr_t03,
+  _hid_constructor_009_r_t04,
+  _hid_constructor_008_sr_t01,
+  _hid_constructor_035_birthday_constructor_vr_t02,
+  _hid_constructor_hammerplasma_4thjuly_sr_t04,
+  _hid_constructor_007_r_t04,
+  _hid_constructor_037_director_vr_t02,
+  _hid_constructor_basehyper_sr_t05,
+  _hid_constructor_myth02_sr_t02,
+  _hid_constructor_sony_vr_t03,
+  _hid_constructor_020_sr_t04,
+  _hid_constructor_033_villain_fleming_vr_t03,
+  _hid_constructor_036_dino_constructor_sr_t02,
+  _hid_constructor_007hw_sr_t01,
+  _hid_constructor_038_gumshoe_vr_t04,
+  _hid_constructor_030_radconstructor_vr_t04,
+  _hid_constructor_008_foundersf_sr_t02,
+  _hid_constructor_027_dinoconstructor_sr_t01,
+  _hid_constructor_026_bombsquadconstructor_vr_t03,
+  _hid_constructor_rushbase_f_sr_t05,
+  _hid_constructor_011_f_v1_roadtrip_sr_t05,
+  _hid_constructor_basehyper_vr_t02,
+  _hid_constructor_028_retroscificonstructor_sr_t02,
+  _hid_constructor_hammerplasma_sr_t03,
+  _hid_constructor_009_vr_t01,
+  _hid_constructor_xbox_sr_t03,
+  _hid_constructor_015_vr_t05,
+  _hid_constructor_039_assemble_l_sr_t04,
+  _hid_constructor_rushbase_sr_t01,
+  _hid_constructor_034_mechstructor_vr_t05,
+  _hid_constructor_016_f_v1_vr_t05,
+  _hid_constructor_028_retroscificonstructor_vr_t04,
+  _hid_constructor_basehyperhw_sr_t02,
+  _hid_constructor_xbox_r_t02,
+  _hid_constructor_hammertank_r_t02,
+  _hid_constructor_011_vr_t01,
+  _hid_constructor_036_dino_constructor_vr_t04,
+  _hid_constructor_plasmadamage_vr_t01,
+  _hid_constructor_014_sr_t01,
+  _hid_constructor_030_radconstructor_vr_t03,
+  _hid_constructor_022_sr_t03,
+  _hid_constructor_008_sr_t05,
+  _hid_constructor_031_halloweenconstructor_sr_t02,
+  _hid_constructor_plasmadamage_easter_sr_t03,
+  _hid_constructor_021_sr_t03,
+  _hid_constructor_basehyperhw_vr_t01,
+  _hid_constructor_033_villain_fleming_vr_t02,
+  _hid_constructor_myth02_sr_t03,
+  _hid_constructor_016_f_v1_vr_t04,
+  _hid_constructor_007_r_t01,
+  _hid_constructor_hammerplasma_vr_t01,
+  _hid_constructor_015_r_t03,
+  _hid_constructor_basehyper_r_t01,
+  _hid_constructor_028_retroscificonstructor_sr_t04,
+  _hid_constructor_038_gumshoe_vr_t03,
+  _hid_constructor_011_f_v1_roadtrip_sr_t03,
+  _hid_constructor_034_mechstructor_sr_t04,
+  _hid_constructor_013_sr_t05,
+  _hid_constructor_036_dino_constructor_sr_t05,
+  _hid_constructor_xbox_sr_t05,
+  _hid_constructor_basebig_sr_t04,
+  _hid_constructor_023_sr_t01,
+  _hid_constructor_sony_sr_t04,
+  _hid_constructor_038_gumshoe_sr_t03,
+  _hid_constructor_032_toyconstructor_vr_t02,
+  _hid_constructor_rushbase_sr_t03,
+  _hid_constructor_rushbase_f_sr_t01,
+  _hid_constructor_hammertank_vr_t01,
+  _hid_constructor_034_mechstructor_vr_t03,
+  _hid_constructor_017_f_v1_sr_t05,
+  _hid_constructor_008_vr_t05,
+  _hid_constructor_008_sr_t03,
+  _hid_constructor_xbox_r_t01,
+  _hid_constructor_hammerplasma_vr_t02,
+  _hid_constructor_026_bombsquadconstructor_sr_t05,
+  _hid_constructor_016_f_v1_sr_t04,
+  _hid_constructor_hammerplasma_vr_t03,
+  _hid_constructor_plasmadamage_sr_t01,
+  _hid_constructor_plasmadamage_r_t02,
+  _hid_constructor_rushbase_f_vr_t03,
+  _hid_constructor_011_sr_t04,
+  _hid_constructor_007_vr_t02,
+  _hid_constructor_009_vr_t02,
+  _hid_constructor_plasmadamage_vr_t03,
+  _hid_constructor_007_r_t02,
+  _hid_constructor_036_dino_constructor_sr_t01,
+  _hid_constructor_007hw_sr_t04,
+  _hid_constructor_007hw_vr_t02,
+  _hid_constructor_011_sr_t05,
+  _hid_constructor_016_f_v1_vr_t01,
+  _hid_constructor_007_vr_t04,
+  _hid_constructor_019_sr_t01,
+  _hid_constructor_030_radconstructor_sr_t04,
+  _hid_constructor_022_sr_t05,
+  _hid_constructor_plasmadamage_vr_t02,
+  _hid_constructor_032_toyconstructor_vr_t01,
+  _hid_constructor_014_f_sr_t01,
+  _hid_constructor_033_villain_fleming_sr_t05,
+  _hid_constructor_008_foundersm_sr_t05,
+  _hid_constructor_014_vr_t05,
+  _hid_constructor_plasmadamage_sr_t03,
+  _hid_constructor_024_pirateconstructor_vr_t04,
+  _hid_constructor_013_r_t04,
+  _hid_constructor_032_toyconstructor_sr_t01,
+  _hid_constructor_032_toyconstructor_sr_t03,
+  _hid_constructor_029_radstoryconstructor_sr_t02,
+  _hid_constructor_011_f_v1_roadtrip_sr_t04,
+  _hid_constructor_007_sr_t05,
+  _hid_constructor_023_sr_t03,
+  _hid_constructor_xbox_sr_t01,
+  _hid_constructor_008_vr_t03,
+  _hid_constructor_basehyper_sr_t03,
+  _hid_constructor_033_villain_fleming_sr_t01,
+  _hid_constructor_020_sr_t03,
+  _hid_constructor_009_r_t01,
+  _hid_constructor_014_r_t02,
+  _hid_constructor_015_r_t01,
+  _hid_constructor_basehyperhw_sr_t05,
+  _hid_constructor_037_director_vr_t01,
+  _hid_constructor_035_birthday_constructor_vr_t01,
+  _hid_constructor_rushbase_f_vr_t01,
+  _hid_constructor_rushbase_f_vr_t04,
+  _hid_constructor_rushbase_uc_t03,
+  _hid_constructor_037_director_vr_t04,
+  _hid_constructor_hammertank_uc_t03,
+  _hid_constructor_016_m_v1_sr_t02,
+  _hid_constructor_010_vr_t03,
+  _hid_constructor_013_uc_t03,
+  _hid_constructor_024_pirateconstructor_vr_t01,
+  _hid_constructor_007hw_vr_t05,
+  _hid_constructor_013_vr_t05,
+  _hid_constructor_008_foundersm_sr_t01,
+  _hid_constructor_033_villain_fleming_sr_t02,
+  _hid_constructor_basehyper_r_t02,
+  _hid_constructor_xbox_vr_t04,
+  _hid_constructor_rushbase_f_sr_t03,
+  _hid_constructor_007_uc_t03,
+  _hid_constructor_013_vr_t02,
+  _hid_constructor_010_sr_t01,
+  _hid_constructor_plasmadamage_r_t04,
+  _hid_constructor_xbox_r_t04,
+  _hid_constructor_hammertank_vr_t03,
+  _hid_constructor_030_radconstructor_sr_t01,
+  _hid_constructor_034_mechstructor_vr_t02,
+  _hid_constructor_024_pirateconstructor_sr_t05,
+  _hid_constructor_040_lars_vr_t05,
+  _hid_constructor_013_uc_t02,
+  _hid_constructor_hammertank_sr_t01,
+  _hid_constructor_plasmadamage_r_t01,
+  _hid_constructor_016_m_v1_blockbuster_sr_t01,
+  _hid_constructor_plasmadamage_easter_sr_t01,
+  _hid_constructor_036_dino_constructor_vr_t01,
+  _hid_constructor_hammerplasma_sr_t01,
+  _hid_constructor_xbox_r_t03,
+  _hid_constructor_008_r_t03,
+  _hid_constructor_013_r_t03,
+  _hid_constructor_007_sr_t02,
+  _hid_constructor_basehyperhw_vr_t02,
+  _hid_constructor_017_f_v1_r_t03,
+  _hid_constructor_036_dino_constructor_vr_t02,
+  _hid_constructor_017_f_v1_sr_t01,
+  _hid_constructor_038_gumshoe_vr_t05,
+  _hid_constructor_014_r_t04,
+  _hid_constructor_plasmadamage_vr_t05,
+  _hid_constructor_020_sr_t02,
+  _hid_constructor_017_f_v1_sr_t04,
+  _hid_constructor_038_gumshoe_vr_t02,
+  _hid_constructor_basehyperhw_vr_t04,
+  _hid_constructor_007hw_sr_t03,
+  _hid_constructor_027_dinoconstructor_sr_t02,
+  _hid_constructor_basehyper_r_t03,
+  _hid_constructor_016_m_v1_blockbuster_sr_t05,
+  _hid_constructor_011_r_t02,
+  _hid_constructor_basebig_sr_t02,
+  _hid_constructor_038_gumshoe_sr_t02,
+  _hid_constructor_015_r_t02,
+  _hid_constructor_myth02_sr_t05,
+  _hid_constructor_007hw_sr_t02,
+  _hid_constructor_hammertank_sr_t05,
+  _hid_constructor_019_sr_t04,
+  _hid_constructor_017_f_v1_r_t01,
+  _hid_constructor_024_pirateconstructor_vr_t02,
+  _hid_constructor_007_sr_t03,
+  _hid_constructor_rushbase_vr_t05,
+  _hid_constructor_plasmadamage_sr_t04,
+  _hid_constructor_basehyper_r_t04,
+  _hid_constructor_basehyperhw_sr_t04,
+  _hid_constructor_014_f_sr_t02,
+  _hid_constructor_016_f_v1_vr_t02,
+  _hid_constructor_sony_vr_t01,
+  _hid_constructor_011_f_v1_roadtrip_sr_t01,
+  _hid_constructor_016_f_v1_vr_t03,
+  _hid_constructor_037_director_sr_t05,
+  _hid_constructor_plasmadamage_r_t03,
+  _hid_constructor_040_lars_sr_t02,
+  _hid_constructor_plasmadamage_easter_sr_t04,
+  _hid_constructor_016_f_v1_sr_t03,
+  _hid_constructor_018_sr_t02,
+  _hid_constructor_016_m_v1_sr_t04,
+  _hid_constructor_011_r_t01,
+  _hid_constructor_030_radconstructor_vr_t02,
+  _hid_constructor_034_mechstructor_vr_t01,
+  _hid_constructor_040_lars_sr_t03,
+  _hid_constructor_040_lars_sr_t04,
+  _hid_constructor_007_r_t03,
+  _hid_constructor_033_villain_fleming_sr_t04,
+  _hid_constructor_011_vr_t02,
+  _hid_constructor_basebig_sr_t05,
+  _hid_constructor_plasmadamage_easter_sr_t05,
+  _hid_constructor_basehyper_vr_t04,
+  _hid_constructor_007hw_sr_t05,
+  _hid_constructor_023_sr_t05,
+  _hid_constructor_010_sr_t04,
+  _hid_constructor_hammertank_uc_t01,
+  _hid_constructor_013_vr_t04,
+  _hid_constructor_007_vr_t01,
+  _hid_constructor_016_m_v1_blockbuster_sr_t03,
+  _hid_constructor_hammerplasma_4thjuly_sr_t02,
+  _hid_constructor_014_r_t03,
+  _hid_constructor_032_toyconstructor_vr_t05,
+  _hid_constructor_021_sr_t05,
+  _hid_constructor_029_radstoryconstructor_sr_t03,
+  _hid_constructor_035_birthday_constructor_sr_t04,
+  _hid_constructor_hammertank_sr_t02,
+  _hid_constructor_xbox_sr_t04,
+  _hid_constructor_015_vr_t01,
+  _hid_constructor_007_sr_t01,
+  _hid_constructor_019_sr_t02,
+  _hid_constructor_028_retroscificonstructor_vr_t05,
+  _hid_constructor_035_birthday_constructor_sr_t03,
+  _hid_constructor_basehyper_vr_t01,
+  _hid_constructor_037_director_sr_t02,
+  _hid_constructor_031_halloweenconstructor_sr_t05,
+  _hid_constructor_017_f_v1_vr_t05,
+  _hid_constructor_007_vr_t05,
+  _hid_constructor_028_retroscificonstructor_sr_t01,
+  _hid_constructor_014_f_sr_t05,
+  _hid_constructor_plasmadamage_sr_t02,
+  _hid_constructor_038_gumshoe_sr_t04,
+  _hid_constructor_rushbase_vr_t04,
+  _hid_constructor_rushbase_uc_t02,
+  _hid_constructor_024_pirateconstructor_vr_t05,
+  _hid_constructor_007_uc_t01,
+  _hid_constructor_040_lars_vr_t01,
+  _hid_constructor_016_m_v1_sr_t05,
+  _hid_constructor_008_foundersf_sr_t04,
+  _hid_constructor_022_sr_t01,
+  _hid_constructor_015_sr_t01,
+  _hid_constructor_015_vr_t03,
+  _hid_constructor_013_r_t01,
+  _hid_constructor_010_sr_t05,
+  _hid_constructor_015_vr_t02,
+  _hid_constructor_037_director_sr_t01,
+  _hid_constructor_039_assemble_l_sr_t05,
+  _hid_constructor_sony_vr_t05,
+  _hid_constructor_034_mechstructor_sr_t01,
+  _hid_constructor_039_assemble_l_sr_t01,
+  _hid_constructor_rushbase_r_t02,
+  _hid_constructor_023_sr_t04,
+  _hid_constructor_007hw_vr_t04,
+  _hid_constructor_015_r_t04,
+  _hid_constructor_011_f_v1_roadtrip_sr_t02,
+  _hid_constructor_rushbase_uc_t01,
+  _hid_constructor_021_sr_t04,
+  _hid_constructor_010_sr_t02,
+  _hid_constructor_hammerplasma_sr_t04,
+  _hid_constructor_sony_vr_t02,
+  _hid_constructor_037_director_sr_t04,
+  _hid_constructor_026_bombsquadconstructor_vr_t04,
+  _hid_constructor_xbox_vr_t01,
+  _hid_constructor_009_vr_t03,
+  _hid_constructor_035_birthday_constructor_vr_t04,
+  _hid_constructor_039_assemble_l_vr_t05,
+  _hid_constructor_rushbase_f_sr_t02,
+  _hid_constructor_033_villain_fleming_vr_t05,
+  _hid_constructor_017_f_v1_vr_t03,
+  _hid_constructor_008_sr_t04,
+  _hid_constructor_basehyper_sr_t04,
+  _hid_constructor_034_mechstructor_sr_t03,
+  _hid_constructor_014_sr_t02,
+  _hid_constructor_hammerplasma_vr_t04,
+  _hid_constructor_plasmadamage_sr_t05,
+  _hid_constructor_xbox_vr_t03,
+  _hid_constructor_basehyperhw_sr_t03,
+  _hid_constructor_011_sr_t01,
+  _hid_constructor_026_bombsquadconstructor_vr_t05,
+  _hid_constructor_032_toyconstructor_sr_t04,
+  _hid_constructor_sony_vr_t04,
+  _hid_constructor_040_lars_sr_t05,
+  _hid_ninja_040_dennis_sr_t05,
+  _hid_ninja_xbox_sr_t05,
+  _hid_ninja_starsassassin_sr_t03,
+  _hid_ninja_026_reddragonninja_sr_t03,
+  _hid_ninja_034_toymonkey_vr_t05,
+  _hid_ninja_swordmaster_sr_t01,
+  _hid_ninja_xbox_vr_t01,
+  _hid_ninja_slashtail_sr_t05,
+  _hid_ninja_starsassassin_foundersm_sr_t02,
+  _hid_ninja_042_assembler_sr_t02,
+  _hid_ninja_015_f_v1_uc_t03,
+  _hid_ninja_029_dinoninja_sr_t01,
+  _hid_ninja_sony_r_t04,
+  _hid_ninja_040_dennis_vr_t03,
+  _hid_ninja_starsassassin_r_t02,
+  _hid_ninja_040_dennis_sr_t03,
+  _hid_ninja_021_sr_t02,
+  _hid_ninja_035_f_cupid_sr_t05,
+  _hid_ninja_011_sr_t02,
+  _hid_ninja_037_junk_samurai_sr_t03,
+  _hid_ninja_028_razor_sr_t02,
+  _hid_ninja_008_vr_t05,
+  _hid_ninja_010_sr_t02,
+  _hid_ninja_043_cranium_sr_t04,
+  _hid_ninja_038_male_ninja_pirate_vr_t05,
+  _hid_ninja_xbox_sr_t04,
+  _hid_ninja_007_r_t03,
+  _hid_ninja_038_male_ninja_pirate_sr_t01,
+  _hid_ninja_011_r_t04,
+  _hid_ninja_010_f_vr_t05,
+  _hid_ninja_starsrainhw_sr_t05,
+  _hid_ninja_015_f_v1_uc_t02,
+  _hid_ninja_014_f_sr_t01,
+  _hid_ninja_042_assembler_sr_t03,
+  _hid_ninja_040_dennis_vr_t02,
+  _hid_ninja_008_sr_t01,
+  _hid_ninja_smokedimmak_r_t04,
+  _hid_ninja_009_r_t03,
+  _hid_ninja_slashbreath_r_t03,
+  _hid_ninja_007_vr_t05,
+  _hid_ninja_014_f_sr_t04,
+  _hid_ninja_031_radninja_sr_t02,
+  _hid_ninja_029_dinoninja_sr_t05,
+  _hid_ninja_starsrain_vr_t05,
+  _hid_ninja_017_m_v1_vr_t05,
+  _hid_ninja_010_vr_t03,
+  _hid_ninja_smokedimmak_sr_t03,
+  _hid_ninja_starsassassin_r_t03,
+  _hid_ninja_043_cranium_sr_t05,
+  _hid_ninja_sony_vr_t02,
+  _hid_ninja_033_halloweenninja_sr_t04,
+  _hid_ninja_007_sr_t02,
+  _hid_ninja_022_sr_t02,
+  _hid_ninja_021_sr_t03,
+  _hid_ninja_015_f_v1_vr_t01,
+  _hid_ninja_040_dennis_sr_t02,
+  _hid_ninja_swordmaster_sr_t04,
+  _hid_ninja_xbox_vr_t05,
+  _hid_ninja_sony_sr_t04,
+  _hid_ninja_016_f_v1_sr_t05,
+  _hid_ninja_008_r_t02,
+  _hid_ninja_008_sr_t02,
+  _hid_ninja_028_razor_sr_t04,
+  _hid_ninja_sony_sr_t05,
+  _hid_ninja_020_sr_t03,
+  _hid_ninja_033_halloweenninja_sr_t05,
+  _hid_ninja_starsassassin_sr_t04,
+  _hid_ninja_037_junk_samurai_sr_t01,
+  _hid_ninja_010_vr_t02,
+  _hid_ninja_myth03_sr_t01,
+  _hid_ninja_031_radninja_sr_t01,
+  _hid_ninja_034_toymonkey_sr_t02,
+  _hid_ninja_slashtail_sr_t03,
+  _hid_ninja_015_f_v1_vr_t05,
+  _hid_ninja_011_vr_t04,
+  _hid_ninja_slashbreath_vr_t03,
+  _hid_ninja_009_sr_t01,
+  _hid_ninja_014_r_t01,
+  _hid_ninja_010_f_vr_t04,
+  _hid_ninja_xbox_r_t02,
+  _hid_ninja_slashbreathhw_sr_t01,
+  _hid_ninja_015_f_v1_r_t04,
+  _hid_ninja_slashbreath_vr_t02,
+  _hid_ninja_014_vr_t01,
+  _hid_ninja_018_sr_t02,
+  _hid_ninja_033_halloweenninja_sr_t01,
+  _hid_ninja_starsrain_vr_t03,
+  _hid_ninja_slashbreath_sr_t03,
+  _hid_ninja_slashtail_r_t03,
+  _hid_ninja_starsassassin_r_t04,
+  _hid_ninja_sony_r_t01,
+  _hid_ninja_starsrain_vr_t04,
+  _hid_ninja_slashbreath_sr_t02,
+  _hid_ninja_030_retroscifininja_sr_t04,
+  _hid_ninja_030_retroscifininja_sr_t01,
+  _hid_ninja_014_r_t03,
+  _hid_ninja_014_r_t02,
+  _hid_ninja_starsassassin_vr_t04,
+  _hid_ninja_swordmaster_sr_t03,
+  _hid_ninja_038_male_ninja_pirate_sr_t05,
+  _hid_ninja_016_m_v1_sr_t05,
+  _hid_ninja_039_dino_ninja_sr_t02,
+  _hid_ninja_019_sr_t03,
+  _hid_ninja_007_sr_t01,
+  _hid_ninja_017_m_v1_sr_t03,
+  _hid_ninja_smokedimmak_r_t02,
+  _hid_ninja_013_sr_t02,
+  _hid_ninja_015_f_v1_uc_t01,
+  _hid_ninja_sony_r_t03,
+  _hid_ninja_015_f_v1_vr_t02,
+  _hid_ninja_030_retroscifininja_sr_t03,
+  _hid_ninja_starsrainhw_vr_t01,
+  _hid_ninja_031_radninja_sr_t04,
+  _hid_ninja_038_male_ninja_pirate_sr_t02,
+  _hid_ninja_009_f_valentine_sr_t01,
+  _hid_ninja_034_toymonkey_sr_t01,
+  _hid_ninja_009_vr_t05,
+  _hid_ninja_043_cranium_sr_t02,
+  _hid_ninja_starsassassin_uc_t01,
+  _hid_ninja_014_uc_t03,
+  _hid_ninja_xbox_vr_t02,
+  _hid_ninja_slashtail_sr_t04,
+  _hid_ninja_023_sr_t01,
+  _hid_ninja_010_f_sr_t03,
+  _hid_ninja_007_uc_t01,
+  _hid_ninja_smokedimmak_r_t01,
+  _hid_ninja_042_assembler_sr_t05,
+  _hid_ninja_011_vr_t03,
+  _hid_ninja_028_razor_sr_t01,
+  _hid_ninja_014_sr_t05,
+  _hid_ninja_022_sr_t04,
+  _hid_ninja_013_sr_t03,
+  _hid_ninja_sony_sr_t02,
+  _hid_ninja_013_sr_t01,
+  _hid_ninja_slashbreath_r_t02,
+  _hid_ninja_025_pirateninja_vr_t02,
+  _hid_ninja_017_m_v1_r_t04,
+  _hid_ninja_010_f_sr_t05,
+  _hid_ninja_myth02_sr_t01,
+  _hid_ninja_008_sr_t05,
+  _hid_ninja_017_m_v1_sr_t05,
+  _hid_ninja_014_uc_t01,
+  _hid_ninja_smokedimmak_vr_t03,
+  _hid_ninja_010_f_sr_t04,
+  _hid_ninja_015_f_v1_r_t03,
+  _hid_ninja_008_vr_t03,
+  _hid_ninja_010_f_sr_t02,
+  _hid_ninja_007_vr_t04,
+  _hid_ninja_008_vr_t01,
+  _hid_ninja_025_pirateninja_vr_t04,
+  _hid_ninja_slashbreath_sr_t04,
+  _hid_ninja_021_sr_t01,
+  _hid_ninja_037_junk_samurai_vr_t01,
+  _hid_ninja_025_pirateninja_vr_t05,
+  _hid_ninja_015_f_v1_roadtrip_sr_t02,
+  _hid_ninja_024_sr_t01,
+  _hid_ninja_starsrain_sr_t04,
+  _hid_ninja_022_sr_t01,
+  _hid_ninja_slashbreathhw_vr_t02,
+  _hid_ninja_025_pirateninja_sr_t03,
+  _hid_ninja_037_junk_samurai_vr_t02,
+  _hid_ninja_009_sr_t04,
+  _hid_ninja_019_sr_t04,
+  _hid_ninja_026_reddragonninja_sr_t02,
+  _hid_ninja_033_halloweenninja_sr_t03,
+  _hid_ninja_016_m_v1_vr_t05,
+  _hid_ninja_043_cranium_vr_t04,
+  _hid_ninja_043_cranium_vr_t05,
+  _hid_ninja_010_f_vr_t01,
+  _hid_ninja_013_sr_t05,
+  _hid_ninja_smokedimmak_r_t03,
+  _hid_ninja_043_cranium_vr_t03,
+  _hid_ninja_starsassassin_foundersm_sr_t03,
+  _hid_ninja_031_radninja_vr_t05,
+  _hid_ninja_015_f_v1_roadtrip_sr_t03,
+  _hid_ninja_009_vr_t04,
+  _hid_ninja_slashbreathhw_sr_t04,
+  _hid_ninja_008_vr_t04,
+  _hid_ninja_025_pirateninja_vr_t01,
+  _hid_ninja_009_f_valentine_sr_t03,
+  _hid_ninja_016_m_v1_vr_t04,
+  _hid_ninja_017_m_v1_r_t03,
+  _hid_ninja_023_sr_t03,
+  _hid_ninja_041_deco_sr_t04,
+  _hid_ninja_014_vr_t04,
+  _hid_ninja_starsrain_sr_t02,
+  _hid_ninja_starsassassin_foundersf_sr_t02,
+  _hid_ninja_041_deco_vr_t01,
+  _hid_ninja_026_reddragonninja_sr_t05,
+  _hid_ninja_018_sr_t03,
+  _hid_ninja_slashtail_vr_t02,
+  _hid_ninja_034_toymonkey_vr_t01,
+  _hid_ninja_041_deco_sr_t05,
+  _hid_ninja_010_f_sr_t01,
+  _hid_ninja_030_retroscifininja_vr_t02,
+  _hid_ninja_024_sr_t04,
+  _hid_ninja_015_f_v1_roadtrip_sr_t05,
+  _hid_ninja_030_retroscifininja_vr_t03,
+  _hid_ninja_starsrainhw_sr_t04,
+  _hid_ninja_009_f_valentine_sr_t05,
+  _hid_ninja_040_dennis_vr_t01,
+  _hid_ninja_023_sr_t04,
+  _hid_ninja_043_cranium_vr_t02,
+  _hid_ninja_007_sr_t05,
+  _hid_ninja_013_vr_t05,
+  _hid_ninja_038_male_ninja_pirate_vr_t02,
+  _hid_ninja_007_r_t01,
+  _hid_ninja_039_dino_ninja_sr_t01,
+  _hid_ninja_018_sr_t04,
+  _hid_ninja_041_deco_sr_t01,
+  _hid_ninja_030_retroscifininja_vr_t05,
+  _hid_ninja_026_reddragonninja_sr_t04,
+  _hid_ninja_015_f_v1_roadtrip_sr_t01,
+  _hid_ninja_007_r_t02,
+  _hid_ninja_009_f_valentine_sr_t02,
+  _hid_ninja_028_razor_sr_t03,
+  _hid_ninja_009_sr_t02,
+  _hid_ninja_025_pirateninja_sr_t05,
+  _hid_ninja_017_m_v1_sr_t01,
+  _hid_ninja_017_m_v1_r_t02,
+  _hid_ninja_026_reddragonninja_sr_t01,
+  _hid_ninja_myth03_sr_t03,
+  _hid_ninja_009_sr_t03,
+  _hid_ninja_starsrain_sr_t01,
+  _hid_ninja_xbox_vr_t04,
+  _hid_ninja_031_radninja_vr_t04,
+  _hid_ninja_014_vr_t05,
+  _hid_ninja_033_halloweenninja_sr_t02,
+  _hid_ninja_035_f_cupid_sr_t01,
+  _hid_ninja_014_f_sr_t03,
+  _hid_ninja_035_f_cupid_sr_t04,
+  _hid_ninja_013_vr_t01,
+  _hid_ninja_swordmaster_sr_t02,
+  _hid_ninja_starsrainhw_vr_t03,
+  _hid_ninja_017_m_v1_vr_t03,
+  _hid_ninja_020_sr_t01,
+  _hid_ninja_024_sr_t05,
+  _hid_ninja_014_sr_t03,
+  _hid_ninja_040_dennis_sr_t04,
+  _hid_ninja_016_f_v1_sr_t02,
+  _hid_ninja_slashbreath_vr_t01,
+  _hid_ninja_009_r_t04,
+  _hid_ninja_016_f_v1_sr_t03,
+  _hid_ninja_041_deco_sr_t03,
+  _hid_ninja_014_sr_t02,
+  _hid_ninja_039_dino_ninja_vr_t04,
+  _hid_ninja_013_vr_t02,
+  _hid_ninja_starsassassin_sr_t05,
+  _hid_ninja_starsrain_vr_t02,
+  _hid_ninja_034_toymonkey_sr_t04,
+  _hid_ninja_022_sr_t03,
+  _hid_ninja_013_vr_t03,
+  _hid_ninja_041_deco_vr_t04,
+  _hid_ninja_011_sr_t04,
+  _hid_ninja_030_retroscifininja_vr_t01,
+  _hid_ninja_sony_sr_t03,
+  _hid_ninja_027_bunnyninja_sr_t04,
+  _hid_ninja_starsassassin_vr_t05,
+  _hid_ninja_014_sr_t04,
+  _hid_ninja_015_f_v1_roadtrip_sr_t04,
+  _hid_ninja_starsrainhw_sr_t02,
+  _hid_ninja_starsassassin_sr_t01,
+  _hid_ninja_010_sr_t01,
+  _hid_ninja_starsrain_vr_t01,
+  _hid_ninja_037_junk_samurai_vr_t04,
+  _hid_ninja_slashbreath_sr_t05,
+  _hid_ninja_011_sr_t05,
+  _hid_ninja_031_radninja_vr_t02,
+  _hid_ninja_014_f_sr_t05,
+  _hid_ninja_042_assembler_vr_t01,
+  _hid_ninja_slashtail_uc_t03,
+  _hid_ninja_slashtail_r_t01,
+  _hid_ninja_039_dino_ninja_sr_t04,
+  _hid_ninja_027_bunnyninja_sr_t05,
+  _hid_ninja_007_uc_t02,
+  _hid_ninja_slashbreath_vr_t05,
+  _hid_ninja_042_assembler_vr_t05,
+  _hid_ninja_042_assembler_vr_t02,
+  _hid_ninja_041_deco_sr_t02,
+  _hid_ninja_016_m_v1_sr_t02,
+  _hid_ninja_016_f_v1_sr_t04,
+  _hid_ninja_023_sr_t05,
+  _hid_ninja_009_vr_t02,
+  _hid_ninja_016_m_v1_sr_t03,
+  _hid_ninja_013_vr_t04,
+  _hid_ninja_030_retroscifininja_vr_t04,
+  _hid_ninja_007_vr_t01,
+  _hid_ninja_034_toymonkey_vr_t02,
+  _hid_ninja_starsrainhw_vr_t02,
+  _hid_ninja_039_dino_ninja_vr_t05,
+  _hid_ninja_016_m_v1_sr_t01,
+  _hid_ninja_017_m_v1_sr_t04,
+  _hid_ninja_019_sr_t02,
+  _hid_ninja_011_vr_t02,
+  _hid_ninja_037_junk_samurai_vr_t03,
+  _hid_ninja_014_f_sr_t02,
+  _hid_ninja_slashtail_vr_t03,
+  _hid_ninja_018_sr_t01,
+  _hid_ninja_starsassassin_foundersf_sr_t01,
+  _hid_ninja_slashbreathhw_vr_t05,
+  _hid_ninja_031_radninja_sr_t03,
+  _hid_ninja_008_r_t04,
+  _hid_ninja_024_sr_t02,
+  _hid_ninja_014_uc_t02,
+  _hid_ninja_042_assembler_vr_t03,
+  _hid_ninja_009_vr_t01,
+  _hid_ninja_027_bunnyninja_sr_t03,
+  _hid_ninja_011_r_t03,
+  _hid_ninja_025_pirateninja_vr_t03,
+  _hid_ninja_017_m_v1_sr_t02,
+  _hid_ninja_042_assembler_vr_t04,
+  _hid_ninja_037_junk_samurai_sr_t04,
+  _hid_ninja_037_junk_samurai_sr_t05,
+  _hid_ninja_015_f_v1_r_t01,
+  _hid_ninja_slashbreath_r_t01,
+  _hid_ninja_xbox_vr_t03,
+  _hid_ninja_008_r_t01,
+  _hid_ninja_smokedimmak_sr_t01,
+  _hid_ninja_myth03_sr_t05,
+  _hid_ninja_007_vr_t03,
+  _hid_ninja_011_r_t02,
+  _hid_ninja_slashbreathhw_sr_t02,
+  _hid_ninja_slashbreath_sr_t01,
+  _hid_ninja_016_m_v1_vr_t03,
+  _hid_ninja_009_r_t02,
+  _hid_ninja_040_dennis_vr_t04,
+  _hid_ninja_myth02_sr_t05,
+  _hid_ninja_starsrain_sr_t03,
+  _hid_ninja_038_male_ninja_pirate_vr_t03,
+  _hid_ninja_xbox_sr_t03,
+  _hid_ninja_015_f_v1_r_t02,
+  _hid_ninja_starsassassin_vr_t02,
+  _hid_ninja_015_f_v1_sr_t05,
+  _hid_ninja_042_assembler_sr_t01,
+  _hid_ninja_slashbreathhw_vr_t04,
+  _hid_ninja_011_r_t01,
+  _hid_ninja_slashtail_vr_t05,
+  _hid_ninja_013_r_t03,
+  _hid_ninja_009_vr_t03,
+  _hid_ninja_043_cranium_vr_t01,
+  _hid_ninja_xbox_r_t04,
+  _hid_ninja_034_toymonkey_vr_t04,
+  _hid_ninja_007_sr_t03,
+  _hid_ninja_016_m_v1_vr_t01,
+  _hid_ninja_slashbreathhw_sr_t05,
+  _hid_ninja_024_sr_t03,
+  _hid_ninja_042_assembler_sr_t04,
+  _hid_ninja_starsrainhw_vr_t05,
+  _hid_ninja_014_r_t04,
+  _hid_ninja_037_junk_samurai_sr_t02,
+  _hid_ninja_031_radninja_vr_t03,
+  _hid_ninja_slashtail_vr_t04,
+  _hid_ninja_014_vr_t02,
+  _hid_ninja_029_dinoninja_sr_t02,
+  _hid_ninja_038_male_ninja_pirate_vr_t01,
+  _hid_ninja_010_f_vr_t02,
+  _hid_ninja_slashtail_vr_t01,
+  _hid_ninja_015_f_v1_sr_t02,
+  _hid_ninja_027_bunnyninja_sr_t01,
+  _hid_ninja_022_sr_t05,
+  _hid_ninja_029_dinoninja_sr_t04,
+  _hid_ninja_039_dino_ninja_vr_t02,
+  _hid_ninja_slashbreathhw_vr_t03,
+  _hid_ninja_030_retroscifininja_sr_t02,
+  _hid_ninja_011_vr_t01,
+  _hid_ninja_slashbreathhw_sr_t03,
+  _hid_ninja_018_sr_t05,
+  _hid_ninja_015_f_v1_sr_t03,
+  _hid_ninja_015_f_v1_vr_t03,
+  _hid_ninja_starsrain_sr_t05,
+  _hid_ninja_009_r_t01,
+  _hid_ninja_xbox_sr_t02,
+  _hid_ninja_034_toymonkey_sr_t03,
+  _hid_ninja_sony_sr_t01,
+  _hid_ninja_slashtail_uc_t02,
+  _hid_ninja_007_uc_t03,
+  _hid_ninja_043_cranium_sr_t01,
+  _hid_ninja_040_dennis_sr_t01,
+  _hid_ninja_slashtail_r_t04,
+  _hid_ninja_041_deco_vr_t03,
+  _hid_ninja_008_sr_t03,
+  _hid_ninja_010_sr_t04,
+  _hid_ninja_029_dinoninja_sr_t03,
+  _hid_ninja_039_dino_ninja_vr_t01,
+  _hid_ninja_myth02_sr_t04,
+  _hid_ninja_013_r_t04,
+  _hid_ninja_025_pirateninja_sr_t04,
+  _hid_ninja_slashtail_uc_t01,
+  _hid_ninja_043_cranium_sr_t03,
+  _hid_ninja_starsassassin_foundersm_sr_t01,
+  _hid_ninja_021_sr_t05,
+  _hid_ninja_010_vr_t05,
+  _hid_ninja_016_m_v1_vr_t02,
+  _hid_ninja_smokedimmak_sr_t02,
+  _hid_ninja_smokedimmak_sr_t05,
+  _hid_ninja_starsassassin_vr_t03,
+  _hid_ninja_016_f_v1_sr_t01,
+  _hid_ninja_020_sr_t04,
+  _hid_ninja_007_sr_t04,
+  _hid_ninja_039_dino_ninja_sr_t05,
+  _hid_ninja_slashtail_r_t02,
+  _hid_ninja_starsassassin_foundersm_sr_t04,
+  _hid_ninja_myth02_sr_t02,
+  _hid_ninja_starsassassin_r_t01,
+  _hid_ninja_sony_vr_t05,
+  _hid_ninja_034_toymonkey_vr_t03,
+  _hid_ninja_027_bunnyninja_sr_t02,
+  _hid_ninja_025_pirateninja_sr_t01,
+  _hid_ninja_025_pirateninja_sr_t02,
+  _hid_ninja_myth03_sr_t02,
+  _hid_ninja_019_sr_t05,
+  _hid_ninja_slashbreath_vr_t04,
+  _hid_ninja_010_sr_t03,
+  _hid_ninja_031_radninja_vr_t01,
+  _hid_ninja_015_f_v1_sr_t01,
+  _hid_ninja_013_r_t02,
+  _hid_ninja_038_male_ninja_pirate_sr_t03,
+  _hid_ninja_017_m_v1_vr_t01,
+  _hid_ninja_swordmaster_sr_t05,
+  _hid_ninja_041_deco_vr_t05,
+  _hid_ninja_041_deco_vr_t02,
+  _hid_ninja_011_vr_t05,
+  _hid_ninja_010_vr_t04,
+  _hid_ninja_010_sr_t05,
+  _hid_ninja_016_m_v1_sr_t04,
+  _hid_ninja_040_dennis_vr_t05,
+  _hid_ninja_014_vr_t03,
+  _hid_ninja_035_f_cupid_sr_t02,
+  _hid_ninja_xbox_sr_t01,
+  _hid_ninja_myth02_sr_t03,
+  _hid_ninja_008_vr_t02,
+  _hid_ninja_xbox_r_t03,
+  _hid_ninja_starsassassin_vr_t01,
+  _hid_ninja_sony_vr_t04,
+  _hid_ninja_010_vr_t01,
+  _hid_ninja_starsassassin_foundersm_sr_t05,
+  _hid_ninja_010_f_vr_t03,
+  _hid_ninja_017_m_v1_vr_t02,
+  _hid_ninja_009_f_valentine_sr_t04,
+  _hid_ninja_007_r_t04,
+  _hid_ninja_020_sr_t05,
+  _hid_ninja_038_male_ninja_pirate_sr_t04,
+  _hid_ninja_014_sr_t01,
+  _hid_ninja_slashbreathhw_vr_t01,
+  _hid_ninja_starsassassin_uc_t02,
+  _hid_ninja_039_dino_ninja_sr_t03,
+  _hid_ninja_starsrainhw_vr_t04,
+  _hid_ninja_015_f_v1_vr_t04,
+  _hid_ninja_023_sr_t02,
+  _hid_ninja_017_m_v1_vr_t04,
+  _hid_ninja_019_sr_t01,
+  _hid_ninja_myth03_sr_t04,
+  _hid_ninja_008_sr_t04,
+  _hid_ninja_011_sr_t01,
+  _hid_ninja_017_m_v1_r_t01,
+  _hid_ninja_starsassassin_sr_t02,
+  _hid_ninja_020_sr_t02,
+  _hid_ninja_013_r_t01,
+  _hid_ninja_013_sr_t04,
+  _hid_ninja_008_r_t03,
+  _hid_ninja_starsrainhw_sr_t03,
+  _hid_ninja_smokedimmak_vr_t04,
+  _hid_ninja_038_male_ninja_pirate_vr_t04,
+  _hid_ninja_slashtail_sr_t01,
+  _hid_ninja_starsassassin_uc_t03,
+  _hid_ninja_starsassassin_foundersf_sr_t04,
+  _hid_ninja_smokedimmak_sr_t04,
+  _hid_ninja_034_toymonkey_sr_t05,
+  _hid_ninja_xbox_r_t01,
+  _hid_ninja_sony_vr_t03,
+  _hid_ninja_007_vr_t02,
+  _hid_ninja_sony_vr_t01,
+  _hid_ninja_slashtail_sr_t02,
+  _hid_ninja_smokedimmak_vr_t02,
+  _hid_ninja_009_sr_t05,
+  _hid_ninja_035_f_cupid_sr_t03,
+  _hid_ninja_039_dino_ninja_vr_t03,
+  _hid_commando_045_chaos_agent_sr_t04,
+  _hid_commando_007_vr_t04,
+  _hid_commando_grenadegun_uc_t03,
+  _hid_commando_gunheadshot_starter_m_sr_t04,
+  _hid_commando_grenadegun_sr_t01,
+  _hid_commando_041_pirate_02_br_sr_t02,
+  _hid_commando_023_vr_t04,
+  _hid_commando_038_shock_wave_sr_t01,
+  _hid_commando_029_dinosoldier_sr_t02,
+  _hid_commando_007hw_vr_t04,
+  _hid_commando_032_halloweensoldier_sr_t04,
+  _hid_commando_myth03_sr_t03,
+  _hid_commando_013_stpatricks_m_sr_t04,
+  _hid_commando_024_vr_t04,
+  _hid_commando_016_m_v1_sr_t01,
+  _hid_commando_017_f_v1_sr_t04,
+  _hid_commando_guntough_vr_t01,
+  _hid_commando_sony_sr_t05,
+  _hid_commando_009_m_sr_t04,
+  _hid_commando_041_pirate_02_br_vr_t05,
+  _hid_commando_034_toytinkerer_vr_t03,
+  _hid_commando_guntough_vr_t02,
+  _hid_commando_016_f_v1_vr_t05,
+  _hid_commando_039_pajama_party_vr_t04,
+  _hid_commando_014_m_sr_t04,
+  _hid_commando_010_bday_sr_t02,
+  _hid_commando_007_r_t01,
+  _hid_commando_sony_r_t03,
+  _hid_commando_myth02_sr_t03,
+  _hid_commando_009_r_t04,
+  _hid_commando_014_wukong_sr_t03,
+  _hid_commando_guntough_vr_t05,
+  _hid_commando_027_piratesoldier_vr_t05,
+  _hid_commando_013_stpatricks_m_sr_t01,
+  _hid_commando_grenadegun_m_t_sr_t01,
+  _hid_commando_guntough_m_4thjuly_sr_t04,
+  _hid_commando_guntough_rs01_sr_t02,
+  _hid_commando_044_gumshoe_dark_vr_t02,
+  _hid_commando_gunheadshot_vr_t03,
+  _hid_commando_gcgrenade_t_vr_t04,
+  _hid_commando_041_pirate_02_br_vr_t01,
+  _hid_commando_011_m_easter_sr_t04,
+  _hid_commando_011_f_v1_roadtrip_sr_t05,
+  _hid_commando_008_foundersf_sr_t05,
+  _hid_commando_010_vr_t04,
+  _hid_commando_011_uc_t01,
+  _hid_commando_gcgrenade_vr_t02,
+  _hid_commando_027_piratesoldier_vr_t04,
+  _hid_commando_sony_vr_t01,
+  _hid_commando_031_radsoldier_sr_t02,
+  _hid_commando_015_m_v1_sr_t04,
+  _hid_commando_016_f_v1_sr_t03,
+  _hid_commando_013_r_t03,
+  _hid_commando_011_m_sr_t02,
+  _hid_commando_031_radsoldier_vr_t01,
+  _hid_commando_013_vr_t01,
+  _hid_commando_007hw_vr_t02,
+  _hid_commando_007hw_sr_t02,
+  _hid_commando_sony_vr_t02,
+  _hid_commando_guntough_r_t04,
+  _hid_commando_032_halloweensoldier_sr_t01,
+  _hid_commando_030_retroscifisoldier_sr_t04,
+  _hid_commando_008_sr_t01,
+  _hid_commando_011_sr_t04,
+  _hid_commando_guntough_rs01_sr_t03,
+  _hid_commando_xbox_vr_t03,
+  _hid_commando_015_m_v1_vr_t05,
+  _hid_commando_016_f_v1_vr_t01,
+  _hid_commando_023_vr_t03,
+  _hid_commando_045_chaos_agent_sr_t01,
+  _hid_commando_013_stpatricks_f_v2_sr_t03,
+  _hid_commando_031_radsoldier_vr_t03,
+  _hid_commando_008_foundersm_sr_t04,
+  _hid_commando_008_foundersf_sr_t02,
+  _hid_commando_039_pajama_party_sr_t01,
+  _hid_commando_038_shock_wave_vr_t01,
+  _hid_commando_042_major_vr_t03,
+  _hid_commando_008_r_t03,
+  _hid_commando_guntough_f_4thjuly_sr_t03,
+  _hid_commando_009_m_vr_t04,
+  _hid_commando_042_major_sr_t03,
+  _hid_commando_041_pirate_02_br_sr_t03,
+  _hid_commando_014_sr_t02,
+  _hid_commando_013_stpatricks_f_v2_sr_t02,
+  _hid_commando_011_m_sr_t05,
+  _hid_commando_007hw_rs01_sr_t05,
+  _hid_commando_011_vr_t05,
+  _hid_commando_034_toytinkerer_sr_t02,
+  _hid_commando_grenadegun_sr_t02,
+  _hid_commando_044_gumshoe_dark_sr_t04,
+  _hid_commando_035_caped_valentine_sr_t01,
+  _hid_commando_xbox_r_t03,
+  _hid_commando_026_sr_t02,
+  _hid_commando_008_foundersm_sr_t05,
+  _hid_commando_015_m_v1_blockbuster_sr_t02,
+  _hid_commando_034_toytinkerer_sr_t05,
+  _hid_commando_008_vr_t02,
+  _hid_commando_gunheadshothw_sr_t01,
+  _hid_commando_021_sr_t01,
+  _hid_commando_017_f_v1_vr_t04,
+  _hid_commando_guntough_valentine_sr_t02,
+  _hid_commando_009_m_r_t03,
+  _hid_commando_007_vr_t01,
+  _hid_commando_009_m_vr_t01,
+  _hid_commando_009_m_r_t02,
+  _hid_commando_023_sr_t02,
+  _hid_commando_013_sr_t02,
+  _hid_commando_024_sr_t05,
+  _hid_commando_guntough_valentine_sr_t01,
+  _hid_commando_040_pirate_br_vr_t02,
+  _hid_commando_011_f_v1_roadtrip_sr_t03,
+  _hid_commando_040_pirate_br_vr_t04,
+  _hid_commando_033_halloweenquestsoldier_sr_t03,
+  _hid_commando_011_r_t04,
+  _hid_commando_028_bunnybrawler_sr_t02,
+  _hid_commando_034_toytinkerer_vr_t05,
+  _hid_commando_014_vr_t03,
+  _hid_commando_007hw_rs01_sr_t01,
+  _hid_commando_021_sr_t02,
+  _hid_commando_guntough_rs01_sr_t04,
+  _hid_commando_myth02_sr_t05,
+  _hid_commando_011_f_v1_roadtrip_sr_t01,
+  _hid_commando_guntough_sr_t04,
+  _hid_commando_025_sr_t05,
+  _hid_commando_013_r_t02,
+  _hid_commando_gunheadshothw_sr_t03,
+  _hid_commando_042_major_vr_t02,
+  _hid_commando_008_vr_t04,
+  _hid_commando_027_piratesoldier_sr_t04,
+  _hid_commando_sony_sr_t03,
+  _hid_commando_022_sr_t05,
+  _hid_commando_015_m_v1_vr_t02,
+  _hid_commando_030_retroscifisoldier_vr_t04,
+  _hid_commando_guntough_f_4thjuly_sr_t04,
+  _hid_commando_014_wukong_sr_t02,
+  _hid_commando_032_halloweensoldier_sr_t03,
+  _hid_commando_038_shock_wave_vr_t05,
+  _hid_commando_041_pirate_02_br_sr_t05,
+  _hid_commando_014_m_sr_t03,
+  _hid_commando_gunheadshot_vr_t01,
+  _hid_commando_011_m_sr_t01,
+  _hid_commando_016_f_v1_vr_t03,
+  _hid_commando_009_r_t02,
+  _hid_commando_009_m_sr_t03,
+  _hid_commando_034_toytinkerer_vr_t02,
+  _hid_commando_011_r_t01,
+  _hid_commando_035_caped_valentine_sr_t02,
+  _hid_commando_grenadegun_r_t04,
+  _hid_commando_019_sr_t04,
+  _hid_commando_gunheadshothw_vr_t05,
+  _hid_commando_010_sr_t03,
+  _hid_commando_gunheadshothw_vr_t04,
+  _hid_commando_023_sr_t04,
+  _hid_commando_015_m_v1_sr_t02,
+  _hid_commando_gunheadshot_sr_t03,
+  _hid_commando_007_sr_t03,
+  _hid_commando_033_halloweenquestsoldier_sr_t04,
+  _hid_commando_024_sr_t03,
+  _hid_commando_023_sr_t05,
+  _hid_commando_042_major_vr_t05,
+  _hid_commando_014_m_sr_t01,
+  _hid_commando_015_m_v1_blockbuster_sr_t05,
+  _hid_commando_013_stpatricks_f_v1_sr_t03,
+  _hid_commando_grenadegun_vr_t02,
+  _hid_commando_myth02_sr_t02,
+  _hid_commando_033_halloweenquestsoldier_sr_t02,
+  _hid_commando_007hw_vr_t03,
+  _hid_commando_gcgrenade_r_t03,
+  _hid_commando_022_sr_t01,
+  _hid_commando_guntough_uc_t01,
+  _hid_commando_024_vr_t01,
+  _hid_commando_030_retroscifisoldier_sr_t01,
+  _hid_commando_031_radsoldier_sr_t03,
+  _hid_commando_myth03_sr_t01,
+  _hid_commando_017_f_v1_vr_t03,
+  _hid_commando_gcgrenade_vr_t04,
+  _hid_commando_gcgrenade_sr_t01,
+  _hid_commando_gcgrenade_sr_t04,
+  _hid_commando_014_sr_t01,
+  _hid_commando_guntough_r_t02,
+  _hid_commando_sony_vr_t05,
+  _hid_commando_013_sr_t04,
+  _hid_commando_010_sr_t01,
+  _hid_commando_009_m_vr_t05,
+  _hid_commando_xbox_sr_t05,
+  _hid_commando_015_m_v1_sr_t05,
+  _hid_commando_grenadegun_sr_t05,
+  _hid_commando_040_pirate_br_sr_t05,
+  _hid_commando_015_m_v1_vr_t01,
+  _hid_commando_041_pirate_02_br_sr_t04,
+  _hid_commando_030_retroscifisoldier_vr_t01,
+  _hid_commando_009_m_vr_t03,
+  _hid_commando_009_vr_t02,
+  _hid_commando_021_sr_t04,
+  _hid_commando_guntough_rs01_sr_t05,
+  _hid_commando_013_stpatricks_f_v1_sr_t01,
+  _hid_commando_grenadegun_uc_t02,
+  _hid_commando_011_r_t03,
+  _hid_commando_015_m_v1_blockbuster_sr_t03,
+  _hid_commando_gcgrenade_sr_t02,
+  _hid_commando_033_halloweenquestsoldier_sr_t01,
+  _hid_commando_011_m_easter_sr_t02,
+  _hid_commando_015_m_v1_sr_t03,
+  _hid_commando_gunheadshothw_sr_t02,
+  _hid_commando_042_major_sr_t04,
+  _hid_commando_016_m_v1_sr_t04,
+  _hid_commando_011_m_sr_t04,
+  _hid_commando_008_sr_t04,
+  _hid_commando_xbox_r_t01,
+  _hid_commando_guntough_m_4thjuly_sr_t01,
+  _hid_commando_014_sr_t05,
+  _hid_commando_024_vr_t02,
+  _hid_commando_011_sr_t05,
+  _hid_commando_myth03_sr_t04,
+  _hid_commando_009_r_t01,
+  _hid_commando_007_r_t02,
+  _hid_commando_gunheadshot_starter_m_sr_t05,
+  _hid_commando_xbox_sr_t02,
+  _hid_commando_xbox_vr_t05,
+  _hid_commando_040_pirate_br_vr_t03,
+  _hid_commando_028_bunnybrawler_sr_t05,
+  _hid_commando_017_f_v1_r_t01,
+  _hid_commando_guntough_m_4thjuly_sr_t02,
+  _hid_commando_010_sr_t05,
+  _hid_commando_025_sr_t04,
+  _hid_commando_gunheadshothw_vr_t02,
+  _hid_commando_011_sr_t02,
+  _hid_commando_033_halloweenquestsoldier_sr_t05,
+  _hid_commando_grenadegun_sr_t04,
+  _hid_commando_029_dinosoldier_sr_t05,
+  _hid_commando_016_f_v1_vr_t04,
+  _hid_commando_009_sr_t02,
+  _hid_commando_018_sr_t05,
+  _hid_commando_guntough_rs01_sr_t01,
+  _hid_commando_shockdamage_sr_t03,
+  _hid_commando_023_sr_t01,
+  _hid_commando_015_f_v1_blockbuster_sr_t02,
+  _hid_commando_030_retroscifisoldier_sr_t05,
+  _hid_commando_011_f_v1_roadtrip_sr_t02,
+  _hid_commando_019_sr_t03,
+  _hid_commando_011_vr_t04,
+  _hid_commando_guntough_sr_t03,
+  _hid_commando_031_radsoldier_sr_t04,
+  _hid_commando_010_bday_sr_t05,
+  _hid_commando_gunheadshot_m_v1_roadtrip_sr_t05,
+  _hid_commando_shockdamage_sr_t02,
+  _hid_commando_038_shock_wave_vr_t03,
+  _hid_commando_guntough_f_4thjuly_sr_t05,
+  _hid_commando_030_retroscifisoldier_vr_t02,
+  _hid_commando_010_vr_t05,
+  _hid_commando_015_m_v1_vr_t04,
+  _hid_commando_gcgrenade_t_sr_t01,
+  _hid_commando_grenademaster_sr_t03,
+  _hid_commando_shockdamage_vr_t02,
+  _hid_commando_gcgrenade_t_vr_t03,
+  _hid_commando_016_m_v1_sr_t05,
+  _hid_commando_007hw_vr_t05,
+  _hid_commando_014_wukong_sr_t05,
+  _hid_commando_grenadegun_m_t_sr_t05,
+  _hid_commando_041_pirate_02_br_vr_t03,
+  _hid_commando_031_radsoldier_vr_t02,
+  _hid_commando_038_shock_wave_sr_t02,
+  _hid_commando_008_vr_t01,
+  _hid_commando_007_sr_t02,
+  _hid_commando_gcgrenade_vr_t05,
+  _hid_commando_010_bday_sr_t04,
+  _hid_commando_016_f_v1_sr_t05,
+  _hid_commando_013_stpatricks_m_sr_t05,
+  _hid_commando_017_f_v1_vr_t05,
+  _hid_commando_gcgrenade_r_t04,
+  _hid_commando_017_f_v1_vr_t02,
+  _hid_commando_007_r_t04,
+  _hid_commando_guntough_sr_t05,
+  _hid_commando_grenadegun_vr_t03,
+  _hid_commando_gunheadshothw_vr_t01,
+  _hid_commando_sony_r_t04,
+  _hid_commando_008_foundersm_sr_t01,
+  _hid_commando_009_r_t03,
+  _hid_commando_007_uc_t02,
+  _hid_commando_grenademaster_sr_t05,
+  _hid_commando_039_pajama_party_vr_t01,
+  _hid_commando_023_vr_t01,
+  _hid_commando_008_r_t04,
+  _hid_commando_017_f_v1_r_t03,
+  _hid_commando_gunheadshot_vr_t04,
+  _hid_commando_009_vr_t01,
+  _hid_commando_030_retroscifisoldier_vr_t03,
+  _hid_commando_guntough_uc_t02,
+  _hid_commando_015_f_v1_blockbuster_sr_t05,
+  _hid_commando_016_f_v1_sr_t02,
+  _hid_commando_grenademaster_sr_t02,
+  _hid_commando_024_sr_t04,
+  _hid_commando_038_shock_wave_vr_t02,
+  _hid_commando_xbox_vr_t04,
+  _hid_commando_guntough_f_4thjuly_sr_t01,
+  _hid_commando_027_piratesoldier_vr_t02,
+  _hid_commando_022_sr_t03,
+  _hid_commando_gunheadshot_m_v1_roadtrip_sr_t04,
+  _hid_commando_015_m_v1_blockbuster_sr_t01,
+  _hid_commando_045_chaos_agent_sr_t05,
+  _hid_commando_044_gumshoe_dark_vr_t04,
+  _hid_commando_gunheadshot_sr_t02,
+  _hid_commando_007hw_vr_t01,
+  _hid_commando_018_sr_t03,
+  _hid_commando_017_f_v1_sr_t05,
+  _hid_commando_gunheadshot_m_v1_roadtrip_sr_t02,
+  _hid_commando_sony_sr_t04,
+  _hid_commando_gcgrenade_r_t02,
+  _hid_commando_008_vr_t05,
+  _hid_commando_019_sr_t05,
+  _hid_commando_010_sr_t04,
+  _hid_commando_guntough_valentine_sr_t05,
+  _hid_commando_gunheadshot_sr_t04,
+  _hid_commando_021_sr_t03,
+  _hid_commando_gcgrenade_sr_t03,
+  _hid_commando_011_m_sr_t03,
+  _hid_commando_xbox_sr_t01,
+  _hid_commando_shockdamage_r_t03,
+  _hid_commando_009_sr_t03,
+  _hid_commando_sony_sr_t01,
+  _hid_commando_grenadegun_r_t02,
+  _hid_commando_013_sr_t01,
+  _hid_commando_014_vr_t01,
+  _hid_commando_045_chaos_agent_sr_t02,
+  _hid_commando_039_pajama_party_sr_t03,
+  _hid_commando_013_stpatricks_f_v1_sr_t05,
+  _hid_commando_044_gumshoe_dark_vr_t03,
+  _hid_commando_031_radsoldier_vr_t05,
+  _hid_commando_008_foundersf_sr_t01,
+  _hid_commando_010_vr_t03,
+  _hid_commando_grenadegun_m_t_sr_t02,
+  _hid_commando_xbox_r_t02,
+  _hid_commando_014_vr_t04,
+  _hid_commando_016_f_v1_sr_t04,
+  _hid_commando_013_vr_t04,
+  _hid_commando_grenadegun_sr_t03,
+  _hid_commando_042_major_sr_t01,
+  _hid_commando_gcgrenade_sr_t05,
+  _hid_commando_039_pajama_party_vr_t05,
+  _hid_commando_024_vr_t03,
+  _hid_commando_grenadegun_m_t_sr_t04,
+  _hid_commando_007_uc_t03,
+  _hid_commando_013_stpatricks_m_sr_t02,
+  _hid_commando_011_f_v1_roadtrip_sr_t04,
+  _hid_commando_032_halloweensoldier_sr_t02,
+  _hid_commando_040_pirate_br_vr_t05,
+  _hid_commando_014_sr_t04,
+  _hid_commando_myth03_sr_t02,
+  _hid_commando_gunheadshot_vr_t05,
+  _hid_commando_017_f_v1_sr_t01,
+  _hid_commando_013_stpatricks_f_v1_sr_t04,
+  _hid_commando_gcgrenade_t_sr_t05,
+  _hid_commando_013_stpatricks_f_v2_sr_t05,
+  _hid_commando_029_dinosoldier_sr_t01,
+  _hid_commando_shockdamage_sr_t05,
+  _hid_commando_040_pirate_br_sr_t04,
+  _hid_commando_gunheadshot_starter_m_sr_t03,
+  _hid_commando_gunheadshot_m_v1_roadtrip_sr_t03,
+  _hid_commando_044_gumshoe_dark_sr_t03,
+  _hid_commando_044_gumshoe_dark_vr_t05,
+  _hid_commando_013_sr_t05,
+  _hid_commando_009_vr_t05,
+  _hid_commando_007_sr_t05,
+  _hid_commando_017_f_v1_vr_t01,
+  _hid_commando_027_piratesoldier_sr_t05,
+  _hid_commando_guntough_m_4thjuly_sr_t05,
+  _hid_commando_035_caped_valentine_sr_t04,
+  _hid_commando_039_pajama_party_vr_t03,
+  _hid_commando_042_major_sr_t05,
+  _hid_commando_011_vr_t02,
+  _hid_commando_021_sr_t05,
+  _hid_commando_xbox_sr_t03,
+  _hid_commando_008_sr_t02,
+  _hid_commando_guntough_valentine_sr_t03,
+  _hid_commando_019_sr_t02,
+  _hid_commando_028_bunnybrawler_sr_t04,
+  _hid_commando_041_pirate_02_br_vr_t02,
+  _hid_commando_035_caped_valentine_sr_t05,
+  _hid_commando_gcgrenade_vr_t03,
+  _hid_commando_009_m_vr_t02,
+  _hid_commando_shockdamage_sr_t04,
+  _hid_commando_026_sr_t04,
+  _hid_commando_gunheadshot_m_v1_roadtrip_sr_t01,
+  _hid_commando_011_m_easter_sr_t05,
+  _hid_commando_015_f_v1_blockbuster_sr_t01,
+  _hid_commando_guntough_vr_t04,
+  _hid_commando_016_f_v1_vr_t02,
+  _hid_commando_007_sr_t01,
+  _hid_commando_044_gumshoe_dark_sr_t05,
+  _hid_commando_015_m_v1_sr_t01,
+  _hid_commando_024_sr_t01,
+  _hid_commando_042_major_sr_t02,
+  _hid_commando_009_m_r_t04,
+  _hid_commando_034_toytinkerer_sr_t04,
+  _hid_commando_014_vr_t02,
+  _hid_commando_008_sr_t03,
+  _hid_commando_024_sr_t02,
+  _hid_commando_guntough_r_t01,
+  _hid_commando_gcgrenade_vr_t01,
+  _hid_commando_044_gumshoe_dark_sr_t02,
+  _hid_commando_009_sr_t01,
+  _hid_commando_044_gumshoe_dark_vr_t01,
+  _hid_commando_017_f_v1_r_t02,
+  _hid_commando_grenadegun_m_t_sr_t03,
+  _hid_commando_030_retroscifisoldier_sr_t03,
+  _hid_commando_013_vr_t05,
+  _hid_commando_009_vr_t04,
+  _hid_commando_015_f_v1_blockbuster_sr_t03,
+  _hid_commando_gcgrenade_t_vr_t05,
+  _hid_commando_014_wukong_sr_t04,
+  _hid_commando_022_sr_t02,
+  _hid_commando_011_vr_t03,
+  _hid_commando_gunheadshot_starter_m_sr_t01,
+  _hid_commando_007_r_t03,
+  _hid_commando_035_caped_valentine_sr_t03,
+  _hid_commando_myth02_sr_t04,
+  _hid_commando_gcgrenade_t_sr_t04,
+  _hid_commando_011_vr_t01,
+  _hid_commando_shockdamage_sr_t01,
+  _hid_commando_027_piratesoldier_sr_t01,
+  _hid_commando_029_dinosoldier_sr_t03,
+  _hid_commando_007hw_sr_t04,
+  _hid_commando_guntough_vr_t03,
+  _hid_commando_shockdamage_r_t01,
+  _hid_commando_040_pirate_br_sr_t01,
+  _hid_commando_028_bunnybrawler_sr_t03,
+  _hid_commando_sony_r_t02,
+  _hid_commando_007_sr_t04,
+  _hid_commando_011_uc_t03,
+  _hid_commando_014_vr_t05,
+  _hid_commando_042_major_vr_t01,
+  _hid_commando_grenadegun_vr_t04,
+  _hid_commando_gunheadshot_sr_t01,
+  _hid_commando_guntough_r_t03,
+  _hid_commando_023_vr_t05,
+  _hid_commando_008_r_t01,
+  _hid_commando_027_piratesoldier_vr_t03,
+  _hid_commando_009_sr_t05,
+  _hid_commando_026_sr_t05,
+  _hid_commando_011_m_easter_sr_t03,
+  _hid_commando_xbox_vr_t02,
+  _hid_commando_011_r_t02,
+  _hid_commando_007hw_rs01_sr_t03,
+  _hid_commando_039_pajama_party_vr_t02,
+  _hid_commando_guntough_f_4thjuly_sr_t02,
+  _hid_commando_sony_r_t01,
+  _hid_commando_038_shock_wave_sr_t05,
+  _hid_commando_038_shock_wave_vr_t04,
+  _hid_commando_017_f_v1_r_t04,
+  _hid_commando_018_sr_t02,
+  _hid_commando_sony_vr_t04,
+  _hid_commando_008_vr_t03,
+  _hid_commando_024_vr_t05,
+  _hid_commando_010_bday_sr_t01,
+  _hid_commando_041_pirate_02_br_vr_t04,
+  _hid_commando_008_r_t02,
+  _hid_commando_shockdamage_vr_t03,
+  _hid_commando_gunheadshothw_sr_t05,
+  _hid_commando_grenademaster_sr_t01,
+  _hid_commando_014_wukong_sr_t01,
+  _hid_commando_shockdamage_r_t02,
+  _hid_commando_gunheadshothw_vr_t03,
+  _hid_commando_007hw_rs01_sr_t02,
+  _hid_commando_016_m_v1_sr_t02,
+  _hid_commando_013_vr_t02,
+  _hid_commando_027_piratesoldier_sr_t03,
+  _hid_commando_grenadegun_vr_t05,
+  _hid_commando_032_halloweensoldier_sr_t05,
+  _hid_commando_009_sr_t04,
+  _hid_commando_007_vr_t02,
+  _hid_commando_034_toytinkerer_sr_t01,
+  _hid_commando_019_sr_t01,
+  _hid_commando_040_pirate_br_vr_t01,
+  _hid_commando_026_sr_t01,
+  _hid_commando_031_radsoldier_vr_t04,
+  _hid_commando_011_m_easter_sr_t01,
+  _hid_commando_gunheadshot_vr_t02,
+  _hid_commando_010_bday_sr_t03,
+  _hid_commando_guntough_m_4thjuly_sr_t03,
+  _hid_commando_007hw_rs01_sr_t04,
+  _hid_commando_042_major_vr_t04,
+  _hid_commando_013_stpatricks_f_v2_sr_t01,
+  _hid_commando_007_vr_t03,
+  _hid_commando_030_retroscifisoldier_vr_t05,
+  _hid_commando_029_dinosoldier_sr_t04,
+  _hid_commando_010_sr_t02,
+  _hid_commando_040_pirate_br_sr_t02,
+  _hid_commando_009_m_sr_t01,
+  _hid_commando_gcgrenade_t_sr_t02,
+  _hid_commando_013_r_t04,
+  _hid_commando_026_sr_t03,
+  _hid_commando_015_m_v1_blockbuster_sr_t04,
+  _hid_commando_027_piratesoldier_vr_t01,
+  _hid_commando_009_vr_t03,
+  _hid_commando_shockdamage_vr_t05,
+  _hid_commando_guntough_valentine_sr_t04,
+  _hid_commando_gunheadshothw_sr_t04,
+  _hid_commando_013_r_t01,
+  _hid_commando_guntough_sr_t01,
+  _hid_commando_008_sr_t05,
+  _hid_commando_008_foundersf_sr_t04,
+  _hid_commando_xbox_vr_t01,
+  _hid_commando_013_stpatricks_f_v2_sr_t04,
+  _hid_commando_014_m_sr_t05,
+  _hid_commando_007_uc_t01,
+  _hid_commando_014_sr_t03,
+  _hid_commando_023_vr_t02,
+  _hid_commando_017_f_v1_sr_t03,
+  _hid_commando_038_shock_wave_sr_t03,
+  _hid_commando_013_stpatricks_f_v1_sr_t02,
+  _hid_commando_gunheadshot_starter_m_sr_t02,
+  _hid_commando_014_m_sr_t02,
+  _hid_commando_028_bunnybrawler_sr_t01,
+  _hid_commando_shockdamage_r_t04,
+  _hid_commando_myth02_sr_t01,
+  _hid_commando_sony_vr_t03,
+  _hid_commando_007hw_sr_t03,
+  _hid_commando_gcgrenade_t_sr_t03,
+  _hid_commando_008_foundersm_sr_t02,
+  _hid_commando_gunheadshot_sr_t05,
+  _hid_commando_011_sr_t01,
+  _hid_commando_034_toytinkerer_vr_t01,
+  _hid_commando_034_toytinkerer_vr_t04,
+  _hid_commando_009_m_sr_t05,
+  _hid_commando_shockdamage_vr_t01,
+  _hid_commando_022_sr_t04,
+  _hid_commando_grenadegun_r_t03,
+  _hid_commando_023_sr_t03,
+  _hid_commando_010_vr_t01,
+  _hid_commando_025_sr_t03,
+  _hid_commando_016_m_v1_sr_t03,
+  _hid_commando_045_chaos_agent_sr_t03,
+  _hid_commando_gcgrenade_t_vr_t02,
+  _hid_commando_gcgrenade_t_vr_t01,
+  _hid_commando_015_m_v1_vr_t03,
+  _hid_commando_025_sr_t01,
+  _hid_commando_010_vr_t02,
+  _hid_commando_013_vr_t03,
+  _hid_commando_shockdamage_vr_t04,
+  _hid_commando_018_sr_t04,
+  _hid_commando_007_vr_t05,
+  _hid_commando_039_pajama_party_sr_t02,
+  _hid_commando_guntough_sr_t02,
+  _hid_commando_034_toytinkerer_sr_t03,
+  _hid_commando_016_f_v1_sr_t01,
+  _hid_commando_030_retroscifisoldier_sr_t02,
+  _hid_commando_025_sr_t02,
+  _hid_commando_041_pirate_02_br_sr_t01,
+  _hid_commando_031_radsoldier_sr_t05,
+  _hid_commando_039_pajama_party_sr_t05,
+  _hid_commando_015_f_v1_blockbuster_sr_t04,
+  _hid_commando_044_gumshoe_dark_sr_t01,
+  _hid_commando_038_shock_wave_sr_t04,
+  _hid_commando_grenadegun_vr_t01,
+  _hid_commando_myth03_sr_t05,
+  _hid_commando_009_m_sr_t02,
+  _hid_commando_040_pirate_br_sr_t03,
+  _hid_commando_xbox_sr_t04,
+  _hid_commando_013_stpatricks_m_sr_t03,
+  _hid_commando_018_sr_t01,
+  _hid_commando_027_piratesoldier_sr_t02,
+  _hid_commando_gcgrenade_r_t01,
+  _hid_commando_011_uc_t02,
+  _hid_commando_xbox_r_t04,
+  _hid_commando_031_radsoldier_sr_t01,
+  _hid_commando_017_f_v1_sr_t02,
+  _hid_commando_sony_sr_t02,
+  _hid_commando_039_pajama_party_sr_t04,
+  _hid_commando_009_m_r_t01,
+  _hid_commando_grenademaster_sr_t04,
+  _hid_commando_007hw_sr_t05,
+  _hid_outlander_punchdamage_sr_t05,
+  _hid_outlander_025_pirateoutlander_vr_t01,
+  _hid_outlander_014_vr_t05,
+  _hid_outlander_013_sr_t05,
+  _hid_outlander_037_fuzzy_bear_teddy_vr_t03,
+  _hid_outlander_034_period_fleming_sr_t05,
+  _hid_outlander_sony_vr_t04,
+  _hid_outlander_zonepistol_sr_t03,
+  _hid_outlander_010_m_vr_t02,
+  _hid_outlander_037_fuzzy_bear_teddy_sr_t02,
+  _hid_outlander_014_vr_t02,
+  _hid_outlander_038_clip_sr_t04,
+  _hid_outlander_zonefragment_sr_t03,
+  _hid_outlander_zoneharvest_vr_t03,
+  _hid_outlander_013_stpatricks_sr_t02,
+  _hid_outlander_011_sr_t05,
+  _hid_outlander_038_clip_vr_t05,
+  _hid_outlander_014_m_sr_t04,
+  _hid_outlander_008_foundersm_sr_t01,
+  _hid_outlander_013_vr_t04,
+  _hid_outlander_sony_vr_t02,
+  _hid_outlander_zoneharvest_blockbuster_sr_t04,
+  _hid_outlander_034_period_fleming_sr_t03,
+  _hid_outlander_010_sr_t02,
+  _hid_outlander_014_vr_t04,
+  _hid_outlander_punchphase_r_t03,
+  _hid_outlander_010_m_vr_t03,
+  _hid_outlander_008_vr_t05,
+  _hid_outlander_013_stpatricks_sr_t03,
+  _hid_outlander_020_sr_t05,
+  _hid_outlander_punchphase_uc_t01,
+  _hid_outlander_016_f_v1_sr_t04,
+  _hid_outlander_007_vr_t05,
+  _hid_outlander_sony_r_t02,
+  _hid_outlander_zonepistolhw_sr_t03,
+  _hid_outlander_040_assemblek_sr_t04,
+  _hid_outlander_016_f_v1_sr_t01,
+  _hid_outlander_007_rs01_sr_t02,
+  _hid_outlander_037_fuzzy_bear_teddy_sr_t04,
+  _hid_outlander_015_f_v1_sr_t02,
+  _hid_outlander_034_period_fleming_vr_t03,
+  _hid_outlander_008_r_t03,
+  _hid_outlander_040_assemblek_vr_t04,
+  _hid_outlander_007_rs01_sr_t01,
+  _hid_outlander_034_period_fleming_vr_t02,
+  _hid_outlander_punchphase_vr_t01,
+  _hid_outlander_010_m_4thjuly_sr_t03,
+  _hid_outlander_017_m_v1_vr_t03,
+  _hid_outlander_zoneharvest_r_t03,
+  _hid_outlander_zoneharvest_r_t01,
+  _hid_outlander_zoneharvest_sr_t04,
+  _hid_outlander_017_m_v1_sr_t04,
+  _hid_outlander_011_vr_t05,
+  _hid_outlander_sony_r_t03,
+  _hid_outlander_009_vr_t03,
+  _hid_outlander_007_sr_t01,
+  _hid_outlander_sony_vr_t03,
+  _hid_outlander_038_clip_vr_t01,
+  _hid_outlander_021_sr_t04,
+  _hid_outlander_010_vr_t01,
+  _hid_outlander_039_female_gumshoe_vr_t03,
+  _hid_outlander_spherefragment_sr_t01,
+  _hid_outlander_031_halloweenoutlander_sr_t03,
+  _hid_outlander_023_sr_t04,
+  _hid_outlander_026_bunnyoutlander_sr_t05,
+  _hid_outlander_016_m_v1_sr_t02,
+  _hid_outlander_013_sr_t04,
+  _hid_outlander_010_sr_t05,
+  _hid_outlander_024_sr_t04,
+  _hid_outlander_sony_sr_t01,
+  _hid_outlander_034_period_fleming_vr_t05,
+  _hid_outlander_036_dino_outlander_sr_t01,
+  _hid_outlander_015_f_v1_vr_t04,
+  _hid_outlander_030_radoutlander_vr_t03,
+  _hid_outlander_007_sr_t02,
+  _hid_outlander_013_stpatricks_sr_t05,
+  _hid_outlander_023_sr_t03,
+  _hid_outlander_025_pirateoutlander_sr_t03,
+  _hid_outlander_032_toyoutlander_sr_t02,
+  _hid_outlander_017_m_v1_vr_t01,
+  _hid_outlander_011_sr_t02,
+  _hid_outlander_016_m_v1_vr_t03,
+  _hid_outlander_035_palespooky_outlander_holiday_vr_t02,
+  _hid_outlander_009_sr_t01,
+  _hid_outlander_038_clip_sr_t02,
+  _hid_outlander_spherefragment_sr_t05,
+  _hid_outlander_017_m_v1_vr_t02,
+  _hid_outlander_031_halloweenoutlander_sr_t01,
+  _hid_outlander_032_toyoutlander_sr_t04,
+  _hid_outlander_021_sr_t05,
+  _hid_outlander_016_m_v1_sr_t04,
+  _hid_outlander_009_r_t02,
+  _hid_outlander_040_assemblek_vr_t02,
+  _hid_outlander_punchphase_vr_t05,
+  _hid_outlander_037_fuzzy_bear_teddy_sr_t03,
+  _hid_outlander_040_assemblek_sr_t02,
+  _hid_outlander_007_rs01_sr_t04,
+  _hid_outlander_022_sr_t02,
+  _hid_outlander_039_female_gumshoe_vr_t04,
+  _hid_outlander_punchdamage_vr_t03,
+  _hid_outlander_029_retroscifioutlander_vr_t02,
+  _hid_outlander_010_m_4thjuly_sr_t02,
+  _hid_outlander_015_f_v1_sr_t01,
+  _hid_outlander_008_r_t01,
+  _hid_outlander_007_uc_t02,
+  _hid_outlander_zonepistolhw_vr_t04,
+  _hid_outlander_008_sr_t04,
+  _hid_outlander_032_toyoutlander_sr_t03,
+  _hid_outlander_020_sr_t04,
+  _hid_outlander_xbox_r_t03,
+  _hid_outlander_031_halloweenoutlander_sr_t02,
+  _hid_outlander_014_sr_t01,
+  _hid_outlander_010_m_4thjuly_sr_t04,
+  _hid_outlander_zoneharvest_sr_t02,
+  _hid_outlander_xbox_sr_t03,
+  _hid_outlander_008_foundersf_sr_t04,
+  _hid_outlander_037_fuzzy_bear_teddy_vr_t04,
+  _hid_outlander_zonepistolhw_sr_t01,
+  _hid_outlander_040_assemblek_sr_t05,
+  _hid_outlander_punchdamage_vr_t02,
+  _hid_outlander_009_vr_t04,
+  _hid_outlander_031_halloweenoutlander_sr_t04,
+  _hid_outlander_zonepistol_vr_t02,
+  _hid_outlander_036_dino_outlander_sr_t05,
+  _hid_outlander_xbox_sr_t05,
+  _hid_outlander_010_vr_t05,
+  _hid_outlander_015_f_v1_r_t04,
+  _hid_outlander_zonepistolhw_vr_t02,
+  _hid_outlander_033_kurohomura_sr_t03,
+  _hid_outlander_029_retroscifioutlander_vr_t04,
+  _hid_outlander_punchphase_vr_t04,
+  _hid_outlander_030_radoutlander_sr_t03,
+  _hid_outlander_007_sr_t05,
+  _hid_outlander_zonefragment_sr_t02,
+  _hid_outlander_xbox_sr_t04,
+  _hid_outlander_sony_vr_t05,
+  _hid_outlander_myth02_sr_t03,
+  _hid_outlander_016_m_v1_sr_t05,
+  _hid_outlander_007_sr_t04,
+  _hid_outlander_zoneharvest_blockbuster_sr_t02,
+  _hid_outlander_010_m_vr_t01,
+  _hid_outlander_zonepistol_r_t02,
+  _hid_outlander_008_r_t02,
+  _hid_outlander_037_fuzzy_bear_teddy_vr_t02,
+  _hid_outlander_032_toyoutlander_sr_t01,
+  _hid_outlander_spherefragment_sr_t04,
+  _hid_outlander_015_f_v1_sr_t04,
+  _hid_outlander_029_retroscifioutlander_sr_t02,
+  _hid_outlander_008_foundersf_sr_t01,
+  _hid_outlander_029_retroscifioutlander_vr_t05,
+  _hid_outlander_032_toyoutlander_sr_t05,
+  _hid_outlander_036_dino_outlander_vr_t04,
+  _hid_outlander_013_sr_t02,
+  _hid_outlander_xbox_r_t02,
+  _hid_outlander_sony_sr_t05,
+  _hid_outlander_zonepistol_r_t01,
+  _hid_outlander_025_pirateoutlander_sr_t04,
+  _hid_outlander_008_vr_t02,
+  _hid_outlander_008_foundersf_sr_t05,
+  _hid_outlander_009_sr_t05,
+  _hid_outlander_033_kurohomura_sr_t05,
+  _hid_outlander_022_sr_t05,
+  _hid_outlander_011_vr_t03,
+  _hid_outlander_myth03_sr_t01,
+  _hid_outlander_008_foundersm_sr_t05,
+  _hid_outlander_xbox_sr_t02,
+  _hid_outlander_029_retroscifioutlander_vr_t01,
+  _hid_outlander_spherefragment_vr_t02,
+  _hid_outlander_016_f_v1_sr_t02,
+  _hid_outlander_018_sr_t04,
+  _hid_outlander_040_assemblek_vr_t01,
+  _hid_outlander_punchphase_uc_t03,
+  _hid_outlander_punchdamage_vr_t01,
+  _hid_outlander_spherefragment_vr_t03,
+  _hid_outlander_zonepistol_sr_t01,
+  _hid_outlander_025_pirateoutlander_vr_t05,
+  _hid_outlander_016_f_v1_sr_t03,
+  _hid_outlander_011_vr_t02,
+  _hid_outlander_014_r_t02,
+  _hid_outlander_014_m_sr_t05,
+  _hid_outlander_007_sr_t03,
+  _hid_outlander_010_sr_t04,
+  _hid_outlander_036_dino_outlander_vr_t01,
+  _hid_outlander_007_r_t03,
+  _hid_outlander_014_vr_t03,
+  _hid_outlander_028_retroscifistoryoutlander_sr_t01,
+  _hid_outlander_zoneharvest_blockbuster_sr_t01,
+  _hid_outlander_021_sr_t02,
+  _hid_outlander_009_r_t03,
+  _hid_outlander_008_sr_t05,
+  _hid_outlander_025_pirateoutlander_vr_t03,
+  _hid_outlander_038_clip_sr_t05,
+  _hid_outlander_spherefragment_r_t03,
+  _hid_outlander_zonepistol_r_t04,
+  _hid_outlander_035_palespooky_outlander_holiday_vr_t03,
+  _hid_outlander_myth02_sr_t02,
+  _hid_outlander_013_vr_t02,
+  _hid_outlander_016_m_v1_vr_t05,
+  _hid_outlander_008_foundersm_sr_t04,
+  _hid_outlander_punchdamage_sr_t01,
+  _hid_outlander_spherefragment_sr_t03,
+  _hid_outlander_022_sr_t04,
+  _hid_outlander_036_dino_outlander_vr_t05,
+  _hid_outlander_010_vr_t03,
+  _hid_outlander_zoneharvest_uc_t01,
+  _hid_outlander_zoneharvesthw_sr_t03,
+  _hid_outlander_009_r_t04,
+  _hid_outlander_myth03_sr_t03,
+  _hid_outlander_016_f_v1_sr_t05,
+  _hid_outlander_035_palespooky_outlander_holiday_sr_t01,
+  _hid_outlander_008_sr_t02,
+  _hid_outlander_010_m_sr_t04,
+  _hid_outlander_039_female_gumshoe_vr_t01,
+  _hid_outlander_023_sr_t02,
+  _hid_outlander_015_f_v1_r_t02,
+  _hid_outlander_015_f_v1_vr_t01,
+  _hid_outlander_027_dinooutlander_sr_t05,
+  _hid_outlander_017_m_v1_vr_t04,
+  _hid_outlander_007_uc_t01,
+  _hid_outlander_037_fuzzy_bear_teddy_vr_t05,
+  _hid_outlander_037_fuzzy_bear_teddy_sr_t05,
+  _hid_outlander_017_m_v1_sr_t02,
+  _hid_outlander_zonepistolhw_vr_t01,
+  _hid_outlander_040_assemblek_sr_t03,
+  _hid_outlander_014_r_t04,
+  _hid_outlander_034_period_fleming_sr_t04,
+  _hid_outlander_007_uc_t03,
+  _hid_outlander_038_clip_sr_t03,
+  _hid_outlander_016_m_v1_sr_t03,
+  _hid_outlander_xbox_r_t01,
+  _hid_outlander_zoneharvest_vr_t04,
+  _hid_outlander_027_dinooutlander_sr_t03,
+  _hid_outlander_033_kurohomura_sr_t02,
+  _hid_outlander_015_f_v1_r_t01,
+  _hid_outlander_zoneharvest_uc_t02,
+  _hid_outlander_zoneharvest_sr_t03,
+  _hid_outlander_010_m_sr_t02,
+  _hid_outlander_011_vr_t04,
+  _hid_outlander_sony_sr_t02,
+  _hid_outlander_038_clip_sr_t01,
+  _hid_outlander_008_vr_t03,
+  _hid_outlander_008_sr_t03,
+  _hid_outlander_035_palespooky_outlander_holiday_sr_t03,
+  _hid_outlander_007_vr_t02,
+  _hid_outlander_033_kurohomura_sr_t01,
+  _hid_outlander_028_retroscifistoryoutlander_sr_t04,
+  _hid_outlander_038_clip_vr_t03,
+  _hid_outlander_014_sr_t02,
+  _hid_outlander_zonefragment_sr_t04,
+  _hid_outlander_zonefragment_sr_t05,
+  _hid_outlander_038_clip_vr_t04,
+  _hid_outlander_xbox_vr_t03,
+  _hid_outlander_015_f_v1_vr_t03,
+  _hid_outlander_sony_vr_t01,
+  _hid_outlander_007_r_t04,
+  _hid_outlander_027_dinooutlander_sr_t04,
+  _hid_outlander_026_bunnyoutlander_sr_t02,
+  _hid_outlander_039_female_gumshoe_sr_t04,
+  _hid_outlander_011_vr_t01,
+  _hid_outlander_030_radoutlander_sr_t04,
+  _hid_outlander_zonepistol_vr_t03,
+  _hid_outlander_029_retroscifioutlander_sr_t01,
+  _hid_outlander_punchphase_sr_t03,
+  _hid_outlander_spherefragment_uc_t02,
+  _hid_outlander_myth02_sr_t05,
+  _hid_outlander_zoneharvest_blockbuster_sr_t03,
+  _hid_outlander_xbox_sr_t01,
+  _hid_outlander_zonepistol_vr_t05,
+  _hid_outlander_013_stpatricks_sr_t04,
+  _hid_outlander_punchphase_r_t02,
+  _hid_outlander_018_sr_t05,
+  _hid_outlander_zoneharvest_uc_t03,
+  _hid_outlander_010_m_sr_t03,
+  _hid_outlander_025_pirateoutlander_vr_t04,
+  _hid_outlander_030_radoutlander_sr_t01,
+  _hid_outlander_014_m_sr_t03,
+  _hid_outlander_010_vr_t04,
+  _hid_outlander_036_dino_outlander_sr_t04,
+  _hid_outlander_025_pirateoutlander_sr_t05,
+  _hid_outlander_021_sr_t01,
+  _hid_outlander_007_rs01_sr_t05,
+  _hid_outlander_022_sr_t03,
+  _hid_outlander_026_bunnyoutlander_sr_t01,
+  _hid_outlander_009_sr_t02,
+  _hid_outlander_035_palespooky_outlander_holiday_sr_t05,
+  _hid_outlander_010_m_4thjuly_sr_t01,
+  _hid_outlander_007_rs01_sr_t03,
+  _hid_outlander_punchphase_r_t04,
+  _hid_outlander_018_sr_t01,
+  _hid_outlander_zoneharvest_r_t02,
+  _hid_outlander_014_sr_t04,
+  _hid_outlander_013_sr_t01,
+  _hid_outlander_punchphase_uc_t02,
+  _hid_outlander_008_vr_t01,
+  _hid_outlander_030_radoutlander_vr_t05,
+  _hid_outlander_036_dino_outlander_vr_t03,
+  _hid_outlander_030_radoutlander_vr_t04,
+  _hid_outlander_039_female_gumshoe_sr_t01,
+  _hid_outlander_010_vr_t02,
+  _hid_outlander_015_f_v1_r_t03,
+  _hid_outlander_punchdamage_sr_t02,
+  _hid_outlander_spherefragment_r_t04,
+  _hid_outlander_010_m_sr_t05,
+  _hid_outlander_008_r_t04,
+  _hid_outlander_010_m_sr_t01,
+  _hid_outlander_zonepistolhw_sr_t04,
+  _hid_outlander_016_m_v1_vr_t01,
+  _hid_outlander_zonepistol_r_t03,
+  _hid_outlander_027_dinooutlander_sr_t01,
+  _hid_outlander_spherefragment_uc_t01,
+  _hid_outlander_025_pirateoutlander_vr_t02,
+  _hid_outlander_spherefragment_vr_t04,
+  _hid_outlander_037_fuzzy_bear_teddy_vr_t01,
+  _hid_outlander_030_radoutlander_vr_t01,
+  _hid_outlander_010_sr_t03,
+  _hid_outlander_033_kurohomura_sr_t04,
+  _hid_outlander_024_sr_t02,
+  _hid_outlander_spherefragment_uc_t03,
+  _hid_outlander_xbox_vr_t02,
+  _hid_outlander_punchphase_sr_t05,
+  _hid_outlander_039_female_gumshoe_sr_t03,
+  _hid_outlander_014_r_t03,
+  _hid_outlander_040_assemblek_vr_t03,
+  _hid_outlander_008_sr_t01,
+  _hid_outlander_023_sr_t01,
+  _hid_outlander_014_sr_t05,
+  _hid_outlander_039_female_gumshoe_vr_t05,
+  _hid_outlander_039_female_gumshoe_vr_t02,
+  _hid_outlander_zonepistol_vr_t04,
+  _hid_outlander_016_m_v1_sr_t01,
+  _hid_outlander_008_foundersf_sr_t02,
+  _hid_outlander_030_radoutlander_vr_t02,
+  _hid_outlander_zoneharvest_vr_t01,
+  _hid_outlander_punchdamage_vr_t04,
+  _hid_outlander_035_palespooky_outlander_holiday_sr_t04,
+  _hid_outlander_027_dinooutlander_sr_t02,
+  _hid_outlander_myth03_sr_t04,
+  _hid_outlander_007_vr_t01,
+  _hid_outlander_011_sr_t04,
+  _hid_outlander_zonepistol_vr_t01,
+  _hid_outlander_xbox_vr_t01,
+  _hid_outlander_018_sr_t02,
+  _hid_outlander_punchphase_sr_t04,
+  _hid_outlander_010_sr_t01,
+  _hid_outlander_myth02_sr_t04,
+  _hid_outlander_018_sr_t03,
+  _hid_outlander_015_f_v1_vr_t02,
+  _hid_outlander_008_foundersm_sr_t02,
+  _hid_outlander_036_dino_outlander_sr_t03,
+  _hid_outlander_zoneharvesthw_sr_t05,
+  _hid_outlander_punchphase_sr_t02,
+  _hid_outlander_022_sr_t01,
+  _hid_outlander_myth03_sr_t05,
+  _hid_outlander_punchdamage_sr_t03,
+  _hid_outlander_017_m_v1_vr_t05,
+  _hid_outlander_zoneharvesthw_sr_t04,
+  _hid_outlander_029_retroscifioutlander_sr_t03,
+  _hid_outlander_036_dino_outlander_vr_t02,
+  _hid_outlander_009_sr_t04,
+  _hid_outlander_020_sr_t01,
+  _hid_outlander_sony_sr_t03,
+  _hid_outlander_023_sr_t05,
+  _hid_outlander_xbox_r_t04,
+  _hid_outlander_zonepistol_sr_t02,
+  _hid_outlander_007_r_t02,
+  _hid_outlander_spherefragment_r_t01,
+  _hid_outlander_007_r_t01,
+  _hid_outlander_009_vr_t05,
+  _hid_outlander_009_r_t01,
+  _hid_outlander_026_bunnyoutlander_sr_t04,
+  _hid_outlander_zoneharvest_sr_t01,
+  _hid_outlander_punchphase_sr_t01,
+  _hid_outlander_024_sr_t03,
+  _hid_outlander_014_r_t01,
+  _hid_outlander_014_m_sr_t01,
+  _hid_outlander_017_m_v1_sr_t03,
+  _hid_outlander_013_stpatricks_sr_t01,
+  _hid_outlander_zoneharvest_r_t04,
+  _hid_outlander_zoneharvest_blockbuster_sr_t05,
+  _hid_outlander_014_m_sr_t02,
+  _hid_outlander_punchphase_r_t01,
+  _hid_outlander_myth02_sr_t01,
+  _hid_outlander_024_sr_t01,
+  _hid_outlander_xbox_vr_t05,
+  _hid_outlander_039_female_gumshoe_sr_t02,
+  _hid_outlander_010_m_vr_t05,
+  _hid_outlander_035_palespooky_outlander_holiday_vr_t04,
+  _hid_outlander_017_m_v1_sr_t05,
+  _hid_outlander_013_vr_t01,
+  _hid_outlander_028_retroscifistoryoutlander_sr_t02,
+  _hid_outlander_020_sr_t02,
+  _hid_outlander_spherefragment_r_t02,
+  _hid_outlander_013_vr_t03,
+  _hid_outlander_xbox_vr_t04,
+  _hid_outlander_013_vr_t05,
+  _hid_outlander_015_f_v1_vr_t05,
+  _hid_outlander_008_foundersm_sr_t03,
+  _hid_outlander_009_vr_t01,
+  _hid_outlander_007_vr_t04,
+  _hid_outlander_020_sr_t03,
+  _hid_outlander_spherefragment_vr_t01,
+  _hid_outlander_034_period_fleming_sr_t02,
+  _hid_outlander_025_pirateoutlander_sr_t01,
+  _hid_outlander_039_female_gumshoe_sr_t05,
+  _hid_outlander_014_vr_t01,
+  _hid_outlander_016_m_v1_vr_t02,
+  _hid_outlander_034_period_fleming_sr_t01,
+  _hid_outlander_026_bunnyoutlander_sr_t03,
+  _hid_outlander_031_halloweenoutlander_sr_t05,
+  _hid_outlander_038_clip_vr_t02,
+  _hid_outlander_punchdamage_sr_t04,
+  _hid_outlander_sony_r_t04,
+  _hid_outlander_zonepistolhw_sr_t05,
+  _hid_outlander_035_palespooky_outlander_holiday_sr_t02,
+  _hid_outlander_spherefragment_sr_t02,
+  _hid_outlander_punchphase_vr_t03,
+  _hid_outlander_035_palespooky_outlander_holiday_vr_t01,
+  _hid_outlander_zonepistol_sr_t04,
+  _hid_outlander_025_pirateoutlander_sr_t02,
+  _hid_outlander_040_assemblek_vr_t05,
+  _hid_outlander_myth03_sr_t02,
+  _hid_outlander_008_vr_t04,
+  _hid_outlander_011_sr_t01,
+  _hid_outlander_010_m_vr_t04,
+  _hid_outlander_024_sr_t05,
+  _hid_outlander_034_period_fleming_vr_t04,
+  _hid_outlander_028_retroscifistoryoutlander_sr_t03,
+  _hid_outlander_034_period_fleming_vr_t01,
+  _hid_outlander_zonepistolhw_sr_t02,
+  _hid_outlander_029_retroscifioutlander_sr_t04,
+  _hid_outlander_spherefragment_vr_t05,
+  _hid_outlander_zonepistol_sr_t05,
+  _hid_outlander_036_dino_outlander_sr_t02,
+  _hid_outlander_zoneharvest_vr_t02,
+  _hid_outlander_015_f_v1_sr_t03,
+  _hid_outlander_021_sr_t03,
+  _hid_outlander_015_f_v1_sr_t05,
+  _hid_outlander_zonepistolhw_vr_t05,
+  _hid_outlander_017_m_v1_sr_t01,
+  _hid_outlander_009_vr_t02,
+  _hid_outlander_007_vr_t03,
+  _hid_outlander_037_fuzzy_bear_teddy_sr_t01,
+  _hid_outlander_009_sr_t03,
+  _hid_outlander_zonepistolhw_vr_t03,
+  _hid_outlander_010_m_4thjuly_sr_t05,
+  _hid_outlander_029_retroscifioutlander_vr_t03,
+  _hid_outlander_016_m_v1_vr_t04,
+  _hid_outlander_zoneharvest_sr_t05,
+  _hid_outlander_040_assemblek_sr_t01,
+  _hid_outlander_sony_sr_t04,
+  _hid_outlander_014_sr_t03,
+  _hid_outlander_030_radoutlander_sr_t02
 ];
