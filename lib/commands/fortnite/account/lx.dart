@@ -25,6 +25,10 @@ final ChatCommand lxCommand = ChatCommand(
         throw Exception("You have reached the limit of linked epic accounts.");
       }
 
+      if (ctx is InteractionChatContext) {
+        await ctx.acknowledge(hidden: true);
+      }
+
       try {
         var res = await Dio().post(
           Endpoints().oauthTokenCreate,

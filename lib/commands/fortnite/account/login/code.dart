@@ -20,6 +20,10 @@ final ChatCommand loginCodeCommand = ChatCommand(
         throw Exception("You have reached the limit of linked epic accounts.");
       }
 
+      if (ctx is InteractionChatContext) {
+        await ctx.acknowledge(hidden: true);
+      }
+
       final DeviceAuth deviceAuth =
           await authenticateWithAuthorizationCode(code);
 
