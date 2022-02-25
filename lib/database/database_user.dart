@@ -80,11 +80,6 @@ class DatabaseUser {
   ) {
     json["linkedEpicAccounts"] ??= [];
 
-    if ((json["linkedEpicAccounts"] as List<dynamic>).length > 25) {
-      json["linkedEpicAccounts"] =
-          (json["linkedEpicAccounts"] as List<dynamic>).take(25).toList();
-    }
-
     return DatabaseUser(
       db,
       id: json["id"] is String ? json["id"] : json["id"].toString(),
@@ -155,6 +150,11 @@ class DatabaseUser {
       limit = 15;
     } else if (isPartner) {
       limit = 25;
+    }
+
+    limit = limit + bonusAccLimit;
+    if (limit > 50) {
+      limit = 50;
     }
 
     return limit;

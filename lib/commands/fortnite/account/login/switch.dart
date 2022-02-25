@@ -78,14 +78,22 @@ final ChatCommand loginSwitchCommand = ChatCommand(
         return;
       }
 
-      final MultiselectBuilder accountMenu = MultiselectBuilder(
-        accountMenuID,
-        user.linkedAccounts.map((a) => MultiselectOptionBuilder(
-              a.displayName,
-              a.accountId,
-              user.selectedAccount == a.accountId,
-            )),
-      );
+      final ComponentRowBuilder accountMenuRow = ComponentRowBuilder();
+
+      int index = 0;
+      for (final accs in await user.linkedAccounts.chunk(25).toList()) {
+        final MultiselectBuilder accountMenu = MultiselectBuilder(
+          "$accountMenuID-$index",
+          accs.map((a) => MultiselectOptionBuilder(
+                a.displayName,
+                a.accountId,
+                user.selectedAccount == a.accountId,
+              )),
+        );
+        accountMenuRow.addComponent(accountMenu);
+
+        index++;
+      }
 
       final EmbedBuilder loginEmbed = EmbedBuilder()
         ..author = (EmbedAuthorBuilder()
@@ -101,7 +109,7 @@ final ChatCommand loginSwitchCommand = ChatCommand(
         ctx,
         ComponentMessageBuilder()
           ..embeds = [loginEmbed]
-          ..addComponentRow(ComponentRowBuilder()..addComponent(accountMenu))
+          ..addComponentRow(accountMenuRow)
           ..addComponentRow(buttonsRow),
       );
 
@@ -112,7 +120,7 @@ final ChatCommand loginSwitchCommand = ChatCommand(
                     event.interaction.userAuthor?.id == ctx.user.id)))
             ..add(ctx.commands.interactions.events.onMultiselectEvent.where(
                 (event) =>
-                    ([accountMenuID].contains(event.interaction.customId) &&
+                    (event.interaction.customId.contains(accountMenuID) &&
                         event.interaction.userAuthor?.id == ctx.user.id))))
           .stream
           .timeout(Duration(minutes: 1))
