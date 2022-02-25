@@ -295,6 +295,7 @@ List<AthenaCosmetic> filterAndSortCosmetics({
 Future<String> drawLocker({
   required List<AthenaCosmetic> cosmetics,
   required String epicname,
+  required String username,
 }) async {
   var img = await Dio().post(
     "https://fishstickbot.com/api/locker",
@@ -311,6 +312,7 @@ Future<String> drawLocker({
               })
           .toList(),
       "epicname": epicname,
+      "username": username,
     },
     options: Options(
       headers: {
