@@ -76,7 +76,8 @@ final ChatCommand lockerCrewImageCommand = ChatCommand(
           await drawLocker(
             cosmetics: chunks[i],
             epicname: dbUser.fnClient.displayName,
-            username: "${(user ?? ctx.user).tag} [${i + 1}/${chunks.length}]",
+            username:
+                "${(user ?? ctx.user).tag} [${chunks[i].length}/${cosmetics.length}]",
           ),
         );
 
