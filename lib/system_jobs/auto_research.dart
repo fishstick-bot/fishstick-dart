@@ -61,6 +61,16 @@ class AutoResearchSystemJob extends AbstractUserSystemJob {
 
             await fnClient.campaign.init(acc.accountId);
             var current = fnClient.campaign.researchLevels;
+            for (final stat in [
+              "fortitude",
+              "resistance",
+              "offense",
+              "technology"
+            ]) {
+              if (current[stat] == null) {
+                current[stat] = 0;
+              }
+            }
             current.removeWhere((key, value) => value >= 120);
             if (current.isEmpty) {
               continue accLoop;
