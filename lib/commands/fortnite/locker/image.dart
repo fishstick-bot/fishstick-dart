@@ -90,7 +90,7 @@ final ChatCommand lockerImageCommand = ChatCommand(
           ..componentRows = [],
       );
 
-      List<List<AthenaCosmetic>> chunks = await cosmetics.chunk(350).toList();
+      List<List<AthenaCosmetic>> chunks = await cosmetics.chunk(750).toList();
 
       List<int> img;
       for (var i = 0; i < chunks.length; i++) {
