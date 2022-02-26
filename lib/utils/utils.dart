@@ -317,6 +317,7 @@ Future<List<int>> drawLocker({
       "png": png,
     },
     options: Options(
+      responseType: ResponseType.bytes,
       headers: {
         "Authorization": client.config.apiKey,
       },
