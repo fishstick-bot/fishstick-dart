@@ -110,4 +110,6 @@
 -   Change hero loadout command.
 -   STW Items data file.
 -   Auto research.
--   Add Battle royale accolae xp to STW overview.
+-   Add Battle royale accolade xp to STW overview.
+-   New locker ui.
+-   Upto 50 accs support.

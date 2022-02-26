@@ -292,10 +292,11 @@ List<AthenaCosmetic> filterAndSortCosmetics({
 }
 
 /// draw fortnite locker
-Future<String> drawLocker({
+Future<List<int>> drawLocker({
   required List<AthenaCosmetic> cosmetics,
   required String epicname,
   required String username,
+  bool png = false,
 }) async {
   var img = await Dio().post(
     "https://fishstickbot.com/api/locker",
@@ -313,6 +314,7 @@ Future<String> drawLocker({
           .toList(),
       "epicname": epicname,
       "username": username,
+      "png": png,
     },
     options: Options(
       headers: {
@@ -321,7 +323,7 @@ Future<String> drawLocker({
     ),
   );
 
-  return img.data;
+  return img.data as List<int>;
 }
 
 /// Purchase an item from fortnite shop

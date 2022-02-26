@@ -1,5 +1,3 @@
-import "dart:convert";
-
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 import "package:nyxx_interactions/nyxx_interactions.dart";
@@ -26,6 +24,7 @@ final ChatCommand lockerSpecialImageCommand = ChatCommand(
     (
       IContext ctx, [
       @Description("User to view locker for") IUser? user,
+      @Description("PNG quality") bool png = false,
     ]) async {
       if (client.cachedCosmetics.isEmpty) {
         throw Exception(
@@ -73,13 +72,12 @@ final ChatCommand lockerSpecialImageCommand = ChatCommand(
       List<int> img;
       for (var i = 0; i < chunks.length; i++) {
         int startTime = DateTime.now().millisecondsSinceEpoch;
-        img = base64Decode(
-          await drawLocker(
-            cosmetics: chunks[i],
-            epicname: dbUser.fnClient.displayName,
-            username:
-                "${(user ?? ctx.user).tag} [${chunks[i].length}/${cosmetics.length}]",
-          ),
+        img = await drawLocker(
+          cosmetics: chunks[i],
+          epicname: dbUser.fnClient.displayName,
+          username:
+              "${(user ?? ctx.user).tag} [${chunks[i].length}/${cosmetics.length}]",
+          png: png,
         );
 
         await ctx.respond(
