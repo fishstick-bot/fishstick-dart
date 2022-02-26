@@ -159,9 +159,4 @@ void handleCommandsCheckHandler(CommandsPlugin commands, int commandsCooldown) {
       "cooldown-check",
     ),
   );
-
-  // commands.check(
-  //   Check((context) => context.user.id.toString() == "727224012912197652",
-  //       "development-mode"),
-  // );
 }

@@ -101,10 +101,18 @@ extension AthenaCosmeticExtensions on AthenaCosmetic {
 }
 
 extension HeroExtensions on STWHero {
-  String get partialId => templateId.split(":")[1].toLowerCase();
+  String get partialId {
+    String parsed = templateId.split(":")[1].toLowerCase();
+    List<String> split = parsed.split("_");
+    split.removeLast();
+    split.removeLast();
+    parsed = split.join("_");
 
-  Iterable<Item> get searched =>
-      allItems.where((i) => i.id.toLowerCase() == partialId.toLowerCase());
+    return parsed;
+  }
+
+  Iterable<Item> get searched => allItems
+      .where((i) => i.id.toLowerCase().contains(partialId.toLowerCase()));
 
   String get name {
     if (nameCache[partialId] != null) {
