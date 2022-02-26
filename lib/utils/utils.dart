@@ -327,6 +327,31 @@ Future<List<int>> drawLocker({
   return img.data as List<int>;
 }
 
+/// draw fortnite stw resources
+Future<List<int>> drawSTWResources({
+  required List<Map<String, dynamic>> resources,
+  required String epicname,
+  required String username,
+  bool png = false,
+}) async {
+  var img = await Dio().post(
+    "https://fishstickbot.com/api/resources",
+    data: {
+      "items": resources,
+      "epicname": epicname,
+      "username": username,
+    },
+    options: Options(
+      responseType: ResponseType.bytes,
+      headers: {
+        "Authorization": client.config.apiKey,
+      },
+    ),
+  );
+
+  return img.data as List<int>;
+}
+
 /// Purchase an item from fortnite shop
 Future<dynamic> purchaseCatalogEntry(
   String offerId, {

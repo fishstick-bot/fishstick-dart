@@ -1,14 +1,13 @@
 import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 
-import "package:fortnite/fortnite.dart";
+import "../../../database/database_user.dart";
 
-import "../../../../database/database_user.dart";
+import "../../../extensions/context_extensions.dart";
 
-import "../../../../extensions/context_extensions.dart";
-import "../../../../extensions/string_extensions.dart";
+import "../../../resources/items.dart";
 
-import "../../../../resources/emojis.dart";
+import "../../../utils/utils.dart";
 
 final ChatCommand resourcesSTWCommand = ChatCommand(
   "resources",
@@ -45,6 +44,21 @@ final ChatCommand resourcesSTWCommand = ChatCommand(
 
       var resources = campaign.accountResources;
 
+      var img = await drawSTWResources(
+        resources: resources.map((r) {
+          var resource = allItems.firstWhere(
+              (i) => i.id.toLowerCase().contains(r.resourceId.toLowerCase()));
+          return {
+            "name": resource.name,
+            "quantity": r.quantityString,
+            "rarity": resource.rarity,
+            "image": resource.id,
+          };
+        }).toList(),
+        epicname: displayName,
+        username: ctx.user.tag,
+      );
+
       final EmbedBuilder embed = EmbedBuilder()
         ..author = (EmbedAuthorBuilder()
           ..name = ctx.user.username
@@ -53,16 +67,12 @@ final ChatCommand resourcesSTWCommand = ChatCommand(
         ..title =
             "[${campaign.powerLevel.toStringAsFixed(1)}] $displayName | Save the World Resources"
         ..thumbnailUrl = player == null ? dbUser.activeAccount.avatar : null
-        ..description = resources.map((r) {
-          var resource =
-              accountResources.firstWhere((i) => i.id == r.resourceId);
-          var emoji = emojis.where((e) => e.name.contains(r.resourceId));
-          return "${emoji.isEmpty ? resource.name : emoji.first.emoji} - ${r.quantityString.toBold()}";
-        }).join("\n")
+        ..imageUrl = "attachment://resources.png"
         ..timestamp = campaign.created
         ..footer = (EmbedFooterBuilder()..text = "Account created on");
 
-      await ctx.respond(MessageBuilder.embed(embed));
+      await ctx.respond(MessageBuilder.embed(embed)
+        ..addAttachment(AttachmentBuilder.bytes(img, "resources.png")));
     },
   ),
   checks: [],
