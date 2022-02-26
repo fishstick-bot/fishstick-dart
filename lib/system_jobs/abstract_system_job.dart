@@ -53,6 +53,8 @@ abstract class AbstractUserSystemJob {
       for (final user in users) {
         await performOnUser(user);
       }
+
+      users = [];
     } catch (e) {
       client.logger.shout("[TASK:$name] Unhandled error: $e");
     }
