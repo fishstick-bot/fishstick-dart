@@ -48,6 +48,7 @@ import "../commands/fortnite/stw/survivor_squad_presets/survivor_squad_presets.d
 import "../commands/fortnite/stw/daily.dart";
 import "../commands/fortnite/stw/dupe.dart";
 import "../commands/fortnite/stw/hero_loadout.dart";
+import "../commands/fortnite/stw/xpboost/xpboost.dart";
 
 typedef NullableString = String;
 typedef NullableIUser = IUser;
@@ -156,6 +157,7 @@ class Client {
     _commands.addCommand(claimDailyCommand);
     _commands.addCommand(dupeCommand);
     _commands.addCommand(stwHeroLoadoutCommand);
+    _commands.addCommand(xpBoostCommand);
 
     /// handle commands error
     handleCommandsError(this, _commands);
