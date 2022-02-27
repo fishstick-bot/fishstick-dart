@@ -29,8 +29,8 @@ final ChatCommand giftXpBoostCommand = ChatCommand(
       final campaign = dbUser.fnClient.campaign;
       await campaign.init(dbUser.fnClient.accountId);
 
-      var target = campaign.items
-          .where((i) => i.templateId == "ConsumableAccountItem:smallxpboost");
+      var target = campaign.items.where(
+          (i) => i.templateId == "ConsumableAccountItem:smallxpboost_gift");
 
       if (target.isEmpty) {
         throw Exception("You don't have any XP boosts.");

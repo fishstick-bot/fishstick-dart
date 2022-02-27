@@ -50,6 +50,7 @@ import "../commands/fortnite/stw/dupe.dart";
 import "../commands/fortnite/stw/hero_loadout.dart";
 import "../commands/fortnite/stw/xpboost/xpboost.dart";
 import "../commands/fortnite/stw/inventory/inventory.dart";
+import "../commands/fortnite/stw/research/research.dart";
 
 typedef NullableString = String;
 typedef NullableIUser = IUser;
@@ -160,6 +161,7 @@ class Client {
     _commands.addCommand(stwHeroLoadoutCommand);
     _commands.addCommand(xpBoostCommand);
     _commands.addCommand(inventoryCommand);
+    _commands.addCommand(stwResearchCommand);
 
     /// handle commands error
     handleCommandsError(this, _commands);

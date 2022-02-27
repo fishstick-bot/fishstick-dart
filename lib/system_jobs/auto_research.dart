@@ -80,11 +80,13 @@ class AutoResearchSystemJob extends AbstractUserSystemJob {
 
             for (final stat in current.keys) {
               innerLoop:
-              for (var i = 0; i < 3; i++) {
+              for (var i = 0; i < 5; i++) {
                 try {
                   await fnClient.campaign.upgradeResearchStat(stat);
                   upgraded[stat] += 1;
                 } catch (_) {
+                  client.logger.info(
+                      "[TASK:$name:${user.id}] Failed to upgrade $stat: $_");
                   break innerLoop;
                 }
               }
