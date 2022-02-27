@@ -75,7 +75,7 @@ final ChatCommand lockerExclusivesImageCommand = ChatCommand(
           cosmetics: chunks[i],
           epicname: dbUser.fnClient.displayName,
           username:
-              "${(user ?? ctx.user).tag} [${chunks[i].length}/${cosmetics.length}]",
+              "${(user ?? ctx.user).tag}${chunks.length > 1 ? " [${i + 1}/${chunks.length})]" : ""}",
           png: png,
         );
 
