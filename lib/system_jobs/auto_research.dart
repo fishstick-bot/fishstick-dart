@@ -85,9 +85,11 @@ class AutoResearchSystemJob extends AbstractUserSystemJob {
                   await fnClient.campaign.upgradeResearchStat(stat);
                   upgraded[stat] += 1;
                 } catch (_) {
-                  client.logger.info(
-                      "[TASK:$name:${user.id}] Failed to upgrade $stat: $_");
-                  break innerLoop;
+                  if (_.toString().contains("Unable to pay cost")) {
+                    break innerLoop;
+                  } else {
+                    rethrow;
+                  }
                 }
               }
             }

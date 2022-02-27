@@ -41,15 +41,10 @@ class ClaimResearchPointsSystemJob extends AbstractUserSystemJob {
         return;
       }
 
-      accsLoop:
       for (final acc in user.linkedAccounts) {
         try {
           var fnClient = user.fnClientSetup(acc.accountId);
           await fnClient.campaign.init(fnClient.accountId);
-          if (!fnClient.campaign.tutorialCompleted) {
-            await fnClient.campaign.skipTutorial();
-            continue accsLoop;
-          }
           await fnClient.campaign.collectResearchPoints();
         } catch (_) {
           // SILENTLY IGNORE THE EXCEPTION
