@@ -113,3 +113,6 @@
 -   Add Battle royale accolade xp to STW overview.
 -   New locker ui.
 -   Upto 50 accs support.
+-   XP Boosts command.
+
+## 1.2.0

@@ -49,7 +49,8 @@ final ChatCommand giftXpBoostCommand = ChatCommand(
         ..title =
             "${dbUser.activeAccount.displayName} | Save the World XP Boosts"
         ..thumbnailUrl = dbUser.activeAccount.avatar
-        ..description = "Using $quantity XP Boosts..."
+        ..description =
+            "Gifting $quantity XP Boosts to ${search.first.displayName}..."
         ..timestamp = DateTime.now();
 
       var msg = await ctx.respond(MessageBuilder.embed(embed));
@@ -73,12 +74,14 @@ final ChatCommand giftXpBoostCommand = ChatCommand(
         target.first.quantity -= 3;
         left -= 3;
 
-        await msg.edit(MessageBuilder.embed(
-            embed..description = "Using $left XP Boosts..."));
+        await msg.edit(MessageBuilder.embed(embed
+          ..description =
+              "Gifting $left XP Boosts to ${search.first.displayName}..."));
       }
 
-      await msg.edit(MessageBuilder.embed(
-          embed..description = "Done! used $left XP Boosts."));
+      await msg.edit(MessageBuilder.embed(embed
+        ..description =
+            "Done! gifted $left XP Boosts to ${search.first.displayName}."));
     },
   ),
   checks: [],
