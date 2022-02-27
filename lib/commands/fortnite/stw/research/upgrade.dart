@@ -9,7 +9,7 @@ final ChatCommand upgradeResearchCommand = ChatCommand(
   "upgrade",
   "Upgrade your save the world research.",
   Id(
-    "collect_research_command",
+    "upgrade_research_command",
     (
       IContext ctx,
       @Choices({
