@@ -357,6 +357,10 @@ Future<List<int>> drawSTWInventory({
   required String epicname,
   required String username,
 }) async {
+  if (items.isEmpty) {
+    throw Exception("No items found.");
+  }
+
   var img = await Dio().post(
     "https://fishstickbot.com/api/inventory",
     data: {
