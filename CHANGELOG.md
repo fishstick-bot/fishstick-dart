@@ -118,3 +118,4 @@
 ## 1.2.0
 
 -   Inventory command.
+-   Research command.
