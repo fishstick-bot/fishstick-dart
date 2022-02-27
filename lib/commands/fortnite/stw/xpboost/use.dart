@@ -46,7 +46,7 @@ final ChatCommand useXpBoostCommand = ChatCommand(
 
       var msg = await ctx.respond(MessageBuilder.embed(embed));
 
-      // USE THE XP BOOSTS IN CHUNKS OF 3
+      int left = quantity;
       for (int i = 0; i < quantity; i += 3) {
         await Future.wait(
           List.generate(
@@ -62,13 +62,14 @@ final ChatCommand useXpBoostCommand = ChatCommand(
           ),
         );
         target.first.quantity -= 3;
+        left -= 3;
 
-        embed.description = "Using $quantity XP Boosts...";
-        await msg.edit(MessageBuilder.embed(embed));
+        await msg.edit(MessageBuilder.embed(
+            embed..description = "Using $left XP Boosts..."));
       }
 
       await msg.edit(MessageBuilder.embed(
-          embed..description = "Done! used $quantity XP Boosts."));
+          embed..description = "Done! used $left XP Boosts."));
     },
   ),
   checks: [],
