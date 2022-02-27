@@ -7,7 +7,7 @@ import "../../../../extensions/context_extensions.dart";
 
 final ChatCommand upgradeResearchCommand = ChatCommand(
   "upgrade",
-  "Collect your save the world research points.",
+  "Upgrade your save the world research.",
   Id(
     "collect_research_command",
     (
