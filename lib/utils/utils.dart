@@ -332,12 +332,35 @@ Future<List<int>> drawSTWResources({
   required List<Map<String, dynamic>> resources,
   required String epicname,
   required String username,
-  bool png = false,
 }) async {
   var img = await Dio().post(
     "https://fishstickbot.com/api/resources",
     data: {
       "items": resources,
+      "epicname": epicname,
+      "username": username,
+    },
+    options: Options(
+      responseType: ResponseType.bytes,
+      headers: {
+        "Authorization": client.config.apiKey,
+      },
+    ),
+  );
+
+  return img.data as List<int>;
+}
+
+/// draw fortnite stw inventory
+Future<List<int>> drawSTWInventory({
+  required List<Map<String, dynamic>> items,
+  required String epicname,
+  required String username,
+}) async {
+  var img = await Dio().post(
+    "https://fishstickbot.com/api/inventory",
+    data: {
+      "items": items,
       "epicname": epicname,
       "username": username,
     },

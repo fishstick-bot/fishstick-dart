@@ -116,3 +116,5 @@
 -   XP Boosts command.
 
 ## 1.2.0
+
+-   Inventory command.
