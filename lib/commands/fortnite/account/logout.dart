@@ -33,7 +33,7 @@ final ChatCommand logoutCommand = ChatCommand(
       final ComponentRowBuilder buttonsRow = ComponentRowBuilder()
         ..addComponent(cancelButton);
 
-      final ComponentRowBuilder accountMenuRow = ComponentRowBuilder();
+      final List<ComponentRowBuilder> accountMenuRow = [];
 
       int index = 0;
       for (final accs in await user.linkedAccounts.chunk(25).toList()) {
@@ -42,10 +42,10 @@ final ChatCommand logoutCommand = ChatCommand(
           accs.map((a) => MultiselectOptionBuilder(
                 a.displayName,
                 a.accountId,
+                user.selectedAccount == a.accountId,
               )),
         );
-        accountMenuRow.addComponent(accountMenu);
-
+        accountMenuRow.add(ComponentRowBuilder()..addComponent(accountMenu));
         index++;
       }
 
@@ -59,12 +59,15 @@ final ChatCommand logoutCommand = ChatCommand(
         ..footer = (EmbedFooterBuilder()..text = client.footerText)
         ..timestamp = DateTime.now();
 
+      final builder = ComponentMessageBuilder()..embeds = [loginEmbed];
+
+      for (final row in accountMenuRow) {
+        builder.addComponentRow(row);
+      }
+
       IMessage msg = await respond(
         ctx,
-        ComponentMessageBuilder()
-          ..embeds = [loginEmbed]
-          ..addComponentRow(accountMenuRow)
-          ..addComponentRow(buttonsRow),
+        builder..addComponentRow(buttonsRow),
       );
 
       try {
