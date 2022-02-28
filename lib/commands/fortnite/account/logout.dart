@@ -42,7 +42,6 @@ final ChatCommand logoutCommand = ChatCommand(
           accs.map((a) => MultiselectOptionBuilder(
                 a.displayName,
                 a.accountId,
-                user.selectedAccount == a.accountId,
               )),
         );
         accountMenuRow.add(ComponentRowBuilder()..addComponent(accountMenu));

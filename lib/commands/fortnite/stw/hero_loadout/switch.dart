@@ -3,15 +3,15 @@ import "package:nyxx_commands/nyxx_commands.dart";
 import "package:nyxx_interactions/nyxx_interactions.dart";
 import "package:fortnite/fortnite.dart";
 import "package:fishstick_dart/fishstick_dart.dart";
-import "../../../database/database_user.dart";
-import "../../../extensions/context_extensions.dart";
-import "../../../extensions/fortnite_extensions.dart";
+import "../../../../database/database_user.dart";
+import "../../../../extensions/context_extensions.dart";
+import "../../../../extensions/fortnite_extensions.dart";
 
-final ChatCommand stwHeroLoadoutCommand = ChatCommand(
-  "heroloadout",
+final ChatCommand heroLoadoutSwitchCommand = ChatCommand(
+  "switch",
   "Change your current hero loadout.",
   Id(
-    "stw_hero_loadout_command",
+    "hero_loadout_switch_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;
       dbUser.fnClientSetup();
