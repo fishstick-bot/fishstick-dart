@@ -356,6 +356,7 @@ Future<List<int>> drawSTWInventory({
   required List<Map<String, dynamic>> items,
   required String epicname,
   required String username,
+  bool raw = false,
 }) async {
   if (items.isEmpty) {
     throw Exception("No items found.");
@@ -367,6 +368,7 @@ Future<List<int>> drawSTWInventory({
       "items": items,
       "epicname": epicname,
       "username": username,
+      "raw": raw,
     },
     options: Options(
       responseType: ResponseType.bytes,

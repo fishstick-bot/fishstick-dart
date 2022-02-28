@@ -12,7 +12,10 @@ final ChatCommand venturesInventoryCommand = ChatCommand(
   "View your STW ventures inventory.",
   Id(
     "ventures_inventory_command",
-    (IContext ctx) async {
+    (
+      IContext ctx, [
+      bool raw = false,
+    ]) async {
       DatabaseUser dbUser = await ctx.dbUser;
       dbUser.fnClientSetup();
 
@@ -63,6 +66,7 @@ final ChatCommand venturesInventoryCommand = ChatCommand(
         items: items.values.toList(),
         username: ctx.user.tag,
         epicname: dbUser.fnClient.displayName,
+        raw: raw,
       );
 
       final EmbedBuilder embed = EmbedBuilder()
