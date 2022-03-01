@@ -71906,6 +71906,96 @@ final _hid_outlander_030_radoutlander_sr_t02 = Item(
   gameplayTags: ["Homebase.Class.IsOutlander"],
 );
 
+final _item_perk_l_blakebeardsstash_cannonballgrenade = Item(
+  id: "Item_Perk_L_BlakebeardsStash_CannonballGrenade",
+  name: "Cannonball Grenade",
+  description: "Enemies up ahead? Not anymore!",
+  rarity: "epic",
+  image: "T-Items2-SK-BlackbeardCannonball-L",
+  gameplayTags: ["Gameplay.DamageSource.Ability", "Asset.Property.Cannonball"],
+);
+
+final _item_perk_h_gnarlypop_item = Item(
+  id: "Item_Perk_H_GnarlyPop_Item",
+  name: "Sub Wafer",
+  description: "Eat it to get a Rockin' Riff!",
+  rarity: "rare",
+  image: "T-Items-Subwafer-L",
+  gameplayTags: ["Gameplay.DamageSource.Ability"],
+);
+
+final _item_perk_h_goinbananas_fruit = Item(
+  id: "Item_Perk_H_GoinBananas_Fruit",
+  name: "Coconut",
+  description: "Eat it to heal up!",
+  rarity: "rare",
+  image: "T-Items2-WholeCoconut-L",
+  gameplayTags: ["Gameplay.DamageSource.Ability"],
+);
+
+final _hid_outlander_041_dinocollector_sr_t02 = Item(
+  id: "HID_Outlander_041_DinoCollector_SR_T02",
+  name: "Gia",
+  description: "\"Stay with the pack. They've got your back\" - Gia",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-076-Athena-Commando-F-DinoCollector-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_041_dinocollector_sr_t05 = Item(
+  id: "HID_Outlander_041_DinoCollector_SR_T05",
+  name: "Gia",
+  description: "\"Stay with the pack. They've got your back\" - Gia",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-076-Athena-Commando-F-DinoCollector-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_008_foundersf_sr_t03 = Item(
+  id: "HID_Outlander_008_FoundersF_SR_T03",
+  name: "Recon Scout Jess",
+  description: "\"Status report! Check in, Recon Scouts!\" - Jess",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-009-Founders-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander.Exploration"],
+);
+
+final _hid_outlander_041_dinocollector_sr_t03 = Item(
+  id: "HID_Outlander_041_DinoCollector_SR_T03",
+  name: "Gia",
+  description: "\"Stay with the pack. They've got your back\" - Gia",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-076-Athena-Commando-F-DinoCollector-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_041_dinocollector_sr_t01 = Item(
+  id: "HID_Outlander_041_DinoCollector_SR_T01",
+  name: "Gia",
+  description: "\"Stay with the pack. They've got your back\" - Gia",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-076-Athena-Commando-F-DinoCollector-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_041_dinocollector_sr_t04 = Item(
+  id: "HID_Outlander_041_DinoCollector_SR_T04",
+  name: "Gia",
+  description: "\"Stay with the pack. They've got your back\" - Gia",
+  rarity: "legendary",
+  image: "T-Soldier-HID-A-076-Athena-Commando-F-DinoCollector-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
+final _hid_outlander_030_radoutlander_sr_t05 = Item(
+  id: "HID_Outlander_030_RadOutlander_SR_T05",
+  name: "Main Stage Quinn",
+  description: "敇⁴浡数Ⅴጠ儠極湮",
+  rarity: "legendary",
+  image: "T-Outlander-HID-Outlander-030-RadOutlander-SR-T01-L",
+  gameplayTags: ["Homebase.Class.IsOutlander"],
+);
+
 final allItems = [
   _ingredient_rare_mechanism,
   _ingredient_rare_powercell,
@@ -77978,5 +78068,15 @@ final allItems = [
   _hid_outlander_040_assemblek_sr_t01,
   _hid_outlander_sony_sr_t04,
   _hid_outlander_014_sr_t03,
-  _hid_outlander_030_radoutlander_sr_t02
+  _hid_outlander_030_radoutlander_sr_t02,
+  _item_perk_l_blakebeardsstash_cannonballgrenade,
+  _item_perk_h_gnarlypop_item,
+  _item_perk_h_goinbananas_fruit,
+  _hid_outlander_041_dinocollector_sr_t02,
+  _hid_outlander_041_dinocollector_sr_t05,
+  _hid_outlander_008_foundersf_sr_t03,
+  _hid_outlander_041_dinocollector_sr_t03,
+  _hid_outlander_041_dinocollector_sr_t01,
+  _hid_outlander_041_dinocollector_sr_t04,
+  _hid_outlander_030_radoutlander_sr_t05
 ];
