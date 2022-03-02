@@ -8,6 +8,7 @@ import "package:cron/cron.dart";
 import "../client/client.dart";
 
 import "update_cosmetics_cache.dart";
+import "catalog_manager.dart";
 import "premium_role_sync.dart";
 import "claim_daily.dart";
 import "free_llamas.dart";
@@ -26,6 +27,12 @@ class SystemJobsPlugin extends BasePlugin {
 
   /// update cosmetics cache system job
   late final Timer _updateCosmeticsCacheSystemJobTimer;
+
+  /// catalog manager system job
+  late final CatalogManagerSystemJob catalogManagerSystemJob;
+
+  /// catalog manager system job
+  late final Timer _catalogManagerSystemJobTimer;
 
   /// premium role sync system job
   late final PremiumRoleSyncSystemJob premiumRoleSyncSystemJob;
@@ -66,6 +73,8 @@ class SystemJobsPlugin extends BasePlugin {
     _cron = Cron();
     logger.info("Registering update cosmetics cache system job");
     updateCosmeticsCacheSystemJob = UpdateCosmeticsCacheSystemJob();
+    logger.info("Registering catalog manager system job");
+    catalogManagerSystemJob = CatalogManagerSystemJob();
     logger.info("Registering premium role sync system job");
     premiumRoleSyncSystemJob = PremiumRoleSyncSystemJob();
     logger.info("Registering claim daily system job");
@@ -89,6 +98,15 @@ class SystemJobsPlugin extends BasePlugin {
       _updateCosmeticsCacheSystemJobTimer =
           Timer.periodic(updateCosmeticsCacheSystemJob.runDuration, (_) async {
         await updateCosmeticsCacheSystemJob.run();
+      });
+
+      catalogManagerSystemJob.run();
+
+      logger.info(
+          "Scheduling catalog manager system job to run every ${catalogManagerSystemJob.runDuration.inHours} hours.");
+      _catalogManagerSystemJobTimer =
+          Timer.periodic(catalogManagerSystemJob.runDuration, (_) async {
+        await catalogManagerSystemJob.run();
       });
 
       if (!shardIds.contains(0)) {
@@ -145,20 +163,28 @@ class SystemJobsPlugin extends BasePlugin {
       logger.info("Unscheduling update cosmetics cache system job.");
       _updateCosmeticsCacheSystemJobTimer.cancel();
 
+      logger.info("Unscheduling catalog manager system job.");
+      _catalogManagerSystemJobTimer.cancel();
+
       if (!shardIds.contains(0)) {
         return;
       }
 
       logger.info("Unscheduling premium role sync system job.");
       _premiumRoleSyncSystemJobTimer.cancel();
+
       logger.info("Unscheduling claim daily system job.");
       await _claimDailySystemJobTimer.cancel();
+
       logger.info("Unscheduling free llamas system job.");
       _freeLlamasSystemJobTimer.cancel();
+
       logger.info("Unscheduling collect research points system job.");
       _collectResearchPointsSystemJobTimer.cancel();
+
       logger.info("Unscheduling auto research system job.");
       _autoResearchSystemJobTimer.cancel();
+
       logger.info("Closing cron manager.");
       await _cron.close();
     } on Exception catch (e) {
