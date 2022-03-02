@@ -57,7 +57,7 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
         String description = "";
 
         accLoop:
-        for (final acc in accs) {
+        for (final acc in [...accs]) {
           String message = "";
 
           int nClaimed = 0;

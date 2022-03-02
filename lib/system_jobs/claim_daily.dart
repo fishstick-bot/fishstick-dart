@@ -53,7 +53,7 @@ class ClaimDailySystemJob extends AbstractUserSystemJob {
       await for (final accs in accChunks) {
         String description = "";
 
-        for (final acc in accs) {
+        for (final acc in [...accs]) {
           String message = "";
           try {
             var fnClient = user.fnClientSetup(acc.accountId);

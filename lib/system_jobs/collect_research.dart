@@ -41,7 +41,7 @@ class ClaimResearchPointsSystemJob extends AbstractUserSystemJob {
         return;
       }
 
-      for (final acc in user.linkedAccounts) {
+      for (final acc in [...user.linkedAccounts]) {
         try {
           var fnClient = user.fnClientSetup(acc.accountId);
           await fnClient.campaign.init(fnClient.accountId);
