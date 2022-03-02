@@ -119,3 +119,4 @@
 
 -   Inventory command.
 -   Research command.
+-   Shop BR command.

@@ -2,7 +2,7 @@ import "package:nyxx/nyxx.dart";
 import "package:nyxx_commands/nyxx_commands.dart";
 
 final ChatCommand brShopCommand = ChatCommand(
-  "shop",
+  "br",
   "View fortnite battle royale item shop.",
   Id(
     "br_shop_command",
