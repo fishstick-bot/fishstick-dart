@@ -121,3 +121,4 @@
 -   Research command.
 -   Shop BR command.
 -   Catalog manager.
+-   Buy BR command.
