@@ -53,24 +53,40 @@ final ChatCommand lxCommand = ChatCommand(
           throw Exception("You already linked this account.");
         }
 
-        res = await Dio().post(
-          "${Endpoints().oauthDeviceAuth}/$accountId/deviceAuth",
-          options: Options(
-            headers: {
-              "Authorization": "bearer $accessToken",
-              "User-Agent":
-                  "Fortnite/++Fortnite+Release-18.21-CL-17811397 Android/11",
-              "Content-Type": "application/json",
-            },
-          ),
-        );
-
-        final DeviceAuth deviceAuth = DeviceAuth(
-          accountId: accountId,
-          deviceId: res.data["deviceId"],
-          secret: res.data["secret"],
-          displayName: displayName,
-        );
+        late final DeviceAuth deviceAuth;
+        if (grant_type != "device_auth") {
+          res = await Dio().post(
+            "${Endpoints().oauthDeviceAuth}/$accountId/deviceAuth",
+            options: Options(
+              headers: {
+                "Authorization": "bearer $accessToken",
+                "User-Agent":
+                    "Fortnite/++Fortnite+Release-18.21-CL-17811397 Android/11",
+                "Content-Type": "application/json",
+              },
+            ),
+          );
+          deviceAuth = DeviceAuth(
+            accountId: accountId,
+            deviceId: res.data["deviceId"],
+            secret: res.data["secret"],
+            displayName: displayName,
+          );
+        } else {
+          var splitted = grant_data.split("&");
+          deviceAuth = DeviceAuth(
+            accountId: accountId,
+            deviceId: splitted
+                .firstWhere((e) => e.contains("device_id"))
+                .split("=")
+                .last,
+            secret: splitted
+                .firstWhere((e) => e.contains("secret"))
+                .split("=")
+                .last,
+            displayName: displayName,
+          );
+        }
 
         final Client fn = Client(
           options: ClientOptions(
