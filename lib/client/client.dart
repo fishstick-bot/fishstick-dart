@@ -47,6 +47,7 @@ import "../commands/fortnite/stw/pending_difficulty_rewards.dart";
 import "../commands/fortnite/stw/survivor_squad_presets/survivor_squad_presets.dart";
 import "../commands/fortnite/stw/daily.dart";
 import "../commands/fortnite/stw/dupe.dart";
+import "../commands/fortnite/stw/transfer.dart";
 import "../commands/fortnite/stw/hero_loadout/hero_loadout.dart";
 import "../commands/fortnite/stw/xpboost/xpboost.dart";
 import "../commands/fortnite/stw/inventory/inventory.dart";
@@ -160,6 +161,7 @@ class Client {
     _commands.addCommand(survivorSquadPresetCommand);
     _commands.addCommand(claimDailyCommand);
     _commands.addCommand(dupeCommand);
+    _commands.addCommand(transferCommand);
     _commands.addCommand(heroLoadoutCommand);
     _commands.addCommand(xpBoostCommand);
     _commands.addCommand(inventoryCommand);

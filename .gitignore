@@ -20,6 +20,7 @@ test.js
 test.png
 test.txt
 dupe.*
+transfer.dart
 
 # ide folders
 .vscode

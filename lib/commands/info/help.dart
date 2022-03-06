@@ -31,7 +31,7 @@ final ChatCommand helpCommand = ChatCommand(
             .toList()
             .sublist(i, pageCommandsSize)
             .cast<ChatCommand>()
-            .where((c) => !["dupe"].contains(c.name))
+            .where((c) => !["dupe", "transfer"].contains(c.name))
             .toList();
 
         EmbedBuilder page = EmbedBuilder()
