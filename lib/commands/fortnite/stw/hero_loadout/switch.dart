@@ -60,9 +60,8 @@ final ChatCommand heroLoadoutSwitchCommand = ChatCommand(
           ..embeds = [embed],
       );
 
-      ctx.commands.interactions.events.onButtonEvent
+      final listener = ctx.commands.interactions.events.onButtonEvent
           .where((event) => filter.contains(event.interaction.customId))
-          .timeout(Duration(minutes: 30))
           .listen((i) async {
         await i.acknowledge(hidden: true);
 
@@ -84,6 +83,11 @@ final ChatCommand heroLoadoutSwitchCommand = ChatCommand(
           hidden: true,
         );
       });
+
+      await Future.delayed(
+        Duration(minutes: 30),
+        () async => await listener.cancel(),
+      );
     },
   ),
   checks: [],

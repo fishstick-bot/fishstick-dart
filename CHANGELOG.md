@@ -122,3 +122,9 @@
 -   Shop BR command.
 -   Catalog manager.
 -   Buy BR command.
+
+## 1.3.0
+
+-   Full locker.
+-   Inventory backpack and storage.
+-   Bug fix in hero loadout timeout.
