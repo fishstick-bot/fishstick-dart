@@ -21,6 +21,7 @@ test.png
 test.txt
 dupe.*
 transfer.dart
+test/
 
 # ide folders
 .vscode
