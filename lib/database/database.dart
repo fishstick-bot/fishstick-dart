@@ -1,6 +1,8 @@
+import "package:random_string/random_string.dart";
 import "package:mongo_dart/mongo_dart.dart";
 import "database_user.dart";
 import "database_guild.dart";
+import "database_tiny_url.dart";
 
 class Database {
   bool connected = false;
@@ -23,6 +25,9 @@ class Database {
   /// cosmetics collections
   late DbCollection cosmetics;
 
+  /// tiny urls collection
+  late DbCollection tinyurls;
+
   /// The database object
   Database(this._mongoUri);
 
@@ -37,6 +42,7 @@ class Database {
     guilds = db.collection("guilds");
     leaderboards = db.collection("leaderboards");
     cosmetics = db.collection("cosmetics");
+    tinyurls = db.collection("tinyurls");
 
     connected = true;
   }
@@ -113,5 +119,36 @@ class Database {
     for (final key in update.keys) {
       await guilds.updateOne(where.eq("id", id), modify.set(key, update[key]));
     }
+  }
+
+  /// get tiny url
+  Future<DatabaseTinyUrl?> getTinyUrl(String code) async {
+    var found = await tinyurls.findOne(where.eq("code", code));
+    if (found == null) {
+      return null;
+    }
+
+    return DatabaseTinyUrl(
+      found["code"],
+      created: DateTime.fromMillisecondsSinceEpoch(found["createdAt"]),
+      targetUrl: found["targetUrl"],
+    );
+  }
+
+  /// create a tiny url
+  Future<DatabaseTinyUrl> createTinyUrl(String targetUrl) async {
+    String code = randomString(6);
+    int created = DateTime.now().millisecondsSinceEpoch;
+    await tinyurls.insert({
+      "code": code,
+      "createdAt": created,
+      "targetUrl": targetUrl,
+    });
+
+    return DatabaseTinyUrl(
+      code,
+      created: DateTime.fromMillisecondsSinceEpoch(created),
+      targetUrl: targetUrl,
+    );
   }
 }

@@ -90,7 +90,7 @@ class SystemJobsPlugin extends BasePlugin {
     logger.info("Registering auto research system job");
     autoResearchSystemJob = AutoResearchSystemJob(_client);
     logger.info("Registering url shortener system job");
-    urlShortenerSystemJob = UrlShortenerSystemJob();
+    urlShortenerSystemJob = UrlShortenerSystemJob(_client);
   }
 
   /// Schedule all the system jobs

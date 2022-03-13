@@ -94,9 +94,9 @@ final ChatCommand lockerFNGGCommand = ChatCommand(
 
       final String fngg =
           "https://fortnite.gg/my-locker?items=$encoded&bot=fishstick-discord";
-      client.systemJobs.urlShortenerSystemJob.addUrl("${msg.id}", fngg);
+      var urlcode = await client.systemJobs.urlShortenerSystemJob.addUrl(fngg);
       final LinkButtonBuilder fnggUrl = LinkButtonBuilder(
-          "Fortnite.GG Locker", "https://fishstickbot.com/tinyurl/${msg.id}");
+          "Fortnite.GG Locker", "https://fishstickbot.com/tinyurl/$urlcode");
 
       await msg.edit(
         ComponentMessageBuilder()
