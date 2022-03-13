@@ -17,4 +17,4 @@ Steps:
 
 Join our [support server](https://discord.gg/fishstick).
 
-{% include ads.html %}
+{% include _ads.html %}
