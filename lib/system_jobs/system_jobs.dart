@@ -98,7 +98,6 @@ class SystemJobsPlugin extends BasePlugin {
   void onBotStart(INyxx nyxx, Logger logger) async {
     try {
       updateCosmeticsCacheSystemJob.run();
-      urlShortenerSystemJob.run();
 
       logger.info(
           "Scheduling update cosmetics cache system job to run every ${updateCosmeticsCacheSystemJob.runDuration.inHours} hours.");
@@ -119,6 +118,8 @@ class SystemJobsPlugin extends BasePlugin {
       if (!shardIds.contains(0)) {
         return;
       }
+
+      urlShortenerSystemJob.run();
 
       logger.info(
           "Scheduling premium role sync system job to run every ${premiumRoleSyncSystemJob.runDuration.inHours} hours.");
