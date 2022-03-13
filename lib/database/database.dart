@@ -1,4 +1,4 @@
-import "package:random_string/random_string.dart";
+import "dart:math";
 import "package:mongo_dart/mongo_dart.dart";
 import "database_user.dart";
 import "database_guild.dart";
@@ -137,7 +137,12 @@ class Database {
 
   /// create a tiny url
   Future<DatabaseTinyUrl> createTinyUrl(String targetUrl) async {
-    String code = randomString(6);
+    int length = 8;
+    String chars = "0123456789ABCDEF";
+    String code = "";
+    while (length-- > 0) {
+      code += chars[(Random().nextInt(16)) | 0];
+    }
     int created = DateTime.now().millisecondsSinceEpoch;
     await tinyurls.insert({
       "code": code,
