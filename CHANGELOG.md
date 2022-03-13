@@ -128,3 +128,4 @@
 -   Full locker.
 -   Inventory backpack and storage.
 -   Bug fix in hero loadout timeout.
+-   Locker FNGG command.

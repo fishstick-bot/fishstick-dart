@@ -1,4 +1,5 @@
 import "package:nyxx_commands/nyxx_commands.dart";
+import "fngg.dart";
 import "text.dart";
 import "image.dart";
 import "full.dart";
@@ -10,6 +11,7 @@ final ChatGroup lockerCommand = ChatGroup(
   "locker",
   "Locker related commands.",
   children: [
+    lockerFNGGCommand,
     lockerTextCommand,
     lockerImageCommand,
     lockerFullImageCommand,

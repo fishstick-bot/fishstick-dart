@@ -14,6 +14,7 @@ import "claim_daily.dart";
 import "free_llamas.dart";
 import "collect_research.dart";
 import "auto_research.dart";
+import "url_shortener.dart";
 
 /// Handles all the system jobs
 class SystemJobsPlugin extends BasePlugin {
@@ -64,6 +65,9 @@ class SystemJobsPlugin extends BasePlugin {
   /// auto research system job
   late final Timer _autoResearchSystemJobTimer;
 
+  /// url shortener system job
+  late final UrlShortenerSystemJob urlShortenerSystemJob;
+
   /// Creates a new instance of [SystemJobsPlugin]
   SystemJobsPlugin(this._client);
 
@@ -85,6 +89,8 @@ class SystemJobsPlugin extends BasePlugin {
     collectResearchPointsSystemJob = ClaimResearchPointsSystemJob(_client);
     logger.info("Registering auto research system job");
     autoResearchSystemJob = AutoResearchSystemJob(_client);
+    logger.info("Registering url shortener system job");
+    urlShortenerSystemJob = UrlShortenerSystemJob();
   }
 
   /// Schedule all the system jobs
@@ -92,6 +98,7 @@ class SystemJobsPlugin extends BasePlugin {
   void onBotStart(INyxx nyxx, Logger logger) async {
     try {
       updateCosmeticsCacheSystemJob.run();
+      urlShortenerSystemJob.run();
 
       logger.info(
           "Scheduling update cosmetics cache system job to run every ${updateCosmeticsCacheSystemJob.runDuration.inHours} hours.");

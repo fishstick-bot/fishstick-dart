@@ -31,6 +31,8 @@ dependencies:
     http: ^0.13.4 # for making http requests.
     dio: ^4.0.4 # for making http requests.
     cron: ^0.4.0 # cron for system jobs scheduling.
+    shelf: ^1.2.0 # http server
+    shelf_router: ^1.1.2 # http server router
 
 dev_dependencies:
     lints: ^1.0.0

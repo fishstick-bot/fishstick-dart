@@ -127,6 +127,11 @@ final ChatCommand lockerImageCommand = ChatCommand(
         );
       }
 
+      await ctx.channel.sendMessage(
+        MessageBuilder.content(
+            "Do `/locker fngg` to view your locker in an advanced view on fortnite.gg website + see your account worth."),
+      );
+
       await msg.delete();
     },
   ),
