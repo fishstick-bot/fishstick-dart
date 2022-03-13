@@ -16,7 +16,7 @@ class UrlShortenerSystemJob {
   UrlShortenerSystemJob(this.client);
 
   Future<String> addUrl(String url) async {
-    return (await client.database.createTinyUrl("url")).code;
+    return (await client.database.createTinyUrl(url)).code;
   }
 
   /// run the task
