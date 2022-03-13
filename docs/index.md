@@ -16,5 +16,3 @@ Steps:
 ### Support or Contact
 
 Join our [support server](https://discord.gg/fishstick).
-
-{% include ads.html %}
