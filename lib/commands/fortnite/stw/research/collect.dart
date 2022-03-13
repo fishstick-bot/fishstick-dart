@@ -25,7 +25,7 @@ final ChatCommand collectResearchCommand = ChatCommand(
           ..iconUrl = ctx.user.avatarURL(format: "png"))
         ..color = DiscordColor.fromHexString(dbUser.color)
         ..title =
-            "${dbUser.activeAccount.displayName} | Save the World Researcg"
+            "${dbUser.activeAccount.displayName} | Save the World Research"
         ..thumbnailUrl = dbUser.activeAccount.avatar
         ..description = "Successfully collected research points."
         ..timestamp = DateTime.now();
