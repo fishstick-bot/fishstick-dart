@@ -68,7 +68,7 @@ class UrlShortenerSystemJob {
         ></script>
     </head>
     <body>
-        <p style="text-align: center">Redirecting in 3 seconds...</p>
+        <p style="text-align: center">Redirecting...</p>
     </body>
 </html>
 """;

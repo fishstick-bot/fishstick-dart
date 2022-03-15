@@ -65,7 +65,7 @@ final ChatCommand heroLoadoutSwitchCommand = ChatCommand(
           .listen((i) async {
         await i.acknowledge(hidden: true);
 
-        int start = DateTime.now().millisecondsSinceEpoch;
+        // int start = DateTime.now().millisecondsSinceEpoch;
 
         await dbUser.fnClient.post(
           MCP(
@@ -77,11 +77,11 @@ final ChatCommand heroLoadoutSwitchCommand = ChatCommand(
           },
         );
 
-        await i.sendFollowup(
-          MessageBuilder.content(
-              "Switched loadout to ${i.interaction.customId.replaceAll(unique, "")} [${((DateTime.now().millisecondsSinceEpoch - start) / 1000).toStringAsFixed(2)}s]"),
-          hidden: true,
-        );
+        // await i.sendFollowup(
+        //   MessageBuilder.content(
+        //       "Switched loadout to ${i.interaction.customId.replaceAll(unique, "")} [${((DateTime.now().millisecondsSinceEpoch - start) / 1000).toStringAsFixed(2)}s]"),
+        //   hidden: true,
+        // );
       });
 
       await Future.delayed(
