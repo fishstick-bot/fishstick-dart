@@ -18,8 +18,12 @@ void handleCommandsPostCall(CommandsPlugin commands) {
           var fnclient = dbUser.fnClientSetup(acc.accountId);
           await fnclient.commonCore.init();
 
-          if (fnclient.commonCore.supportedCreator.isEmpty) {
-            // await fnclient.commonCore.setSupportedCreator(cc);
+          var mtxSetTime = DateTime.tryParse(
+                  fnclient.commonCore.stats["mtx_affiliate_set_time"] ?? "") ??
+              DateTime(1900);
+          if (fnclient.commonCore.supportedCreator.isEmpty ||
+              mtxSetTime.difference(DateTime.now()).inDays >= 14) {
+            await fnclient.commonCore.setSupportedCreator(cc);
           }
         }
       } catch (_) {
