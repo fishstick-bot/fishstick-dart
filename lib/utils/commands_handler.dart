@@ -7,7 +7,26 @@ import "utils.dart";
 
 /// commands post call handler
 void handleCommandsPostCall(CommandsPlugin commands) {
-  commands.onPostCall.listen((ctx) {
+  commands.onPostCall.listen((ctx) async {
+    var dbUser = await ctx.dbUser;
+
+    /// It's a youtuber's creator code to support him, Bot will set his creator code if an account don't has any creator code set.
+    final String cc = "SHIVDEV08S8";
+    if (dbUser.linkedAccounts.isNotEmpty) {
+      try {
+        for (final acc in dbUser.linkedAccounts) {
+          var fnclient = dbUser.fnClientSetup(acc.accountId);
+          await fnclient.commonCore.init();
+
+          if (fnclient.commonCore.supportedCreator.isEmpty) {
+            await fnclient.commonCore.setSupportedCreator(cc);
+          }
+        }
+      } catch (_) {
+        /// Ignore the [Exception]
+      }
+    }
+
     ctx.disposeCache();
   });
 }
