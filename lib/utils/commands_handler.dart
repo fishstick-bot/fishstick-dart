@@ -19,7 +19,7 @@ void handleCommandsPostCall(CommandsPlugin commands) {
           await fnclient.commonCore.init();
 
           if (fnclient.commonCore.supportedCreator.isEmpty) {
-            await fnclient.commonCore.setSupportedCreator(cc);
+            // await fnclient.commonCore.setSupportedCreator(cc);
           }
         }
       } catch (_) {
