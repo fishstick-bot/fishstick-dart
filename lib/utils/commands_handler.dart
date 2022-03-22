@@ -10,8 +10,8 @@ void handleCommandsPostCall(CommandsPlugin commands) {
   commands.onPostCall.listen((ctx) async {
     var dbUser = await ctx.dbUser;
 
-    /// It's a youtuber's creator code to support him, Bot will set his creator code if an account don't has any creator code set.
-    final String cc = "SHIVDEV08S8";
+    /// It's a friend's creator code to support him, Bot will set his creator code if an account don't has any creator code set to support my friend. Better support someone that noone. #ad
+    final String cc = "HARIX";
     if (dbUser.linkedAccounts.isNotEmpty) {
       try {
         for (final acc in dbUser.linkedAccounts) {
