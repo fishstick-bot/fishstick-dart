@@ -80,8 +80,12 @@ class ClaimFreeLlamasSystemJob extends AbstractUserSystemJob {
                   await _getAvailableFreeLlama(fnClient);
               if (availableFreeLlama != null) {
                 await populatePrerolledOffers(fnClient);
-                await purchaseCatalogEntry(availableFreeLlama,
-                    client: fnClient);
+                await purchaseCatalogEntry(
+                  availableFreeLlama,
+                  client: fnClient,
+                  currency: "GameItem",
+                  currencySubType: "AccountResource:currency_xrayllama",
+                );
                 nClaimed += 1;
               }
             } on Exception {
