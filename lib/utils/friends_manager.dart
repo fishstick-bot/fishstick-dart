@@ -53,8 +53,8 @@ class FriendsManager {
       friends[f["accountId"]] = Friend(
         this,
         accountId: f["accountId"],
-        displayName: f["displayName"],
-        connections: f["connections"],
+        displayName: f["displayName"] ?? "",
+        connections: f["connections"] ?? {},
         alias: f["alias"] ?? "",
         created: DateTime.parse(f["created"]),
       );
