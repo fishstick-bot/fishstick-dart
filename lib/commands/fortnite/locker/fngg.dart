@@ -21,7 +21,7 @@ Map<String, String> itemEnums = {};
 
 final ChatCommand lockerFNGGCommand = ChatCommand(
   "fngg",
-  "View your locker on fortite.gg website.",
+  "View your locker on fortnite.gg website.",
   Id(
     "locker_fngg_command",
     (
