@@ -60,7 +60,7 @@ class UrlShortenerSystemJob {
         <meta name="keywords" content="Fishstick, Discord, Url, tinyurl" />
         <meta name="author" content="Vanxh" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="refresh" content="3; URL=${found.targetUrl}" />
+        <meta http-equiv="refresh" content="0; URL=${found.targetUrl}" />
         <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9981649893294945"
