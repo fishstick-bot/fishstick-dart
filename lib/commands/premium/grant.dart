@@ -37,7 +37,12 @@ final ChatCommand premiumGrantCommand = ChatCommand(
         );
       }
 
-      await targetUser.grantPremium(ctx.user, user, Duration(days: days));
+      await targetUser.grantPremium(
+        ctx.user,
+        user,
+        targetUser.premium.tier,
+        Duration(days: days),
+      );
 
       return await respond(
         ctx,

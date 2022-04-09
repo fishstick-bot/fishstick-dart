@@ -181,8 +181,8 @@ class DatabaseUser {
   }
 
   /// grant premium to user.
-  Future<void> grantPremium(
-      IUser responsiblePartner, IUser targetUser, Duration duration) async {
+  Future<void> grantPremium(IUser responsiblePartner, IUser targetUser,
+      int currentTier, Duration duration) async {
     if (premium.until.millisecondsSinceEpoch <
         DateTime.now().millisecondsSinceEpoch) {
       premium.until = DateTime.now();
@@ -192,7 +192,7 @@ class DatabaseUser {
       tierEnum: PremiumTier.premium,
       until: DateTime.fromMillisecondsSinceEpoch(
           premium.until.millisecondsSinceEpoch + duration.inMilliseconds),
-      tier: 1,
+      tier: currentTier > 1 ? currentTier : 1,
       grantedBy: responsiblePartner.id.toString(),
     );
 

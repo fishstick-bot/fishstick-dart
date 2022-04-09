@@ -63,6 +63,7 @@ class TopGGSystemJob {
                 owner,
                 await client.bot
                     .fetchUser((body["user"] as String).toSnowflake()),
+                user.premium.tier,
                 Duration(hours: 12),
               );
             }
