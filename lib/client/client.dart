@@ -70,6 +70,9 @@ class Client {
   /// The nyxx client
   late final INyxxWebsocket bot;
 
+  /// home [IGuild]
+  late final IGuild homeGuild;
+
   /// Telegram bot client
   late final TeleBotClient telebot;
 
@@ -227,6 +230,12 @@ class Client {
     await bot.connect();
     logger.info(
         "Connected to discord [${(DateTime.now().millisecondsSinceEpoch - _start).toStringAsFixed(2)}ms]");
+
+    try {
+      homeGuild = await bot.fetchGuild(config.supportServerId.toSnowflake());
+    } catch (e) {
+      // IGNORE
+    }
 
     if (shardIds.contains(0) && !config.developmentMode) {
       _start = DateTime.now().millisecondsSinceEpoch;

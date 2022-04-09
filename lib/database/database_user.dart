@@ -8,6 +8,7 @@ import "../structures/auto_subscriptions.dart";
 import "../structures/privacy.dart";
 import "../structures/user_blacklist.dart";
 import "../utils/utils.dart";
+import "package:fishstick_dart/fishstick_dart.dart";
 
 class DatabaseUser {
   /// Main database.
@@ -194,6 +195,14 @@ class DatabaseUser {
       tier: 1,
       grantedBy: responsiblePartner.id.toString(),
     );
+
+    try {
+      var member = (await client.homeGuild.fetchMember(targetUser.id));
+      await member.addRole(
+          client.config.supportServerPremiumRoleId.toSnowflakeEntity());
+    } catch (e) {
+      // IGNORE
+    }
 
     await _database.updateUser(id, {
       "premium": premium.toJson(),
