@@ -30,6 +30,9 @@ class Config {
   /// api key for backend
   String get apiKey => Privates.apiKey;
 
+  /// webhook key for backend
+  String get webhookKey => Privates.webhookKey;
+
   /// the bot's token
   String get token =>
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;

@@ -12,4 +12,5 @@ class Privates {
       "add a random generated 32 digit encryption key here";
 
   static final String apiKey = "add backend api key here";
+  static final String webhookKey = "add webhook key here";
 }
