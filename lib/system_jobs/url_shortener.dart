@@ -35,24 +35,6 @@ class UrlShortenerSystemJob {
         });
 
       router.get(
-        "/stats",
-        (Request request) async {
-          final int totalGuilds =
-              (await client.shardingPlugin.getCachedGuilds())
-                  .fold<int>(0, (a, b) => a + b);
-
-          return Response.ok(
-            JsonEncoder.withIndent(" " * 2).convert({
-              "success": true,
-              "data": {
-                "total_guilds": totalGuilds,
-              },
-            }),
-          );
-        },
-      );
-
-      router.get(
         "/tinyurl/<uuid>",
         (Request req, String uuid) async {
           var found = await client.database.getTinyUrl(uuid);

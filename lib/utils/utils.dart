@@ -299,7 +299,7 @@ Future<List<int>> drawLocker({
   bool png = false,
 }) async {
   var img = await Dio().post(
-    "http://localhost:6000/api/locker",
+    "https://fishstickbot.com/api/locker",
     data: {
       "items": cosmetics
           .map((cosmetic) => {
@@ -334,7 +334,7 @@ Future<List<int>> drawSTWResources({
   required String username,
 }) async {
   var img = await Dio().post(
-    "http://localhost:6000/api/resources",
+    "https://fishstickbot.com/api/resources",
     data: {
       "items": resources,
       "epicname": epicname,
@@ -363,7 +363,7 @@ Future<List<int>> drawSTWInventory({
   }
 
   var img = await Dio().post(
-    "http://localhost:6000/api/inventory",
+    "https://fishstickbot.com/api/inventory",
     data: {
       "items": items,
       "epicname": epicname,
