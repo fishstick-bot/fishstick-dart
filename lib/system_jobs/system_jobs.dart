@@ -15,6 +15,7 @@ import "free_llamas.dart";
 import "collect_research.dart";
 import "auto_research.dart";
 import "url_shortener.dart";
+import "topgg.dart";
 
 /// Handles all the system jobs
 class SystemJobsPlugin extends BasePlugin {
@@ -68,6 +69,9 @@ class SystemJobsPlugin extends BasePlugin {
   /// url shortener system job
   late final UrlShortenerSystemJob urlShortenerSystemJob;
 
+  /// topgg system job
+  late final TopGGSystemJob topGGSystemJob;
+
   /// Creates a new instance of [SystemJobsPlugin]
   SystemJobsPlugin(this._client);
 
@@ -91,6 +95,8 @@ class SystemJobsPlugin extends BasePlugin {
     autoResearchSystemJob = AutoResearchSystemJob(_client);
     logger.info("Registering url shortener system job");
     urlShortenerSystemJob = UrlShortenerSystemJob(_client);
+    logger.info("Registering topgg system job");
+    topGGSystemJob = TopGGSystemJob(_client);
   }
 
   /// Schedule all the system jobs
@@ -120,6 +126,7 @@ class SystemJobsPlugin extends BasePlugin {
       }
 
       urlShortenerSystemJob.run();
+      topGGSystemJob.run();
 
       logger.info(
           "Scheduling premium role sync system job to run every ${premiumRoleSyncSystemJob.runDuration.inHours} hours.");

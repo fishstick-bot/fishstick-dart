@@ -44,6 +44,9 @@ class UrlShortenerSystemJob {
                 "success": false,
                 "message": "No url found with code $uuid",
               }),
+              headers: {
+                "content-type": "application/json",
+              },
             );
           }
 
