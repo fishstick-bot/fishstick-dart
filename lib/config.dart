@@ -33,6 +33,9 @@ class Config {
   /// webhook key for backend
   String get webhookKey => Privates.webhookKey;
 
+  /// topgg api key
+  String get topggApiKey => Privates.topGGApiKey;
+
   /// the bot's token
   String get token =>
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;

@@ -1,4 +1,7 @@
 import "dart:convert";
+import "dart:async";
+
+import "package:dio/dio.dart" as dio;
 
 import "package:nyxx/nyxx.dart";
 import "package:shelf/shelf.dart";
@@ -77,6 +80,23 @@ class TopGGSystemJob {
             }),
             headers: {
               "Content-Type": "application/json",
+            },
+          );
+        },
+      );
+
+      Timer.periodic(
+        Duration(minutes: 10),
+        (timer) async {
+          final int totalGuilds =
+              (await client.shardingPlugin.getCachedGuilds())
+                  .fold<int>(0, (a, b) => a + b);
+          client.logger.info(
+              "[TASK:$name] reporting total guilds $totalGuilds to top.gg");
+          await dio.Dio().post(
+            "https://top.gg/api/bots/750967237191532575/stats",
+            data: {
+              "server_count": totalGuilds,
             },
           );
         },

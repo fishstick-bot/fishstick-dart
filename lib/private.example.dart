@@ -13,4 +13,5 @@ class Privates {
 
   static final String apiKey = "add backend api key here";
   static final String webhookKey = "add webhook key here";
+  static final String topGGApiKey = "";
 }
