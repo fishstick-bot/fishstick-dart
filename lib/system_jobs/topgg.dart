@@ -98,6 +98,11 @@ class TopGGSystemJob {
             data: {
               "server_count": totalGuilds,
             },
+            options: dio.Options(
+              headers: {
+                "Authorization": client.config.topggApiKey,
+              },
+            ),
           );
         },
       );
