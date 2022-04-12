@@ -85,7 +85,7 @@ final ChatCommand heroLoadoutSwitchCommand = ChatCommand(
       });
 
       await Future.delayed(
-        Duration(minutes: 30),
+        Duration(hours: 2),
         () async => await listener.cancel(),
       );
     },
