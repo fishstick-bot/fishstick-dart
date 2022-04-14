@@ -405,6 +405,36 @@ Future<dynamic> purchaseCatalogEntry(
   ))?["notifications"]?[0];
 }
 
+/// Gift an item from fortnite shop
+Future<dynamic> giftCatalogEntry(
+  String offerId,
+  List<String> receivers, {
+  required Client client,
+  int quantity = 1,
+  String currency = "MtxCurrency",
+  String currencySubType = "",
+  int expectedTotalPrice = 0,
+  String gameContext = "",
+  String? message,
+}) async {
+  return (await client.post(
+    "https://fortnite-public-service-prod11.ol.epicgames.com/fortnite/api/game/v2/profile/${client.accountId}/client/GiftCatalogEntry?profileId=common_core",
+    body: {
+      "offerId": offerId,
+      "purchaseQuantity": quantity,
+      "currency": currency,
+      "currencySubType": currencySubType,
+      "expectedTotalPrice": expectedTotalPrice,
+      "gameContext": gameContext,
+      "receiverAccountIds": receivers,
+      "giftWrapTemplateId": "GiftBox:gb_giftwrap4",
+      "personalMessage": message != null
+          ? "$message\nGifted Using Fishstick Bot! https://fishstickbot.com/"
+          : "Gifted Using Fishstick Bot! https://fishstickbot.com/",
+    },
+  ))?["notifications"]?[0];
+}
+
 Future<bool> isEAC(Client fn) async {
   final String launcherToken = await (fn.auth.createOAuthToken(
     grantType: "exchange_code",

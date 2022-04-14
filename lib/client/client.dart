@@ -54,6 +54,7 @@ import "../commands/fortnite/stw/inventory/inventory.dart";
 import "../commands/fortnite/stw/research/research.dart";
 import "../commands/fortnite/shop/shop.dart";
 import "../commands/fortnite/buy/buy.dart";
+import "../commands/fortnite/buy/gift.dart";
 import "../commands/fortnite/friends/friends.dart";
 
 typedef NullableString = String;
@@ -172,6 +173,7 @@ class Client {
     _commands.addCommand(stwResearchCommand);
     _commands.addCommand(shopCommand);
     _commands.addCommand(buyCommand);
+    _commands.addCommand(giftCommand);
     _commands.addCommand(friendsCommand);
 
     /// handle commands error
