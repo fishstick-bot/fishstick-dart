@@ -239,7 +239,7 @@ class Client {
       // IGNORE
     }
 
-    if (shardIds.contains(0) && !config.developmentMode) {
+    if (shardIds.contains(0)) {
       _start = DateTime.now().millisecondsSinceEpoch;
       await telebot.connect();
       logger.info(

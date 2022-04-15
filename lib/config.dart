@@ -1,7 +1,7 @@
 import "private.dart";
 
 class Config {
-  static final bool _developmentMode = false;
+  static final bool _developmentMode = true;
 
   /// is the bot in development mode
   bool get developmentMode => _developmentMode;
@@ -41,7 +41,8 @@ class Config {
       _developmentMode ? Privates.discordDevToken : Privates.discordProdToken;
 
   /// telegram bot token
-  String get telegramToken => Privates.teleToken;
+  String get telegramToken =>
+      _developmentMode ? Privates.telegramDevToken : Privates.teleToken;
 
   /// mongo db uri
   String get mongoUri => Privates.mongoDbUri;

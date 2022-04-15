@@ -3,6 +3,7 @@ class Privates {
 
   static final String discordProdToken = "add main bot token here";
 
+  static final String telegramDevToken = "";
   static final String teleToken = "add telegram bot token here";
 
   static final String mongoDbUri =

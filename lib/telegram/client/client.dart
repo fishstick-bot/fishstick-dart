@@ -11,6 +11,7 @@ import "../structures/command.dart";
 import "../commands/info/start.dart";
 import "../commands/info/stop.dart";
 import "../commands/info/ping.dart";
+import "../commands/info/info.dart";
 
 class TeleBotClient {
   /// logger
@@ -18,6 +19,9 @@ class TeleBotClient {
 
   /// main client
   late final Client _client;
+
+  /// start time of bot
+  late final DateTime startTime;
 
   /// username of bot
   late final String username;
@@ -38,6 +42,7 @@ class TeleBotClient {
     commands.add(start);
     commands.add(stop);
     commands.add(ping);
+    commands.add(info);
   }
 
   Future<void> connect() async {
@@ -49,6 +54,7 @@ class TeleBotClient {
 
       bot = TeleDart(_client.config.telegramToken, Event(username));
       bot.start();
+      startTime = DateTime.now();
 
       List<BotCommand> _teleCommands = [];
       for (final command in commands) {
@@ -108,7 +114,8 @@ class TeleBotClient {
       }
 
       await telegram.setMyCommands(_teleCommands);
-      logger.info("Successfully set commands to telegram.");
+      logger.info(
+          "Successfully set ${_teleCommands.length} commands to telegram.");
     } catch (e) {
       if (_retries >= 5) {
         logger.severe("Failed to connect to telegram.", e);
