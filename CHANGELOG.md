@@ -129,3 +129,9 @@
 -   Inventory backpack and storage.
 -   Bug fix in hero loadout timeout.
 -   Locker FNGG command.
+
+## 1.4.0
+
+-   Friend list nuke command.
+-   Gift command.
+-   Info telegram command.
