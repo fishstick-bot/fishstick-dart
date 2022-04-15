@@ -9,6 +9,7 @@ import "../../client/client.dart" show Client;
 import "../structures/command.dart";
 
 import "../commands/info/start.dart";
+import "../commands/info/stop.dart";
 import "../commands/info/ping.dart";
 
 class TeleBotClient {
@@ -35,6 +36,7 @@ class TeleBotClient {
 
   TeleBotClient(this._client) {
     commands.add(start);
+    commands.add(stop);
     commands.add(ping);
   }
 
@@ -50,10 +52,12 @@ class TeleBotClient {
 
       List<BotCommand> _teleCommands = [];
       for (final command in commands) {
-        _teleCommands.add(BotCommand(
-          command: command.name,
-          description: command.description,
-        ));
+        if (!["start", "stop"].contains(command.name)) {
+          _teleCommands.add(BotCommand(
+            command: command.name,
+            description: command.description,
+          ));
+        }
 
         bot.onCommand(command.name).listen((msg) async {
           if (msg.from == null) return;
