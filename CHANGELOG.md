@@ -135,3 +135,5 @@
 -   Friend list nuke command.
 -   Gift command.
 -   Info telegram command.
+-   SAC earnings command.
+-   Authorization code command.

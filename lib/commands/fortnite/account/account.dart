@@ -7,6 +7,7 @@ import "receipts.dart";
 import "realname/realname.dart";
 import "username/username.dart";
 import "external/external.dart";
+import "authcode.dart";
 
 final ChatGroup accountCommand = ChatGroup(
   "account",
@@ -20,6 +21,7 @@ final ChatGroup accountCommand = ChatGroup(
     realNameCommand,
     usernameCommand,
     externalsCommand,
+    authcodeCommand,
   ],
   aliases: ["acc"],
   checks: [],

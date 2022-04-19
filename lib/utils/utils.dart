@@ -459,3 +459,25 @@ Future<bool> isEAC(Client fn) async {
   );
   return res["provider"] == "EasyAntiCheat";
 }
+
+/// Make a web api request to epicgames.com
+Future<dynamic> webApiRequest(String url, String token) async {
+  try {
+    final res = (await Dio().get(
+      url,
+      options: Options(
+        headers: {
+          "Cookie": "EPIC_BEARER_TOKEN=$token",
+        },
+      ),
+    ));
+
+    if (res.requestOptions.uri.path.contains("epicgames.com/id/logout")) {
+      throw Exception(res.data);
+    }
+
+    return res.data;
+  } on DioError catch (e) {
+    throw Exception(e.response?.data ?? "Unknown error.");
+  }
+}
