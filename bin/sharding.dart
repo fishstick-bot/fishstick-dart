@@ -9,7 +9,7 @@ void main() async {
     token: Config().token,
     // maxGuildsPerProcess: 2000,
     // maxGuildsPerShard: 1000,
-    numProcesses: Config().developmentMode ? 1 : 5,
+    numProcesses: Config().developmentMode ? 1 : 6,
     shardsPerProcess: Config().developmentMode ? 1 : 2,
   );
 
