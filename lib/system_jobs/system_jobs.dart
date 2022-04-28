@@ -130,15 +130,6 @@ class SystemJobsPlugin extends BasePlugin {
         await catalogManagerSystemJob.run();
       });
 
-      stwMissionsSystemJob.run();
-
-      logger
-          .info("Scheduling stw missions system job to run daily at 0:00 UTC.");
-      _stwMissionsSystemJobTimer =
-          _cron.schedule(Schedule.parse("1 0 * * *"), () async {
-        await stwMissionsSystemJob.run();
-      });
-
       if (!shardIds.contains(0)) {
         return;
       }
@@ -183,6 +174,15 @@ class SystemJobsPlugin extends BasePlugin {
       Future.delayed(Duration(minutes: 5), () async {
         await collectResearchPointsSystemJob.run();
         await autoResearchSystemJob.run();
+      });
+
+      stwMissionsSystemJob.run();
+
+      logger
+          .info("Scheduling stw missions system job to run daily at 0:00 UTC.");
+      _stwMissionsSystemJobTimer =
+          _cron.schedule(Schedule.parse("1 0 * * *"), () async {
+        await stwMissionsSystemJob.run();
       });
     } on Exception catch (e) {
       logger.severe("Failed to start system jobs", e);

@@ -74,12 +74,12 @@ class STWMission {
   factory STWMission.fromJson(Map<String, dynamic> json) => STWMission(
         id: json["id"] ?? "",
         show: json["show"] ?? true,
-        name: json["name"] ?? json["id"],
+        name: json["missionType"] ?? json["id"],
         imageUrl: "https://fishstickbot.com/${json["image_url"]}",
         area: json["area"] ?? "",
         biome: json["biome"] ?? "",
-        powerLevel: json["power_level"] ?? 0,
-        isGroupMission: json["is_group_mission"] ?? false,
+        powerLevel: json["powerLevel"] ?? 0,
+        isGroupMission: json["isGroupMission"] ?? false,
         modifiers: (json["modifiers"] as List)
             .map((e) => Modifier.fromJson(e))
             .toList(),
