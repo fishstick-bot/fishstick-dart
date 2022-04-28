@@ -40,18 +40,23 @@ class STWMissionsSystemJob {
       final legendarySurvivorMissions = missions.where((m) =>
           m.rewards.where((r) => r.name == "Legendary Survivor").isNotEmpty);
 
-      final totalVbucks = vbucksMissions
-          .map((m) =>
-              m.rewards.firstWhere((r) => r.name == "V-Bucks Voucher").amount)
-          .toList()
-          .reduce((value, element) => value + element);
+      final totalVbucks = vbucksMissions.isNotEmpty
+          ? vbucksMissions
+              .map((m) => m.rewards
+                  .firstWhere((r) => r.name == "V-Bucks Voucher")
+                  .amount)
+              .toList()
+              .reduce((value, element) => value + element)
+          : 0;
 
-      final totalLegendarySurvivors = legendarySurvivorMissions
-          .map((m) => m.rewards
-              .firstWhere((r) => r.name == "Legendary Survivor")
-              .amount)
-          .toList()
-          .reduce((value, element) => value + element);
+      final totalLegendarySurvivors = legendarySurvivorMissions.isNotEmpty
+          ? legendarySurvivorMissions
+              .map((m) => m.rewards
+                  .firstWhere((r) => r.name == "Legendary Survivor")
+                  .amount)
+              .toList()
+              .reduce((value, element) => value + element)
+          : 0;
 
       var _stream = client.database.guilds.find();
 
