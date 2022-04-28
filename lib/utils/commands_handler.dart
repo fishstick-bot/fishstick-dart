@@ -119,6 +119,14 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
           );
           break;
 
+        case "manage-guild-perms-check":
+          await exception.context.respond(
+            MessageBuilder.content(
+                "You need to have the `Manage Guild` permission to use this command."),
+            private: true,
+          );
+          break;
+
         default:
           client.logger
               .shout("Unhandled check exception: ${exception.failed.name}");

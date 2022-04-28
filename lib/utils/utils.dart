@@ -94,6 +94,11 @@ Check ownerCheck = Check(
 /// check if command is done in guild
 Check guildCheck = Check((ctx) async => ctx.guild != null, "guild-check");
 
+/// check if command is done by a person with manage guild perms
+Check manageGuildPermsCheck = Check(
+    (ctx) async => (await ctx.member!.effectivePermissions).manageGuild,
+    "manage-guild-perms-check");
+
 /// override respond function
 Future<IMessage> respond(
   IContext ctx,

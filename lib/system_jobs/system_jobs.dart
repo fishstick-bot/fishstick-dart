@@ -16,6 +16,7 @@ import "collect_research.dart";
 import "auto_research.dart";
 import "url_shortener.dart";
 import "topgg.dart";
+import "stw_missions.dart";
 
 /// Handles all the system jobs
 class SystemJobsPlugin extends BasePlugin {
@@ -72,6 +73,12 @@ class SystemJobsPlugin extends BasePlugin {
   /// topgg system job
   late final TopGGSystemJob topGGSystemJob;
 
+  /// stw missions system job
+  late final STWMissionsSystemJob stwMissionsSystemJob;
+
+  /// stw missions system job
+  late final ScheduledTask _stwMissionsSystemJobTimer;
+
   /// Creates a new instance of [SystemJobsPlugin]
   SystemJobsPlugin(this._client);
 
@@ -97,6 +104,8 @@ class SystemJobsPlugin extends BasePlugin {
     urlShortenerSystemJob = UrlShortenerSystemJob(_client);
     logger.info("Registering topgg system job");
     topGGSystemJob = TopGGSystemJob(_client);
+    logger.info("Registering stw missions system job");
+    stwMissionsSystemJob = STWMissionsSystemJob(_client);
   }
 
   /// Schedule all the system jobs
@@ -119,6 +128,15 @@ class SystemJobsPlugin extends BasePlugin {
       _catalogManagerSystemJobTimer =
           Timer.periodic(catalogManagerSystemJob.runDuration, (_) async {
         await catalogManagerSystemJob.run();
+      });
+
+      stwMissionsSystemJob.run();
+
+      logger
+          .info("Scheduling stw missions system job to run daily at 0:00 UTC.");
+      _stwMissionsSystemJobTimer =
+          _cron.schedule(Schedule.parse("1 0 * * *"), () async {
+        await stwMissionsSystemJob.run();
       });
 
       if (!shardIds.contains(0)) {
@@ -199,6 +217,9 @@ class SystemJobsPlugin extends BasePlugin {
 
       logger.info("Unscheduling auto research system job.");
       _autoResearchSystemJobTimer.cancel();
+
+      logger.info("Unscheduling stw missions system job.");
+      await _stwMissionsSystemJobTimer.cancel();
 
       logger.info("Closing cron manager.");
       await _cron.close();

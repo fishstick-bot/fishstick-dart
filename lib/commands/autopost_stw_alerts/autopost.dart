@@ -10,5 +10,5 @@ final ChatGroup autopostCommand = ChatGroup(
     autopostVbucksAlertsCommand,
     autopostLegendarySurvivorAlertsCommand,
   ],
-  checks: [guildCheck],
+  checks: [guildCheck, manageGuildPermsCheck],
 );
