@@ -75,7 +75,7 @@ class STWMissionsSystemJob {
               ..description = vbucksMissions
                   .map((m) =>
                       "**[${m.powerLevel}] ${m.name}**\n${m.biome} - ${m.area}\n${m.rewards.map((r) => "${r.repeatable ? "**" : ""}${r.amount}x ${r.name}${r.repeatable ? "**" : ""}").join("\n")}")
-                  .join("\n");
+                  .join("\n\n");
 
             final channel = await client.bot
                     .fetchChannel(guild.vbucksAlertChannelID.toSnowflake())
@@ -103,7 +103,7 @@ class STWMissionsSystemJob {
               ..description = legendarySurvivorMissions
                   .map((m) =>
                       "**[${m.powerLevel}] ${m.name}**\n${m.biome} - ${m.area}\n${m.rewards.map((r) => "${r.repeatable ? "**" : ""}${r.amount}x ${r.name}${r.repeatable ? "**" : ""}").join("\n")}")
-                  .join("\n");
+                  .join("\n\n");
 
             final channel = await client.bot.fetchChannel(
                     guild.legendarySurvivorChannelID.toSnowflake())
