@@ -16,9 +16,9 @@ dependency_overrides:
 dependencies:
     logging: ^1.0.2 # for logging.
     mongo_dart: ^0.7.4 # to interact with mongo db database for bot.
-    nyxx: ^3.3.0-dev.0 # to interact with discord api.
-    nyxx_interactions: ^4.0.0-dev.0.1 # for handling interactions of discord bot.
-    nyxx_commands: ^4.0.0-dev.1.2 # a discord bot commands handler.
+    nyxx: ^3.4.2
+    nyxx_interactions: ^4.2.0
+    nyxx_commands: ^4.1.1
     nyxx_pagination: ^2.2.0-dev.0 # for pagination support in discord bot.
     nyxx_sharding: ^2.0.0-dev.0.2 # for discord bot sharding.
     teledart: ^0.3.2 # to interact with telegram api.
