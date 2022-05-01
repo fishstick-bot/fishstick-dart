@@ -176,7 +176,9 @@ class SystemJobsPlugin extends BasePlugin {
         await autoResearchSystemJob.run();
       });
 
-      stwMissionsSystemJob.run();
+      if (!_client.config.developmentMode) {
+        stwMissionsSystemJob.run();
+      }
 
       logger
           .info("Scheduling stw missions system job to run daily at 0:00 UTC.");

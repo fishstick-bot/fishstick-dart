@@ -499,7 +499,10 @@ FutureOr<Iterable<ArgChoiceBuilder>> findPlayerSuggestions(
       return [];
     }
 
-    return (await user.fnClient.findPlayers(current))
+    user.fnClientSetup();
+    final fnClient = user.fnClient;
+
+    return (await fnClient.findPlayers(current))
         .map((player) {
           return ArgChoiceBuilder(
             player.displayName,
