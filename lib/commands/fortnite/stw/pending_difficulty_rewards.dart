@@ -3,10 +3,12 @@ import "package:nyxx_commands/nyxx_commands.dart";
 
 import "../../../fishstick_dart.dart";
 
-import "../../../../database/database_user.dart";
+import "../../../database/database_user.dart";
 
-import "../../../../extensions/context_extensions.dart";
-import "../../../../extensions/string_extensions.dart";
+import "../../../extensions/context_extensions.dart";
+import "../../../extensions/string_extensions.dart";
+
+import "../../../utils/utils.dart";
 
 final ChatCommand pendingDifficultyRewardsCommand = ChatCommand(
   "difficultyrewards",
@@ -15,7 +17,9 @@ final ChatCommand pendingDifficultyRewardsCommand = ChatCommand(
     "pending_difficulty_rewards_command",
     (
       IContext ctx, [
-      @Description("The player to check unclaimed rewards for.") String? player,
+      @Autocomplete(findPlayerSuggestions)
+      @Description("The player to check unclaimed rewards for.")
+          String? player,
     ]) async {
       DatabaseUser dbUser = await ctx.dbUser;
       dbUser.fnClientSetup();

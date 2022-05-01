@@ -1,4 +1,5 @@
 import "dart:io" show Platform, ProcessInfo;
+import "dart:async";
 
 import "package:dio/dio.dart";
 
@@ -484,5 +485,30 @@ Future<dynamic> webApiRequest(String url, String token) async {
     return res.data;
   } on DioError catch (e) {
     throw Exception(e.response?.data ?? "Unknown error.");
+  }
+}
+
+/// find players
+FutureOr<Iterable<ArgChoiceBuilder>> findPlayerSuggestions(
+    AutocompleteContext ctx) async {
+  try {
+    final user = await ctx.dbUser;
+    var current = ctx.currentValue;
+
+    if (current.isEmpty) {
+      return [];
+    }
+
+    return (await user.fnClient.findPlayers(current))
+        .map((player) {
+          return ArgChoiceBuilder(
+            player.displayName,
+            player.accountId,
+          );
+        })
+        .take(25)
+        .toList();
+  } catch (e) {
+    return [];
   }
 }

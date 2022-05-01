@@ -14,7 +14,9 @@ final ChatCommand overviewSTWCommand = ChatCommand(
     "stw_overview_command",
     (
       IContext ctx, [
-      @Description("The player to check profile for.") String? player,
+      @Autocomplete(findPlayerSuggestions)
+      @Description("The player to check profile for.")
+          String? player,
     ]) async {
       DatabaseUser dbUser = await ctx.dbUser;
       dbUser.fnClientSetup();

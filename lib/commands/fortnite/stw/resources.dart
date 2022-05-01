@@ -16,7 +16,9 @@ final ChatCommand resourcesSTWCommand = ChatCommand(
     "resources_stwcommand",
     (
       IContext ctx, [
-      @Description("The player to check resources for.") String? player,
+      @Autocomplete(findPlayerSuggestions)
+      @Description("The player to check resources for.")
+          String? player,
     ]) async {
       DatabaseUser dbUser = await ctx.dbUser;
       dbUser.fnClientSetup();

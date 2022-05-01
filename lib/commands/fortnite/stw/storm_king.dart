@@ -3,12 +3,14 @@ import "package:nyxx_commands/nyxx_commands.dart";
 
 import "../../../fishstick_dart.dart";
 
-import "../../../../database/database_user.dart";
+import "../../../database/database_user.dart";
 
-import "../../../../extensions/context_extensions.dart";
-import "../../../../extensions/string_extensions.dart";
+import "../../../extensions/context_extensions.dart";
+import "../../../extensions/string_extensions.dart";
 
-import "../../../../resources/emojis.dart";
+import "../../../resources/emojis.dart";
+
+import "../../../utils/utils.dart";
 
 final ChatCommand mskCommand = ChatCommand(
   "msk",
@@ -17,7 +19,9 @@ final ChatCommand mskCommand = ChatCommand(
     "msk_command",
     (
       IContext ctx, [
-      @Description("The player to check quest for.") String? player,
+      @Autocomplete(findPlayerSuggestions)
+      @Description("The player to check quest for.")
+          String? player,
     ]) async {
       DatabaseUser dbUser = await ctx.dbUser;
       dbUser.fnClientSetup();
