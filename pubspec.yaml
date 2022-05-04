@@ -20,7 +20,7 @@ dependencies:
     nyxx_interactions: ^4.2.1
     nyxx_commands: ^4.1.1
     nyxx_pagination: ^2.2.0-dev.0 # for pagination support in discord bot.
-    nyxx_sharding: ^2.0.0-dev.0.2 # for discord bot sharding.
+    nyxx_sharding: ^2.0.0-dev.1 # for discord bot sharding.
     teledart: ^0.3.2 # to interact with telegram api.
     fortnite: ^1.3.21 # to interact with fortnite api.
     async: ^2.8.2 # uhmmm.

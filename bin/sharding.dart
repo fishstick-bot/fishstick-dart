@@ -7,10 +7,10 @@ void main() async {
         ? UncompiledDart("bin/fishstick_dart.dart")
         : Executable("build/bot.exe"),
     token: Config().token,
-    // maxGuildsPerProcess: 2000,
-    // maxGuildsPerShard: 1000,
-    numProcesses: Config().developmentMode ? 1 : 6,
-    shardsPerProcess: Config().developmentMode ? 1 : 2,
+    maxGuildsPerProcess: 2000,
+    shardsPerProcess: 2,
+    // numProcesses: Config().developmentMode ? 1 : 6,
+    // shardsPerProcess: Config().developmentMode ? 1 : 2,
   );
 
   /// START THE SHARD MANAGER
