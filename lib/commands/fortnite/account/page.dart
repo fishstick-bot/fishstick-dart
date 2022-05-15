@@ -8,7 +8,7 @@ import "../../../utils/utils.dart";
 final ChatCommand accountSettingsPageCommand = ChatCommand(
   "page",
   "Create a link to visit your epic games account settings.",
-  Id(
+  id(
     "page_command",
     (IContext ctx) async {
       DatabaseUser user = await ctx.dbUser;

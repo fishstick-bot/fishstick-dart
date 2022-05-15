@@ -11,7 +11,7 @@ import "../../../../extensions/string_extensions.dart";
 final ChatCommand listSurvivorSquadPresets = ChatCommand(
   "list",
   "View your saved survivor squad presets.",
-  Id(
+  id(
     "list_survivor_squad_preset_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

@@ -11,7 +11,7 @@ import "../../../structures/privacy.dart";
 final ChatCommand vbucksBalanceCommand = ChatCommand(
   "balance",
   "Get your or someone else's V-Bucks balance.",
-  Id(
+  id(
     "vbucks_balance_command",
     (
       IContext ctx, [

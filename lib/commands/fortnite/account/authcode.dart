@@ -7,7 +7,7 @@ import "../../../utils/utils.dart";
 final ChatCommand authcodeCommand = ChatCommand(
   "authcode",
   "Get your authorization code for your account.",
-  Id(
+  id(
     "authcode_command",
     (
       IContext ctx, [

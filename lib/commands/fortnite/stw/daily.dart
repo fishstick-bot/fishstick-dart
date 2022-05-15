@@ -8,7 +8,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand claimDailyCommand = ChatCommand(
   "claim-daily",
   "Claim your save the world game mode daily login rewards.",
-  Id(
+  id(
     "claim_daily_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

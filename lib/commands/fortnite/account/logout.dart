@@ -12,7 +12,7 @@ import "../../../fishstick_dart.dart";
 final ChatCommand logoutCommand = ChatCommand(
   "logout",
   "Logout of your saved epic accounts.",
-  Id(
+  id(
     "logout_command",
     (IContext ctx) async {
       final DatabaseUser user = await ctx.dbUser;

@@ -7,7 +7,7 @@ import "../../../utils/friends_manager.dart";
 final ChatCommand nukeFriendListCommand = ChatCommand(
   "remove-all",
   "Clear your fortnite friend list.",
-  Id(
+  id(
     "remove_all_friends_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

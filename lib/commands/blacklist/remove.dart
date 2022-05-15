@@ -7,7 +7,7 @@ import "../../utils/utils.dart";
 final ChatCommand blacklistRemoveCommand = ChatCommand(
   "remove",
   "Unblacklist a user.",
-  Id(
+  id(
     "blacklist_remove_command",
     (
       IContext ctx,

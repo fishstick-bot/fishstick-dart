@@ -9,7 +9,7 @@ import "../../resources/emojis.dart";
 final ChatCommand helpCommand = ChatCommand(
   "help",
   "Get help on commands.",
-  Id(
+  id(
     "help_command",
     (IContext ctx) async {
       var user = await ctx.dbUser;

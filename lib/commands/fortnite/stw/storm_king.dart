@@ -15,7 +15,7 @@ import "../../../utils/utils.dart";
 final ChatCommand mskCommand = ChatCommand(
   "msk",
   "View your save the world game mode mythic storm king quest.",
-  Id(
+  id(
     "msk_command",
     (
       IContext ctx, [

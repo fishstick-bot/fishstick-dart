@@ -7,7 +7,7 @@ import "../../utils/utils.dart";
 final ChatCommand blacklistAddCommand = ChatCommand(
   "add",
   "Blacklist a user.",
-  Id(
+  id(
     "blacklist_add_command",
     (
       IContext ctx,

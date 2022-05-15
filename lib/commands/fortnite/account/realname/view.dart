@@ -7,7 +7,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand realNameViewCommand = ChatCommand(
   "view",
   "View your account real name information.",
-  Id(
+  id(
     "real_name_view_command",
     (IContext ctx) async {
       DatabaseUser user = await ctx.dbUser;

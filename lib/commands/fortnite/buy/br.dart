@@ -7,7 +7,7 @@ import "../../../utils/utils.dart";
 final ChatCommand brBuyCommand = ChatCommand(
   "br",
   "Buy from fortnite battle royale item shop.",
-  Id(
+  id(
     "br_buy_command",
     (IContext ctx, int index) async {
       final dbUser = await ctx.dbUser;

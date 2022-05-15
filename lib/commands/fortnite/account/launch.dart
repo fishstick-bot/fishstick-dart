@@ -6,7 +6,7 @@ import "../../../extensions/context_extensions.dart";
 final ChatCommand gameLaunchCommand = ChatCommand(
   "launch",
   "Creates launch arguments to launch your game on windows device.",
-  Id(
+  id(
     "launch_command",
     (
       IContext ctx, [

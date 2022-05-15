@@ -7,7 +7,7 @@ import "../../../utils/utils.dart";
 final ChatCommand giftCommand = ChatCommand(
   "gift",
   "Gift from fortnite battle royale item shop.",
-  Id(
+  id(
     "gift_command",
     (
       IContext ctx,

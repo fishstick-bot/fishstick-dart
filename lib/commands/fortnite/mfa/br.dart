@@ -8,7 +8,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand mfaBRCommand = ChatCommand(
   "br",
   "Claim MFA rewards for battle royale gamemode.",
-  Id(
+  id(
     "mfa_brcommand",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

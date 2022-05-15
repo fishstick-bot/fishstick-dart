@@ -10,7 +10,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand giftXpBoostCommand = ChatCommand(
   "gift",
   "Gift your STW XP boosts to any player.",
-  Id(
+  id(
     "gift_xp_boost_command",
     (
       IContext ctx,

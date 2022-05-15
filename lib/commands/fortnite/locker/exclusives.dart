@@ -19,7 +19,7 @@ import "../../../utils/utils.dart";
 final ChatCommand lockerExclusivesImageCommand = ChatCommand(
   "exclusives",
   "View your locker exclusive items in an image format.",
-  Id(
+  id(
     "locker_exclusives_command",
     (
       IContext ctx, [

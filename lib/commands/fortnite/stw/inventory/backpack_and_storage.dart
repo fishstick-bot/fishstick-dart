@@ -10,7 +10,7 @@ import "../../../../utils/utils.dart";
 final ChatCommand backpackAndStorageInventoryCommand = ChatCommand(
   "backpack-and-storage",
   "View your STW backpack.",
-  Id(
+  id(
     "backpack_and_storage_inventory_command",
     (
       IContext ctx, [

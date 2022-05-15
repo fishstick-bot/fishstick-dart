@@ -8,7 +8,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand collectResearchCommand = ChatCommand(
   "collect",
   "Collect your save the world research points.",
-  Id(
+  id(
     "collect_research_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

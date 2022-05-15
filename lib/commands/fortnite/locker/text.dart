@@ -21,7 +21,7 @@ import "../../../resources/emojis.dart";
 final ChatCommand lockerTextCommand = ChatCommand(
   "text",
   "View your locker in a text-based format.",
-  Id(
+  id(
     "locker_text_command",
     (IContext ctx) async {
       if (client.cachedCosmetics.isEmpty) {

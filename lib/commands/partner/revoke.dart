@@ -7,7 +7,7 @@ import "../../utils/utils.dart";
 final ChatCommand revokePartnerCommand = ChatCommand(
   "revoke",
   "Revoke a user's partner tier.",
-  Id(
+  id(
     "revoke_partner_command",
     (
       IContext ctx,

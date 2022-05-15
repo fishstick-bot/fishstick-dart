@@ -6,7 +6,7 @@ import "../../fishstick_dart.dart";
 final ChatCommand pingCommand = ChatCommand(
   "ping",
   "Check bot's connection to discord.",
-  Id(
+  id(
     "ping_command",
     (IContext ctx) async {
       await ctx.respond(

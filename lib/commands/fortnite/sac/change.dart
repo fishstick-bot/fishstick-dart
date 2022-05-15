@@ -7,7 +7,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand affiliateChangeCommand = ChatCommand(
   "change",
   "Change your supported creator in the item shop.",
-  Id(
+  id(
     "affiliate_change_command",
     (
       IContext ctx,

@@ -10,7 +10,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand lxCommand = ChatCommand(
   "lx",
   "Login to a new epic account using any grant type.",
-  Id(
+  id(
     "login_x_command",
     (
       IContext ctx,

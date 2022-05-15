@@ -10,7 +10,7 @@ import "../../../../extensions/fortnite_extensions.dart";
 final ChatCommand heroLoadoutSwitchCommand = ChatCommand(
   "switch",
   "Change your current hero loadout.",
-  Id(
+  id(
     "hero_loadout_switch_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

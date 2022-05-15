@@ -11,7 +11,7 @@ import "../../utils/utils.dart";
 final ChatCommand infoCommand = ChatCommand(
   "info",
   "Get basic bot info.",
-  Id(
+  id(
     "info_command",
     (IContext ctx) async {
       final pubspecYaml =

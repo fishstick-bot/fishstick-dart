@@ -22,7 +22,7 @@ Map<String, String> itemEnums = {};
 final ChatCommand lockerFNGGCommand = ChatCommand(
   "fngg",
   "View your locker on fortnite.gg website.",
-  Id(
+  id(
     "locker_fngg_command",
     (
       IContext ctx, [

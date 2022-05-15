@@ -10,7 +10,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand equipSurvivorSquadPreset = ChatCommand(
   "equip",
   "Equip a saved survivor squad preset.",
-  Id(
+  id(
     "equip_survivor_squad_preset_command",
     (
       IContext ctx,

@@ -7,7 +7,7 @@ import "../../../extensions/context_extensions.dart";
 final ChatCommand affiliateEarningsCommand = ChatCommand(
   "earnings",
   "Get your SAC earnings.",
-  Id(
+  id(
     "sac_earnings_command",
     (IContext ctx) async {
       DatabaseUser user = await ctx.dbUser;

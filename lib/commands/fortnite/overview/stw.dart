@@ -10,7 +10,7 @@ import "../../../utils/utils.dart";
 final ChatCommand overviewSTWCommand = ChatCommand(
   "stw",
   "View your save the world game mode profile overview.",
-  Id(
+  id(
     "stw_overview_command",
     (
       IContext ctx, [

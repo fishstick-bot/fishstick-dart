@@ -13,7 +13,7 @@ import "../../../../extensions/string_extensions.dart";
 final ChatCommand newSurvivorSquadPreset = ChatCommand(
   "new",
   "Create a new survivor squad preset.",
-  Id(
+  id(
     "new_survivor_squad_preset_command",
     (
       IContext ctx,

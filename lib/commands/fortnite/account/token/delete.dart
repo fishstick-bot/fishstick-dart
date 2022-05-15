@@ -6,7 +6,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand accessTokenDeleteCommand = ChatCommand(
   "kill",
   "Invalidate an access token.",
-  Id(
+  id(
     "access_token_delete_command",
     (IContext ctx, String token) async {
       DatabaseUser user = await ctx.dbUser;

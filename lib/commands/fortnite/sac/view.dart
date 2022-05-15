@@ -7,7 +7,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand affiliateViewCommand = ChatCommand(
   "view",
   "View your supported creator in the item shop.",
-  Id(
+  id(
     "affiliate_view_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

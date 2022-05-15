@@ -11,7 +11,7 @@ import "../../../../extensions/string_extensions.dart";
 final ChatCommand deleteSurvivorSquadPreset = ChatCommand(
   "delete",
   "Delete a saved survivor squad preset.",
-  Id(
+  id(
     "delete_survivor_squad_preset_command",
     (
       IContext ctx,

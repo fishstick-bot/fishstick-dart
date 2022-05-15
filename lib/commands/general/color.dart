@@ -8,7 +8,7 @@ import "../../fishstick_dart.dart";
 final ChatCommand colorCommand = ChatCommand(
   "color",
   "Configure color to be used for embeds etc.",
-  Id(
+  id(
     "color_command",
     (
       IContext ctx,

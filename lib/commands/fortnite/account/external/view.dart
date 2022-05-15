@@ -7,7 +7,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand externalViewCommand = ChatCommand(
   "view",
   "View your account external auth connections information.",
-  Id(
+  id(
     "external_view_command",
     (IContext ctx) async {
       DatabaseUser user = await ctx.dbUser;

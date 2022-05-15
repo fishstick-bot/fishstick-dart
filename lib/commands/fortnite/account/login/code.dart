@@ -9,7 +9,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand loginCodeCommand = ChatCommand(
   "code",
   "Login to a new epic account.",
-  Id(
+  id(
     "login_code_command",
     (IContext ctx,
         @Description("The authorization code for your account. (Get it from /login new)")

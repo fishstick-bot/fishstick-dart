@@ -8,7 +8,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand upgradeResearchCommand = ChatCommand(
   "upgrade",
   "Upgrade your save the world research.",
-  Id(
+  id(
     "upgrade_research_command",
     (
       IContext ctx,

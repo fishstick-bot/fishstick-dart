@@ -19,7 +19,7 @@ import "../../../utils/utils.dart";
 final ChatCommand lockerCrewImageCommand = ChatCommand(
   "crew",
   "View your locker crew items in an image format.",
-  Id(
+  id(
     "locker_crew_command",
     (
       IContext ctx, [

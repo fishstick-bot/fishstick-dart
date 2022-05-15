@@ -7,7 +7,7 @@ import "../../utils/utils.dart";
 final ChatCommand premiumGrantCommand = ChatCommand(
   "grant",
   "Grant a user a premium subscription.",
-  Id(
+  id(
     "premium_grant_command",
     (
       IContext ctx,

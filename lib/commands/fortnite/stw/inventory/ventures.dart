@@ -10,7 +10,7 @@ import "../../../../utils/utils.dart";
 final ChatCommand venturesInventoryCommand = ChatCommand(
   "ventures",
   "View your STW ventures inventory.",
-  Id(
+  id(
     "ventures_inventory_command",
     (
       IContext ctx, [

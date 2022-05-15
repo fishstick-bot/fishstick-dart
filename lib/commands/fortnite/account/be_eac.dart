@@ -8,7 +8,7 @@ import "../../../utils/utils.dart";
 final ChatCommand beeacCommand = ChatCommand(
   "be-eac",
   "Tells if your account's are Battle Eye or Easy Anti Cheat.",
-  Id(
+  id(
     "be-eac_command",
     (IContext ctx) async {
       final DatabaseUser user = await ctx.dbUser;

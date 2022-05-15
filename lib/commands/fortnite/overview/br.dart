@@ -9,7 +9,7 @@ import "../../../utils/utils.dart";
 final ChatCommand overviewBRCommand = ChatCommand(
   "br",
   "View your battle royale game mode profile overview.",
-  Id(
+  id(
     "br_overview_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

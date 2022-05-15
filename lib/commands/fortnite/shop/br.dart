@@ -5,7 +5,7 @@ import "../../../fishstick_dart.dart";
 final ChatCommand brShopCommand = ChatCommand(
   "br",
   "View fortnite battle royale item shop.",
-  Id(
+  id(
     "br_shop_command",
     (IContext ctx) async {
       await ctx.respond(MessageBuilder.content(

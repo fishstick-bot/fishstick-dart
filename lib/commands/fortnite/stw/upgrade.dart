@@ -8,7 +8,7 @@ import "../../../../resources/emojis.dart";
 final ChatCommand stwUpgradeCommand = ChatCommand(
   "upgrade",
   "Upgrade a save the world homebase node.",
-  Id(
+  id(
     "stw_upgrade_command",
     (
       IContext ctx,

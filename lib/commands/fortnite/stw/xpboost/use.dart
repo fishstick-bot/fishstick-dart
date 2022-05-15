@@ -10,7 +10,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand useXpBoostCommand = ChatCommand(
   "use",
   "Use your STW XP boosts.",
-  Id(
+  id(
     "use_xp_boost_command",
     (
       IContext ctx,

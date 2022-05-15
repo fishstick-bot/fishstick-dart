@@ -7,7 +7,7 @@ import "../../../../resources/emojis.dart";
 final ChatCommand skipTutorialCommand = ChatCommand(
   "skip-tutorial",
   "Skip your save the world gamemode tutorial.",
-  Id(
+  id(
     "skip_tutorial_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

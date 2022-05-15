@@ -8,7 +8,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand usernameChangeCommand = ChatCommand(
   "change",
   "Change your account username.",
-  Id(
+  id(
     "username_change_command",
     (
       IContext ctx,

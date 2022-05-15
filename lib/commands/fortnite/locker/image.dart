@@ -21,7 +21,7 @@ import "../../../utils/utils.dart";
 final ChatCommand lockerImageCommand = ChatCommand(
   "image",
   "View your locker in an image format.",
-  Id(
+  id(
     "locker_image_command",
     (
       IContext ctx, [

@@ -5,20 +5,18 @@ version: 1.4.0
 environment:
     sdk: ">=2.16.0 <3.0.0"
 
-dependency_overrides:
-    nyxx_commands:
-        git:
-            url: https://github.com/nyxx-discord/nyxx_commands.git
-            ref: feat/compile
-            # url: https://github.com/vanxh/nyxx_commands/
-            # ref: patch-3
+# dependency_overrides:
+#     nyxx_commands:
+#         git:
+#             url: https://github.com/nyxx-discord/nyxx_commands.git
+#             ref: feat/compile
 
 dependencies:
     logging: ^1.0.2 # for logging.
     mongo_dart: ^0.7.4 # to interact with mongo db database for bot.
     nyxx: ^3.4.2
     nyxx_interactions: ^4.2.1
-    nyxx_commands: ^4.1.1
+    nyxx_commands: ^4.2.0-dev.1
     nyxx_pagination: ^2.2.0-dev.0 # for pagination support in discord bot.
     nyxx_sharding: ^2.0.0-dev.1 # for discord bot sharding.
     teledart: ^0.3.2 # to interact with telegram api.

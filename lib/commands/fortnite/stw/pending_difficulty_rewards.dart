@@ -13,7 +13,7 @@ import "../../../utils/utils.dart";
 final ChatCommand pendingDifficultyRewardsCommand = ChatCommand(
   "difficultyrewards",
   "View your unclaimed save the world game mode difficulty rewards.",
-  Id(
+  id(
     "pending_difficulty_rewards_command",
     (
       IContext ctx, [

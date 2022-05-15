@@ -8,7 +8,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand loginNewCommand = ChatCommand(
   "new",
   "Login to a new epic account.",
-  Id(
+  id(
     "login_new_command",
     (IContext ctx) async {
       final DatabaseUser user = await ctx.dbUser;

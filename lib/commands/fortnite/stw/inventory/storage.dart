@@ -10,7 +10,7 @@ import "../../../../utils/utils.dart";
 final ChatCommand storageInventoryCommand = ChatCommand(
   "storage",
   "View your STW storage.",
-  Id(
+  id(
     "storage_inventory_command",
     (
       IContext ctx, [

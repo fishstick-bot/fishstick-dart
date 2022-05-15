@@ -7,7 +7,7 @@ import "../../utils/utils.dart";
 final ChatCommand premiumCheckCommand = ChatCommand(
   "check",
   "Check a user's premium subscription.",
-  Id(
+  id(
     "premium_check_command",
     (
       IContext ctx,

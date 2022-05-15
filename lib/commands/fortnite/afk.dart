@@ -8,7 +8,7 @@ import "../../utils/utils.dart";
 final ChatCommand afkCommand = ChatCommand(
   "afk",
   "Get your afk creative progress.",
-  Id(
+  id(
     "afk_command",
     (IContext ctx) async {
       DatabaseUser dbUser = await ctx.dbUser;

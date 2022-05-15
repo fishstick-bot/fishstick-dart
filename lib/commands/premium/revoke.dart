@@ -7,7 +7,7 @@ import "../../utils/utils.dart";
 final ChatCommand premiumRevokeCommand = ChatCommand(
   "revoke",
   "Revoke a user's premium subscription.",
-  Id(
+  id(
     "premium_revoke_command",
     (
       IContext ctx,

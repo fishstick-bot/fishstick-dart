@@ -9,7 +9,7 @@ import "../../../fishstick_dart.dart";
 final ChatCommand homebaseNameCommand = ChatCommand(
   "homebase-name",
   "View/change your save the world gamemode homebase name.",
-  Id(
+  id(
     "homebase_name_command",
     (
       IContext ctx, [

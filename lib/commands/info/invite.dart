@@ -7,7 +7,7 @@ import "../../fishstick_dart.dart";
 final ChatCommand inviteCommand = ChatCommand(
   "invite",
   "Get bot's invite link.",
-  Id(
+  id(
     "invite_command",
     (IContext ctx) async {
       await ctx.respond(

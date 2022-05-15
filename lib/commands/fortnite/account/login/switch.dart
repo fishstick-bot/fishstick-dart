@@ -12,7 +12,7 @@ import "../../../../fishstick_dart.dart";
 final ChatCommand loginSwitchCommand = ChatCommand(
   "switch",
   "Switch current active account.",
-  Id(
+  id(
     "login_switch_command",
     (IContext ctx) async {
       final DatabaseUser user = await ctx.dbUser;

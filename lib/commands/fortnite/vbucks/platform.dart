@@ -9,7 +9,7 @@ import "../../../resources/emojis.dart";
 final ChatCommand vbucksPlatformCommand = ChatCommand(
   "platform",
   "Change your V-Bucks platform for purchases in the item shop.",
-  Id(
+  id(
     "vbucks_platform_command",
     (
       IContext ctx,

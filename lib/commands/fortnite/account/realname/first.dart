@@ -9,7 +9,7 @@ import "../../../../resources/emojis.dart";
 final ChatCommand realNameFirstCommand = ChatCommand(
   "first",
   "Update your account first name.",
-  Id(
+  id(
     "real_name_first_command",
     (
       IContext ctx,

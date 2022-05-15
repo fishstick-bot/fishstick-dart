@@ -8,7 +8,7 @@ import "../../fishstick_dart.dart";
 final ChatCommand autopostLegendarySurvivorAlertsCommand = ChatCommand(
   "legendary-survivor-alerts",
   "Configure settings for auto post legendary survivor alerts.",
-  Id(
+  id(
     "autopost_legendary_survivor_alerts_command",
     (
       IContext ctx,

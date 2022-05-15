@@ -12,7 +12,7 @@ import "../../../utils/utils.dart";
 final ChatCommand resourcesSTWCommand = ChatCommand(
   "resources",
   "View your save the world game mode profile resources.",
-  Id(
+  id(
     "resources_stwcommand",
     (
       IContext ctx, [

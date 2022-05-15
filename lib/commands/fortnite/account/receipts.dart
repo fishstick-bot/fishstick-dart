@@ -9,7 +9,7 @@ import "../../../utils/utils.dart";
 final ChatCommand accountReceiptsCommand = ChatCommand(
   "receipts",
   "Gives your account purchase receipts in a file.",
-  Id(
+  id(
     "receipts_command",
     (IContext ctx) async {
       DatabaseUser user = await ctx.dbUser;

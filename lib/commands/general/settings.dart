@@ -12,7 +12,7 @@ import "../../resources/emojis.dart";
 final ChatCommand settingsCommand = ChatCommand(
   "settings",
   "Configure your bot usage settings.",
-  Id(
+  id(
     "settings_command",
     (IContext ctx) async {
       DatabaseUser user = await ctx.dbUser;

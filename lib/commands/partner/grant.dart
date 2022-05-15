@@ -7,7 +7,7 @@ import "../../utils/utils.dart";
 final ChatCommand grantPartnerCommand = ChatCommand(
   "grant",
   "Grant a user a partner tier.",
-  Id(
+  id(
     "grant_partner_command",
     (
       IContext ctx,

@@ -6,7 +6,7 @@ import "../../../../extensions/context_extensions.dart";
 final ChatCommand exchangeCodeCreateCommand = ChatCommand(
   "create",
   "Create an exchange code used to authenticate with fortnite api.",
-  Id(
+  id(
     "exchange_code_create_command",
     (IContext ctx) async {
       DatabaseUser user = await ctx.dbUser;

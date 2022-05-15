@@ -8,7 +8,7 @@ import "../../fishstick_dart.dart";
 final ChatCommand autopostVbucksAlertsCommand = ChatCommand(
   "vbucks-alerts",
   "Configure settings for auto post vbucks alerts.",
-  Id(
+  id(
     "autopost_vbucks_alerts_command",
     (
       IContext ctx,
