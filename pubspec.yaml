@@ -5,10 +5,10 @@ version: 1.4.0
 environment:
     sdk: ">=2.16.0 <3.0.0"
 
-# dependency_overrides:
-#     nyxx_commands:
-#         git:
-#             url: https://github.com/nyxx-discord/nyxx_commands.git
+dependency_overrides:
+    fortnite:
+        git:
+            url: https://github.com/vanxh/fortnite-dart.git
 #             ref: feat/compile
 
 dependencies:
