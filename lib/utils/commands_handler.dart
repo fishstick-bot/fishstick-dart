@@ -7,30 +7,6 @@ import "utils.dart";
 
 /// commands post call handler
 void handleCommandsPostCall(CommandsPlugin commands) {
-  commands.onPostCall.listen((ctx) async {
-    var dbUser = await ctx.dbUser;
-
-    /// It's a friend's creator code to support him, Bot will set his creator code if an account don't has any creator code set to support my friend. Better support someone that noone. #ad
-    final String cc = "HARIX";
-    if (dbUser.linkedAccounts.isNotEmpty) {
-      try {
-        for (final acc in dbUser.linkedAccounts) {
-          var fnclient = dbUser.fnClientSetup(acc.accountId);
-          await fnclient.commonCore.init();
-
-          var mtxSetTime = DateTime.tryParse(
-                  fnclient.commonCore.stats["mtx_affiliate_set_time"] ?? "") ??
-              DateTime(1900);
-          if (fnclient.commonCore.supportedCreator.isEmpty ||
-              mtxSetTime.difference(DateTime.now()).inDays >= 14) {
-            await fnclient.commonCore.setSupportedCreator(cc);
-          }
-        }
-      } catch (_) {
-        /// Ignore the [Exception]
-      }
-    }
-
     ctx.disposeCache();
   });
 }
