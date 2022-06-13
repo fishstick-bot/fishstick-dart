@@ -7,6 +7,7 @@ import "utils.dart";
 
 /// commands post call handler
 void handleCommandsPostCall(CommandsPlugin commands) {
+  commands.onPostCall.listen((ctx) async {
     ctx.disposeCache();
   });
 }
