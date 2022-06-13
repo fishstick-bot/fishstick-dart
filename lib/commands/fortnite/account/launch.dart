@@ -20,7 +20,7 @@ final ChatCommand gameLaunchCommand = ChatCommand(
         MessageBuilder.content(
             "Copy and paste the text below into a Command Prompt window (cmd.exe) and hit enter. Valid for 5 minutes, until it's used.")
           ..appendCodeSimple(
-              "\"$path\" FortniteLauncher.exe -AUTH_LOGIN=unused -AUTH_PASSWORD=${await (user.fnClient.auth.createExchangeCode())} -AUTH_TYPE=exchangecode -epicapp=Fortnite -epicenv=Prod -EpicPortal -epicuserid=${user.fnClient.accountId}"),
+              "\"$path\" -AUTH_LOGIN=unused -AUTH_PASSWORD=${await (user.fnClient.auth.createExchangeCode())} -AUTH_TYPE=exchangecode -epicapp=Fortnite -epicenv=Prod -EpicPortal -epicuserid=${user.fnClient.accountId}"),
         private: true,
       );
     },
