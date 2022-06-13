@@ -7,7 +7,7 @@ void main() async {
         ? UncompiledDart("bin/fishstick_dart.dart")
         : Executable("build/bot.exe"),
     token: Config().token,
-    maxGuildsPerProcess: 1500,
+    maxGuildsPerProcess: 2000,
     shardsPerProcess: 2,
     // numProcesses: Config().developmentMode ? 1 : 6,
     // shardsPerProcess: Config().developmentMode ? 1 : 2,
