@@ -67,7 +67,7 @@ void handleCommandsError(Client client, CommandsPlugin commands) {
         case "premium-check":
           await exception.context.respond(
             MessageBuilder.content(
-              "You need to be a premium user to use this command! Contact Vanxh#6969 for purchase premium.\n\nPremium Plans:\n5\$ - 1 Year\n10\$ - Lifetime\n\nPayment Methods:\nPayPal, Discord Nitro Gift.\n\nYou can also get premium by voting us on [top.gg](https://fishstickbot.com/vote) every 12hours, Everytime you vote you automatically get premium for 12hours.",
+              "You need to be a premium user to use this command! Contact Vanxh#6969 for purchase premium.\n\nPremium Plans:\n5\$ - 1 Year\n10\$ - Lifetime\n\nPayment Methods:\nPayPal, Discord Nitro Gift.\n\nYou can also get premium by voting us on [top.gg](https://fishstickbot.com/vote) every 12hours, Everytime you vote you automatically get premium for 6hours.",
             ),
             private: true,
           );

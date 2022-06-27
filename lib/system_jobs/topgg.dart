@@ -61,13 +61,13 @@ class TopGGSystemJob {
               var user = await client.database.getUser(body["user"] as String);
 
               client.logger.info(
-                  "[TASK:$name] ${body["user"]} voted the bot on top.gg, granting them premium for 12 hours.");
+                  "[TASK:$name] ${body["user"]} voted the bot on top.gg, granting them premium for 6 hours.");
               await user.grantPremium(
                 owner,
                 await client.bot
                     .fetchUser((body["user"] as String).toSnowflake()),
                 user.premium.tier,
-                Duration(hours: 12),
+                Duration(hours: 6),
               );
             }
           } catch (e) {
